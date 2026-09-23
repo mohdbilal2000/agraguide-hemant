@@ -265,7 +265,8 @@ export const GUIDES: Guide[] = [
     ],
     seeAlso: [
       { label: 'Taj Mahal at sunrise: timing and gates', to: '/guides/taj-mahal-sunrise' },
-      { label: 'Is the Taj Mahal closed on Friday?', to: '/guides/taj-mahal-friday-closed' }
+      { label: 'Is the Taj Mahal closed on Friday?', to: '/guides/taj-mahal-friday-closed' },
+      { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' }
     ]
   },
 
@@ -504,6 +505,7 @@ export const GUIDES: Guide[] = [
     ],
     seeAlso: [
       { label: 'Getting around Delhi: metro, taxi or car', to: '/guides/getting-around-delhi' },
+      { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
       { label: 'Delhi to Agra: every way to get there', to: '/guides/delhi-to-agra' }
     ]
   },
@@ -622,6 +624,223 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
+      { label: 'Is Delhi safe for tourists?', to: '/guides/is-delhi-safe-for-tourists' },
+      { label: 'Delhi to Agra: every way to get there', to: '/guides/delhi-to-agra' }
+    ]
+  },
+  {
+    slug: 'delhi-itinerary-1-2-3-days',
+    metaTitle: 'Delhi Itinerary: 1, 2 or 3 Days — Planned by Local Guides',
+    metaDescription:
+      'What actually fits in one, two or three days in Delhi — hour by hour, with the Monday closures that wreck most plans, real travel times between stops, and what to skip.',
+    h1: 'Delhi Itinerary: 1, 2 or 3 Days',
+    cardTitle: 'Delhi Itinerary: 1, 2 or 3 Days',
+    cardSummary:
+      'Hour-by-hour plans for one, two and three days, built around Delhi\'s real travel times — and the closure days that catch most visitors out.',
+    image: '/humayuns-tomb-family.webp',
+    updated: '2026-09-23',
+    intro: [
+      'One day in Delhi works if you give the morning to Old Delhi and the afternoon to New Delhi, and accept that you are seeing two neighbourhoods rather than a city. Two days lets each half breathe. Three days adds the things people wish they had time for — Mehrauli, a morning without a schedule, or a day trip to Agra.',
+      'The constraint in Delhi is almost never the monuments. It is the distance between them. Two sites that look close on a map can be an hour apart at the wrong time of day, and every plan below is built around that rather than around a wish list.'
+    ],
+    sections: [
+      {
+        heading: 'How much of Delhi actually fits in a day',
+        id: 'how-much',
+        body: [
+          'Delhi covers around 1,500 square kilometres and its sights are scattered across three clusters that are nowhere near each other. Old Delhi sits in the north, the colonial-era core and its museums in the centre, and Mehrauli — where Qutub Minar stands — well to the south. Moving between clusters costs you thirty to sixty minutes each time.',
+          'A realistic day is one cluster in the morning and one in the afternoon, with three to four substantial stops in total. Plans that promise six or seven are counting the car window as a sight.'
+        ],
+        table: {
+          caption: 'Delhi\'s three clusters and what sits in each',
+          headers: ['Cluster', 'Main sights', 'Time needed', 'Best part of day'],
+          rows: [
+            ['Old Delhi (north)', 'Red Fort, Jama Masjid, Chandni Chowk, Spice Market', '3–4 hours', 'Morning — cooler, and the lanes wake up around 10am'],
+            ['Central Delhi', 'India Gate, Rashtrapati Bhavan drive-past, Humayun\'s Tomb, Lodhi Garden, National Museum', '3–4 hours', 'Afternoon — wide roads move faster than Old Delhi lanes'],
+            ['South Delhi / Mehrauli', 'Qutub Minar, Mehrauli Archaeological Park, Lotus Temple', '2–3 hours', 'Late afternoon — golden light on the sandstone'],
+            ['East (across the Yamuna)', 'Akshardham', '2–3 hours', 'Afternoon, and never on a Monday']
+          ]
+        }
+      },
+      {
+        heading: 'The closure days that wreck plans',
+        id: 'closures',
+        body: [
+          'This is the single most common way a Delhi day goes wrong, and it is entirely avoidable. Several of the biggest sights close on the same day of the week, so an unlucky Monday can empty a whole itinerary at once.',
+          'Friday has a narrower version of the same problem: Jama Masjid stays open, but closes to visitors during congregational prayers around midday, which is exactly when most one-day itineraries arrive there.'
+        ],
+        table: {
+          caption: 'Weekly closures at Delhi\'s main sights',
+          headers: ['Sight', 'Closed', 'Notes'],
+          rows: [
+            ['Red Fort', 'Mondays', 'Allow 1.5–2 hours; the son et lumière show runs some evenings'],
+            ['Akshardham', 'Mondays', 'No phones, cameras or bags inside — cloakroom queues are the real wait'],
+            ['Lotus Temple', 'Mondays', 'Free entry; queues are long on weekends'],
+            ['National Museum', 'Mondays', 'Closed on public holidays too'],
+            ['Jama Masjid', 'Open daily', 'Closed to visitors during midday prayers, and longest on Fridays'],
+            ['Qutub Minar', 'Open daily', 'Sunrise to sunset, like most ASI monuments'],
+            ['Humayun\'s Tomb', 'Open daily', 'Sunrise to sunset; best light in the last hour'],
+            ['India Gate', 'Always open', 'Liveliest after dark, when families come out']
+          ]
+        },
+        callout: {
+          title: 'If your only full day in Delhi is a Monday',
+          text: 'Build the day around the sights that stay open — Jama Masjid and Chandni Chowk in the morning, then Humayun\'s Tomb, Qutub Minar and Mehrauli Archaeological Park in the afternoon. It is a genuinely good day, and arguably a quieter one. What you cannot do is plan a Monday around Red Fort and Akshardham and improvise when you arrive.'
+        }
+      },
+      {
+        heading: 'One day in Delhi',
+        id: 'one-day',
+        body: [
+          'One day means choosing depth over coverage. This plan gives the morning to Old Delhi while it is cool and the lanes are at their best, then crosses to the south for the afternoon. It deliberately leaves out Akshardham and the museums — there is no honest way to fit them.'
+        ],
+        table: {
+          caption: 'One day, hour by hour',
+          headers: ['Time', 'Where', 'Why this slot'],
+          rows: [
+            ['8:00–8:30', 'Arrive Old Delhi', 'Before the lanes fill and before the heat'],
+            ['8:30–10:00', 'Jama Masjid, then the Chandni Chowk lanes on foot', 'Prayer times are clear, and shutters are just opening'],
+            ['10:00–11:00', 'Spice Market (Khari Baoli) and a chai stop', 'The market is at its most active mid-morning'],
+            ['11:00–13:00', 'Red Fort', 'Allow the full two hours — the complex is larger than it looks'],
+            ['13:00–14:00', 'Lunch, then drive south', 'Eat before the cross-city drive, not after'],
+            ['14:00–15:30', 'Humayun\'s Tomb', 'The blueprint for the Taj Mahal, and far quieter'],
+            ['15:30–17:00', 'Qutub Minar and Mehrauli', 'Late light on red sandstone is the reason for this order'],
+            ['17:30–18:30', 'India Gate on the way back', 'A drive-past is enough; it is better after dark anyway']
+          ]
+        },
+        callout: {
+          title: 'Why Old Delhi goes first',
+          text: 'Two reasons, and both are practical. The lanes around Chandni Chowk are genuinely unpleasant in afternoon heat, and Old Delhi traffic is at its worst from late morning onward — arriving at 8am can save forty minutes over arriving at 11am. The order is not aesthetic. It buys you time.'
+        }
+      },
+      {
+        heading: 'Two days in Delhi',
+        id: 'two-days',
+        body: [
+          'Two days is where Delhi stops feeling rushed. Day one becomes a proper Old Delhi morning instead of a march, and day two picks up everything a single day forces you to drop — Akshardham, the museums, and time to sit in Lodhi Garden without checking a watch.'
+        ],
+        list: [
+          'Day 1, morning — Jama Masjid, Chandni Chowk on foot, the Spice Market, and a rickshaw through the lanes rather than a walk-through. Add breakfast at a Paranthe Wali Gali stall if you want the version locals recognise.',
+          'Day 1, afternoon — Red Fort at a proper pace, then Raj Ghat on the way south if the traffic allows.',
+          'Day 2, morning — Humayun\'s Tomb early, then Lodhi Garden and the Lodhi Art District next door. This is the calmest two hours in the city.',
+          'Day 2, afternoon — Qutub Minar and Mehrauli Archaeological Park, which almost nobody visits despite sitting beside the Qutub complex.',
+          'Day 2, evening — Akshardham, or India Gate and Connaught Place if you would rather end with people than with a monument.'
+        ],
+        callout: {
+          title: 'The stop most two-day visitors miss',
+          text: 'Mehrauli Archaeological Park sits directly beside Qutub Minar, is free, and contains around a hundred structures spread over centuries — tombs, a stepwell, a mosque built from temple columns. Most tour itineraries skip it because it has no ticket counter and no queue. That is exactly why it is worth an hour.'
+        }
+      },
+      {
+        heading: 'Three days in Delhi',
+        id: 'three-days',
+        body: [
+          'By the third day you have a real choice: go deeper into Delhi, or use the day for Agra. Both work, and the right answer depends on how long you are in India overall.',
+          'If Delhi is your only stop, spend day three on the parts of the city that reward slowness — a Nizamuddin evening, the Mughal ruins scattered through Hauz Khas and Tughlaqabad, or a morning food walk that is about eating rather than photographing.',
+          'If you are moving on and Agra is not already on the plan, day three is the day for it. A same-day return by car or by the Gatimaan Express is long but entirely doable, and covered in detail in our Delhi to Agra guide.'
+        ],
+        list: [
+          'Option A — Delhi in depth: Nizamuddin Dargah on a Thursday evening for qawwali, Hauz Khas ruins at sunset, Tughlaqabad Fort for the version of Delhi almost no visitor sees.',
+          'Option B — Old Delhi food walk: Karim\'s, Al Jawahar, the kebab lanes behind Jama Masjid, and Kuremal for kulfi. Best started around 5pm.',
+          'Option C — Agra day trip: leave before dawn for the Taj Mahal at sunrise, add Agra Fort, and be back in Delhi by evening.',
+          'Option D — Museums and the colonial core: National Museum, Gandhi Smriti, and the Rashtrapati Bhavan circuit. Not on a Monday.'
+        ]
+      },
+      {
+        heading: 'What to skip, honestly',
+        id: 'skip',
+        body: [
+          'Every Delhi itinerary online lists the same fifteen places. Several of them are not worth the hour they cost on a short trip, and saying so is more useful than padding the list.'
+        ],
+        list: [
+          'The "government emporium" stop — this is not a sight. It appears on cheap tour itineraries because the operator earns commission on what you buy. Any itinerary with a shopping stop built into a sightseeing day is telling you how it makes its money.',
+          'Delhi Haat on a one-day trip — pleasant, but it is a craft market, and you did not come this far to spend an hour of a single day shopping.',
+          'The Lotus Temple queue on a weekend — the building is beautiful from outside and the interior is a silent prayer hall with nothing to see. On a Saturday the queue can run past an hour. Photograph it from the garden and move on.',
+          'Trying to add Agra to a one-day Delhi plan — it cannot be done well. You will spend eight hours in a car to rush two monuments.'
+        ]
+      },
+      {
+        heading: 'Tickets, costs and what is worth pre-booking',
+        id: 'tickets',
+        body: [
+          'Most of Delhi\'s ticketed sights are run by the Archaeological Survey of India and share the same two-tier pricing, with a much lower rate for Indian citizens. Entry is digital-payment only at most gates, so arriving with cash alone is a problem.',
+          'None of these need booking weeks ahead the way the Taj Mahal does, but buying online saves the counter queue, which at Red Fort on a weekend is the longest part of the visit.'
+        ],
+        table: {
+          caption: 'Approximate entry costs — confirm before you travel, as ASI revises these',
+          headers: ['Sight', 'Indian citizen', 'Foreign visitor', 'Worth pre-booking?'],
+          rows: [
+            ['Red Fort', '₹35', '₹600', 'Yes on weekends and holidays'],
+            ['Qutub Minar', '₹35', '₹600', 'Not usually'],
+            ['Humayun\'s Tomb', '₹35', '₹600', 'Not usually'],
+            ['Jama Masjid', 'Free', 'Free', 'No — small camera and minaret fees paid on site'],
+            ['Akshardham', 'Free entry', 'Free entry', 'No — exhibitions cost extra and are optional'],
+            ['Lotus Temple', 'Free', 'Free', 'No'],
+            ['India Gate', 'Free', 'Free', 'No']
+          ]
+        },
+        callout: {
+          title: 'The Akshardham queue nobody warns you about',
+          text: 'Entry is free, but phones, cameras and bags are all banned inside, and everything goes into a cloakroom before airport-style security. On a busy afternoon that process alone can take forty-five minutes. Arrive with as little as you can carry, and budget the time — it is the one Delhi sight where the queue, not the visit, decides how long you are there.'
+        }
+      },
+      {
+        heading: 'Getting between the stops',
+        id: 'transport',
+        body: [
+          'The Metro is excellent and beats road transport comfortably at rush hour, but several of the places in these plans — Humayun\'s Tomb, the Old Delhi lanes, Mehrauli — sit ten to twenty minutes beyond the nearest station. Most good Delhi days use the Metro for the long hops and something else for the last kilometre.',
+          'On a one-day plan the maths changes. A private car with a driver earns its cost when you have four stops across three clusters and a fixed departure that evening, because the time you lose to app cabs cancelling and autos negotiating is time you do not have. On a three-day plan, the Metro and cabs are usually the better value.',
+          'Whichever you choose, avoid crossing the city between 8–10am and 5–8pm if the plan allows it. Our guide to getting around Delhi compares all the options with costs.'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'Is one day enough for Delhi?',
+        answer:
+          'One day is enough to see Old Delhi properly and add two or three sights in the south, which is a genuinely good introduction to the city. It is not enough to cover Delhi comprehensively, and any itinerary promising seven or eight stops in a day is counting time in the car as sightseeing. If you only have one day, choose depth: a real Old Delhi morning beats a rushed tour of everything.'
+      },
+      {
+        question: 'What is closed on Mondays in Delhi?',
+        answer:
+          'Red Fort, Akshardham, the Lotus Temple and the National Museum are all closed on Mondays, which is why a Monday catches out so many visitors at once. Qutub Minar, Humayun\'s Tomb, Jama Masjid and India Gate stay open, so a Monday itinerary built around those works well. Jama Masjid closes to visitors during midday prayers on any day, and for longest on Fridays.'
+      },
+      {
+        question: 'Should I visit Old Delhi or New Delhi first?',
+        answer:
+          'Old Delhi first, and start early. The lanes around Chandni Chowk are far more pleasant before the heat and before traffic builds from late morning, and arriving at 8am rather than 11am can save you the better part of an hour. New Delhi\'s wider roads and larger sites handle an afternoon much better.'
+      },
+      {
+        question: 'Can I do a Taj Mahal day trip from Delhi as part of a Delhi itinerary?',
+        answer:
+          'Yes, but treat it as its own day rather than something added to a Delhi day. A same-day return means leaving Delhi around 3am for sunrise at the Taj, and being back in the evening — around twelve hours door to door. It works well as day three of a three-day plan. It does not work squeezed into a single day that also covers Delhi.'
+      },
+      {
+        question: 'Do I need a guide for Delhi, or can I do it alone?',
+        answer:
+          'Delhi is very doable independently, particularly if you are comfortable with the Metro and app cabs. A licensed guide earns their cost in two situations: in Old Delhi, where the lanes are genuinely confusing and the history is invisible without someone to point it out, and on a single-day plan where losing forty minutes to logistics costs you a monument. Guides working inside ASI monuments must hold a Ministry of Tourism licence — ask to see the card.'
+      }
+    ],
+    related: [
+      {
+        label: 'Hire a Licensed Delhi Guide',
+        to: '/guide-booking',
+        note: 'Guide-only, or guide with a private car — for the day when the plan is yours and you want someone who knows the lanes and the shortcuts.'
+      },
+      {
+        label: 'Delhi Street & Heritage Photography Tour',
+        to: '/plans/delhi-photography-tour',
+        note: 'A full day built around light rather than a checklist — Old Delhi at dawn and the Mughal ruins in the last hour before sunset.'
+      },
+      {
+        label: 'Same Day Taj Mahal Tour by Car',
+        to: '/plans/same-day-taj-car',
+        note: 'If day three is going to Agra — door to door from your Delhi hotel, timed for sunrise, with tolls and parking included.'
+      }
+    ],
+    seeAlso: [
+      { label: 'Getting around Delhi: Metro, taxi, auto or car', to: '/guides/getting-around-delhi' },
       { label: 'Is Delhi safe for tourists?', to: '/guides/is-delhi-safe-for-tourists' },
       { label: 'Delhi to Agra: every way to get there', to: '/guides/delhi-to-agra' }
     ]
