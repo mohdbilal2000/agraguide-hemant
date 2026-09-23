@@ -69,7 +69,9 @@ const GuideDetail: React.FC = () => {
         '@type': 'Organization',
         name: 'Indiventure Travellers',
         url: SITE_URL,
-        logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo.png` }
+        // /logo.png has never existed — the file is logo-512.png, so every
+        // guide was handing Google a 404 as its publisher logo.
+        logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo-512.png` }
       }
     },
     {

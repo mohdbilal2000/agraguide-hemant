@@ -4,6 +4,7 @@ import {
   Share2, Check, ShieldCheck, Instagram
 } from 'lucide-react';
 import OptimizedImage from '../components/OptimizedImage';
+import SEO from '../components/SEO';
 
 const PHONE = '+919217519989';
 const CARD_URL = 'https://indiventuretravellers.com/digital-card';
@@ -35,12 +36,24 @@ const DigitalCard: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-brand-dark flex items-center justify-center p-4">
+      {/* Without this the page inherited the homepage's title and canonical,
+          so Google read it as a duplicate of "/" and dropped it — which the
+          prerender check reported on every build. It stays indexable because
+          it carries the same name, address and phone as the schema, and it is
+          listed in the sitemap. */}
+      <SEO
+        title="Contact Card — Hemant Kumar, Indiventure Travellers"
+        description="Phone, WhatsApp, email and Instagram for Indiventure Travellers — government-licensed heritage guides based in New Delhi, running private tours of Delhi, Agra and Jaipur."
+        canonical="/digital-card"
+        pageType="ContactPage"
+        breadcrumbs={[{ name: 'Contact Card' }]}
+      />
       <div className="bg-brand-bg w-full max-w-md rounded-[2.5rem] shadow-2xl overflow-hidden relative">
         <div className="h-32 bg-brand-primary" />
         <div className="px-8 pb-10 -mt-16 text-center">
           <div className="w-32 h-32 rounded-full border-4 border-brand-bg shadow-xl mx-auto overflow-hidden bg-white mb-6 flex items-center justify-center p-3">
             <OptimizedImage
-              src="/logo-512.png"
+              src="/logo-512.webp"
               alt="Indiventure Travellers"
               className="w-full h-full object-contain"
             />

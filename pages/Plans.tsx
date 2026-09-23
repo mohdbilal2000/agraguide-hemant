@@ -7,14 +7,25 @@ import { TOURS, PRICE_DISCLAIMER } from '../constants';
 import { Search, ChevronRight, Car, Building, Users, Utensils } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-type SortKey = 'popular' | 'price-asc' | 'price-desc' | 'rating';
+/* "Top Rated" was removed with the per-tour rating figures it sorted on —
+   those were invented, and a sort order is not a good enough reason to keep
+   fabricated numbers in the data where something could publish them. */
+type SortKey = 'popular' | 'price-asc' | 'price-desc' | 'duration';
 
 const SORT_OPTIONS: { value: SortKey; label: string }[] = [
   { value: 'popular', label: 'Most Popular' },
   { value: 'price-asc', label: 'Price: Low to High' },
   { value: 'price-desc', label: 'Price: High to Low' },
-  { value: 'rating', label: 'Top Rated' },
+  { value: 'duration', label: 'Shortest First' },
 ];
+
+/** Days where the duration says so, otherwise hours — used only for sorting. */
+const hoursOf = (t: typeof TOURS[number]) => {
+  const days = t.duration.match(/(\d+)\s*Day/i);
+  if (days) return Number(days[1]) * 24;
+  const hours = t.duration.match(/(\d+)\s*Hour/i);
+  return hours ? Number(hours[1]) : Number.MAX_SAFE_INTEGER;
+};
 
 const priceOf = (t: typeof TOURS[number]) => (typeof t.price === 'number' ? t.price : Number.MAX_SAFE_INTEGER);
 
@@ -36,8 +47,10 @@ const Plans: React.FC = () => {
       switch (sortKey) {
         case 'price-asc': return priceOf(a) - priceOf(b);
         case 'price-desc': return priceOf(b) - priceOf(a);
-        case 'rating': return b.rating - a.rating || b.reviewsCount - a.reviewsCount;
-        default: return b.reviewsCount - a.reviewsCount;
+        case 'duration': return hoursOf(a) - hoursOf(b);
+        // "Most popular" is the curated order in constants.tsx, with the
+        // flagged tours first — an editorial choice rather than a fake metric.
+        default: return (b.isMostBooked ? 1 : 0) - (a.isMostBooked ? 1 : 0);
       }
     });
   }, [searchTerm, activeCategory, sortKey]);

@@ -33,7 +33,7 @@ const Home: React.FC = () => {
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const featuredTours = [...TOURS]
-    .sort((a, b) => (b.isMostBooked ? 1 : 0) - (a.isMostBooked ? 1 : 0) || b.reviewsCount - a.reviewsCount)
+    .sort((a, b) => (b.isMostBooked ? 1 : 0) - (a.isMostBooked ? 1 : 0))
     .slice(0, 6);
 
   const categories = [

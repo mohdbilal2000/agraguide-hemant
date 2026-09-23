@@ -8,8 +8,11 @@ export interface Tour {
   discount?: string;
   image: string;
   category: string;
-  rating: number;
-  reviewsCount: number;
+  /* `rating` and `reviewsCount` used to live here, carrying invented figures
+     that summed to 9,300 reviews against 13 real ones. Nothing rendered them
+     and no schema read them, but one line adding aggregateRating would have
+     published the lot. Per-tour ratings belong here only if a platform
+     actually publishes one for that tour. */
   highlights: string[];
   itinerary?: { time: string; activity: string }[];
   isMostBooked?: boolean;

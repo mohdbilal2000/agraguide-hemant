@@ -53,8 +53,6 @@ export const TOURS: Tour[] = [
     price: 45,
     image: '/taj-mahal-reflection.webp',
     category: 'Same Day Tours',
-    rating: 4.9,
-    reviewsCount: 1420,
     highlights: ['Sunrise at Taj Mahal', 'Agra Fort guided visit', 'Private AC car from Delhi', 'Expert heritage guide'],
     itinerary: [
       { time: '03:00 AM', activity: 'Early morning pickup from Delhi hotel' },
@@ -141,8 +139,6 @@ export const TOURS: Tour[] = [
     price: 45,
     image: '/taj-mahal-dawn.webp',
     category: 'Same Day Tours',
-    rating: 4.8,
-    reviewsCount: 980,
     highlights: ['Private AC car from Delhi', 'Taj Mahal & Agra Fort', 'Lunch at local restaurant', 'Flexible pickup time'],
     itinerary: [
       { time: '06:00 AM', activity: 'Pickup from Delhi hotel by private AC sedan' },
@@ -227,8 +223,6 @@ export const TOURS: Tour[] = [
     price: 65,
     image: '/taj-mahal-couple.webp',
     category: 'Same Day Tours',
-    rating: 4.8,
-    reviewsCount: 870,
     highlights: ['Gatimaan Express train tickets', 'Taj Mahal guided tour', 'Agra Fort visit', 'Private AC vehicle in Agra'],
     itinerary: [
       { time: '07:00 AM', activity: 'Pickup from Delhi hotel to Hazrat Nizamuddin Station' },
@@ -310,8 +304,6 @@ export const TOURS: Tour[] = [
     price: 55,
     image: '/rajasthan-palace-hotel.webp',
     category: 'Same Day Tours',
-    rating: 4.7,
-    reviewsCount: 640,
     highlights: ['Amber Fort Jeep ride', 'Hawa Mahal photo stop', 'City Palace museum', 'Local bazaar shopping time'],
     itinerary: [
       { time: '05:00 AM', activity: 'Early morning pickup from Delhi hotel' },
@@ -395,8 +387,6 @@ export const TOURS: Tour[] = [
     price: 105,
     image: '/taj-mahal-dawn.webp',
     category: 'Two Day Tours',
-    rating: 4.9,
-    reviewsCount: 520,
     highlights: ['Overnight stay in heritage hotel', 'Taj Mahal at sunrise & sunset', 'Mehtab Bagh evening views', 'All meals included'],
     itinerary: [
       { time: 'Day 1 — 06:00 AM', activity: 'Pickup from Delhi hotel, drive to Agra' },
@@ -480,8 +470,6 @@ export const TOURS: Tour[] = [
     price: 125,
     image: '/ranthambore-tiger.webp',
     category: 'Two Day Tours',
-    rating: 4.8,
-    reviewsCount: 340,
     highlights: ['Taj Mahal guided tour', 'Wildlife SOS elephant center', 'Elephant conservation experience', 'Heritage hotel stay'],
     itinerary: [
       { time: 'Day 1 — 06:00 AM', activity: 'Pickup from Delhi, drive to Agra' },
@@ -565,8 +553,6 @@ export const TOURS: Tour[] = [
     price: 95,
     image: '/taj-mahal-reflection.webp',
     category: 'Two Day Tours',
-    rating: 4.7,
-    reviewsCount: 420,
     highlights: ['Taj Mahal guided tour', 'Fatehpur Sikri ghost city', 'Buland Darwaza (tallest gateway)', 'Heritage hotel accommodation'],
     itinerary: [
       { time: 'Day 1 — 06:00 AM', activity: 'Pickup from Delhi, scenic drive to Agra' },
@@ -653,8 +639,6 @@ export const TOURS: Tour[] = [
     price: 210,
     image: '/india-gate-group.webp',
     category: 'Golden Triangle',
-    rating: 4.9,
-    reviewsCount: 780,
     highlights: ['Delhi heritage sightseeing', 'Taj Mahal guided tour', 'Jaipur forts & palaces', 'Heritage hotel stays'],
     itinerary: [
       { time: 'Day 1 — 08:00 AM', activity: 'Delhi sightseeing: Red Fort, Jama Masjid, Chandni Chowk' },
@@ -746,8 +730,6 @@ export const TOURS: Tour[] = [
     price: 275,
     image: '/red-fort-delhi.webp',
     category: 'Golden Triangle',
-    rating: 4.9,
-    reviewsCount: 620,
     highlights: ['Old & New Delhi sightseeing', 'Taj Mahal & Agra Fort', 'Amber Fort & City Palace', 'All meals & heritage stays'],
     itinerary: [
       { time: 'Day 1 — 09:00 AM', activity: 'Delhi tour: Red Fort, Jama Masjid, Raj Ghat' },
@@ -835,8 +817,6 @@ export const TOURS: Tour[] = [
     price: 340,
     image: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80',
     category: 'Golden Triangle',
-    rating: 4.9,
-    reviewsCount: 490,
     highlights: ['Comprehensive Delhi tour', 'Fatehpur Sikri UNESCO site', 'Jaipur shopping experience', 'All meals & luxury stays'],
     itinerary: [
       { time: 'Day 1 — 09:00 AM', activity: 'Old Delhi: Red Fort, Jama Masjid, rickshaw ride' },
@@ -922,8 +902,6 @@ export const TOURS: Tour[] = [
     price: 395,
     image: '/ranthambore-tiger.webp',
     category: 'Golden Triangle',
-    rating: 4.8,
-    reviewsCount: 380,
     highlights: ['Ranthambore tiger safari', 'Taj Mahal guided tour', 'Jaipur forts & palaces', 'Wildlife & heritage combined'],
     itinerary: [
       { time: 'Day 1 — 06:00 AM', activity: 'Delhi to Agra, Taj Mahal & Agra Fort' },
@@ -1007,8 +985,6 @@ export const TOURS: Tour[] = [
     price: 450,
     image: '/rajasthan-palace-hotel.webp',
     category: 'Golden Triangle',
-    rating: 4.9,
-    reviewsCount: 350,
     highlights: ['Lake Pichola boat ride', 'City Palace Udaipur', 'Taj Mahal at sunrise', 'Heritage hotel stays throughout'],
     itinerary: [
       { time: 'Day 1', activity: 'Delhi sightseeing: Old Delhi, New Delhi landmarks' },
@@ -1090,8 +1066,6 @@ export const TOURS: Tour[] = [
     price: 520,
     image: 'https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=80',
     category: 'Royal Rajasthan',
-    rating: 4.9,
-    reviewsCount: 290,
     highlights: ['Jaipur, Jodhpur & Udaipur', 'Desert cultural experience', 'Palace hotel stays', 'All meals & transport included'],
     itinerary: [
       { time: 'Day 1', activity: 'Arrive Delhi, transfer to heritage hotel, welcome dinner' },
@@ -1172,8 +1146,6 @@ export const TOURS: Tour[] = [
     price: 595,
     image: 'https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=1200&q=80',
     category: 'Royal Rajasthan',
-    rating: 4.8,
-    reviewsCount: 240,
     highlights: ['Jaisalmer desert safari', 'Pushkar sacred lake', 'Mehrangarh Fort', 'Camel ride in Thar Desert'],
     itinerary: [
       { time: 'Day 1', activity: 'Arrive Delhi, overnight at luxury hotel' },
@@ -1256,8 +1228,6 @@ export const TOURS: Tour[] = [
     price: 665,
     image: '/rajasthan-palace-hotel.webp',
     category: 'Royal Rajasthan',
-    rating: 4.9,
-    reviewsCount: 210,
     highlights: ['Mount Abu hill station', 'Ranakpur Jain temples', 'Desert camel safari', 'Complete Rajasthan circuit'],
     itinerary: [
       { time: 'Day 1', activity: 'Arrive Delhi, welcome dinner at heritage hotel' },
@@ -1340,8 +1310,6 @@ export const TOURS: Tour[] = [
     price: 880,
     image: 'https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&w=1200&q=80',
     category: 'Royal Rajasthan',
-    rating: 4.9,
-    reviewsCount: 180,
     highlights: ['All major Rajasthan cities', 'Desert camping under stars', 'Heritage palace hotels', 'Complete royal experience'],
     itinerary: [
       { time: 'Day 1', activity: 'Arrive Delhi, city orientation tour' },
@@ -1429,8 +1397,6 @@ export const TOURS: Tour[] = [
     price: 120,
     image: '/taj-mahal-reflection.webp',
     category: 'Photography Tours',
-    rating: 4.9,
-    reviewsCount: 310,
     highlights: ['Golden hour shots at sunrise', 'Hidden viewpoints access', 'Professional photography tips', 'All best angles covered'],
     itinerary: [
       { time: '04:00 AM', activity: 'Pickup from hotel, drive to Agra' },
@@ -1513,8 +1479,6 @@ export const TOURS: Tour[] = [
     price: 110,
     image: '/humayuns-tomb-family.webp',
     category: 'Photography Tours',
-    rating: 4.8,
-    reviewsCount: 260,
     highlights: ['Old Delhi street photography', 'Humayun\'s Tomb golden hour', 'Qutub Minar dramatic angles', 'Local life & culture shots'],
     itinerary: [
       { time: '06:00 AM', activity: 'Early morning at Jama Masjid — empty courtyards' },
