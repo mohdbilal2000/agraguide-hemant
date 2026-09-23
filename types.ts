@@ -15,6 +15,24 @@ export interface Tour {
   isMostBooked?: boolean;
   pickup?: 'Available' | 'N/A';
   tags?: string[];
+
+  /* ── Detail-page content ───────────────────────────────────────────────
+     A tour page with only a description and an itinerary carries around 150
+     words, which is not enough to rank against a marketplace listing. The
+     fields below carry the rest, and every claim in them must already be
+     true of how the tours are actually run — the FAQs on /faq are the
+     source of record for tickets, payment, cancellation and vehicles. */
+
+  /** Two or three paragraphs expanding on `description`. */
+  overview?: string[];
+  /** What the price covers. Keep wording consistent across tours. */
+  included?: string[];
+  /** What it does not — stated plainly rather than left to be discovered. */
+  notIncluded?: string[];
+  /** Practical things worth knowing before booking. */
+  goodToKnow?: { title: string; text: string }[];
+  /** Rendered on the page and emitted as FAQPage schema. */
+  faqs?: { question: string; answer: string }[];
 }
 
 export interface GuidePackage {

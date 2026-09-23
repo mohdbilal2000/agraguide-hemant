@@ -67,7 +67,71 @@ export const TOURS: Tour[] = [
       { time: '01:30 PM', activity: 'Departure for Delhi' },
       { time: '04:00 PM', activity: 'Drop-off at Delhi hotel or airport' }
     ],
-    isMostBooked: true
+    isMostBooked: true,
+    overview: [
+      'The Taj Mahal does not open at a fixed time. The Archaeological Survey of India opens the gates 30 minutes before sunrise and closes them 30 minutes before sunset, so the opening moves through the year — around 6:35am in December, as early as 4:55am in June. This tour is timed against that, not against a clock, which is why the pickup shifts with your travel month.',
+      'The point of going at sunrise is not only the light. It is the first forty minutes, when the crowd inside is a few hundred rather than several thousand and the watercourse is still enough to hold a reflection. By nine in the morning the forecourt is full and the marble has gone flat and white.',
+      'After the Taj you break for breakfast, take a guided visit to Agra Fort, and stop at Mehtab Bagh across the river for the view most day trippers never see. You are back in Delhi by late afternoon.'
+    ],
+    included: [
+      'Private air-conditioned vehicle with a professional chauffeur, yours for the whole day — never a shared pickup',
+      'Government-licensed heritage guide in Agra, holding a Ministry of Tourism regional licence',
+      'Pre-dawn door-to-door pickup and drop at your Delhi hotel or the airport',
+      'All tolls, parking, fuel and driver charges',
+      'Monument tickets arranged in advance — which is the whole point at sunrise, when the counter queue costs you the light',
+      'A female guide on request, at no extra charge, subject to availability on your date'
+    ],
+    notIncluded: [
+      'Monument entry fees — we book them for you and confirm the exact amount in writing before you pay anything. A foreign adult Taj Mahal ticket is ₹1,300, SAARC ₹740 and Indian citizens ₹250',
+      'Meals and drinks — breakfast and lunch stops are built into the day and you settle those bills there',
+      'Camera and video fees charged at some monuments',
+      'Tips and personal spending'
+    ],
+    goodToKnow: [
+      {
+        title: 'Your pickup time depends on the month you travel',
+        text: 'Roughly 3:00am in winter and closer to 1:30am in summer, because the gate opens 30 minutes before sunrise. We time it so you reach the East Gate about twenty minutes before opening — security screening is the real bottleneck, and that queue position is the entire point of a sunrise tour. Between May and July we usually suggest the overnight version instead.'
+      },
+      {
+        title: 'January fog is a real risk',
+        text: 'Agra fog in December and January can hide the monument completely until around 10am. We will tell you honestly if your date carries that risk. It is the one thing about a sunrise tour nobody can guarantee, and we would rather say so before you book than after.'
+      },
+      {
+        title: 'The Taj Mahal is closed every Friday',
+        text: 'No exceptions, for congregational prayers at the mosque inside the complex. If your only free day is a Friday we shift the day to Agra Fort, Fatehpur Sikri and Mehtab Bagh.'
+      },
+      {
+        title: 'Nothing is charged when you book',
+        text: 'We confirm guide and vehicle availability for your date first, then send payment details on WhatsApp. Cash, UPI, bank transfer and card are accepted, and this tour needs no deposit. Free cancellation up to 24 hours before pickup.'
+      }
+    ],
+    faqs: [
+      {
+        question: 'What time does the Taj Mahal open for sunrise?',
+        answer:
+          'Thirty minutes before sunrise, which moves through the year rather than sitting at a fixed time — roughly 6:35am in December and as early as 4:55am in June. Ticket counters open about an hour before sunrise. Because the gate time moves, we set your pickup against your actual travel date rather than quoting one time for the whole year.'
+      },
+      {
+        question: 'How early is the pickup from Delhi for a sunrise Taj Mahal tour?',
+        answer:
+          'Around 3:00am in winter and closer to 1:30am in summer. The drive is three to three and a half hours on the Yamuna Expressway, and we aim to have you at the East Gate about twenty minutes before it opens. Between May and July the pickup gets early enough that we usually recommend the overnight version, where you sleep in Agra and walk to the gate.'
+      },
+      {
+        question: 'Is sunrise better than sunset at the Taj Mahal?',
+        answer:
+          'For photographs and for crowds, yes. Sunrise gives the softest light, the fewest people in frame, and a chance at a reflection in the watercourse before the surface is disturbed. Sunset is warmer and more dramatic but considerably busier. Midday is the hardest light of the day — the marble goes flat and white under overhead sun.'
+      },
+      {
+        question: 'Is the early start worth it?',
+        answer:
+          'For most people, yes, and the reason is the first forty minutes rather than the sunrise itself. Arriving at opening means a few hundred people inside instead of several thousand, which changes what the place feels like more than the light does. If you are travelling with young children or would rather not lose a night of sleep, the standard same-day tour by car leaves at 6am and still reaches Agra before the worst of the crowds.'
+      },
+      {
+        question: 'What happens if it is foggy and we cannot see the Taj Mahal?',
+        answer:
+          'Winter fog in Agra can hide the monument until mid-morning, and nobody can predict it reliably more than a day or two ahead. Your ticket is valid for a three-hour visit from entry, so in practice the plan is to wait it out with your guide and reorder the day — Agra Fort first, the Taj once it clears. We will flag the risk before you book if your date falls in the December to January window.'
+      }
+    ]
   },
   {
     id: 'same-day-taj-car',
@@ -89,6 +153,70 @@ export const TOURS: Tour[] = [
       { time: '03:00 PM', activity: 'Optional visit to Itimad-ud-Daulah (Baby Taj)' },
       { time: '04:00 PM', activity: 'Depart for Delhi' },
       { time: '07:30 PM', activity: 'Drop-off at Delhi hotel or airport' }
+    ],
+    overview: [
+      'Agra sits about 230 km from Delhi on the Yamuna Expressway — three to three and a half hours each way in a private car, without the fixed departure and return times a train locks you into. That flexibility is the whole reason most people choose the car: you leave when it suits you, stop when you want to, and stay at the Taj as long as the light holds.',
+      'This version starts at a civilised hour rather than before dawn. You reach Agra mid-morning, see the Taj Mahal with a licensed guide, break for lunch, and spend the afternoon at Agra Fort before the drive back. If you would rather have the monument close to empty and the soft early light, the sunrise version leaves Delhi around 3am instead.',
+      'The day is long — roughly twelve hours door to door — but almost all of the effort is in the driving, and you are doing that in an air-conditioned car with a chauffeur rather than at the wheel.'
+    ],
+    included: [
+      'Private air-conditioned vehicle with a professional chauffeur, yours for the whole day — never a shared pickup',
+      'Government-licensed heritage guide in Agra, holding a Ministry of Tourism regional licence',
+      'Door-to-door pickup and drop at your Delhi hotel or the airport',
+      'All tolls, parking, fuel and driver charges on the Yamuna Expressway',
+      'Monument tickets arranged in advance so you are not queuing at a counter',
+      'A female guide on request, at no extra charge, subject to availability on your date'
+    ],
+    notIncluded: [
+      'Monument entry fees — we book them for you and confirm the exact amount in writing before you pay anything. A foreign adult Taj Mahal ticket is ₹1,300, SAARC ₹740 and Indian citizens ₹250',
+      'Meals and drinks — the day builds in a lunch stop at a restaurant we know, and you settle that bill there',
+      'Camera and video fees charged at some monuments',
+      'Tips and personal spending'
+    ],
+    goodToKnow: [
+      {
+        title: 'Nothing is charged when you book',
+        text: 'We confirm guide and vehicle availability for your date first, then send payment details on WhatsApp. Cash, UPI, bank transfer and card are all accepted, and single-day tours like this one need no deposit.'
+      },
+      {
+        title: 'The Taj Mahal is closed every Friday',
+        text: 'With no exceptions, for congregational prayers at the mosque inside the complex. If your only free day is a Friday we shift the itinerary to Agra Fort, Fatehpur Sikri and Mehtab Bagh — which still gives you the classic view across the river.'
+      },
+      {
+        title: 'No shopping stops, ever',
+        text: 'Many cheap Agra day tours route you through a marble emporium or a handicraft showroom, because the operator earns commission on what you buy. We do not, which is also why our day fits in Itimad-ud-Daulah where others fit in a showroom.'
+      },
+      {
+        title: 'Free cancellation up to 24 hours before',
+        text: 'Cancel or move a confirmed booking at no charge up to 24 hours before pickup, subject to availability. Inside 24 hours, costs already committed to the driver or to monument tickets may apply.'
+      }
+    ],
+    faqs: [
+      {
+        question: 'How long does it take to drive from Delhi to Agra?',
+        answer:
+          'Three to three and a half hours each way on the Yamuna Expressway, covering about 230 km. Leaving Delhi at 6am puts you in Agra by around 9:30am, comfortably before the midday heat and the largest crowds. Traffic getting out of Delhi is the variable — an hour later departure can add forty minutes to the same journey.'
+      },
+      {
+        question: 'Is a same day Taj Mahal tour from Delhi worth it, or too rushed?',
+        answer:
+          'It works well when the day is planned properly. You get around two hours at the Taj Mahal and a full guided visit to Agra Fort, which is what most visitors want from Agra. What it does not leave room for is Fatehpur Sikri or a relaxed evening — if you want those, the overnight version gives you sunrise and sunset in Agra without the pre-dawn drive.'
+      },
+      {
+        question: 'Car or the Gatimaan Express train — which is better for a day trip?',
+        answer:
+          'The train is faster and more comfortable, but it locks you to fixed timings: out around 8:10am, back around 5:50pm. The car takes longer but lets you set your own departure, stop where you like, and stay at the monument as long as you want. For a day built around sunrise the car wins outright; for a relaxed late-morning start the train is excellent.'
+      },
+      {
+        question: 'Do we need to book Taj Mahal tickets in advance?',
+        answer:
+          'We book them for you as part of arranging the tour, so you skip the counter queue. This matters more than it used to — the Taj Mahal gates are digital-payment only now, with no cash accepted, so arriving to buy on the day costs real time. The ticket cost is billed to you separately and confirmed in writing before you pay anything.'
+      },
+      {
+        question: 'What time should we leave Delhi for the Taj Mahal?',
+        answer:
+          'For this tour, 6am. That reaches Agra mid-morning with the light still good and before the heaviest crowds. If you want the monument at its quietest, the sunrise version leaves around 3am in winter and closer to 1:30am in summer, because the Taj opens 30 minutes before sunrise rather than at a fixed time.'
+      }
     ]
   },
   {
@@ -243,6 +371,71 @@ export const TOURS: Tour[] = [
       { time: 'Day 3 — 11:30 AM', activity: 'City Palace & Jantar Mantar' },
       { time: 'Day 3 — 01:00 PM', activity: 'Lunch, Hawa Mahal photo stop' },
       { time: 'Day 3 — 03:00 PM', activity: 'Depart for Delhi, drop-off at hotel/airport' }
+    ],
+    overview: [
+      'The Golden Triangle is Delhi, Agra and Jaipur — three cities roughly four hours apart that between them hold most of what a first trip to North India is built around. Three days is the shortest honest version of it: one day per city, with the driving folded into afternoons so no day is lost entirely to the road.',
+      'It moves quickly. Day one covers Delhi and ends in Agra, day two gives you the Taj Mahal at sunrise and Agra Fort before crossing to Jaipur via Fatehpur Sikri, and day three is Amber Fort and the Jaipur old city before the drive back. If you would rather not travel at that pace, the four and five day versions keep the same route and give each city room to breathe.',
+      'Everything runs privately — your own vehicle and driver for all three days, and a licensed local guide in each city rather than one person trying to cover all three.'
+    ],
+    included: [
+      'Two nights of hotel accommodation — one in Agra, one in a Jaipur heritage property — on a twin-sharing basis with breakfast',
+      'Private air-conditioned vehicle with a professional chauffeur for all three days, including every inter-city drive',
+      'A government-licensed guide in each city, holding a Ministry of Tourism regional licence',
+      'Door-to-door pickup and drop at your Delhi hotel or the airport',
+      'All tolls, parking, fuel, driver allowances and inter-state taxes',
+      'Monument tickets arranged in advance across all three cities',
+      'A female guide on request, at no extra charge, subject to availability on your dates'
+    ],
+    notIncluded: [
+      'Monument entry fees across the three cities — we book them and confirm the full amount in writing before you pay anything',
+      'Lunches and dinners; breakfast at your hotel is included',
+      'The Amber Fort jeep ride, camera and video fees, and any optional add-ons',
+      'Tips and personal spending'
+    ],
+    goodToKnow: [
+      {
+        title: 'Multi-day tours need a part payment',
+        text: 'Unlike our single-day tours, this one holds hotel rooms on your behalf, so a part payment is usually needed to confirm them. Nothing is taken through the website — we check availability for your dates first, then send payment details on WhatsApp. Cash, UPI, bank transfer and card are all accepted.'
+      },
+      {
+        title: 'Avoid starting on a Wednesday',
+        text: 'Day two is built around sunrise at the Taj Mahal, and the Taj is closed every Friday. A Wednesday start puts your Agra morning on a Friday. Tell us your dates and we will flag this before you book — or reshape the route so Agra lands on another day.'
+      },
+      {
+        title: 'The route gets reshaped often',
+        text: 'Most of our multi-day trips start as this standard route and change. Common additions are Udaipur, Ranthambore for a tiger safari, and Jodhpur or Jaisalmer for the desert forts. Send your dates, rough budget and what you care about most, and we will build around that rather than selling you the fixed version.'
+      },
+      {
+        title: 'October to March is the comfortable season',
+        text: 'Clear skies and pleasant days. December and January mornings can be foggy in Agra, which sometimes delays the sunrise view. April to June gets very hot, though the trip still works when it is built around early starts. July to September brings the monsoon and the greenest Rajasthan you will see.'
+      }
+    ],
+    faqs: [
+      {
+        question: 'Is 3 days enough for the Golden Triangle?',
+        answer:
+          'It is enough to see the headline sights of all three cities properly — Delhi\'s Mughal core, the Taj Mahal and Agra Fort, and Amber Fort with the Jaipur old city. It is not enough to linger anywhere, and the afternoons involve real driving. If you have four or five days, the longer versions of this route cover the same ground with time left over for Fatehpur Sikri properly, a Jaipur bazaar evening, or simply a slower morning.'
+      },
+      {
+        question: 'Are hotels included in the Golden Triangle tour price?',
+        answer:
+          'Yes — two nights on a twin-sharing basis with breakfast, one in Agra and one in a Jaipur heritage property. Lunches and dinners are not included. Because we hold rooms on your behalf, this tour needs a part payment to confirm, which is the main way it differs from our single-day tours.'
+      },
+      {
+        question: 'How much driving is involved over the three days?',
+        answer:
+          'Delhi to Agra is about three and a half hours, Agra to Jaipur around four and a half including the Fatehpur Sikri stop, and Jaipur back to Delhi roughly five. The drives sit in the afternoons and evenings so your mornings stay free for sightseeing. All of it is in a private air-conditioned vehicle that stays with you for the whole trip.'
+      },
+      {
+        question: 'Can the Golden Triangle itinerary be customised?',
+        answer:
+          'Yes, and most of our multi-day trips end up reshaped. Udaipur, a tiger safari at Ranthambore, Varanasi, and the desert forts at Jodhpur or Jaisalmer are the most common additions. Tell us your dates, a rough budget and what matters most to you, and we will build the route around that instead of fitting you into a fixed package.'
+      },
+      {
+        question: 'What is the best time of year to do the Golden Triangle?',
+        answer:
+          'October to March, when the days are clear and comfortable across all three cities. December and January bring fog to Agra that can delay the Taj Mahal sunrise. April to June is very hot, and the trip is built around early mornings if you travel then. July to September is the monsoon — fewer crowds, lower prices, and Rajasthan at its greenest.'
+      }
     ]
   },
   {
@@ -482,6 +675,72 @@ export const TOURS: Tour[] = [
       { time: '02:00 PM', activity: 'Qutub Minar complex — shadows and geometry' },
       { time: '04:00 PM', activity: 'Lodhi Garden — nature and heritage blend' },
       { time: '05:30 PM', activity: 'India Gate golden hour, wrap up session' }
+    ],
+    overview: [
+      'Delhi photographs badly in the middle of the day and beautifully at either end of it, and almost every problem visitors have with photographing the city comes from being in the wrong place at the wrong hour. This day is ordered around light rather than around a checklist — Jama Masjid while the courtyard is still empty, Old Delhi as the lanes wake up, and the Mughal ruins in the last hour before sunset.',
+      'It starts at 6am for a reason. The Jama Masjid courtyard at first light is close to deserted, and the Chandni Chowk lanes an hour later are at their most photogenic — shutters going up, deliveries arriving, the spice market at full tilt before the crowds make it impossible to stand still.',
+      'Your guide is a local photographer, not a monument guide with a camera. The day includes a midday review session over lunch, which is when most of the actual learning happens.'
+    ],
+    included: [
+      'A full day with a local photography guide who knows where the light lands and when',
+      'Private air-conditioned vehicle with a professional chauffeur between locations, yours for the whole day',
+      'Door-to-door pickup and drop at your Delhi hotel',
+      'All tolls, parking, fuel and driver charges',
+      'Monument tickets arranged in advance so you are shooting rather than queuing',
+      'A midday review session — going through the morning\'s frames before the afternoon shoot',
+      'A female guide on request, at no extra charge, subject to availability on your date'
+    ],
+    notIncluded: [
+      'Monument entry fees — we book them for you and confirm the exact amount in writing before you pay anything',
+      'Camera and video fees, which several Delhi monuments charge separately from entry',
+      'Meals and drinks — breakfast and lunch stops are built into the day and you settle those bills there',
+      'Camera equipment; bring your own body and lenses',
+      'Tips and personal spending'
+    ],
+    goodToKnow: [
+      {
+        title: 'Tripods are not allowed at most monuments',
+        text: 'ASI sites including Humayun\'s Tomb and Qutub Minar do not permit tripods without a prior permit, and neither does the Taj Mahal. Plan for handheld work, or tell us in advance if a tripod matters to you and we will look at what is possible on your date.'
+      },
+      {
+        title: 'What to bring',
+        text: 'A fast wide lens earns its place in the Old Delhi lanes, and something longer is useful for compressing the Mughal geometry at Qutub Minar. Bring more cards and battery than you think you need — there is no comfortable place to stop and offload mid-morning. Dust is the real enemy in Delhi, so a blower and a cloth are worth the space.'
+      },
+      {
+        title: 'Beginners are welcome',
+        text: 'The day works whether you shoot on a professional body or a phone. The guide adjusts to what you are carrying and what you want out of the day, and the midday review session is where most of that gets sorted out.'
+      },
+      {
+        title: 'Nothing is charged when you book',
+        text: 'We confirm availability for your date first, then send payment details on WhatsApp. Cash, UPI, bank transfer and card are all accepted, and this tour needs no deposit. Free cancellation up to 24 hours before pickup.'
+      }
+    ],
+    faqs: [
+      {
+        question: 'What are the best places for photography in Delhi?',
+        answer:
+          'Jama Masjid at first light, the Chandni Chowk lanes and spice market as they wake up, Humayun\'s Tomb in morning light, Qutub Minar for shadows and geometry in the afternoon, and Lodhi Garden and India Gate at golden hour. The order matters as much as the list — these are ordered here the way the light actually moves across the city.'
+      },
+      {
+        question: 'What time of day is best for photographing Delhi?',
+        answer:
+          'The first two hours after sunrise and the last hour before sunset, and this is not a small difference in Delhi. Midday sun flattens the sandstone at Qutub Minar and Humayun\'s Tomb completely, and the Old Delhi lanes become too crowded to frame anything cleanly. A day that starts at 6am gets you the two best hours most visitors sleep through.'
+      },
+      {
+        question: 'Can I bring a tripod or a drone?',
+        answer:
+          'Drones are not permitted at Delhi monuments. Tripods need a prior permit at ASI sites including Humayun\'s Tomb and Qutub Minar, and are not allowed at the Taj Mahal at all. The day is planned around handheld shooting. If a tripod is essential to what you want to make, tell us before you book and we will look into what is possible on your specific date.'
+      },
+      {
+        question: 'Do I need to be an experienced photographer to join?',
+        answer:
+          'No. The day is built around light and access rather than around technique, and it works whether you are carrying a professional body or a phone. Your guide adjusts to your level, and the midday review session over lunch is usually where the most useful part of the day happens for less experienced photographers.'
+      },
+      {
+        question: 'Are camera fees included in the tour price?',
+        answer:
+          'No — several Delhi monuments charge a camera or video fee separately from the entry ticket, and those are billed to you along with the entry fees. We arrange all of it in advance so you are not dealing with counters, and confirm the full amount in writing before you pay anything.'
+      }
     ]
   }
 ];

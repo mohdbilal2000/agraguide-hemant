@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   CheckCircle2, Clock, MapPin,
-  Star, MessageCircle, ArrowLeft, Shield, Award, CalendarCheck, BookOpen, ArrowRight
+  Star, MessageCircle, ArrowLeft, Shield, Award, CalendarCheck, BookOpen, ArrowRight, XCircle
 } from 'lucide-react';
 import { TOURS, PRICE_DISCLAIMER } from '../constants';
 import { GUIDES } from '../guides';
@@ -43,6 +43,19 @@ const PlanDetail: React.FC = () => {
   // Rolls forward automatically to the end of the current year.
   const priceValidUntil = `${new Date().getFullYear()}-12-31`;
 
+  const faqSchema = tour.faqs?.length
+    ? [{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": `${tourUrl}#faq`,
+        "mainEntity": tour.faqs.map(f => ({
+          "@type": "Question",
+          "name": f.question,
+          "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+        }))
+      }]
+    : [];
+
   const schema = [
     {
       "@context": "https://schema.org",
@@ -68,7 +81,8 @@ const PlanDetail: React.FC = () => {
         { "@type": "ListItem", "position": 2, "name": "Tour Plans", "item": `${SITE_URL}/plans` },
         { "@type": "ListItem", "position": 3, "name": tour.title, "item": tourUrl }
       ]
-    }
+    },
+    ...faqSchema
   ];
 
   return (
@@ -130,8 +144,11 @@ const PlanDetail: React.FC = () => {
           <div className="lg:col-span-8 space-y-10">
             <section className="bg-white rounded-[2rem] p-8 md:p-14 shadow-soft border border-brand-dark/5" aria-labelledby="overview-heading">
               <h2 id="overview-heading" className="text-3xl font-bold playfair mb-6">Experience Overview</h2>
-              <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">{tour.description}</p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">{tour.description}</p>
+              {tour.overview?.map((para, i) => (
+                <p key={i} className="text-gray-700 leading-relaxed mb-5">{para}</p>
+              ))}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
                 {tour.highlights.map((h, i) => (
                   <div key={i} className="flex items-center gap-3 p-4 bg-brand-bg rounded-xl border border-brand-primary/10">
                     <CheckCircle2 className="text-brand-primary shrink-0" size={20} aria-hidden="true" />
@@ -160,6 +177,71 @@ const PlanDetail: React.FC = () => {
                     </motion.li>
                   ))}
                 </ol>
+              </section>
+            )}
+
+            {(tour.included?.length || tour.notIncluded?.length) && (
+              <section className="bg-white rounded-[2rem] p-8 md:p-14 shadow-soft border border-brand-dark/5" aria-labelledby="included-heading">
+                <h2 id="included-heading" className="text-3xl font-bold playfair mb-3">What the price covers</h2>
+                <p className="text-gray-600 mb-8 leading-relaxed">
+                  Stated plainly here rather than left to be discovered on the day.
+                </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  {tour.included && tour.included.length > 0 && (
+                    <div>
+                      <h3 className="font-bold text-brand-dark text-sm uppercase tracking-widest mb-5">Included</h3>
+                      <ul className="space-y-4">
+                        {tour.included.map((item, i) => (
+                          <li key={i} className="flex items-start gap-3 text-sm text-gray-700 leading-relaxed">
+                            <CheckCircle2 size={18} className="text-brand-primary shrink-0 mt-0.5" aria-hidden="true" />
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                  {tour.notIncluded && tour.notIncluded.length > 0 && (
+                    <div>
+                      <h3 className="font-bold text-brand-dark text-sm uppercase tracking-widest mb-5">Not included</h3>
+                      <ul className="space-y-4">
+                        {tour.notIncluded.map((item, i) => (
+                          <li key={i} className="flex items-start gap-3 text-sm text-gray-500 leading-relaxed">
+                            <XCircle size={18} className="text-gray-300 shrink-0 mt-0.5" aria-hidden="true" />
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              </section>
+            )}
+
+            {tour.goodToKnow && tour.goodToKnow.length > 0 && (
+              <section className="bg-white rounded-[2rem] p-8 md:p-14 shadow-soft border border-brand-dark/5" aria-labelledby="know-heading">
+                <h2 id="know-heading" className="text-3xl font-bold playfair mb-8">Good to know</h2>
+                <div className="space-y-6">
+                  {tour.goodToKnow.map((item, i) => (
+                    <div key={i} className="border-l-2 border-brand-primary/25 pl-6">
+                      <h3 className="font-bold text-brand-dark mb-2">{item.title}</h3>
+                      <p className="text-gray-600 text-sm leading-relaxed">{item.text}</p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {tour.faqs && tour.faqs.length > 0 && (
+              <section className="bg-white rounded-[2rem] p-8 md:p-14 shadow-soft border border-brand-dark/5" aria-labelledby="tour-faq-heading">
+                <h2 id="tour-faq-heading" className="text-3xl font-bold playfair mb-8">Questions about this tour</h2>
+                <div className="divide-y divide-brand-dark/5">
+                  {tour.faqs.map((faq, i) => (
+                    <div key={i} className="py-6 first:pt-0 last:pb-0">
+                      <h3 className="font-bold text-brand-dark mb-3 leading-snug">{faq.question}</h3>
+                      <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+                    </div>
+                  ))}
+                </div>
               </section>
             )}
 
