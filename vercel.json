@@ -14,21 +14,18 @@
   ],
   "headers": [
     {
-      "//": "Vite fingerprints everything under /assets, so a changed file gets a new URL and this can never serve a stale one.",
       "source": "/assets/(.*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     },
     {
-      "//": "Images and fonts in public/ keep their filename when replaced, so they get a week rather than immutable — long enough to stop the per-request revalidation, short enough that a swapped photo appears without a rename.",
       "source": "/(.*)\\.(webp|jpg|jpeg|png|gif|svg|ico|woff2)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=604800, stale-while-revalidate=86400" }
       ]
     },
     {
-      "//": "HTML deliberately keeps Vercel's must-revalidate default so edits go live immediately.",
       "source": "/(.*)",
       "headers": [
         { "key": "X-Content-Type-Options", "value": "nosniff" },
