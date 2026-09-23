@@ -532,6 +532,7 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: 'Delhi airport layover: can you leave?', to: '/guides/delhi-airport-layover' },
       { label: 'Getting around Delhi: metro, taxi or car', to: '/guides/getting-around-delhi' },
       { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
       { label: 'Delhi to Agra: every way to get there', to: '/guides/delhi-to-agra' }
@@ -653,6 +654,7 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: 'Delhi airport layover: can you leave?', to: '/guides/delhi-airport-layover' },
       { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
       { label: 'Is Delhi safe for tourists?', to: '/guides/is-delhi-safe-for-tourists' },
       { label: 'Delhi to Agra: every way to get there', to: '/guides/delhi-to-agra' }
@@ -870,9 +872,158 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: 'Delhi airport layover: can you leave?', to: '/guides/delhi-airport-layover' },
       { label: 'Getting around Delhi: Metro, taxi, auto or car', to: '/guides/getting-around-delhi' },
       { label: 'Is Delhi safe for tourists?', to: '/guides/is-delhi-safe-for-tourists' },
       { label: 'Delhi to Agra: every way to get there', to: '/guides/delhi-to-agra' }
+    ]
+  },
+  {
+    slug: 'delhi-airport-layover',
+    topic: 'delhi',
+    metaTitle: 'Delhi Airport Layover: Can You Leave, and What Fits?',
+    metaDescription:
+      'Whether you can leave Delhi airport on a layover, the visa that decides it, how long you actually need, and what fits in 6, 8 or 12 hours — with real travel times from T3.',
+    h1: 'Delhi Airport Layover: Can You Leave, and What Fits?',
+    cardTitle: 'Delhi Airport Layover Guide',
+    cardSummary:
+      'Whether you can leave the airport, how much time you really need, and what fits in six, eight or twelve hours between flights.',
+    image: '/india-gate-group.webp',
+    updated: '2026-09-23',
+    intro: [
+      'You can leave Delhi airport on a layover, but only if you hold a visa that lets you enter India — and that is the part most people get wrong. A confirmed onward ticket is not enough on its own, and the free transit facility inside the terminal does not let you through immigration.',
+      'If you do have the visa, the rule of thumb is simple: under six hours, stay airside. Six to eight hours gets you one thing done. Ten hours or more is a real half-day in the city. Anything involving Agra needs at least fourteen, and we would rather talk you out of it than sell it to you.'
+    ],
+    sections: [
+      {
+        heading: 'Can you leave the airport during a layover in Delhi?',
+        id: 'can-you-leave',
+        body: [
+          'Only with a visa valid for entry to India. India does not have a visa-free transit arrangement that lets you into the country for a few hours — if you want to pass through immigration, you need an e-Visa, a regular tourist visa, or an OCI card, arranged before you fly.',
+          'The e-Visa is the usual route and is applied for online in advance, typically at least four days before travel. Approval is not instant, so this is not something to sort out at the airport. Check the current requirements on the official Indian government portal rather than a third-party site, since the fee and the list of eligible nationalities both change.',
+          'Without a visa you stay airside. Terminal 3 has a transit hotel, lounges and showers, and that is a perfectly reasonable way to spend a short layover — but you will not see Delhi.'
+        ],
+        callout: {
+          title: 'The mistake that ends the plan at immigration',
+          text: 'Arriving with an onward boarding pass and assuming that counts as transit permission. It does not. Indian immigration will not admit you without a valid entry visa, however short your stay, and no amount of explaining at the counter changes it. Sort the visa before you fly or plan an airside layover.'
+        }
+      },
+      {
+        heading: 'How much time do you actually need?',
+        id: 'how-long',
+        body: [
+          'The number on your ticket is not the number you are working with. Immigration on arrival can take 30 to 60 minutes at busy times, the drive into central Delhi is 45 minutes to an hour and a quarter depending on traffic, and you want to be back at the terminal three hours before an international departure.',
+          'That overhead is roughly four and a half to five hours before any sightseeing happens. Subtract it from your layover honestly, and what is left is what you actually have.'
+        ],
+        table: {
+          caption: 'What a Delhi layover realistically allows',
+          headers: ['Layover', 'Usable time in the city', 'What fits'],
+          rows: [
+            ['Under 6 hours', 'None', 'Stay airside — T3 has a transit hotel, lounges and showers'],
+            ['6–8 hours', '1–2 hours', 'One nearby sight — Qutub Minar or the Lotus Temple, both on the airport side of the city'],
+            ['8–10 hours', '3–4 hours', 'Humayun\'s Tomb and Qutub Minar, or a short Old Delhi walk'],
+            ['10–14 hours', '5–7 hours', 'A proper half-day: Old Delhi in the morning or the Mughal monuments in the south'],
+            ['14+ hours', '8+ hours', 'A full Delhi day — or Agra, but only at the top of that range']
+          ]
+        }
+      },
+      {
+        heading: 'What to see, by how long you have',
+        id: 'what-fits',
+        body: [
+          'Geography decides this more than preference. Qutub Minar and the Lotus Temple sit in south Delhi, on the same side of the city as the airport — roughly 30 to 40 minutes away. Old Delhi and Red Fort are the far side, an hour or more each way, which is an hour of your layover spent in a car before you see anything.',
+          'On a short layover, take the south. On a long one, Old Delhi is worth the drive.'
+        ],
+        list: [
+          'Qutub Minar — closest major monument to the airport, about 30 minutes, and needs an hour. The single best choice if you have one slot to fill.',
+          'Humayun\'s Tomb — the Mughal tomb the Taj Mahal was modelled on, quieter than anything in Old Delhi, and about 45 minutes from T3.',
+          'Lotus Temple — free, striking from outside, and close to Qutub Minar. Skip the interior queue on a layover; there is nothing to see inside but a silent prayer hall.',
+          'India Gate and the government quarter — a drive-past rather than a stop, and best at either end of the day.',
+          'Old Delhi: Jama Masjid, Chandni Chowk, the spice market — the most memorable few hours in the city, and the least suited to a tight layover.'
+        ],
+        callout: {
+          title: 'Why we do not sell a Taj Mahal layover under fourteen hours',
+          text: 'Agra is three and a half hours each way from Delhi, and from the airport rather than a city hotel it is closer to four. Add immigration, the return buffer and any time at the monument, and the arithmetic needs about fourteen hours to work without the day depending on nothing going wrong. Operators do sell it on ten. What they are selling is eight hours in a car and a real chance of missing your flight.'
+        }
+      },
+      {
+        heading: 'Luggage, money and the practical side',
+        id: 'practical',
+        body: [
+          'Check your bags through to your final destination when you check in for the first leg, and confirm that at the desk rather than assuming. If they are through-checked you walk out with hand luggage only. If not, Terminal 3 has left-luggage facilities, and you want to know which before you land, not after.',
+          'You will need a little Indian currency for entry tickets and incidentals even though cards are widely accepted, and the Taj Mahal and several monuments are now digital-payment only. ATMs in the arrivals hall are the simplest option.'
+        ],
+        list: [
+          'Through-check your bags at the first check-in desk, and confirm it verbally.',
+          'Keep your onward boarding pass and passport on you the whole time.',
+          'Set an alarm for your return, not a reminder — Delhi traffic does not care about your schedule.',
+          'Allow three hours at T3 before an international departure, and more in the morning peak.',
+          'Terminal 1 and Terminal 3 are not walking distance apart. If your onward flight leaves from a different terminal, add the transfer to your buffer.'
+        ]
+      },
+      {
+        heading: 'Getting into the city and back',
+        id: 'transport',
+        body: [
+          'The Airport Express Metro connects T3 with New Delhi station in about twenty minutes and is excellent value, but it drops you in the centre and you still need transport from there — and you are on your own for the return timing.',
+          'A [private car with a driver](/guide-booking) is the version most layover visitors take, for one reason: the vehicle stays with you. You are not negotiating with autos, waiting for a cab that cancels, or working out whether the traffic you are sitting in has put your flight at risk. On a layover the schedule is the whole problem, and that is what you are paying to remove.',
+          'Either way, avoid crossing the city between 8–10am and 5–8pm if the timings allow it. Our guide to [getting around Delhi](/guides/getting-around-delhi) compares every option with costs.'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'Can I leave Delhi airport during a layover?',
+        answer:
+          'Only if you hold a visa valid for entry to India — an e-Visa, a tourist visa or an OCI card. India has no visa-free transit arrangement that admits you for a few hours, and a confirmed onward ticket does not substitute for one. Without a visa you stay airside, where Terminal 3 has a transit hotel, lounges and showers.'
+      },
+      {
+        question: 'How many hours of layover do I need to leave the airport in Delhi?',
+        answer:
+          'Eight hours is the realistic minimum for it to be worth doing. Immigration can take 30 to 60 minutes, the drive into the city is 45 minutes to an hour and a quarter each way, and you want to be back three hours before an international departure. That overhead is four and a half to five hours before any sightseeing. Under six hours, stay airside.'
+      },
+      {
+        question: 'Can I visit the Taj Mahal on a Delhi layover?',
+        answer:
+          'Only with about fourteen hours or more, and we would not recommend it below that. Agra is three and a half hours each way from Delhi and closer to four from the airport. Add immigration, the airport buffer and time at the monument and the day only works if nothing goes wrong. Operators sell it on ten-hour layovers; that version is eight hours in a car with a real risk to your flight.'
+      },
+      {
+        question: 'What can I see in Delhi with a 6 to 8 hour layover?',
+        answer:
+          'One thing, and it should be on the airport side of the city. Qutub Minar is about 30 minutes from Terminal 3 and needs an hour — it is the best single choice. The Lotus Temple is nearby and free. Old Delhi and Red Fort are an hour or more each way, which does not fit.'
+      },
+      {
+        question: 'What do I do with my luggage on a layover?',
+        answer:
+          'Check it through to your final destination at the first check-in desk and confirm that verbally rather than assuming — if it is through-checked you leave the terminal with hand luggage only. If it is not, Terminal 3 has left-luggage facilities. Find out which applies before you land rather than at the carousel.'
+      },
+      {
+        question: 'Is a Delhi layover tour worth it?',
+        answer:
+          'With eight hours or more and a valid visa, yes — Qutub Minar or Humayun\'s Tomb beats another few hours in a terminal, and both are genuinely worth seeing. Under six hours it is not, and no amount of planning changes the arithmetic. The deciding factor is almost always the visa rather than the time.'
+      }
+    ],
+    related: [
+      {
+        label: 'Hire a Licensed Guide and Private Car',
+        to: '/guide-booking',
+        note: 'The version that works on a layover — the vehicle stays with you, the driver watches the clock, and getting back to the terminal is somebody else\'s job.'
+      },
+      {
+        label: 'Delhi Street & Heritage Photography Tour',
+        to: '/plans/delhi-photography-tour',
+        note: 'If your layover runs long enough for a full day, and you would rather spend it shooting than sightseeing.'
+      },
+      {
+        label: 'Same Day Taj Mahal Tour by Car',
+        to: '/plans/same-day-taj-car',
+        note: 'Only worth discussing above about fourteen hours — door to door from the airport, with the timings set against your actual departure.'
+      }
+    ],
+    seeAlso: [
+      { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
+      { label: 'Getting around Delhi: Metro, taxi, auto or car', to: '/guides/getting-around-delhi' },
+      { label: 'Is Delhi safe for tourists?', to: '/guides/is-delhi-safe-for-tourists' }
     ]
   }
 ];
