@@ -96,8 +96,13 @@ export interface GuideLink {
   note: string;
 }
 
+/** Topic group a guide sits under on the /guides index. */
+export type GuideTopic = 'delhi' | 'agra';
+
 export interface Guide {
   slug: string;
+  /** Which group this guide is listed under. Every guide needs one. */
+  topic: GuideTopic;
   /** <title> tag — may differ from the on-page H1. */
   metaTitle: string;
   metaDescription: string;

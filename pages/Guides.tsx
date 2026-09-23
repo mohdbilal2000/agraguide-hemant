@@ -2,12 +2,51 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, CalendarDays } from 'lucide-react';
-import { GUIDES } from '../guides';
+import { GUIDES, GUIDE_TOPICS } from '../guides';
+import type { Guide } from '../types';
 import OptimizedImage from '../components/OptimizedImage';
 import SEO, { SITE_URL } from '../components/SEO';
 
 const formatDate = (iso: string) =>
   new Date(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+
+const GuideCard: React.FC<{ guide: Guide; index: number }> = ({ guide, index }) => (
+  <motion.article
+    initial={{ opacity: 0, y: 16 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true, margin: '-40px' }}
+    transition={{ duration: 0.4, delay: index * 0.06 }}
+    className="group bg-white rounded-[2rem] overflow-hidden shadow-soft hover:shadow-lift hover:-translate-y-1 transition-all duration-500 border border-brand-dark/5 flex flex-col h-full"
+  >
+    <Link to={`/guides/${guide.slug}`} className="block h-52 overflow-hidden">
+      <OptimizedImage
+        src={guide.image}
+        alt={guide.cardTitle}
+        sizes="(max-width: 768px) 100vw, 33vw"
+        className="h-full w-full group-hover:scale-105 transition-transform duration-700"
+      />
+    </Link>
+    <div className="p-8 flex flex-col flex-grow">
+      <p className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-3">
+        <CalendarDays size={12} aria-hidden="true" />
+        Updated {formatDate(guide.updated)}
+      </p>
+      {/* h3 — the group heading above these cards is the h2. */}
+      <h3 className="text-xl font-bold playfair text-brand-dark mb-3 leading-snug">
+        <Link to={`/guides/${guide.slug}`} className="hover:text-brand-primary transition-colors">
+          {guide.cardTitle}
+        </Link>
+      </h3>
+      <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">{guide.cardSummary}</p>
+      <Link
+        to={`/guides/${guide.slug}`}
+        className="inline-flex items-center gap-2 text-brand-primary font-bold text-sm uppercase tracking-widest"
+      >
+        Read guide <ArrowRight size={16} aria-hidden="true" />
+      </Link>
+    </div>
+  </motion.article>
+);
 
 const Guides: React.FC = () => {
   const schema = [
@@ -60,45 +99,35 @@ const Guides: React.FC = () => {
           booking required to read any of it.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {GUIDES.map((guide, i) => (
-            <motion.article
-              key={guide.slug}
-              initial={{ opacity: 0, y: 16 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-40px' }}
-              transition={{ duration: 0.4, delay: i * 0.06 }}
-              className="group bg-white rounded-[2rem] overflow-hidden shadow-soft hover:shadow-lift hover:-translate-y-1 transition-all duration-500 border border-brand-dark/5 flex flex-col h-full"
-            >
-              <Link to={`/guides/${guide.slug}`} className="block h-52 overflow-hidden">
-                <OptimizedImage
-                  src={guide.image}
-                  alt={guide.cardTitle}
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  className="h-full w-full group-hover:scale-105 transition-transform duration-700"
-                />
-              </Link>
-              <div className="p-8 flex flex-col flex-grow">
-                <p className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-3">
-                  <CalendarDays size={12} aria-hidden="true" />
-                  Updated {formatDate(guide.updated)}
+        {GUIDE_TOPICS.map(topic => {
+          const guides = GUIDES.filter(g => g.topic === topic.id);
+          if (guides.length === 0) return null;
+
+          return (
+            <section key={topic.id} className="mb-20 last:mb-0" aria-labelledby={`topic-${topic.id}`}>
+              <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8 pb-5 border-b border-brand-dark/10">
+                <div className="max-w-2xl">
+                  <h2
+                    id={`topic-${topic.id}`}
+                    className="text-3xl md:text-4xl font-bold playfair text-brand-dark mb-2"
+                  >
+                    {topic.label}
+                  </h2>
+                  <p className="text-gray-600 leading-relaxed">{topic.blurb}</p>
+                </div>
+                <p className="shrink-0 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400">
+                  {guides.length} {guides.length === 1 ? 'guide' : 'guides'}
                 </p>
-                <h2 className="text-xl font-bold playfair text-brand-dark mb-3 leading-snug">
-                  <Link to={`/guides/${guide.slug}`} className="hover:text-brand-primary transition-colors">
-                    {guide.cardTitle}
-                  </Link>
-                </h2>
-                <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">{guide.cardSummary}</p>
-                <Link
-                  to={`/guides/${guide.slug}`}
-                  className="inline-flex items-center gap-2 text-brand-primary font-bold text-sm uppercase tracking-widest"
-                >
-                  Read guide <ArrowRight size={16} aria-hidden="true" />
-                </Link>
               </div>
-            </motion.article>
-          ))}
-        </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {guides.map((guide, i) => (
+                  <GuideCard key={guide.slug} guide={guide} index={i} />
+                ))}
+              </div>
+            </section>
+          );
+        })}
 
         <section className="mt-20 bg-white rounded-[2rem] p-10 md:p-14 shadow-soft border border-brand-dark/5 text-center">
           <h2 className="text-3xl font-bold playfair text-brand-dark mb-4">Rather have someone plan it?</h2>

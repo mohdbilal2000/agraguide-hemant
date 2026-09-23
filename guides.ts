@@ -1,4 +1,28 @@
-import { Guide } from './types';
+import { Guide, GuideTopic } from './types';
+
+/**
+ * Groups shown on /guides, in display order. Every guide carries a `topic`
+ * matching one of these ids.
+ *
+ * Grouping rather than paginating is deliberate: a "load more" button hides
+ * the remaining links behind JavaScript, and this index exists to pass link
+ * equity to every guide. Each card stays in the HTML however long the list
+ * grows.
+ */
+export const GUIDE_TOPICS: { id: GuideTopic; label: string; blurb: string }[] = [
+  {
+    id: 'delhi',
+    label: 'Delhi',
+    blurb:
+      'Planning a day, working out the transport, and the honest answer on safety — from guides who work the city every week.'
+  },
+  {
+    id: 'agra',
+    label: 'Agra & the Taj Mahal',
+    blurb:
+      'Gate times that move through the year, the Friday closure, and every way of covering the road between Delhi and Agra.'
+  }
+];
 
 /**
  * Evergreen reference content served at /guides.
@@ -14,6 +38,7 @@ export const GUIDES: Guide[] = [
   // ───────────────────────────────────────────────────────────────────────
   {
     slug: 'taj-mahal-sunrise',
+    topic: 'agra',
     metaTitle: 'Taj Mahal Sunrise: What Time to Arrive, Which Gate, What to Expect',
     metaDescription:
       'The Taj Mahal opens 30 minutes before sunrise, so the gate time moves through the year. Month-by-month arrival times, which gate to use, and what the first hour is actually like.',
@@ -144,6 +169,7 @@ export const GUIDES: Guide[] = [
   // ───────────────────────────────────────────────────────────────────────
   {
     slug: 'delhi-to-agra',
+    topic: 'agra',
     metaTitle: 'Delhi to Agra: Train, Car or Bus — Times, Costs and Which to Choose',
     metaDescription:
       'Delhi to Agra is about 230 km and three hours by road, or 100 minutes on the Gatimaan Express. A straight comparison of every option, including the return journey most guides forget.',
@@ -273,6 +299,7 @@ export const GUIDES: Guide[] = [
   // ───────────────────────────────────────────────────────────────────────
   {
     slug: 'taj-mahal-friday-closed',
+    topic: 'agra',
     metaTitle: 'Is the Taj Mahal Closed on Friday? Yes — Here Is What to Do Instead',
     metaDescription:
       'The Taj Mahal is closed every Friday for prayers, with no exceptions. What is still open in Agra that day, and how to reshuffle a one- or two-day itinerary around it.',
@@ -379,6 +406,7 @@ export const GUIDES: Guide[] = [
   // ───────────────────────────────────────────────────────────────────────
   {
     slug: 'is-delhi-safe-for-tourists',
+    topic: 'delhi',
     metaTitle: 'Is Delhi Safe for Tourists? An Honest Answer from Local Guides',
     metaDescription:
       'Delhi is safe for most visitors who take ordinary precautions — but the honest answer has detail in it. What actually goes wrong, what does not, and what solo women should know.',
@@ -513,6 +541,7 @@ export const GUIDES: Guide[] = [
   // ───────────────────────────────────────────────────────────────────────
   {
     slug: 'getting-around-delhi',
+    topic: 'delhi',
     metaTitle: 'Getting Around Delhi: Metro, Taxi, Auto or Private Car',
     metaDescription:
       'Delhi is large and the right transport changes by time of day. Metro, app cabs, autos and private cars compared — costs, when each works, and what to avoid.',
@@ -631,6 +660,7 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: 'delhi-itinerary-1-2-3-days',
+    topic: 'delhi',
     metaTitle: 'Delhi Itinerary: 1, 2 or 3 Days — Planned by Local Guides',
     metaDescription:
       'What actually fits in one, two or three days in Delhi — hour by hour, with the Monday closures that wreck most plans, real travel times between stops, and what to skip.',
