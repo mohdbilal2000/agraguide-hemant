@@ -521,14 +521,14 @@ export const GUIDES: Guide[] = [
     ],
     related: [
       {
-        label: 'Delhi Photography Tour',
-        to: '/plans/delhi-photography-tour',
-        note: 'A full day across Old and New Delhi with a licensed guide — the simplest way to see the city without arranging anything on the street.'
+        label: 'Delhi Unveiled: Private Full Day Heritage Tour',
+        to: '/plans/delhi-full-day-heritage',
+        note: 'A licensed guide and a known driver for the whole day, hotel door to hotel door — the version of Delhi this guide describes as the easy one.'
       },
       {
-        label: 'Hire a Licensed Guide',
+        label: 'Hire a Licensed Delhi Guide',
         to: '/guide-booking',
-        note: 'Guide only, if you have your own transport and just want someone who knows the city with you.'
+        note: 'Guide-only or guide with a car, female guides available on request at no extra charge.'
       }
     ],
     seeAlso: [
@@ -643,14 +643,14 @@ export const GUIDES: Guide[] = [
     ],
     related: [
       {
-        label: 'Delhi Photography Tour',
-        to: '/plans/delhi-photography-tour',
-        note: 'Private vehicle and a licensed guide for the day, timed around the light and the traffic rather than against them.'
+        label: 'Delhi Unveiled: Private Full Day Heritage Tour',
+        to: '/plans/delhi-full-day-heritage',
+        note: 'The day where the transport question stops mattering — one car, one driver, both halves of the city in the right order.'
       },
       {
-        label: 'Same Day Taj Mahal Tour by Car',
-        to: '/plans/same-day-taj-car',
-        note: 'If Agra is on the plan — door to door from your Delhi hotel, with tolls and parking included.'
+        label: 'Delhi Half Day Private Tour',
+        to: '/plans/delhi-half-day',
+        note: 'Five hours with a car that waits for you, which is the whole argument against app cabs on a tight schedule.'
       }
     ],
     seeAlso: [
@@ -856,14 +856,14 @@ export const GUIDES: Guide[] = [
     ],
     related: [
       {
-        label: 'Hire a Licensed Delhi Guide',
-        to: '/guide-booking',
-        note: 'Guide-only, or guide with a private car — for the day when the plan is yours and you want someone who knows the lanes and the shortcuts.'
+        label: 'Delhi Unveiled: Private Full Day Heritage Tour',
+        to: '/plans/delhi-full-day-heritage',
+        note: 'The one-day plan above, run for you — Old Delhi in the morning, the Mughal tombs in the afternoon, and the order sorted out already.'
       },
       {
-        label: 'Delhi Street & Heritage Photography Tour',
-        to: '/plans/delhi-photography-tour',
-        note: 'A full day built around light rather than a checklist — Old Delhi at dawn and the Mughal ruins in the last hour before sunset.'
+        label: 'Delhi Half Day Private Tour',
+        to: '/plans/delhi-half-day',
+        note: 'When the day is split by an arrival or a departure — one half of the city, done properly, with the car timed around your flight.'
       },
       {
         label: 'Same Day Taj Mahal Tour by Car',
@@ -1005,19 +1005,19 @@ export const GUIDES: Guide[] = [
     ],
     related: [
       {
-        label: 'Hire a Licensed Guide and Private Car',
-        to: '/guide-booking',
-        note: 'The version that works on a layover — the vehicle stays with you, the driver watches the clock, and getting back to the terminal is somebody else\'s job.'
+        label: 'Delhi Airport Layover Tour',
+        to: '/plans/delhi-layover-tour',
+        note: 'Timed against your flight number rather than a generic schedule, with airport pickup and the return buffer built in.'
       },
       {
-        label: 'Delhi Street & Heritage Photography Tour',
-        to: '/plans/delhi-photography-tour',
-        note: 'If your layover runs long enough for a full day, and you would rather spend it shooting than sightseeing.'
+        label: 'Delhi Half Day Private Tour',
+        to: '/plans/delhi-half-day',
+        note: 'If you are staying the night rather than connecting — five hours on one half of the city, from hotel or airport.'
       },
       {
-        label: 'Same Day Taj Mahal Tour by Car',
-        to: '/plans/same-day-taj-car',
-        note: 'Only worth discussing above about fourteen hours — door to door from the airport, with the timings set against your actual departure.'
+        label: 'Delhi Unveiled: Private Full Day Heritage Tour',
+        to: '/plans/delhi-full-day-heritage',
+        note: 'For a layover long enough to be a day — both halves of the city with a licensed guide.'
       }
     ],
     seeAlso: [

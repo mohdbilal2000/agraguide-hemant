@@ -1556,6 +1556,319 @@ export const TOURS: Tour[] = [
           'No — several Delhi monuments charge a camera or video fee separately from the entry ticket, and those are billed to you along with the entry fees. We arrange all of it in advance so you are not dealing with counters, and confirm the full amount in writing before you pay anything.'
       }
     ]
+  },
+  {
+    id: 'delhi-full-day-heritage',
+    title: "Delhi Unveiled: Private Full Day Heritage Tour",
+    description: "A full day across Old and New Delhi with a licensed guide — Jama Masjid and the Chandni Chowk lanes in the morning, the Mughal tombs and Qutub Minar in the afternoon light.",
+    duration: "9 Hours",
+    price: 49,
+    image: "/red-fort-delhi.webp",
+    category: "Delhi Tours",
+    highlights: [
+      "Old Delhi lanes & spice market",
+      "Jama Masjid and Red Fort",
+      "Humayun's Tomb & Qutub Minar",
+      "Private car and licensed guide"
+    ],
+    itinerary: [
+      {
+        "time": "08:00 AM",
+        "activity": "Pickup from your Delhi hotel, drive to Old Delhi"
+      },
+      {
+        "time": "08:30 AM",
+        "activity": "Jama Masjid while the courtyard is still quiet"
+      },
+      {
+        "time": "09:30 AM",
+        "activity": "Chandni Chowk on foot — lanes, shopfronts, street life"
+      },
+      {
+        "time": "10:30 AM",
+        "activity": "Khari Baoli spice market and a chai stop"
+      },
+      {
+        "time": "11:30 AM",
+        "activity": "Red Fort, guided (Jama Masjid extended if closed Mondays)"
+      },
+      {
+        "time": "01:00 PM",
+        "activity": "Lunch stop, then drive south"
+      },
+      {
+        "time": "02:30 PM",
+        "activity": "Humayun's Tomb — the blueprint for the Taj Mahal"
+      },
+      {
+        "time": "04:00 PM",
+        "activity": "Qutub Minar and the Mehrauli complex in late light"
+      },
+      {
+        "time": "05:30 PM",
+        "activity": "India Gate drive-past, drop at your hotel"
+      }
+    ],
+    overview: [
+      "Delhi is really two cities, and most day tours only manage one of them. The morning here goes to the Mughal north — Jama Masjid before the courtyard fills, the Chandni Chowk lanes as the shutters go up, and the spice market at Khari Baoli when it is at its most active. The afternoon crosses south to Humayun's Tomb and Qutub Minar, which take late light far better than midday sun.",
+      "The order is not aesthetic. Old Delhi traffic is at its worst from late morning, and the lanes are genuinely unpleasant in afternoon heat — arriving at half past eight rather than eleven can save the better part of an hour. The southern monuments are wide, open and best in the last hours of daylight.",
+      "This is the same day we sell on Viator, booked direct. A licensed guide meets you at the first stop and stays with you; the car and driver stay with you the whole time rather than dropping you at a meeting point."
+    ],
+    included: [
+      "Private air-conditioned vehicle with a professional chauffeur, yours for the whole day — never a shared pickup",
+      "Government-licensed Delhi guide holding a Ministry of Tourism regional licence",
+      "Door-to-door pickup and drop at your Delhi hotel",
+      "All tolls, parking, fuel and driver charges",
+      "Monument tickets arranged in advance so you are not queuing at a counter",
+      "A female guide on request, at no extra charge, subject to availability on your date"
+    ],
+    notIncluded: [
+      "Monument entry fees — we book them for you and confirm the exact amount in writing before you pay anything. Budget roughly ₹600 per foreign visitor at each ASI site, ₹35 for Indian citizens",
+      "Meals and drinks — stops are built into the day and you settle those bills there",
+      "Camera and video fees charged at some monuments",
+      "Tips and personal spending"
+    ],
+    goodToKnow: [
+      {
+        "title": "Monday closes four of Delhi's big sights at once",
+        "text": "Red Fort, Akshardham, the Lotus Temple and the National Museum are all shut on Mondays. Qutub Minar, Humayun's Tomb, Jama Masjid and India Gate stay open, so a Monday still works — we just build the day around what is open rather than discovering it at the gate."
+      },
+      {
+        "title": "No shopping stops, ever",
+        "text": "Many Delhi day tours route you through a government emporium or handicraft showroom because the operator earns commission on what you buy. We do not, which is why our day fits in another monument where others fit in a showroom."
+      },
+      {
+        "title": "Entry fees add up across three ASI sites",
+        "text": "Red Fort, Humayun's Tomb and Qutub Minar are each around ₹600 for foreign visitors and ₹35 for Indian citizens — roughly ₹1,800 against a ₹35 total on the same day. That is a real part of the cost of the day, which is why we confirm the exact figure in writing before anything is paid rather than letting it surface at the gate."
+      },
+      {
+        "title": "Nothing is charged when you book",
+        "text": "We confirm guide and vehicle availability for your date first, then send payment details on WhatsApp. Cash, UPI, bank transfer and card are all accepted, and this tour needs no deposit. Free cancellation up to 24 hours before pickup."
+      }
+    ],
+    faqs: [
+      {
+        "question": "Is one day enough to see Delhi?",
+        "answer": "One day covers Old Delhi properly and two or three of the southern monuments, which is a genuinely good introduction. It is not enough to cover Delhi comprehensively, and any itinerary promising seven or eight stops is counting time in the car as sightseeing. If you have two days, the second one changes the trip — tell us and we will build it."
+      },
+      {
+        "question": "What does a full day Delhi tour cover?",
+        "answer": "Jama Masjid, the Chandni Chowk lanes and the Khari Baoli spice market in the morning; Red Fort before lunch; then Humayun's Tomb, Qutub Minar and the Mehrauli complex in the afternoon, with an India Gate drive-past on the way back. Around nine hours door to door from your hotel."
+      },
+      {
+        "question": "Why does the tour start at 8am?",
+        "answer": "Two practical reasons. The Chandni Chowk lanes are far better before the heat and before the crowds, and Old Delhi traffic builds sharply from late morning — an 8am start can save forty minutes over a 10am one. The southern monuments then get the late afternoon light, which suits them better than midday."
+      },
+      {
+        "question": "Are entry tickets included in the price?",
+        "answer": "No. We book them on your behalf so you skip the counter queue, and bill them separately with the exact amount confirmed in writing before you pay anything. Budget roughly ₹600 per foreign visitor at each of Red Fort, Humayun's Tomb and Qutub Minar, or ₹35 each for Indian citizens."
+      },
+      {
+        "question": "Can we do this tour on a Monday?",
+        "answer": "Yes, with one change. Red Fort is closed on Mondays, as are Akshardham, the Lotus Temple and the National Museum. Qutub Minar, Humayun's Tomb, Jama Masjid and India Gate all stay open, so we extend the Old Delhi morning and add Mehrauli Archaeological Park in the afternoon. It is a quieter day, and arguably a better one."
+      }
+    ]
+  },
+  {
+    id: 'delhi-half-day',
+    title: "Delhi Half Day Private Tour",
+    description: "Five hours in Delhi with a licensed guide and a private car — Old Delhi or the Mughal monuments in the south, depending on the half of the day you have free.",
+    duration: "5 Hours",
+    price: 35,
+    image: "/india-gate-group.webp",
+    category: "Delhi Tours",
+    highlights: [
+      "Choose Old Delhi or South Delhi",
+      "Private car and licensed guide",
+      "Fits an arrival or departure day",
+      "Hotel pickup and drop"
+    ],
+    itinerary: [
+      {
+        "time": "Morning option",
+        "activity": "08:00 AM pickup — Jama Masjid, Chandni Chowk lanes, spice market"
+      },
+      {
+        "time": "",
+        "activity": "11:00 AM Red Fort, guided"
+      },
+      {
+        "time": "",
+        "activity": "01:00 PM drop at your hotel"
+      },
+      {
+        "time": "Afternoon option",
+        "activity": "01:30 PM pickup — Humayun's Tomb"
+      },
+      {
+        "time": "",
+        "activity": "03:00 PM Qutub Minar and Mehrauli Archaeological Park"
+      },
+      {
+        "time": "",
+        "activity": "05:30 PM India Gate drive-past, drop at your hotel"
+      }
+    ],
+    overview: [
+      "Half a day in Delhi is more common than people expect — an arrival morning before a hotel check-in, a departure day with an evening flight, or a spare afternoon between meetings. This is built for exactly that, and it does one half of the city properly rather than both badly.",
+      "You choose which half. The morning version takes Old Delhi — Jama Masjid while the courtyard is quiet, the Chandni Chowk lanes, the spice market and Red Fort. The afternoon version takes the south: Humayun's Tomb and Qutub Minar in the light that suits them, with Mehrauli Archaeological Park next door, which almost nobody visits.",
+      "Five hours, hotel to hotel, with a licensed guide and a car that waits for you rather than a meeting point you have to find."
+    ],
+    included: [
+      "Private air-conditioned vehicle with a professional chauffeur, yours for the whole day — never a shared pickup",
+      "Government-licensed Delhi guide holding a Ministry of Tourism regional licence",
+      "Door-to-door pickup and drop at your Delhi hotel",
+      "All tolls, parking, fuel and driver charges",
+      "Monument tickets arranged in advance so you are not queuing at a counter",
+      "A female guide on request, at no extra charge, subject to availability on your date"
+    ],
+    notIncluded: [
+      "Monument entry fees — we book them for you and confirm the exact amount in writing before you pay anything. Budget roughly ₹600 per foreign visitor at each ASI site, ₹35 for Indian citizens",
+      "Meals and drinks — stops are built into the day and you settle those bills there",
+      "Camera and video fees charged at some monuments",
+      "Tips and personal spending"
+    ],
+    goodToKnow: [
+      {
+        "title": "Old Delhi suits mornings, the south suits afternoons",
+        "text": "This is not a preference. The Chandni Chowk lanes are unpleasant in afternoon heat and the traffic there builds from late morning, while the sandstone at Qutub Minar and Humayun's Tomb goes flat and white under midday sun and comes alive in the last hours of light. Tell us which half of the day you have and we will point you at the right one."
+      },
+      {
+        "title": "Monday closes four of Delhi's big sights at once",
+        "text": "Red Fort, Akshardham, the Lotus Temple and the National Museum are all shut on Mondays. Qutub Minar, Humayun's Tomb, Jama Masjid and India Gate stay open, so a Monday still works — we just build the day around what is open rather than discovering it at the gate."
+      },
+      {
+        "title": "It works as an arrival or departure day",
+        "text": "If your flight leaves in the evening we can drop you at the airport rather than the hotel, with luggage in the car. Tell us the flight number when you book and we will set the timings against it with a proper buffer."
+      },
+      {
+        "title": "Nothing is charged when you book",
+        "text": "We confirm guide and vehicle availability for your date first, then send payment details on WhatsApp. Cash, UPI, bank transfer and card are all accepted, and this tour needs no deposit. Free cancellation up to 24 hours before pickup."
+      }
+    ],
+    faqs: [
+      {
+        "question": "What can you see in Delhi in half a day?",
+        "answer": "One half of the city, properly. The morning version covers Jama Masjid, the Chandni Chowk lanes, the spice market and Red Fort. The afternoon version covers Humayun's Tomb, Qutub Minar and Mehrauli Archaeological Park. Trying to cover both halves in five hours means an hour of it spent crossing the city."
+      },
+      {
+        "question": "Should I choose the morning or afternoon option?",
+        "answer": "If you can choose, take the morning and see Old Delhi — the lanes are at their best early and the traffic there worsens through the day. If your free time is the afternoon, take the southern monuments instead; they photograph far better in late light than at midday, which is the reverse of Old Delhi."
+      },
+      {
+        "question": "Can this tour fit around my flight?",
+        "answer": "Yes, and it is one of the main reasons people book it. We can pick up from or drop at the airport rather than a hotel, with your luggage in the car. Give us the flight number when you book and we will set the timings against it, keeping a proper airport buffer rather than a tight one."
+      },
+      {
+        "question": "Is a half day tour worth it, or should I just do a full day?",
+        "answer": "If you have a full day free, take the full day — it covers both halves of the city and works out better value per hour. The half day exists for the situation where you genuinely do not have more time, which is common on arrival and departure days. It is a real tour rather than a cut-down one."
+      },
+      {
+        "question": "Is the guide and car private?",
+        "answer": "Yes. Every tour we run is private — your own licensed guide and your own air-conditioned car with a chauffeur who stays with you for the whole five hours. You are never joined to another group and never waiting at a meeting point."
+      }
+    ]
+  },
+  {
+    id: 'delhi-layover-tour',
+    title: "Delhi Airport Layover Tour",
+    description: "A layover tour timed against your flight — airport pickup, one or two Delhi monuments, and back at Terminal 3 with a proper buffer. For layovers of eight hours or more.",
+    duration: "6–8 Hours",
+    price: 45,
+    image: "/humayuns-tomb-family.webp",
+    category: "Delhi Tours",
+    highlights: [
+      "Airport pickup and drop",
+      "Timed against your flight number",
+      "Qutub Minar & Humayun's Tomb",
+      "Requires a valid India entry visa"
+    ],
+    itinerary: [
+      {
+        "time": "On arrival",
+        "activity": "Meet your guide after immigration at Terminal 3"
+      },
+      {
+        "time": "+45 min",
+        "activity": "Drive to south Delhi — the airport side of the city"
+      },
+      {
+        "time": "",
+        "activity": "Qutub Minar, guided — the closest major monument to the airport"
+      },
+      {
+        "time": "",
+        "activity": "Humayun's Tomb, if the layover allows"
+      },
+      {
+        "time": "",
+        "activity": "Lunch stop, or Lotus Temple from the garden"
+      },
+      {
+        "time": "−3 hrs to flight",
+        "activity": "Back at Terminal 3 with the buffer built in"
+      }
+    ],
+    overview: [
+      "A Delhi layover is worth leaving the airport for — but only above about eight hours, and only if you hold a visa that lets you enter India. There is no visa-free transit arrangement here, and an onward boarding pass does not substitute for one. That single fact ends more layover plans at immigration than anything else.",
+      "If you have the visa and the hours, this is built around the clock rather than around a wish list. Immigration can take 30 to 60 minutes, the drive into the city is 45 minutes to an hour and a quarter each way, and you want three hours back at Terminal 3 before an international departure. That overhead is four and a half to five hours before any sightseeing — so we go where the time actually reaches.",
+      "That means south Delhi, which is the airport side of the city. Qutub Minar is about thirty minutes from the terminal and is the single best choice if you have one slot to fill; Humayun's Tomb goes in if the layover is long enough. Old Delhi is an hour each way and only makes sense on the longest layovers."
+    ],
+    included: [
+      "Airport pickup at Terminal 3 arrivals and drop at your departure terminal",
+      "Private air-conditioned vehicle with a professional chauffeur for the whole layover",
+      "Government-licensed Delhi guide holding a Ministry of Tourism regional licence",
+      "Timings set against your actual flight number, with the return buffer built in",
+      "Monument tickets arranged in advance — on a layover the counter queue is time you do not have",
+      "All tolls, parking, fuel and driver charges"
+    ],
+    notIncluded: [
+      "Monument entry fees — we book them for you and confirm the exact amount in writing before you pay anything. Budget roughly ₹600 per foreign visitor at each ASI site, ₹35 for Indian citizens",
+      "Meals and drinks — stops are built into the day and you settle those bills there",
+      "Camera and video fees charged at some monuments",
+      "Tips and personal spending",
+      "Your India entry visa, which you arrange before flying — we cannot obtain one for you"
+    ],
+    goodToKnow: [
+      {
+        "title": "You need a visa to leave the airport, and it is not optional",
+        "text": "India has no visa-free transit that admits you for a few hours. You need an e-Visa, a tourist visa or an OCI card, applied for before you fly — the e-Visa usually needs at least four days. Without one you stay airside, and no explanation at the immigration counter changes that. Check the official Indian government portal rather than a third-party site."
+      },
+      {
+        "title": "Under eight hours, we will tell you not to",
+        "text": "Between immigration, the drive each way and the airport buffer, a six-hour layover leaves roughly an hour in the city and a lot of anxiety. We would rather say so than sell you a day in a car. Under six hours, stay airside — Terminal 3 has a transit hotel, lounges and showers."
+      },
+      {
+        "title": "We do not run an Agra layover under about fourteen hours",
+        "text": "Agra is three and a half hours each way from Delhi, closer to four from the airport. Operators sell this on ten-hour layovers. What they are selling is eight hours in a car and a real chance of missing your flight. Above fourteen hours it becomes possible and we will discuss it."
+      },
+      {
+        "title": "Check your bags through before you land",
+        "text": "Ask at your first check-in desk whether your luggage is through-checked to your final destination, and confirm it verbally. If it is, you leave the terminal with hand luggage only. If not, Terminal 3 has left-luggage facilities — but you want to know which applies before you land, not at the carousel."
+      }
+    ],
+    faqs: [
+      {
+        "question": "Can I leave Delhi airport during a layover?",
+        "answer": "Only with a visa valid for entry to India — an e-Visa, a tourist visa or an OCI card. India has no visa-free transit arrangement, and a confirmed onward ticket does not substitute for one. Arrange it before you fly; the e-Visa typically needs at least four days. Without one you stay airside."
+      },
+      {
+        "question": "How long a layover do I need for this tour?",
+        "answer": "Eight hours is the realistic minimum. Immigration can take 30 to 60 minutes, the drive is 45 minutes to an hour and a quarter each way, and we return you to Terminal 3 three hours before an international departure. That overhead is four and a half to five hours before any sightseeing. Under six hours we will tell you to stay airside."
+      },
+      {
+        "question": "What will I see on a Delhi layover tour?",
+        "answer": "South Delhi, because it is the airport side of the city. Qutub Minar is about thirty minutes from Terminal 3 and needs an hour — the best single choice on a shorter layover. Humayun's Tomb goes in if the hours allow. Old Delhi is an hour each way and only works on the longest layovers."
+      },
+      {
+        "question": "Can I visit the Taj Mahal on a Delhi layover?",
+        "answer": "Not under about fourteen hours, and we will not sell it below that. Agra is three and a half hours each way from Delhi and closer to four from the airport. Add immigration, the return buffer and time at the monument and the day only works if nothing goes wrong. Above fourteen hours, tell us your flight times and we will look at it honestly."
+      },
+      {
+        "question": "How do you make sure I do not miss my connecting flight?",
+        "answer": "The timings are set against your actual flight number rather than a generic schedule, with three hours back at the terminal before an international departure. The car and driver stay with you the whole time, so getting back is our problem rather than yours — no waiting for a cab that cancels. If your onward flight leaves from a different terminal we add that transfer to the buffer."
+      }
+    ]
   }
 ];
 
