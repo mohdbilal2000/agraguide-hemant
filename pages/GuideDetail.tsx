@@ -8,6 +8,43 @@ import SEO, { SITE_URL } from '../components/SEO';
 const formatDate = (iso: string) =>
   new Date(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 
+/**
+ * Guide copy is plain text, but a sentence that already names another page
+ * should link to it — an in-body link where the reader is actually deciding
+ * is worth more than one in a related block at the end.
+ *
+ * Writes as [label](/path). Only site-relative paths match, so a stray
+ * bracket in prose can never produce an outbound or javascript: URL.
+ */
+const INTERNAL_LINK = /\[([^\]]+)\]\((\/[A-Za-z0-9/_-]*)\)/g;
+
+/** Schema, meta tags and anywhere else the text is not rendered as JSX needs
+ *  the label without the markup — otherwise Google is fed "[label](/path)". */
+const stripLinks = (text: string) => text.replace(INTERNAL_LINK, '$1');
+
+const RichText: React.FC<{ text: string }> = ({ text }) => {
+  const parts: React.ReactNode[] = [];
+  let cursor = 0;
+
+  for (const match of text.matchAll(INTERNAL_LINK)) {
+    const at = match.index ?? 0;
+    if (at > cursor) parts.push(text.slice(cursor, at));
+    parts.push(
+      <Link
+        key={at}
+        to={match[2]}
+        className="text-brand-primary underline underline-offset-2 decoration-brand-primary/30 hover:decoration-brand-primary transition-colors"
+      >
+        {match[1]}
+      </Link>
+    );
+    cursor = at + match[0].length;
+  }
+  if (cursor < text.length) parts.push(text.slice(cursor));
+
+  return <>{parts}</>;
+};
+
 const GuideDetail: React.FC = () => {
   const { slug } = useParams();
   const guide = GUIDES.find(g => g.slug === slug);
@@ -53,7 +90,7 @@ const GuideDetail: React.FC = () => {
       mainEntity: guide.faqs.map(f => ({
         '@type': 'Question',
         name: f.question,
-        acceptedAnswer: { '@type': 'Answer', text: f.answer }
+        acceptedAnswer: { '@type': 'Answer', text: stripLinks(f.answer) }
       }))
     });
   }
@@ -97,7 +134,7 @@ const GuideDetail: React.FC = () => {
               </p>
 
               {guide.intro.map((p, i) => (
-                <p key={i} className="text-lg md:text-xl text-gray-700 leading-relaxed mb-5">{p}</p>
+                <p key={i} className="text-lg md:text-xl text-gray-700 leading-relaxed mb-5"><RichText text={p} /></p>
               ))}
 
               {guide.sections.length > 1 && (
@@ -120,7 +157,7 @@ const GuideDetail: React.FC = () => {
                   <h2 className="text-2xl md:text-3xl font-bold playfair text-brand-dark mb-5">{section.heading}</h2>
 
                   {section.body?.map((p, i) => (
-                    <p key={i} className="text-gray-700 leading-relaxed mb-4">{p}</p>
+                    <p key={i} className="text-gray-700 leading-relaxed mb-4"><RichText text={p} /></p>
                   ))}
 
                   {section.list && (
@@ -128,7 +165,7 @@ const GuideDetail: React.FC = () => {
                       {section.list.map((item, i) => (
                         <li key={i} className="flex gap-3 text-gray-700 leading-relaxed">
                           <span className="mt-2 w-1.5 h-1.5 rounded-full bg-brand-primary shrink-0" aria-hidden="true" />
-                          <span>{item}</span>
+                          <span><RichText text={item} /></span>
                         </li>
                       ))}
                     </ul>
@@ -171,7 +208,7 @@ const GuideDetail: React.FC = () => {
                       <Info size={20} className="text-brand-gold shrink-0 mt-0.5" aria-hidden="true" />
                       <div>
                         <p className="font-bold text-brand-dark mb-1">{section.callout.title}</p>
-                        <p className="text-gray-700 text-sm leading-relaxed">{section.callout.text}</p>
+                        <p className="text-gray-700 text-sm leading-relaxed"><RichText text={section.callout.text} /></p>
                       </div>
                     </aside>
                   )}
@@ -186,7 +223,7 @@ const GuideDetail: React.FC = () => {
                   {guide.faqs.map((f, i) => (
                     <div key={i} className="border-b border-brand-dark/5 pb-6 last:border-0 last:pb-0">
                       <h3 className="font-bold text-brand-dark mb-2">{f.question}</h3>
-                      <p className="text-gray-700 leading-relaxed text-[15px]">{f.answer}</p>
+                      <p className="text-gray-700 leading-relaxed text-[15px]"><RichText text={f.answer} /></p>
                     </div>
                   ))}
                 </div>

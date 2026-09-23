@@ -97,7 +97,7 @@ export const GUIDES: Guide[] = [
         id: 'from-delhi',
         body: [
           'Delhi to Agra on the Yamuna Expressway takes three to three and a half hours in light traffic. Before dawn the road is genuinely clear, which is the one advantage of the pre-dawn start.',
-          'Working backwards from the table above: a December sunrise visit means leaving a Delhi hotel around 3:00 AM. A June visit means leaving around 1:30 AM — which is why we rarely recommend a Delhi-based sunrise trip in high summer. In those months an overnight in Agra makes far more sense than a night without sleep.',
+          'Working backwards from the table above: a December sunrise visit means leaving a Delhi hotel around 3:00 AM. A June visit means leaving around 1:30 AM — which is why we rarely recommend a [Delhi-based sunrise trip](/plans/sunrise-taj-tour) in high summer. In those months an [overnight in Agra](/plans/overnight-taj-tour) makes far more sense than a night without sleep.',
           'The Gatimaan Express cannot do sunrise. It leaves Hazrat Nizamuddin at 8:10 AM and reaches Agra at 9:50 AM, well after the light has gone flat. The train is an excellent way to see the Taj Mahal — just not at dawn.'
         ]
       },
@@ -122,7 +122,7 @@ export const GUIDES: Guide[] = [
         body: [
           'December and January mornings in Agra carry real fog risk. On a bad morning the monument is invisible until nine or ten o\'clock, and a 3:00 AM departure buys you a view of white mist. There is no way to know the night before with any confidence.',
           'If your travel dates fall in deep winter and you only have one shot, a mid-morning visit is the safer bet. If you have two days, go at sunrise and keep the following morning in reserve.',
-          'In May and June the heat argues the other way: sunrise is the only comfortable time to be there at all, but the departure time from Delhi becomes punishing. An overnight in Agra solves it.'
+          'In May and June the heat argues the other way: sunrise is the only comfortable time to be there at all, but the departure time from Delhi becomes punishing. An [overnight in Agra](/plans/overnight-taj-tour) solves it.'
         ]
       }
     ],
@@ -259,7 +259,7 @@ export const GUIDES: Guide[] = [
       {
         question: 'Can I do Delhi to Agra and back in one day?',
         answer:
-          'Yes, and thousands of people do. By car it is roughly a twelve-hour day door to door; by Gatimaan Express, closer to eleven. It is a long day either way, but a well-planned one is not a rushed one — the driving happens while you would otherwise be asleep or tired.'
+          'Yes, and thousands of people do. [By car](/plans/same-day-taj-car) it is roughly a twelve-hour day door to door; [by Gatimaan Express](/plans/same-day-taj-train), closer to eleven. It is a long day either way, but a well-planned one is not a rushed one — the driving happens while you would otherwise be asleep or tired.'
       },
       {
         question: 'What time does the Gatimaan Express leave Delhi?',
@@ -486,7 +486,7 @@ export const GUIDES: Guide[] = [
         id: 'how-we-work',
         body: [
           'Most of the risks above come from the gaps — the walk from the station, the taxi you did not arrange, the stranger at the gate. A guided day removes the gaps rather than the city.',
-          'On our tours you are with a Ministry of Tourism licensed guide and a driver we work with regularly, for the whole day. Pickup and drop are at your hotel door, not a public meeting point. You have a direct WhatsApp line to us throughout, and female guides can be requested at booking with no extra charge.',
+          'On [our tours](/plans) you are with a Ministry of Tourism licensed guide and a driver we work with regularly, for the whole day. Pickup and drop are at your hotel door, not a public meeting point. You have a direct WhatsApp line to us throughout, and [female guides can be requested](/guide-booking) at booking with no extra charge.',
           'We do not run commission shopping stops. If you want to shop, tell us and we will take you somewhere good — but it will not appear in your itinerary uninvited.',
           'If you would like your itinerary, vehicle number and guide details shared with someone at home before the tour, ask. We do this often and think more people should.'
         ]
@@ -768,7 +768,7 @@ export const GUIDES: Guide[] = [
         body: [
           'By the third day you have a real choice: go deeper into Delhi, or use the day for Agra. Both work, and the right answer depends on how long you are in India overall.',
           'If Delhi is your only stop, spend day three on the parts of the city that reward slowness — a Nizamuddin evening, the Mughal ruins scattered through Hauz Khas and Tughlaqabad, or a morning food walk that is about eating rather than photographing.',
-          'If you are moving on and Agra is not already on the plan, day three is the day for it. A same-day return by car or by the Gatimaan Express is long but entirely doable, and covered in detail in our Delhi to Agra guide.'
+          'If you are moving on and Agra is not already on the plan, day three is the day for it. A [same-day return by car](/plans/same-day-taj-car) or by the Gatimaan Express is long but entirely doable, and covered in detail in our [Delhi to Agra guide](/guides/delhi-to-agra).'
         ],
         list: [
           'Option A — Delhi in depth: Nizamuddin Dargah on a Thursday evening for qawwali, Hauz Khas ruins at sunset, Tughlaqabad Fort for the version of Delhi almost no visitor sees.',
@@ -820,8 +820,8 @@ export const GUIDES: Guide[] = [
         id: 'transport',
         body: [
           'The Metro is excellent and beats road transport comfortably at rush hour, but several of the places in these plans — Humayun\'s Tomb, the Old Delhi lanes, Mehrauli — sit ten to twenty minutes beyond the nearest station. Most good Delhi days use the Metro for the long hops and something else for the last kilometre.',
-          'On a one-day plan the maths changes. A private car with a driver earns its cost when you have four stops across three clusters and a fixed departure that evening, because the time you lose to app cabs cancelling and autos negotiating is time you do not have. On a three-day plan, the Metro and cabs are usually the better value.',
-          'Whichever you choose, avoid crossing the city between 8–10am and 5–8pm if the plan allows it. Our guide to getting around Delhi compares all the options with costs.'
+          'On a one-day plan the maths changes. A [private car with a driver and a licensed guide](/guide-booking) earns its cost when you have four stops across three clusters and a fixed departure that evening, because the time you lose to app cabs cancelling and autos negotiating is time you do not have. On a three-day plan, the Metro and cabs are usually the better value.',
+          'Whichever you choose, avoid crossing the city between 8–10am and 5–8pm if the plan allows it. Our guide to [getting around Delhi](/guides/getting-around-delhi) compares all the options with costs.'
         ]
       }
     ],
@@ -849,7 +849,7 @@ export const GUIDES: Guide[] = [
       {
         question: 'Do I need a guide for Delhi, or can I do it alone?',
         answer:
-          'Delhi is very doable independently, particularly if you are comfortable with the Metro and app cabs. A licensed guide earns their cost in two situations: in Old Delhi, where the lanes are genuinely confusing and the history is invisible without someone to point it out, and on a single-day plan where losing forty minutes to logistics costs you a monument. Guides working inside ASI monuments must hold a Ministry of Tourism licence — ask to see the card.'
+          'Delhi is very doable independently, particularly if you are comfortable with the Metro and app cabs. A [licensed guide](/guide-booking) earns their cost in two situations: in Old Delhi, where the lanes are genuinely confusing and the history is invisible without someone to point it out, and on a single-day plan where losing forty minutes to logistics costs you a monument. Guides working inside ASI monuments must hold a Ministry of Tourism licence — ask to see the card.'
       }
     ],
     related: [
