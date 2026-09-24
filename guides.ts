@@ -161,6 +161,7 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: 'Best time to visit Delhi', to: '/guides/best-time-to-visit-delhi' },
       { label: 'Delhi to Agra: every way to get there', to: '/guides/delhi-to-agra' },
       { label: 'Is the Taj Mahal closed on Friday?', to: '/guides/taj-mahal-friday-closed' }
     ]
@@ -532,6 +533,8 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: 'Best time to visit Delhi', to: '/guides/best-time-to-visit-delhi' },
+      { label: 'Old Delhi vs New Delhi', to: '/guides/old-delhi-vs-new-delhi' },
       { label: 'Delhi airport layover: can you leave?', to: '/guides/delhi-airport-layover' },
       { label: 'Getting around Delhi: metro, taxi or car', to: '/guides/getting-around-delhi' },
       { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
@@ -654,6 +657,7 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: 'Old Delhi vs New Delhi', to: '/guides/old-delhi-vs-new-delhi' },
       { label: 'Delhi airport layover: can you leave?', to: '/guides/delhi-airport-layover' },
       { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
       { label: 'Is Delhi safe for tourists?', to: '/guides/is-delhi-safe-for-tourists' },
@@ -872,6 +876,8 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: 'Best time to visit Delhi', to: '/guides/best-time-to-visit-delhi' },
+      { label: 'Old Delhi vs New Delhi', to: '/guides/old-delhi-vs-new-delhi' },
       { label: 'Delhi airport layover: can you leave?', to: '/guides/delhi-airport-layover' },
       { label: 'Getting around Delhi: Metro, taxi, auto or car', to: '/guides/getting-around-delhi' },
       { label: 'Is Delhi safe for tourists?', to: '/guides/is-delhi-safe-for-tourists' },
@@ -1021,8 +1027,270 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: 'Old Delhi vs New Delhi', to: '/guides/old-delhi-vs-new-delhi' },
       { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
       { label: 'Getting around Delhi: Metro, taxi, auto or car', to: '/guides/getting-around-delhi' },
+      { label: 'Is Delhi safe for tourists?', to: '/guides/is-delhi-safe-for-tourists' }
+    ]
+  },
+  {
+    slug: 'old-delhi-vs-new-delhi',
+    topic: 'delhi',
+    metaTitle: 'Old Delhi vs New Delhi: The Difference, and Which to Visit',
+    metaDescription:
+      'What separates Old Delhi from New Delhi — who built each and when, what they feel like to walk, and which one to give your time to. Plus the part of Delhi that is older than either.',
+    h1: 'Old Delhi vs New Delhi: What Is the Difference?',
+    cardTitle: 'Old Delhi vs New Delhi',
+    cardSummary:
+      'Two cities three hundred years apart, what each is actually like to walk, and the part of Delhi that is older than both.',
+    image: '/red-fort-delhi.webp',
+    updated: '2026-09-24',
+    intro: [
+      'Old Delhi is Shahjahanabad, the walled Mughal capital Shah Jahan built in 1639 — dense lanes, Red Fort, Jama Masjid and the Chandni Chowk bazaars. New Delhi is the capital the British laid out between 1911 and 1931, all wide avenues, roundabouts and colonial bungalows, with India Gate at its centre.',
+      'They sit about eight kilometres apart and feel three hundred years apart, because they are. And here is the thing almost every guide leaves out: neither is the oldest part of Delhi. That is Mehrauli in the south, where Qutub Minar has stood since 1199 — four centuries before Shah Jahan laid a stone.'
+    ],
+    sections: [
+      {
+        heading: 'The short answer',
+        id: 'short-answer',
+        table: {
+          caption: 'Old Delhi and New Delhi compared',
+          headers: ['', 'Old Delhi', 'New Delhi'],
+          rows: [
+            ['Built', '1639, by Shah Jahan', '1911–1931, by the British'],
+            ['Original name', 'Shahjahanabad', 'The imperial capital, moved from Calcutta'],
+            ['Laid out by', 'Mughal court architects', 'Edwin Lutyens and Herbert Baker'],
+            ['Feels like', 'Dense, loud, walkable in lanes rather than streets', 'Wide, green, planned — built to be driven through'],
+            ['Main sights', 'Red Fort, Jama Masjid, Chandni Chowk, Khari Baoli spice market', 'India Gate, Rashtrapati Bhavan, Connaught Place, the museums'],
+            ['Best time of day', 'Early morning, before the heat and the traffic', 'Late afternoon and evening'],
+            ['Get around by', 'On foot or cycle-rickshaw — cars cannot manage the lanes', 'Car or Metro; the distances are too long to walk']
+          ]
+        }
+      },
+      {
+        heading: 'What Old Delhi is actually like',
+        id: 'old-delhi',
+        body: [
+          'Shahjahanabad was a walled city with fourteen gates, and the street plan has barely changed since. Chandni Chowk was designed as a grand avenue with a canal running down the middle, reflecting moonlight — that is where the name comes from. The canal is long gone and the avenue now carries more people per square metre than almost anywhere in India.',
+          'The experience is the lanes rather than the monuments. Khari Baoli is the largest spice market in Asia and has been trading since the seventeenth century. The gullies behind Jama Masjid sell wedding sequins, wiring, paper, kebabs and attar, each on its own lane, in an order that has not changed in generations.',
+          'It is also genuinely hard work. It is loud, crowded and hot, the lanes flood in monsoon, and there is nowhere quiet to stop. Most people who dislike Delhi disliked Old Delhi at midday in June. Most people who love it went at eight in the morning.'
+        ],
+        callout: {
+          title: 'Go early, and this is not a preference',
+          text: 'The Jama Masjid courtyard at eight in the morning is close to empty and the Chandni Chowk shutters are just going up. By eleven the same lanes are shoulder to shoulder and the traffic getting in has doubled your journey time. The difference between a good Old Delhi morning and a bad one is almost entirely the hour you arrive.'
+        }
+      },
+      {
+        heading: 'What New Delhi is actually like',
+        id: 'new-delhi',
+        body: [
+          'New Delhi was designed to be looked at from a distance, and it shows. Lutyens laid out a ceremonial axis running from Rashtrapati Bhavan down Kartavya Path to India Gate, with government buildings on either side and very little for a pedestrian to do. It is impressive and it is not intimate.',
+          'The parts worth your time are mostly off that axis. Lodhi Garden has tombs from the fifteenth century scattered through ninety acres of park and is the calmest place in central Delhi. Connaught Place is a Georgian-style double circle of colonnades, now a shopping and eating district. The National Museum holds the Harappan collection, including the dancing girl from Mohenjo-daro.',
+          'For most visitors New Delhi is half a day rather than a full one, and it works best as an afternoon after an Old Delhi morning — which is exactly how our [full-day Delhi tour](/plans/delhi-full-day-heritage) is ordered.'
+        ]
+      },
+      {
+        heading: 'The part of Delhi that is older than both',
+        id: 'oldest-delhi',
+        body: [
+          'Delhi is usually described as seven cities, built and abandoned across eight centuries. Shahjahanabad — the one we call Old Delhi — is the seventh and last. The first is Mehrauli in the far south, where the Qutub Minar was begun in 1199, and where the Iron Pillar has stood without rusting since roughly the fourth century.',
+          'Between them are Tughlaqabad, Siri, Jahanpanah, Firozabad and Dinpanah, most of which survive as ruins scattered through what is now south Delhi. Hauz Khas has a fourteenth-century madrasa and reservoir sitting behind a row of cafés. Mehrauli Archaeological Park holds around a hundred structures across a thousand years, is free, and is almost always empty.',
+          'None of this is on a standard Delhi itinerary, which is why a visitor can leave believing Delhi is Mughal and colonial and nothing else. If you have a third day, this is where it should go.'
+        ],
+        callout: {
+          title: 'The one stop that changes how Delhi reads',
+          text: 'Mehrauli Archaeological Park sits directly beside Qutub Minar, costs nothing, and contains tombs, a stepwell and a mosque built from reused temple columns. It has no ticket counter and no queue, which is exactly why tour itineraries skip it. An hour there does more to explain Delhi than a second Mughal fort.'
+        }
+      },
+      {
+        heading: 'Which should you visit?',
+        id: 'which-to-visit',
+        body: [
+          'If you only have a few hours, take Old Delhi. It is the more distinctive of the two and the one people remember — New Delhi is handsome, but a planned colonial capital is a thing you have probably seen a version of before.',
+          'If you have a full day, do both in the right order: Old Delhi in the morning while it is cool and the lanes are at their best, New Delhi and the southern monuments in the afternoon, when the sandstone takes the light. Crossing the city the other way round means Old Delhi in the heat and the crowds, and Qutub Minar under a flat midday sun.'
+        ],
+        list: [
+          'A few hours only — Old Delhi, and start early. [Our half-day tour](/plans/delhi-half-day) runs exactly this.',
+          'One full day — Old Delhi morning, New Delhi and the south in the afternoon.',
+          'Two days — add Mehrauli, Hauz Khas and the museums, with time to sit still.',
+          'Three days — the seven cities properly, or an Old Delhi food walk, or a day trip to Agra.'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'What is the difference between Old Delhi and New Delhi?',
+        answer:
+          'Old Delhi is Shahjahanabad, the walled Mughal capital built by Shah Jahan in 1639 — Red Fort, Jama Masjid and the dense Chandni Chowk bazaars. New Delhi is the capital the British built between 1911 and 1931, laid out by Lutyens and Baker with wide avenues, roundabouts and India Gate. They are about eight kilometres apart and roughly three centuries apart in character.'
+      },
+      {
+        question: 'Is Old Delhi actually the oldest part of Delhi?',
+        answer:
+          'No, and this catches most visitors out. Old Delhi is the seventh of Delhi\'s historic cities and the most recent of them. The oldest is Mehrauli in the south, where the Qutub Minar was begun in 1199 — nearly four and a half centuries before Shahjahanabad. The Iron Pillar beside it is older still, dated to roughly the fourth century.'
+      },
+      {
+        question: 'Which is better to visit, Old Delhi or New Delhi?',
+        answer:
+          'Old Delhi, if you have to choose. It is the more distinctive of the two and the part people remember — the lanes, the spice market, the food. New Delhi is a handsome planned colonial capital, but that is a type of city most visitors have seen a version of elsewhere. With a full day, do both: Old Delhi in the morning, New Delhi and the southern monuments in the afternoon.'
+      },
+      {
+        question: 'Is Old Delhi safe to walk around?',
+        answer:
+          'Yes, and it is one of the busiest places in India rather than an isolated one. The real difficulties are crowds, noise and heat rather than danger — it is easy to get disoriented in the lanes and there is nowhere quiet to stop. Keep your bag in front of you as you would in any dense market, and go in the morning when it is cooler and less packed.'
+      },
+      {
+        question: 'How do you get from Old Delhi to New Delhi?',
+        answer:
+          'The Metro is the fastest at rush hour — Chandni Chowk to Rajiv Chowk is a few minutes on the Yellow Line. By road it is eight kilometres that can take anything from twenty minutes to an hour depending on the time of day. Cars cannot enter most of the Old Delhi lanes at all, so any tour there is on foot or by cycle-rickshaw with the vehicle waiting at the edge.'
+      }
+    ],
+    related: [
+      {
+        label: 'Delhi Unveiled: Private Full Day Heritage Tour',
+        to: '/plans/delhi-full-day-heritage',
+        note: 'Both cities in one day, in the order that actually works — the lanes in the morning, the Mughal tombs in the afternoon light.'
+      },
+      {
+        label: 'Delhi Half Day Private Tour',
+        to: '/plans/delhi-half-day',
+        note: 'Five hours on one half of the city. If you are choosing, take the Old Delhi morning.'
+      }
+    ],
+    seeAlso: [
+      { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
+      { label: 'Getting around Delhi: Metro, taxi, auto or car', to: '/guides/getting-around-delhi' },
+      { label: 'Best time to visit Delhi', to: '/guides/best-time-to-visit-delhi' }
+    ]
+  },
+  {
+    slug: 'best-time-to-visit-delhi',
+    topic: 'delhi',
+    metaTitle: 'Best Time to Visit Delhi: Weather, Pollution and Crowds',
+    metaDescription:
+      'Month by month on Delhi weather, the winter pollution season nobody warns you about, January fog, and the two windows that get you good air and comfortable days at once.',
+    h1: 'Best Time to Visit Delhi',
+    cardTitle: 'Best Time to Visit Delhi',
+    cardSummary:
+      'Month by month on heat, fog and the winter pollution season — and the two windows that get you clean air and comfortable days together.',
+    image: '/india-gate-group.webp',
+    updated: '2026-09-24',
+    intro: [
+      'The usual answer is October to March, and it is half right. Those months have the comfortable weather, but they also contain Delhi\'s worst air of the year — November and December routinely sit in the hazardous range, and January fog can close the airport and hide the Taj Mahal until mid-morning.',
+      'If you want good weather and breathable air at the same time, the honest windows are shorter: late September to October, before the burning season starts, and February to mid-March, after the winter inversion breaks. We would rather tell you that than sell you a November trip and let you find out.'
+    ],
+    sections: [
+      {
+        heading: 'Month by month',
+        id: 'month-by-month',
+        table: {
+          caption: 'Delhi through the year — weather, air and crowds',
+          headers: ['Months', 'Weather', 'Air quality', 'Verdict'],
+          rows: [
+            ['Oct', 'Warm days, cool evenings, 30–20°C', 'Good early, worsening late in the month', 'One of the two best windows — go early in October'],
+            ['Nov', 'Pleasant, 27–12°C', 'Worst of the year — stubble burning plus Diwali', 'Lovely weather, genuinely bad air'],
+            ['Dec–Jan', 'Cold, 20–6°C, damp mornings', 'Poor to severe, plus heavy fog', 'Fog delays flights and hides the Taj until mid-morning'],
+            ['Feb–mid Mar', 'Warming, 25–12°C, clear', 'Improving steadily', 'The other best window — clean-ish air, comfortable days'],
+            ['Late Mar–Apr', 'Hot, 35°C and climbing', 'Moderate', 'Still workable if you start early'],
+            ['May–Jun', 'Very hot, 40–45°C+', 'Moderate, dusty', 'Sightseeing has to be built around dawn'],
+            ['Jul–Sep', 'Monsoon, humid, 35–27°C', 'Best of the year — rain clears the air', 'Green, cheap, quiet; rain interrupts rather than prevents']
+          ]
+        }
+      },
+      {
+        heading: 'The pollution season, explained honestly',
+        id: 'pollution',
+        body: [
+          'Delhi\'s winter air is a real problem and not one a travel company should talk around. From late October through January the AQI regularly runs in the very unhealthy to hazardous range, and on the worst days visibility drops to a few hundred metres.',
+          'Three things stack up at once. Farmers in Punjab and Haryana burn crop stubble in late October and November. Diwali fireworks land in the same window. And a winter temperature inversion traps all of it over the city instead of letting it disperse — which is why the same emissions produce far worse air in December than in July.',
+          'For most healthy adults a week in it is unpleasant rather than dangerous — expect a scratchy throat and tired eyes. If you have asthma or another respiratory condition, are travelling with young children, or are pregnant, November to January is worth avoiding, and we will say so if you ask us about those dates.'
+        ],
+        list: [
+          'Check a live AQI reading for your dates rather than an annual average — the day-to-day swing is enormous.',
+          'An N95 or FFP2 mask genuinely helps on bad days. A surgical mask does not.',
+          'Indoor time in the middle of the day helps; the museums and Akshardham are good bad-air options.',
+          'Air purifiers are standard in better Delhi hotels in winter — worth asking before booking.'
+        ],
+        callout: {
+          title: 'Why we will tell you to move your dates',
+          text: 'If you ask about a November trip and mention asthma or small children, we will suggest February instead, even though it means the booking moves. A guest who spends a week wheezing does not come back and does not recommend us. This is also why we will not pretend the fog risk in January is small — it is the one thing about a winter Taj Mahal sunrise that nobody can control.'
+        }
+      },
+      {
+        heading: 'Winter fog and what it does to your plans',
+        id: 'fog',
+        body: [
+          'December and January fog in the Delhi–Agra corridor is dense enough to delay flights and trains regularly, and to hide the Taj Mahal completely until nine or ten in the morning. It is not a light mist; on the worst mornings the monument is invisible from inside the complex.',
+          'If a winter sunrise at the Taj is the point of your trip, build in a second morning. That is the whole argument for the [overnight Agra tour](/plans/overnight-taj-tour) over a day trip in those months — you have another attempt rather than a wasted drive.',
+          'Flight delays compound the same problem. Book domestic connections with real buffers in December and January, and avoid same-day international connections out of Delhi if you can.'
+        ]
+      },
+      {
+        heading: 'The two windows worth aiming for',
+        id: 'best-windows',
+        body: [
+          'Late September to the middle of October is the first. The monsoon has cleared the air, the heat has broken, and the stubble burning has not started. The city is green in a way most visitors never see it, and hotel rates have not reached peak season.',
+          'February to the middle of March is the second, and for most trips it is the better one. The inversion has broken so the air is improving week by week, the days sit around a comfortable 25°C, the fog risk is gone, and Holi usually falls in this window if that interests you.',
+          'Both avoid the two things that spoil a Delhi trip — the heat of May and June and the air of November to January. If your dates are fixed and they fall in the bad window, the trip still works; it just needs planning around indoor time and early starts.'
+        ]
+      },
+      {
+        heading: 'If your dates are fixed',
+        id: 'fixed-dates',
+        list: [
+          'Travelling in November to January — go early in the morning when the air is marginally better, keep midday for museums and Akshardham, and bring an N95.',
+          'Travelling in May or June — everything happens before 10am or after 5pm. The [sunrise Taj Mahal tour](/plans/sunrise-taj-tour) gets punishing in June; the overnight version is the sensible swap.',
+          'Travelling in the monsoon — the air is the best of the year and the crowds the thinnest. Rain comes in bursts rather than all day, and it rarely cancels anything outright.',
+          'Travelling around Diwali — the city is beautifully lit and the air is at its worst. Both are true at once, and which matters more is your call rather than ours.'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'What is the best month to visit Delhi?',
+        answer:
+          'February, or early October. Both give you comfortable days without the two things that spoil a Delhi trip — the 45°C heat of May and June, and the hazardous air of November to January. February has the edge: the winter inversion has broken so the air is improving, the fog risk has gone, and days sit around a pleasant 25°C.'
+      },
+      {
+        question: 'How bad is Delhi pollution for tourists?',
+        answer:
+          'From late October to January it is genuinely bad — the AQI regularly reaches the very unhealthy to hazardous range. For a healthy adult, a week in it usually means a scratchy throat and tired eyes rather than anything worse. If you have asthma or another respiratory condition, are pregnant, or are travelling with young children, those months are worth avoiding. The rest of the year is far better, and monsoon air is the cleanest of all.'
+      },
+      {
+        question: 'Why is Delhi air so bad in winter?',
+        answer:
+          'Three things coincide. Crop stubble burning in Punjab and Haryana peaks in late October and November, Diwali fireworks fall in the same weeks, and a winter temperature inversion traps the result over the city rather than letting it disperse. The same emissions in July produce far better air, because the monsoon washes them out and nothing holds them down.'
+      },
+      {
+        question: 'Should I avoid Delhi in the monsoon?',
+        answer:
+          'No — it is underrated. July to September has the cleanest air of the year, the thinnest crowds and the lowest prices, and the city is green in a way winter visitors never see. Rain tends to come in heavy bursts rather than all day, so it interrupts a plan rather than cancelling it. Humidity is the real cost, and some Old Delhi lanes flood.'
+      },
+      {
+        question: 'Will fog ruin a winter Taj Mahal trip?',
+        answer:
+          'It can. December and January fog in the Delhi–Agra corridor can hide the monument until nine or ten in the morning and delays flights and trains regularly. Nobody can forecast it more than a day or two ahead. If a winter sunrise matters to you, stay overnight in Agra so you have a second morning in reserve rather than one attempt after a three-hour drive.'
+      },
+      {
+        question: 'When is Delhi least crowded?',
+        answer:
+          'July to September, during the monsoon, when both foreign and domestic tourism drop off. May and June are also quiet because of the heat. Peak season runs October to March, and the busiest single stretch is late December into early January, when hotel rates are at their highest and the monuments are fullest.'
+      }
+    ],
+    related: [
+      {
+        label: 'Delhi Unveiled: Private Full Day Heritage Tour',
+        to: '/plans/delhi-full-day-heritage',
+        note: 'Timed around the season — an early start in summer, a later one in winter once the fog has lifted.'
+      },
+      {
+        label: 'Delhi Overnight Taj Mahal Tour',
+        to: '/plans/overnight-taj-tour',
+        note: 'The sensible winter option, and the summer one — a second morning in reserve if the fog does not clear, and no pre-dawn drive in June.'
+      }
+    ],
+    seeAlso: [
+      { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
+      { label: 'Old Delhi vs New Delhi', to: '/guides/old-delhi-vs-new-delhi' },
       { label: 'Is Delhi safe for tourists?', to: '/guides/is-delhi-safe-for-tourists' }
     ]
   }
