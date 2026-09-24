@@ -815,7 +815,7 @@ export const TOURS: Tour[] = [
     description: 'The most comprehensive Golden Triangle experience with hidden gems, local experiences, and time to truly absorb each city\'s unique character.',
     duration: '5 Days / 4 Nights',
     price: 340,
-    image: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80',
+    image: '/taj-mahal-couple.webp',
     category: 'Golden Triangle',
     highlights: ['Comprehensive Delhi tour', 'Fatehpur Sikri UNESCO site', 'Jaipur shopping experience', 'All meals & luxury stays'],
     itinerary: [
@@ -1064,7 +1064,7 @@ export const TOURS: Tour[] = [
     description: 'Explore the royal state of Rajasthan — majestic forts, colorful bazaars, and desert landscapes across Jaipur, Jodhpur, and Udaipur.',
     duration: '7 Days / 6 Nights',
     price: 520,
-    image: 'https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=80',
+    image: '/rajasthan-palace-hotel.webp',
     category: 'Royal Rajasthan',
     highlights: ['Jaipur, Jodhpur & Udaipur', 'Desert cultural experience', 'Palace hotel stays', 'All meals & transport included'],
     itinerary: [
@@ -1144,7 +1144,7 @@ export const TOURS: Tour[] = [
     description: 'A deeper dive into Rajasthan\'s royal heritage with Pushkar and Jaisalmer included. Desert safaris, sacred lakes, and mighty fortresses.',
     duration: '8 Days / 7 Nights',
     price: 595,
-    image: 'https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=1200&q=80',
+    image: '/chai-stop-with-driver.webp',
     category: 'Royal Rajasthan',
     highlights: ['Jaisalmer desert safari', 'Pushkar sacred lake', 'Mehrangarh Fort', 'Camel ride in Thar Desert'],
     itinerary: [
@@ -1308,7 +1308,7 @@ export const TOURS: Tour[] = [
     description: 'The ultimate Rajasthan journey — every palace, every fort, every experience across the golden desert state. The most comprehensive royal tour available.',
     duration: '12 Days / 11 Nights',
     price: 880,
-    image: 'https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&w=1200&q=80',
+    image: '/india-gate-group.webp',
     category: 'Royal Rajasthan',
     highlights: ['All major Rajasthan cities', 'Desert camping under stars', 'Heritage palace hotels', 'Complete royal experience'],
     itinerary: [

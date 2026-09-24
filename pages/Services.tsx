@@ -23,7 +23,7 @@ const serviceList = [
     title: 'Private Transfers',
     desc: 'AC sedans and SUVs with professional uniformed chauffeurs, door to door from your hotel.',
     color: 'bg-brand-info/10 text-brand-info',
-    image: 'https://images.unsplash.com/photo-1551522435-a13afa10f103?auto=format&fit=crop&w=400&q=80',
+    image: '/chai-stop-with-driver.webp',
     href: '/plans',
     cta: 'See Tours',
   },

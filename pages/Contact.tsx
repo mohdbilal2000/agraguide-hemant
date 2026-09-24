@@ -265,7 +265,7 @@ const Contact: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
             <div className="rounded-[3rem] overflow-hidden h-96 relative shadow-2xl">
               <OptimizedImage
-                src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=800&q=80"
+                src="/red-fort-delhi.webp"
                 alt="Delhi city view"
                 className="h-full w-full object-cover"
               />

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import OptimizedImage from '../components/OptimizedImage';
-import { Award, ShieldCheck, Heart, History, Users, MapPin } from 'lucide-react';
+import { Award, ShieldCheck, Heart, History, Users, MapPin, BadgeCheck } from 'lucide-react';
 import SEO from '../components/SEO';
 
 const About: React.FC = () => {
@@ -46,12 +46,11 @@ const About: React.FC = () => {
             </div>
             <div className="absolute top-10 right-10 bg-white/95 backdrop-blur-md p-6 rounded-2xl shadow-xl border border-brand-dark/5 z-10">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-brand-primary/20">
-                  <OptimizedImage 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
-                    alt="Expert Guide"
-                    className="w-full h-full object-cover"
-                  />
+                {/* This was a stock photograph of a stranger captioned "Expert
+                    Guide", which reads as a photo of one of ours. A badge makes
+                    the same point without standing in for a person. */}
+                <div className="w-12 h-12 rounded-full border-2 border-brand-primary/20 bg-brand-primary/10 text-brand-primary flex items-center justify-center shrink-0">
+                  <BadgeCheck size={22} aria-hidden="true" />
                 </div>
                 <div>
                   <p className="font-bold text-brand-dark text-sm">Expert Guides</p>

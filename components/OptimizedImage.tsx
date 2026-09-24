@@ -11,20 +11,10 @@ interface OptimizedImageProps {
   height?: number;
 }
 
-const UNSPLASH_WIDTHS = [480, 768, 1080, 1600];
-
-/** Build a responsive srcset for Unsplash-hosted images */
-const buildSrcSet = (src: string): string | undefined => {
-  if (!src.includes('images.unsplash.com')) return undefined;
-  return UNSPLASH_WIDTHS
-    .map(w => {
-      const url = new URL(src);
-      url.searchParams.set('w', String(w));
-      url.searchParams.set('q', '75');
-      return `${url.toString()} ${w}w`;
-    })
-    .join(', ');
-};
+/* Every image on the site is now served from public/, so the Unsplash srcset
+   builder that used to live here is gone with the last hotlinked image. The
+   `sizes` prop is kept on the interface for when these get real responsive
+   variants generated at build time. */
 
 const OptimizedImage: React.FC<OptimizedImageProps> = ({
   src,
@@ -47,17 +37,10 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
 
   const handleLoad = () => setLoaded(true);
 
-  const handleError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
-    setError(true);
-    const target = e.currentTarget;
-    if (target && !target.src.includes('placeholder') && !target.src.includes('data:')) {
-      target.removeAttribute('srcset');
-      target.src = `https://placehold.co/800x600/8B5E3C/FFFFFF?text=${encodeURIComponent(alt)}`;
-      setError(false);
-    }
-  };
-
-  const srcSet = buildSrcSet(src);
+  /* The fallback used to fetch a placeholder from placehold.co — a third party
+     reached for at exactly the moment the network is already failing. The
+     styled block below needs no request. */
+  const handleError = () => setError(true);
 
   return (
     <div className={`relative overflow-hidden bg-brand-dark/10 ${className}`}>
@@ -67,8 +50,6 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
       <img
         ref={imgRef}
         src={src}
-        srcSet={srcSet}
-        sizes={srcSet ? sizes : undefined}
         alt={alt}
         width={width}
         height={height}
