@@ -118,7 +118,13 @@ export interface GuideLink {
 }
 
 /** Topic group a guide sits under on the /guides index. */
-export type GuideTopic = 'first-time' | 'delhi' | 'agra' | 'jaipur';
+export type GuideTopic =
+  | 'first-time'
+  | 'delhi'
+  | 'delhi-monuments'
+  | 'agra'
+  | 'agra-monuments'
+  | 'jaipur';
 
 export interface Guide {
   slug: string;

@@ -23,6 +23,12 @@ export const GUIDE_TOPICS: { id: GuideTopic; label: string; blurb: string }[] = 
       'Planning a day, working out the transport, and the honest answer on safety — from guides who work the city every week.'
   },
   {
+    id: 'delhi-monuments',
+    label: 'Delhi, monument by monument',
+    blurb:
+      'Timings, closure days, what each ticket actually costs and how long to allow — for the sights a Delhi day is built around.'
+  },
+  {
     id: 'agra',
     label: 'Agra & the Taj Mahal',
     blurb:
@@ -967,6 +973,8 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: "Red Fort, Delhi", to: '/guides/red-fort-delhi' },
+      { label: "Qutub Minar, Delhi", to: '/guides/qutub-minar-delhi' },
       { label: 'First time in India', to: '/guides/first-time-in-india' },
       { label: 'Best time to visit Delhi', to: '/guides/best-time-to-visit-delhi' },
       { label: 'Old Delhi vs New Delhi', to: '/guides/old-delhi-vs-new-delhi' },
@@ -1119,6 +1127,8 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: "Qutub Minar, Delhi", to: '/guides/qutub-minar-delhi' },
+      { label: "Humayun's Tomb, Delhi", to: '/guides/humayuns-tomb-delhi' },
       { label: 'First time in India', to: '/guides/first-time-in-india' },
       { label: 'Old Delhi vs New Delhi', to: '/guides/old-delhi-vs-new-delhi' },
       { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
@@ -1250,6 +1260,9 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: "Red Fort, Delhi", to: '/guides/red-fort-delhi' },
+      { label: "Jama Masjid, Delhi", to: '/guides/jama-masjid-delhi' },
+      { label: "Qutub Minar, Delhi", to: '/guides/qutub-minar-delhi' },
       { label: 'Is Indian street food safe?', to: '/guides/is-indian-street-food-safe' },
       { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
       { label: 'Getting around Delhi: Metro, taxi, auto or car', to: '/guides/getting-around-delhi' },
@@ -1944,6 +1957,601 @@ export const GUIDES: Guide[] = [
       {
         "label": "Getting around Delhi: Metro, taxi, auto or car",
         "to": "/guides/getting-around-delhi"
+      }
+    ]
+  },
+  {
+    slug: "red-fort-delhi",
+    topic: "delhi-monuments",
+    metaTitle: "Red Fort Delhi: Timings, Tickets, Closure Day and What to See",
+    metaDescription: "Red Fort opening hours, the Monday closure that catches visitors out, current ticket prices, how long to allow, and what survives inside after 1857.",
+    h1: "Red Fort, Delhi: Timings, Tickets and What to See",
+    cardTitle: "Red Fort",
+    cardSummary: "Open 9:30 to 4:30, closed Mondays, around ninety minutes inside — and what the British left of it after 1857.",
+    image: "/red-fort-delhi.webp",
+    updated: "2026-09-29",
+    intro: [
+      "The Red Fort is open 9:30 AM to 4:30 PM and closed every Monday, which is the single thing most visitors get wrong. Allow an hour and a half to two hours. Foreign visitors pay around ₹600 and Indian citizens around ₹35.",
+      "Shah Jahan built it between 1639 and 1648 as the palace of his new capital, Shahjahanabad, when he moved the Mughal court from Agra. It was the seat of Mughal power for two centuries, and what you walk through today is a fraction of what stood here — which is its own part of the story."
+    ],
+    sections: [
+      {
+        "heading": "Timings, closure day and tickets",
+        "id": "timings",
+        "table": {
+          "caption": "Red Fort at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "9:30 AM – 4:30 PM"
+            ],
+            [
+              "Closed",
+              "Every Monday"
+            ],
+            [
+              "Entry, foreign visitor",
+              "around ₹600"
+            ],
+            [
+              "Entry, Indian citizen",
+              "around ₹35"
+            ],
+            [
+              "Time to allow",
+              "1.5 – 2 hours"
+            ],
+            [
+              "Nearest Metro",
+              "Lal Qila (Violet Line), or Chandni Chowk (Yellow Line)"
+            ],
+            [
+              "Payment at the gate",
+              "Digital only — no cash"
+            ]
+          ]
+        },
+        "body": [
+          "The Monday closure catches out more visitors than anything else about the fort, partly because Akshardham, the Lotus Temple and the National Museum all close the same day. An unlucky Monday can empty a whole Delhi itinerary at once.",
+          "Buy online if you are visiting on a weekend or a public holiday. The counter queue at Lahori Gate on a Sunday is regularly the longest part of the visit, and it is entirely avoidable."
+        ],
+        "callout": {
+          "title": "Ticket prices move — check before you travel",
+          "text": "The Archaeological Survey of India revises entry fees without much notice, and the figures here were correct when this page was last updated. Treat them as indicative rather than exact. Gates at most major monuments are now digital-payment only, so arriving with cash alone is a problem in itself."
+        }
+      },
+      {
+        "heading": "What you are actually looking at",
+        "id": "what-to-see",
+        "body": [
+          "You enter through Lahori Gate into Chatta Chowk, a covered bazaar that ran as a market for the court and still sells to visitors today. Beyond it, the Naubat Khana housed the musicians who announced arrivals.",
+          "The Diwan-i-Aam, the hall of public audience, is where the emperor heard petitions from a marble throne under an inlaid canopy. Behind it the Diwan-i-Khas, the hall of private audience, held the Peacock Throne — carried off by Nadir Shah in 1739 along with the Koh-i-Noor. The Persian couplet inlaid there still reads that if there is a paradise on earth, it is this.",
+          "Then the Rang Mahal and the hammam, the private apartments and baths, and the Moti Masjid, a small pearl-white mosque added by Aurangzeb."
+        ],
+        "list": [
+          "Lahori Gate and Chatta Chowk — the covered bazaar you enter through",
+          "Diwan-i-Aam — the hall of public audience, with its inlaid marble canopy",
+          "Diwan-i-Khas — where the Peacock Throne stood until 1739",
+          "Rang Mahal and the hammam — the private palace apartments",
+          "Moti Masjid — Aurangzeb's small marble mosque",
+          "The ramparts — where the Prime Minister addresses the country every 15 August"
+        ]
+      },
+      {
+        "heading": "What is missing, and why",
+        "id": "after-1857",
+        "body": [
+          "Roughly two-thirds of the fort's structures were demolished after the uprising of 1857. The British used the Red Fort as a garrison, cleared the palace buildings and gardens, and put barracks in their place — the long brick blocks you see on the way in are those barracks, not Mughal work.",
+          "It is worth knowing before you arrive, because a visitor expecting a complete palace can find the fort thin. What survives is the ceremonial spine — the audience halls, the private apartments, the mosque — set in a great deal of empty lawn where the rest of a city inside a wall used to be.",
+          "The fort is also where the last Mughal emperor, Bahadur Shah Zafar, held court in name only before he was tried and exiled, and where the Indian National Army trials were held in 1945. It is a building that keeps being at the centre of things."
+        ],
+        "callout": {
+          "title": "Why the fort can feel emptier than expected",
+          "text": "Most visitors picture something like Agra Fort, which survives largely intact. The Red Fort does not, and the reason is 1857 rather than neglect. Knowing that turns the lawns from an absence into the point — you are looking at what a colonial garrison left of a Mughal capital."
+        }
+      },
+      {
+        "heading": "Getting there, and when to go",
+        "id": "getting-there",
+        "body": [
+          "Lal Qila station on the Violet Line puts you at the gate. Chandni Chowk on the Yellow Line is a ten-minute walk through the lanes and is the better choice if you are combining the fort with Old Delhi, which almost everyone should.",
+          "Go in the morning. The fort has very little shade, the lawns are exposed, and Old Delhi traffic getting in worsens sharply from late morning. A visit that starts at 9:30 when the gates open is a different experience from one that starts at noon.",
+          "The evening sound and light show runs on most days and is a separate ticket. It is pleasant rather than essential, and it does not run when the weather is poor."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What are the Red Fort opening times?",
+        "answer": "9:30 AM to 4:30 PM, and closed every Monday. Allow an hour and a half to two hours inside. The Monday closure is worth planning around, because Akshardham, the Lotus Temple and the National Museum all close the same day — an unlucky Monday can take out most of a Delhi itinerary at once."
+      },
+      {
+        "question": "Is the Red Fort closed on Mondays?",
+        "answer": "Yes, every Monday, with no exceptions. If your only Delhi day is a Monday, build it around Jama Masjid and the Chandni Chowk lanes in the morning and Humayun's Tomb, Qutub Minar and Mehrauli in the afternoon — all of which stay open. It is a genuinely good day, and a quieter one."
+      },
+      {
+        "question": "How much is the Red Fort entry ticket?",
+        "answer": "Around ₹600 for foreign visitors and ₹35 for Indian citizens, though the Archaeological Survey revises fees without much notice — treat those as indicative. Buy online if you are going at a weekend, when the counter queue at Lahori Gate is often the longest part of the visit. The gates are digital-payment only, so cash alone is a problem."
+      },
+      {
+        "question": "How long do you need at the Red Fort?",
+        "answer": "An hour and a half to two hours covers it properly — Chatta Chowk, the two audience halls, the private apartments and the Moti Masjid, at a pace that lets a guide explain what you are looking at. An hour is enough if you are moving through, and the fort has little shade, so in summer the earlier slot matters more than the extra time."
+      },
+      {
+        "question": "Is the Red Fort worth visiting?",
+        "answer": "Yes, with one expectation set first. Around two-thirds of the fort was demolished after 1857 and replaced with British barracks, so what survives is the ceremonial spine rather than a complete palace. Visitors expecting something like Agra Fort sometimes find it thin. Understood as what a colonial garrison left of a Mughal capital, it is one of the most significant buildings in India."
+      }
+    ],
+    related: [
+      {
+        "label": "Delhi Unveiled: Private Full Day Heritage Tour",
+        "to": "/plans/delhi-full-day-heritage",
+        "note": "Red Fort with a licensed guide, after the Chandni Chowk lanes and before the Mughal tombs in the south — in the order the traffic and the light actually allow."
+      },
+      {
+        "label": "Delhi Half Day Private Tour",
+        "to": "/plans/delhi-half-day",
+        "note": "The Old Delhi morning on its own: Jama Masjid, the lanes, the spice market and the fort."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Delhi itinerary: 1, 2 or 3 days",
+        "to": "/guides/delhi-itinerary-1-2-3-days"
+      },
+      {
+        "label": "Old Delhi vs New Delhi",
+        "to": "/guides/old-delhi-vs-new-delhi"
+      },
+      {
+        "label": "Jama Masjid, Delhi",
+        "to": "/guides/jama-masjid-delhi"
+      }
+    ]
+  },
+  {
+    slug: "qutub-minar-delhi",
+    topic: "delhi-monuments",
+    metaTitle: "Qutub Minar: Timings, Tickets, and the Pillar That Will Not Rust",
+    metaDescription: "Qutub Minar opening hours, ticket prices, whether you can climb it, how long to allow — and the fourth-century iron pillar standing in the courtyard beside it.",
+    h1: "Qutub Minar: Timings, Tickets and What to See",
+    cardTitle: "Qutub Minar",
+    cardSummary: "Open daily, about an hour inside, no climbing — and the oldest thing in Delhi standing in the courtyard beside it.",
+    image: "/humayuns-tomb-family.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Qutub Minar is open every day from sunrise to sunset, needs about an hour, and costs around ₹600 for foreign visitors and ₹35 for Indian citizens. You cannot climb it — the interior has been closed to the public since 1981.",
+      "It is also the oldest thing most visitors see in Delhi by a wide margin. Construction began in 1199, four and a half centuries before Shah Jahan laid a stone at the Red Fort. The part of the city people call Old Delhi is, in fact, the newest of Delhi's historic capitals; this is the first."
+    ],
+    sections: [
+      {
+        "heading": "Timings, tickets and how long to allow",
+        "id": "timings",
+        "table": {
+          "caption": "Qutub Minar at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "Sunrise to sunset, every day"
+            ],
+            [
+              "Closed",
+              "Never — open all week, including Monday"
+            ],
+            [
+              "Entry, foreign visitor",
+              "around ₹600"
+            ],
+            [
+              "Entry, Indian citizen",
+              "around ₹35"
+            ],
+            [
+              "Climbing the minaret",
+              "Not permitted"
+            ],
+            [
+              "Time to allow",
+              "1 – 1.5 hours"
+            ],
+            [
+              "Nearest Metro",
+              "Qutab Minar (Yellow Line), then a short auto ride"
+            ]
+          ]
+        },
+        "body": [
+          "Because it stays open on Mondays, Qutub Minar is one of the sights a Monday itinerary is built around when Red Fort, Akshardham and the Lotus Temple are all shut.",
+          "Late afternoon is the best time to come. The complex is red sandstone and it takes low light far better than midday sun, which flattens it completely."
+        ],
+        "callout": {
+          "title": "Ticket prices move — check before you travel",
+          "text": "The Archaeological Survey of India revises entry fees without much notice, and the figures here were correct when this page was last updated. Treat them as indicative rather than exact. Gates at most major monuments are now digital-payment only, so arriving with cash alone is a problem in itself."
+        }
+      },
+      {
+        "heading": "The minaret itself",
+        "id": "the-minaret",
+        "body": [
+          "At 72.5 metres it is the tallest brick minaret in the world, tapering from about 14 metres across at the base to under three at the top. Qutb al-Din Aibak began it in 1199 and only completed the first storey; Iltutmish added three more and Firoz Shah Tughlaq rebuilt the top after lightning damage — which is why the material changes as your eye travels up.",
+          "The bands of Arabic inscription carving around it are the reason to look closely rather than just up. They are Quranic verses and records of the builders, cut into sandstone eight centuries ago and still crisp.",
+          "The interior staircase has been closed since 1981, when a power failure during a school visit caused a stampede on the stairs. There is no arrangement under which visitors climb it, and anyone offering you access is not offering anything real."
+        ]
+      },
+      {
+        "heading": "The Iron Pillar, and the mosque around it",
+        "id": "iron-pillar",
+        "body": [
+          "In the courtyard of the Quwwat-ul-Islam mosque stands a seven-metre iron pillar dated to roughly the fourth century, five to six hundred years older than anything else on the site. It has barely rusted in sixteen centuries, and the composition of the iron — high phosphorus, forming a protective film — is still studied. It is fenced now, after decades of visitors wearing it smooth by trying to encircle it with their arms.",
+          "The mosque itself was built from the material of demolished Hindu and Jain temples, and the builders made no attempt to hide it. Carved temple columns hold up the colonnades with the figures on them defaced but plainly visible. It is uncomfortable and it is the most historically legible thing in the complex — you are looking directly at the moment one rule replaced another.",
+          "The Alai Darwaza gateway nearby is one of the earliest true domes in India. The Alai Minar, a stump in the north of the complex, was begun by Alauddin Khalji as a tower twice the height of the Qutub and abandoned at 25 metres when he died."
+        ],
+        "callout": {
+          "title": "The hour most people miss, next door",
+          "text": "Mehrauli Archaeological Park sits directly beside the complex, is free, and holds around a hundred structures across a thousand years — tombs, a stepwell, a mosque, a colonial folly. It has no ticket counter and no queue, which is exactly why tour itineraries skip it. An hour there explains Delhi better than a second Mughal fort."
+        }
+      },
+      {
+        "heading": "Getting there",
+        "id": "getting-there",
+        "body": [
+          "Qutab Minar station on the Yellow Line is the nearest, and it is a ten to fifteen minute auto ride from there rather than a walk. By road it is about half an hour from central Delhi and, usefully, about thirty minutes from the airport — which makes it the single best choice on a short layover.",
+          "Pair it with Humayun's Tomb for an afternoon: both are Mughal-era or earlier, both photograph well in late light, and they sit on the same side of the city, which in Delhi matters more than it should."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What are the Qutub Minar timings?",
+        "answer": "Sunrise to sunset, every day of the week including Monday. Allow an hour to an hour and a half. Because it does not close on Mondays, it is one of the monuments a Monday itinerary in Delhi gets built around, when the Red Fort, Akshardham and the Lotus Temple are all shut."
+      },
+      {
+        "question": "Can you climb the Qutub Minar?",
+        "answer": "No. The interior staircase has been closed to the public since 1981, after a power failure during a school visit caused a stampede on the stairs. There is no ticket, permit or arrangement that allows a climb, and anyone offering access is not offering anything real."
+      },
+      {
+        "question": "How much is the Qutub Minar entry fee?",
+        "answer": "Around ₹600 for foreign visitors and ₹35 for Indian citizens, though the Archaeological Survey revises fees periodically, so treat those as indicative. The gates take digital payment rather than cash. Tickets are rarely a queue problem here in the way they are at the Red Fort."
+      },
+      {
+        "question": "How old is the Qutub Minar?",
+        "answer": "Construction began in 1199 under Qutb al-Din Aibak, making it around eight centuries old and the oldest major monument most visitors see in Delhi. The iron pillar in the mosque courtyard beside it is older still — dated to roughly the fourth century, some sixteen hundred years ago, and still barely rusted."
+      },
+      {
+        "question": "Why has the Iron Pillar not rusted?",
+        "answer": "Its composition. The iron has an unusually high phosphorus content, which forms a thin protective film on the surface and has kept it largely intact for around sixteen centuries. It is still studied by metallurgists. It is fenced off now, after generations of visitors wore the surface smooth trying to encircle it with their arms."
+      }
+    ],
+    related: [
+      {
+        "label": "Delhi Unveiled: Private Full Day Heritage Tour",
+        "to": "/plans/delhi-full-day-heritage",
+        "note": "Qutub Minar and Mehrauli in the last hours of light, after Old Delhi in the morning — which is the order the sandstone deserves."
+      },
+      {
+        "label": "Delhi Airport Layover Tour",
+        "to": "/plans/delhi-layover-tour",
+        "note": "About thirty minutes from Terminal 3, which makes it the single best choice if a layover leaves you time for one thing."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Old Delhi vs New Delhi",
+        "to": "/guides/old-delhi-vs-new-delhi"
+      },
+      {
+        "label": "Delhi itinerary: 1, 2 or 3 days",
+        "to": "/guides/delhi-itinerary-1-2-3-days"
+      },
+      {
+        "label": "Humayun's Tomb, Delhi",
+        "to": "/guides/humayuns-tomb-delhi"
+      }
+    ]
+  },
+  {
+    slug: "humayuns-tomb-delhi",
+    topic: "delhi-monuments",
+    metaTitle: "Humayun's Tomb: Timings, Tickets and the Building Behind the Taj Mahal",
+    metaDescription: "Humayun's Tomb opening hours, ticket prices, how long to allow, and why the Taj Mahal exists in the shape it does because of this building.",
+    h1: "Humayun's Tomb: Timings, Tickets and What to See",
+    cardTitle: "Humayun's Tomb",
+    cardSummary: "Open daily, about ninety minutes, and the building the Taj Mahal was modelled on — commissioned by a widow, eighty years earlier.",
+    image: "/humayuns-tomb-family.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Humayun's Tomb is open every day from sunrise to sunset, needs about an hour and a half, and costs around ₹600 for foreign visitors and ₹35 for Indian citizens. It is roughly forty-five minutes from Delhi airport and twenty from Connaught Place.",
+      "It is also the reason the Taj Mahal looks the way it does. Built between 1565 and 1572, it was the first garden-tomb in the subcontinent — a domed mausoleum set at the centre of a walled charbagh divided by watercourses. Eighty years later Shah Jahan built the same idea in white marble at Agra."
+    ],
+    sections: [
+      {
+        "heading": "Timings, tickets and how long to allow",
+        "id": "timings",
+        "table": {
+          "caption": "Humayun's Tomb at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "Sunrise to sunset, every day"
+            ],
+            [
+              "Closed",
+              "Never — open all week, including Monday"
+            ],
+            [
+              "Entry, foreign visitor",
+              "around ₹600"
+            ],
+            [
+              "Entry, Indian citizen",
+              "around ₹35"
+            ],
+            [
+              "Time to allow",
+              "1 – 1.5 hours"
+            ],
+            [
+              "Nearest Metro",
+              "JLN Stadium or Jor Bagh, then a short auto ride"
+            ],
+            [
+              "Best light",
+              "The last hour before sunset"
+            ]
+          ]
+        },
+        "body": [
+          "Like Qutub Minar, it stays open on Mondays, which makes it one of the anchors of a Monday Delhi itinerary when the Red Fort and Akshardham are shut.",
+          "Come late in the afternoon if you can. The red sandstone and white marble go warm in low light and flat under midday sun, and the garden is at its best when the shadows are long."
+        ],
+        "callout": {
+          "title": "Ticket prices move — check before you travel",
+          "text": "The Archaeological Survey of India revises entry fees without much notice, and the figures here were correct when this page was last updated. Treat them as indicative rather than exact. Gates at most major monuments are now digital-payment only, so arriving with cash alone is a problem in itself."
+        }
+      },
+      {
+        "heading": "Why this building matters",
+        "id": "why-it-matters",
+        "body": [
+          "Humayun was the second Mughal emperor, and he died in 1556 after falling down the stairs of his library. The tomb was commissioned by his widow, Bega Begum, who went to Mecca, returned, and spent the rest of her life on it — she is buried in the complex. It is one of the few great Mughal monuments built by a woman for a man, which is the reverse of the story everyone knows from Agra.",
+          "The architect was Mirak Mirza Ghiyas, brought from Persia, and the design imports the Persian charbagh — a garden quartered by four watercourses representing the rivers of paradise — and places the tomb at its centre. Nothing like it had been built in India before.",
+          "Every element the Taj Mahal is famous for is here first: the raised plinth, the great central dome, the arched recesses, the symmetry, the garden setting. Standing in front of it, you are looking at the draft.",
+          "It fell into serious disrepair and was restored in a major project led by the Aga Khan Trust for Culture, which also re-excavated the water channels. It is among the best-maintained Mughal sites in India as a result."
+        ]
+      },
+      {
+        "heading": "What else is inside the complex",
+        "id": "complex",
+        "body": [
+          "Most visitors photograph the main tomb and leave, which misses about half of what is there. The complex holds several structures, some older than Humayun's Tomb itself."
+        ],
+        "list": [
+          "Isa Khan's tomb — an octagonal tomb and mosque from 1547, twenty years older than Humayun's and set in its own sunken garden. You pass it on the way in and most people walk straight past.",
+          "The Barber's Tomb — a smaller domed tomb within the garden, traditionally said to belong to the royal barber, which tells you something about who was buried in an emperor's garden.",
+          "Nila Gumbad — the blue-domed tomb just outside the eastern wall, recently reconnected to the complex after decades cut off by the railway line.",
+          "The charbagh itself — the restored water channels run again, and the garden is the point rather than the setting."
+        ],
+        "callout": {
+          "title": "The end of the Mughals happened here",
+          "text": "In September 1857, Bahadur Shah Zafar — the last Mughal emperor, by then a poet presiding over almost nothing — fled the fall of Delhi and took refuge in this tomb. He was captured here by a British officer, his sons were shot, and he was exiled to Rangoon. The dynasty that began with the garden started and finished within sight of the same dome."
+        }
+      },
+      {
+        "heading": "Getting there, and what to pair it with",
+        "id": "getting-there",
+        "body": [
+          "It sits in the Nizamuddin area of south-central Delhi, about twenty minutes from Connaught Place and forty-five from the airport. The Metro gets you close but not to the gate — JLN Stadium or Jor Bagh, then a short auto ride.",
+          "Pair it with Qutub Minar for an afternoon; they are on the same side of the city and both take late light well. Lodhi Garden is ten minutes away and is the calmest green space in central Delhi.",
+          "Nizamuddin Dargah is a few minutes' walk and is a working Sufi shrine rather than a monument — qawwali is sung there on Thursday evenings, and it is one of the most atmospheric hours in Delhi. It is a place of worship: shoes off, heads covered, and go with someone who knows the etiquette if you can."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What are Humayun's Tomb timings?",
+        "answer": "Sunrise to sunset, every day of the week including Monday. Allow an hour to an hour and a half. It is one of the monuments worth building a Monday around, since the Red Fort, Akshardham, the Lotus Temple and the National Museum all close that day and this does not."
+      },
+      {
+        "question": "Is Humayun's Tomb the same as the Taj Mahal?",
+        "answer": "No, but the Taj Mahal exists in the shape it does because of it. Humayun's Tomb was built between 1565 and 1572 as the first garden-tomb in the subcontinent — a domed mausoleum on a raised plinth at the centre of a quartered Persian garden. Eighty years later Shah Jahan built the same idea in white marble at Agra. Seeing this first changes how the Taj Mahal reads."
+      },
+      {
+        "question": "How much is the Humayun's Tomb entry fee?",
+        "answer": "Around ₹600 for foreign visitors and ₹35 for Indian citizens, revised periodically by the Archaeological Survey, so treat those as indicative. Payment at the gate is digital rather than cash. Queues here are rarely the problem they are at the Red Fort."
+      },
+      {
+        "question": "Who built Humayun's Tomb and why?",
+        "answer": "Bega Begum, Humayun's widow, commissioned it after his death in 1556 and spent much of the rest of her life on the project; she is buried in the complex. The architect was Mirak Mirza Ghiyas, brought from Persia. It is one of the few great Mughal monuments built by a woman for a man — the reverse of the Taj Mahal story."
+      },
+      {
+        "question": "How long do you need at Humayun's Tomb?",
+        "answer": "An hour and a half covers it properly, including Isa Khan's tomb near the entrance, which is older than the main tomb and which most visitors walk straight past. An hour is enough for the main mausoleum and the garden alone. Come in the last hour before sunset if you can — the sandstone is a different colour then."
+      }
+    ],
+    related: [
+      {
+        "label": "Delhi Unveiled: Private Full Day Heritage Tour",
+        "to": "/plans/delhi-full-day-heritage",
+        "note": "Humayun's Tomb in the afternoon after the Old Delhi lanes, which is when the sandstone is worth photographing."
+      },
+      {
+        "label": "Delhi Street & Heritage Photography Tour",
+        "to": "/plans/delhi-photography-tour",
+        "note": "A day built around light rather than a checklist, and this is the building it is built around."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Qutub Minar, Delhi",
+        "to": "/guides/qutub-minar-delhi"
+      },
+      {
+        "label": "Delhi itinerary: 1, 2 or 3 days",
+        "to": "/guides/delhi-itinerary-1-2-3-days"
+      },
+      {
+        "label": "Taj Mahal at sunrise",
+        "to": "/guides/taj-mahal-sunrise"
+      }
+    ]
+  },
+  {
+    slug: "jama-masjid-delhi",
+    topic: "delhi-monuments",
+    metaTitle: "Jama Masjid Delhi: Timings, Dress Code, Fees and the Minaret Climb",
+    metaDescription: "Jama Masjid visiting hours around prayer times, what it costs, the dress code, whether women can climb the minaret, and what to know before you go.",
+    h1: "Jama Masjid, Delhi: Timings, Dress Code and What to Know",
+    cardTitle: "Jama Masjid",
+    cardSummary: "Free to enter, closed to visitors at prayer times, and the one place in Old Delhi where the etiquette matters more than the ticket.",
+    image: "/red-fort-delhi.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Jama Masjid is free to enter and open to visitors outside prayer times, roughly 7 AM to midday and again from about 1:30 PM until around half an hour before sunset. It is a working mosque rather than a monument, and the timings shift with the prayer calendar — Friday midday is the longest closure of the week.",
+      "Shah Jahan built it between 1644 and 1656 as the congregational mosque of his new capital, and it remains the largest in India. The courtyard holds around twenty-five thousand people. Going at eight in the morning, when it is nearly empty, is a completely different building from going at noon."
+    ],
+    sections: [
+      {
+        "heading": "Timings, fees and the dress code",
+        "id": "timings",
+        "table": {
+          "caption": "Jama Masjid at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open to visitors",
+              "Roughly 7 AM – 12 PM, then 1:30 PM – sunset"
+            ],
+            [
+              "Closed to visitors",
+              "During the five daily prayers; longest at Friday midday"
+            ],
+            [
+              "Entry",
+              "Free"
+            ],
+            [
+              "Camera fee",
+              "Around ₹300, charged per camera at the gate"
+            ],
+            [
+              "Southern minaret climb",
+              "A separate small fee, 121 steps"
+            ],
+            [
+              "Footwear",
+              "Off at the entrance — leave shoes at the rack or carry them"
+            ],
+            [
+              "Time to allow",
+              "45 minutes – 1 hour"
+            ]
+          ]
+        },
+        "body": [
+          "Shoulders and knees covered for everyone. Women are also expected to cover their heads, and robes are available at the entrance if you need one — there is usually a charge and it is worth having your own scarf instead.",
+          "The camera fee is charged per camera rather than per person, and it is often applied to phones as well. It is a small amount and arguing about it at the gate is not worth the minutes.",
+          "Timings move with the prayer calendar through the year and there is no fixed published schedule that holds all season. If you have one morning in Old Delhi, arrive early and you will not run into a closure."
+        ],
+        "callout": {
+          "title": "This is a place of worship first",
+          "text": "People pray here five times a day, every day. Visitors are welcome and have been for centuries, and the courtesy expected is the same as at any active religious site — shoes off, shoulders and heads covered, no photographs of people praying, and step aside when the call goes up. Almost every complaint we hear about Jama Masjid comes from a visitor who treated it as a ticketed monument."
+        }
+      },
+      {
+        "heading": "The minaret climb",
+        "id": "minaret",
+        "body": [
+          "The southern minaret can be climbed — 121 narrow steps to a gallery with the best view over Old Delhi there is. You look down on the courtyard, across the rooftops of Shahjahanabad, and out to the Red Fort. It is worth the small fee and the claustrophobic staircase.",
+          "There is a policy visitors are frequently caught by: women are generally not permitted to climb unaccompanied, and are asked to be with a male companion. It is applied inconsistently and it is not posted anywhere obvious, which makes it worse rather than better. If you are travelling alone, know it before you queue for the stairs rather than at the top of them.",
+          "The staircase is single-file with two-way traffic and no lighting. It is not suitable if you are uneasy in tight spaces."
+        ]
+      },
+      {
+        "heading": "What to see, and the lanes below",
+        "id": "what-to-see",
+        "body": [
+          "The courtyard is the building. Three great gateways, a tank for ablutions at the centre, and the prayer hall with its three marble domes and two minarets at the western end. The scale registers slowly — it is only when a crowd fills it that you understand twenty-five thousand.",
+          "The eastern gate was the emperor's entrance and is opened on Fridays and festivals. The northern gate steps down into Meena Bazaar.",
+          "And then the lanes. Jama Masjid sits at the centre of the best eating in Delhi — the kebab shops of Matia Mahal directly opposite the southern steps, Karim's in an alley behind, the sweet shops, the bakeries. Most visitors do the mosque and leave, which is a way of missing the reason people live here."
+        ],
+        "list": [
+          "Arrive by 8 AM for an almost empty courtyard and the best light",
+          "Climb the southern minaret for the view over Shahjahanabad",
+          "Step down the northern gate into Meena Bazaar",
+          "Eat in Matia Mahal, directly opposite the southern steps",
+          "Walk on into Chandni Chowk and the Khari Baoli spice market"
+        ]
+      },
+      {
+        "heading": "Getting there",
+        "id": "getting-there",
+        "body": [
+          "Jama Masjid station on the Violet Line is closest, or Chandni Chowk on the Yellow Line and a cycle-rickshaw through the lanes, which is the more interesting arrival. Cars cannot reach the mosque itself — the lanes are too narrow — so any vehicle waits at the edge and you walk or take a rickshaw in.",
+          "Go in the morning. Old Delhi traffic worsens sharply from late morning, the lanes are unpleasant in afternoon heat, and the mosque is closed to visitors over the middle of the day anyway."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What are the Jama Masjid visiting hours?",
+        "answer": "Roughly 7 AM to midday and again from about 1:30 PM until around half an hour before sunset, though the timings move with the prayer calendar through the year. It is closed to visitors during the five daily prayers, and the Friday midday closure is the longest of the week. Arriving early in the morning avoids the question entirely."
+      },
+      {
+        "question": "Is there an entry fee for Jama Masjid?",
+        "answer": "Entry is free. There is a camera fee of around ₹300, charged per camera at the gate and often applied to phones too, and a separate small fee to climb the southern minaret. Robes are available at the entrance for visitors who need to cover up, usually for a charge — carrying your own scarf avoids it."
+      },
+      {
+        "question": "What is the dress code at Jama Masjid?",
+        "answer": "Shoulders and knees covered for everyone, and heads covered for women. Shoes come off at the entrance. Robes can be borrowed at the gate but usually cost something, so a large scarf of your own is the simpler answer — it covers your head, your shoulders, and saves the queue."
+      },
+      {
+        "question": "Can women climb the Jama Masjid minaret?",
+        "answer": "Often not alone. Women are generally asked to be accompanied by a male companion for the minaret climb. The policy is applied inconsistently and is not clearly posted, which catches solo travellers out at the top of the queue rather than the bottom. If you are travelling alone, ask at the gate before paying."
+      },
+      {
+        "question": "Is Jama Masjid worth visiting?",
+        "answer": "Yes, and it is the best thing in Old Delhi to see first, before the lanes. It is the largest mosque in India, the courtyard holds twenty-five thousand people, and at eight in the morning it is close to empty. The minaret climb gives the best view over Shahjahanabad there is. It is also a working mosque rather than a monument, which is the thing to arrive knowing."
+      }
+    ],
+    related: [
+      {
+        "label": "Delhi Half Day Private Tour",
+        "to": "/plans/delhi-half-day",
+        "note": "The Old Delhi morning: Jama Masjid while the courtyard is quiet, then the Chandni Chowk lanes and the spice market on foot."
+      },
+      {
+        "label": "Delhi Unveiled: Private Full Day Heritage Tour",
+        "to": "/plans/delhi-full-day-heritage",
+        "note": "Old Delhi first thing and the Mughal tombs in the afternoon — with someone who knows which lane leads where."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Red Fort, Delhi",
+        "to": "/guides/red-fort-delhi"
+      },
+      {
+        "label": "Old Delhi vs New Delhi",
+        "to": "/guides/old-delhi-vs-new-delhi"
+      },
+      {
+        "label": "Is Indian street food safe?",
+        "to": "/guides/is-indian-street-food-safe"
       }
     ]
   }
