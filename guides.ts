@@ -47,7 +47,7 @@ export const GUIDES: Guide[] = [
     cardSummary:
       'The gate time changes every month. Here is when to arrive, which gate to choose, and an honest account of the first hour.',
     image: '/taj-mahal-dawn.webp',
-    updated: '2026-09-16',
+    updated: '2026-09-28',
     intro: [
       'The Taj Mahal does not open at a fixed clock time. It opens roughly 30 minutes before sunrise and closes 30 minutes before sunset, which means the gate time shifts by almost two hours between June and December. Most guides quoting a flat "6 AM" are wrong for half the year.',
       'That single fact drives everything else — when to leave Delhi, which gate to use, and whether a sunrise visit in your travel month is even worth the alarm clock. This page covers all three.'
@@ -81,6 +81,28 @@ export const GUIDES: Guide[] = [
         callout: {
           title: 'The 20 minutes that decide your morning',
           text: 'Security screening is the bottleneck, not the ticket counter. Being twenty minutes ahead of the gate opening usually puts you in the first group through — which is the difference between a clear forecourt and two hundred people in your photographs.'
+        }
+      },
+      {
+        heading: 'Sunrise month by month: what each one actually gives you',
+        id: 'by-month',
+        body: [
+          'The table above gives the clock times. What it cannot show is that the same 6am at the East Gate is a completely different morning in November than in January, and that the months people assume are best are not always the ones that are.',
+          'These are the months travellers ask about most, and what each one is honestly like.'
+        ],
+        list: [
+          'October — arguably the best month of the year for a Taj Mahal sunrise. The monsoon has washed the air clean, the gate opens around 5:50am, mornings sit near 20°C, and there is no fog. Crowds are building but have not peaked. If you can choose any month, choose this one.',
+          'November — still good early in the month and deteriorating through it. The gate opens around 6:10am and the temperature is pleasant, but stubble burning in Punjab and Haryana starts in late October and the haze reaches Agra. Late November mornings can be flat and grey rather than golden, with the monument visible but the light gone.',
+          'December — the gate opens around 6:35am, the latest of the year, so the start is civilised. The trade is fog and cold: mornings run 6-9°C and the first fog days usually arrive mid-month. Late December is also the single busiest week at the monument, with domestic holiday crowds on top of international ones.',
+          'January — the hardest month, and the one to plan around rather than avoid outright. Fog can hide the Taj Mahal completely until nine or ten in the morning, and it delays flights and trains on the Delhi-Agra corridor regularly. When January does clear, the light is exceptional and the crowds are thinner than December. It is a gamble with a good payoff.',
+          'February — our pick if October is not available. The fog has gone, the air is improving week by week as the winter inversion breaks, the gate opens around 6:25am, and mornings are around 12°C — cold enough for the marble to look blue at first light and warm enough to stand still in. Crowds have dropped from the December peak.',
+          'March — clear and reliable through the first half, warming quickly through the second. The gate is at roughly 6:00am. By late March the heat starts arriving before you have finished at Agra Fort, which shortens what you can do after the monument.',
+          'April to June — the gate opens between 5:30am and 4:55am, which means a Delhi pickup between 2:00am and 1:30am. The light is beautiful and the crowd is thin, but the heat after 9am makes everything that follows hard work. This is the window where we suggest the overnight version rather than the day trip, every time.',
+          'July to September — the monsoon, and the most underrated sunrise of the year. Dramatic skies, the fewest visitors of any season, the greenest Agra you will see, and the cleanest air. Rain is a real risk and it comes in bursts rather than all day. If you are flexible about the exact morning, this is the season with the best photographs and the smallest crowds.'
+        ],
+        callout: {
+          title: 'The two months most people get wrong',
+          text: 'December and January get booked because they are "winter, so the weather is good". They are the two months with the highest chance of the monument being invisible when you arrive, and December holds the year\'s worst crowds. October and February give you the same comfortable temperature with none of the fog risk. If your dates are flexible at all, move them.'
         }
       },
       {
@@ -127,6 +149,21 @@ export const GUIDES: Guide[] = [
       }
     ],
     faqs: [
+      {
+        question: 'What time is sunrise at the Taj Mahal in October?',
+        answer:
+          'Around 6:20am, with the gate opening about 5:50am. October is arguably the best month of the year for a sunrise visit — the monsoon has cleared the air, there is no fog, mornings sit near 20°C and the crowds have not yet reached their December peak. A Delhi pickup for an October sunrise is around 2:30am.'
+      },
+      {
+        question: 'What time is sunrise at the Taj Mahal in November and December?',
+        answer:
+          'Sunrise is around 6:40am in November and 7:05am in December, with the gate opening roughly thirty minutes earlier each time — so about 6:10am and 6:35am. December gives you the latest and most civilised start of the year. The catch is that haze from crop burning thickens through November, and the first fog mornings usually arrive in mid-December.'
+      },
+      {
+        question: 'Which is the best month for a Taj Mahal sunrise?',
+        answer:
+          'October first, February second. Both give comfortable temperatures, clear air and no fog risk. December and January are the months most people book and the two with the highest chance of arriving to find the monument invisible — January fog can hide it until nine or ten in the morning. If your dates are flexible, October and February are worth moving for.'
+      },
       {
         question: 'Is the Taj Mahal open at sunrise every day?',
         answer:
@@ -1173,7 +1210,7 @@ export const GUIDES: Guide[] = [
     cardSummary:
       'Month by month on heat, fog and the winter pollution season — and the two windows that get you clean air and comfortable days together.',
     image: '/india-gate-group.webp',
-    updated: '2026-09-24',
+    updated: '2026-09-28',
     intro: [
       'The usual answer is October to March, and it is half right. Those months have the comfortable weather, but they also contain Delhi\'s worst air of the year — November and December routinely sit in the hazardous range, and January fog can close the airport and hide the Taj Mahal until mid-morning.',
       'If you want good weather and breathable air at the same time, the honest windows are shorter: late September to October, before the burning season starts, and February to mid-March, after the winter inversion breaks. We would rather tell you that than sell you a November trip and let you find out.'
@@ -1194,6 +1231,27 @@ export const GUIDES: Guide[] = [
             ['May–Jun', 'Very hot, 40–45°C+', 'Moderate, dusty', 'Sightseeing has to be built around dawn'],
             ['Jul–Sep', 'Monsoon, humid, 35–27°C', 'Best of the year — rain clears the air', 'Green, cheap, quiet; rain interrupts rather than prevents']
           ]
+        }
+      },
+      {
+        heading: 'Delhi month by month, in detail',
+        id: 'each-month',
+        body: [
+          'The table above is the summary. These are the months people actually ask about, with the things that decide whether a trip lands well — and a few dates that close roads or fill hotels without warning.'
+        ],
+        list: [
+          'Delhi in October — the month we would pick. The monsoon has washed the air, days run about 32°C falling to 20°C at night, and the burning season has not started. Early October is cleaner than late October. Dussehra and Durga Puja fall in this window, which means Ramlila performances across the city and some road closures. Hotel rates have not reached peak.',
+          'Delhi in November — beautiful weather, the worst air of the year. Days around 27°C and nights near 12°C, which is as comfortable as Delhi gets. But stubble burning peaks, Diwali usually falls in late October or November, and the two stack. Expect haze rather than blue sky. If you have a respiratory condition, this is the month to move.',
+          'Delhi in December — cold by Indian standards at 20°C days and 6°C mornings, with fog arriving from mid-month. Air quality stays poor. The last ten days are the single busiest stretch of the year, with domestic holiday travel on top of international, so hotel rates peak and the monuments are fullest. Book early or avoid that window.',
+          'Delhi in January — the coldest and foggiest month, with mornings near 6°C and visibility that regularly delays flights and trains. Republic Day on 26 January closes large parts of central Delhi for rehearsals from around mid-month, including the Kartavya Path and India Gate area — worth knowing before you plan a New Delhi day. Air is still poor but improving late in the month.',
+          'Delhi in February — the best all-round month. The winter inversion breaks so the air improves week by week, the fog risk has gone, and days sit around a comfortable 25°C with nights near 12°C. Crowds have fallen from the December peak and rates soften. If you are choosing a month and October is not available, take this one.',
+          'Delhi in March — clear, warm and pleasant through the first half, hot by the end. Holi usually falls in March and is worth planning around either way: the city largely shuts for the day, transport is limited, and playing Holi as a visitor is best done somewhere organised rather than on the street.',
+          'Delhi in April to June — 40°C and climbing, reaching 45°C or more in May and June. Everything has to happen before 10am or after 5pm, and the middle of the day belongs to museums and air conditioning. Prices are at their lowest and the monuments at their emptiest, which is a real trade if you can handle the heat.',
+          'Delhi in July to September — the monsoon. Humid, green, and with the cleanest air of the year by a wide margin. Rain comes in heavy bursts rather than all day, so it interrupts a plan rather than cancelling one. Some Old Delhi lanes flood. Fewest visitors and lowest rates of any season.'
+        ],
+        callout: {
+          title: 'Two dates that catch people out',
+          text: 'Republic Day rehearsals close central Delhi roads for roughly ten days before 26 January, which can take India Gate and the government quarter off your itinerary entirely. And the week between Christmas and New Year is the busiest and most expensive of the year in both Delhi and Agra. Neither appears on a weather chart, and both change what a trip costs and covers.'
         }
       },
       {
@@ -1245,6 +1303,26 @@ export const GUIDES: Guide[] = [
       }
     ],
     faqs: [
+      {
+        question: 'Is October a good time to visit Delhi?',
+        answer:
+          'It is the best month of the year, and early October is better than late. The monsoon has cleared the air, days are around 32°C falling to 20°C at night, and the crop-burning season has not started. Dussehra and Durga Puja usually fall in this window, which brings Ramlila performances across the city and some road closures.'
+      },
+      {
+        question: 'How bad is Delhi in November?',
+        answer:
+          'The weather is as good as Delhi gets — around 27°C by day and 12°C at night. The air is the worst of the year. Stubble burning in Punjab and Haryana peaks, Diwali usually lands in the same weeks, and a winter inversion traps both over the city. Expect haze rather than blue sky. For a healthy adult it is unpleasant rather than dangerous; with asthma or small children, move the dates.'
+      },
+      {
+        question: 'Is February a good month to visit Delhi?',
+        answer:
+          'February is the best all-round month. The winter inversion has broken so the air improves week by week, the fog risk has gone, days are around 25°C and nights near 12°C, and crowds have dropped from the December peak. If you cannot travel in October, this is the month to aim for.'
+      },
+      {
+        question: 'What should I know about visiting Delhi in January?',
+        answer:
+          'Two things beyond the cold and the fog. Republic Day on 26 January closes large parts of central Delhi for rehearsals from around mid-month — the Kartavya Path and India Gate area can be off-limits entirely. And January fog regularly delays flights and trains, so leave real buffers on domestic connections and do not book a same-day international onward flight if you can avoid it.'
+      },
       {
         question: 'What is the best month to visit Delhi?',
         answer:
