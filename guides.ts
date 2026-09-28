@@ -33,6 +33,18 @@ export const GUIDE_TOPICS: { id: GuideTopic; label: string; blurb: string }[] = 
     label: 'Agra & the Taj Mahal',
     blurb:
       'Gate times that move through the year, the Friday closure, and every way of covering the road between Delhi and Agra.'
+  },
+  {
+    id: 'agra-monuments',
+    label: 'Agra, monument by monument',
+    blurb:
+      'Ticket prices, gate times, the Friday closure and how long each one needs — for the Taj Mahal and everything around it.'
+  },
+  {
+    id: 'jaipur',
+    label: 'Jaipur',
+    blurb:
+      'Forts, palaces and the observatory — with the elephant ride question answered, and the one landmark you cannot actually go inside.'
   }
 ];
 
@@ -210,6 +222,8 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: "Taj Mahal: timings and tickets", to: "/guides/taj-mahal-visiting-guide" },
+      { label: "Agra Fort", to: "/guides/agra-fort" },
       { label: 'Best time to visit Delhi', to: '/guides/best-time-to-visit-delhi' },
       { label: 'Delhi to Agra: every way to get there', to: '/guides/delhi-to-agra' },
       { label: 'Is the Taj Mahal closed on Friday?', to: '/guides/taj-mahal-friday-closed' }
@@ -386,6 +400,8 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: "Taj Mahal: timings and tickets", to: "/guides/taj-mahal-visiting-guide" },
+      { label: "Agra Fort", to: "/guides/agra-fort" },
       { label: 'Taj Mahal at sunrise: timing and gates', to: '/guides/taj-mahal-sunrise' },
       { label: 'Is the Taj Mahal closed on Friday?', to: '/guides/taj-mahal-friday-closed' },
       { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' }
@@ -494,6 +510,9 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: "Agra Fort", to: "/guides/agra-fort" },
+      { label: "Fatehpur Sikri", to: "/guides/fatehpur-sikri" },
+      { label: "Itimad-ud-Daulah (Baby Taj)", to: "/guides/itimad-ud-daulah-baby-taj" },
       { label: 'Taj Mahal at sunrise: timing and gates', to: '/guides/taj-mahal-sunrise' },
       { label: 'Delhi to Agra: every way to get there', to: '/guides/delhi-to-agra' }
     ]
@@ -973,6 +992,7 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: "Taj Mahal: timings and tickets", to: "/guides/taj-mahal-visiting-guide" },
       { label: "Chandni Chowk, Delhi", to: "/guides/chandni-chowk-delhi" },
       { label: "Akshardham Temple, Delhi", to: "/guides/akshardham-temple-delhi" },
       { label: "Red Fort, Delhi", to: '/guides/red-fort-delhi' },
@@ -3158,6 +3178,1519 @@ export const GUIDES: Guide[] = [
       {
         "label": "Old Delhi vs New Delhi",
         "to": "/guides/old-delhi-vs-new-delhi"
+      }
+    ]
+  },
+  {
+    slug: "taj-mahal-visiting-guide",
+    topic: "agra-monuments",
+    metaTitle: "Taj Mahal: Timings, Ticket Prices, Rules and How Long You Need",
+    metaDescription: "Taj Mahal opening times, what a ticket costs for foreign, SAARC and Indian visitors, the Friday closure, the three-hour limit, what you cannot take in, and how long to allow.",
+    h1: "Taj Mahal: Timings, Tickets and What to Know",
+    cardTitle: "Taj Mahal",
+    cardSummary: "Gate times that move through the year, what a ticket really costs, the three-hour limit, and what gets taken off you at security.",
+    image: "/taj-mahal-dawn.webp",
+    updated: "2026-09-29",
+    intro: [
+      "The Taj Mahal opens thirty minutes before sunrise and closes thirty minutes before sunset, so there is no fixed opening time — roughly 6:35 AM in December and as early as 4:55 AM in June. It is closed every Friday. A foreign adult ticket is ₹1,300, SAARC and BIMSTEC passport holders pay ₹740, and Indian citizens ₹250.",
+      "Your ticket is valid for three hours from entry, and most visitors want two. Shah Jahan began it in 1632 for Mumtaz Mahal, who had died the previous year giving birth to their fourteenth child, and it took around twenty years to finish."
+    ],
+    sections: [
+      {
+        "heading": "Timings, tickets and the three-hour rule",
+        "id": "timings",
+        "table": {
+          "caption": "Taj Mahal at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "30 minutes before sunrise to 30 minutes before sunset"
+            ],
+            [
+              "Closed",
+              "Every Friday, with no exceptions"
+            ],
+            [
+              "Foreign adult",
+              "₹1,300 — ₹1,100 entry plus ₹200 mausoleum supplement"
+            ],
+            [
+              "SAARC / BIMSTEC",
+              "₹740"
+            ],
+            [
+              "Indian citizen",
+              "₹250"
+            ],
+            [
+              "Under 15",
+              "Free, but still needs a zero-value ticket"
+            ],
+            [
+              "Visit length",
+              "Three hours from entry; longer can attract a charge at exit"
+            ],
+            [
+              "Payment at the gate",
+              "Digital only — no cash"
+            ],
+            [
+              "Time to allow",
+              "2 hours inside, plus security"
+            ]
+          ]
+        },
+        "body": [
+          "The ₹200 supplement is what lets you step onto the marble platform and into the mausoleum itself to see the cenotaphs. It is optional and almost everyone should take it — without it you see the building from the garden only.",
+          "The three-hour limit is measured from entry and is enforced at the exit gate. In practice two hours is what most people use, and the clock only becomes a problem if you have come for photography and lose track.",
+          "Buy in advance. The gates are digital-payment only now, so the counter is both a queue and a payment problem if you arrive with cash."
+        ],
+        "callout": {
+          "title": "Ticket prices move — check before you travel",
+          "text": "The Archaeological Survey of India revises entry fees without much notice, and the figures here were correct when this page was last updated. Treat them as indicative. Gates at the major Agra monuments are digital-payment only, so arriving with cash alone is a problem in itself."
+        }
+      },
+      {
+        "heading": "Which gate, and when to arrive",
+        "id": "gates",
+        "body": [
+          "There are three gates — East, West and South. East Gate is the one to use at sunrise: it is quieter than West, and the ticket office is a short distance from the gate itself rather than beside it, which catches people out.",
+          "West Gate is the busiest and the closest to the main Agra hotels. South Gate is small, opens later and is used mostly for exit.",
+          "Security screening is the real bottleneck at sunrise, not the ticket. Aim to be in the queue about twenty minutes before the gate opens — that queue position is the entire point of a sunrise visit, and it is why our [sunrise guide](/guides/taj-mahal-sunrise) sets the pickup against your travel month rather than a fixed hour."
+        ]
+      },
+      {
+        "heading": "What you cannot take in",
+        "id": "rules",
+        "body": [
+          "Security is thorough and the list of prohibited items is longer than most visitors expect. Anything refused goes into a cloakroom, which costs you time at both ends.",
+          "Come with a phone, a camera, your ticket and your passport, and leave everything else in the car."
+        ],
+        "list": [
+          "Tripods and drones — not permitted, and no permit changes it",
+          "Large bags, food and drink other than a water bottle",
+          "Cigarettes, lighters, and anything electronic beyond a phone and camera",
+          "Books, headphones and chargers are often refused",
+          "Shoe covers are provided for the marble platform, or you remove your shoes"
+        ]
+      },
+      {
+        "heading": "What to look at once you are inside",
+        "id": "inside",
+        "body": [
+          "Most people photograph the building from the entrance and walk to it. The things worth slowing down for are closer.",
+          "The inlay work — parchin kari, or pietra dura — is semi-precious stone cut and set into marble, flowers and Quranic calligraphy at a scale you only see at arm's length. The calligraphy around the great arch is subtly enlarged as it rises so it reads as the same size from the ground.",
+          "Inside, Mumtaz Mahal's cenotaph sits at the centre under the dome. Shah Jahan's was added beside it after his death, off-centre, and it is the only asymmetry in an otherwise perfectly balanced building. The real graves are in a chamber below, closed to visitors.",
+          "The mosque on the west side and its mirror building on the east — the jawab, meaning answer — exist because Mughal symmetry required a matching structure even though only one of them functions."
+        ],
+        "callout": {
+          "title": "Night viewing, and why it is rarely straightforward",
+          "text": "The Taj opens for night viewing on five nights per lunar cycle — the full moon and the two nights either side — between 8:30 PM and 12:30 AM, in batches of fifty for thirty-minute slots. Tickets must be arranged at least twenty-four hours in advance from a separate office, and it does not run on Fridays or during Ramadan. If your dates line up, tell us early and we will arrange it; if they do not, no amount of paying more makes it happen."
+        }
+      },
+      {
+        "heading": "Getting there, and how long to give it",
+        "id": "planning",
+        "body": [
+          "Agra is about 230 km from Delhi — three to three and a half hours by road on the Yamuna Expressway, or one hour forty on the Gatimaan Express. Our [Delhi to Agra guide](/guides/delhi-to-agra) compares every option with times.",
+          "Two hours inside the complex is the right budget for a first visit, plus twenty to forty minutes for security and the walk from the ticket office. Add Agra Fort and a meal and you have a full day.",
+          "If your only free day in Agra falls on a Friday, the monument is closed and there is no way around it. Our [Friday guide](/guides/taj-mahal-friday-closed) sets out what the day looks like instead — Agra Fort, Fatehpur Sikri and the view from Mehtab Bagh across the river."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What are the Taj Mahal timings?",
+        "answer": "It opens thirty minutes before sunrise and closes thirty minutes before sunset, so there is no fixed clock time — roughly 6:35 AM in December and as early as 4:55 AM in June. Ticket counters open about an hour before sunrise. Your ticket is valid for a three-hour visit from the moment you enter."
+      },
+      {
+        "question": "How much is a Taj Mahal ticket?",
+        "answer": "A foreign adult pays ₹1,300 — ₹1,100 for entry plus a ₹200 supplement that allows you onto the marble platform and into the mausoleum. SAARC and BIMSTEC passport holders pay ₹740 and Indian citizens ₹250. Children under 15 enter free but still need a zero-value ticket. The gates take digital payment only, not cash."
+      },
+      {
+        "question": "Is the Taj Mahal closed on Friday?",
+        "answer": "Yes, every Friday, for congregational prayers at the mosque inside the complex. There are no exceptions and no special access. If your only day in Agra is a Friday, the day shifts to Agra Fort, Fatehpur Sikri and Mehtab Bagh, which still gives you the classic view from across the river."
+      },
+      {
+        "question": "How long do you need at the Taj Mahal?",
+        "answer": "Two hours inside is right for a first visit, plus twenty to forty minutes for security screening and the walk from the ticket office. Your ticket allows three hours from entry and staying beyond that can attract a charge at the exit. Photographers use the full three; most visitors do not."
+      },
+      {
+        "question": "What is not allowed inside the Taj Mahal?",
+        "answer": "Tripods and drones, large bags, food, cigarettes and lighters, and most electronics beyond a phone and a camera. Books, headphones and chargers are often refused too. Anything turned away goes into a cloakroom, which costs time at both ends. Come with a phone, a camera, your ticket and your passport and leave the rest in the car."
+      },
+      {
+        "question": "Can you visit the Taj Mahal at night?",
+        "answer": "On five nights per lunar cycle — the full moon and the two nights either side — between 8:30 PM and 12:30 AM, in groups of fifty for thirty-minute slots. Tickets must be arranged at least twenty-four hours ahead from a separate office, and there is no night viewing on Fridays or during Ramadan. Tell us your dates early if this matters to you."
+      }
+    ],
+    related: [
+      {
+        "label": "Sunrise Taj Mahal Private Tour",
+        "to": "/plans/sunrise-taj-tour",
+        "note": "Pickup timed against your travel month, tickets arranged in advance, and a licensed guide at the East Gate before it opens."
+      },
+      {
+        "label": "Same Day Taj Mahal Tour by Car",
+        "to": "/plans/same-day-taj-car",
+        "note": "A civilised 6 AM start from Delhi, the Taj mid-morning and Agra Fort after lunch, back by evening."
+      },
+      {
+        "label": "Delhi Overnight Taj Mahal Tour",
+        "to": "/plans/overnight-taj-tour",
+        "note": "Sunset from across the river and sunrise from inside — the only way to see the building in both lights."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Taj Mahal at sunrise",
+        "to": "/guides/taj-mahal-sunrise"
+      },
+      {
+        "label": "Is the Taj Mahal closed on Friday?",
+        "to": "/guides/taj-mahal-friday-closed"
+      },
+      {
+        "label": "Delhi to Agra: every way to get there",
+        "to": "/guides/delhi-to-agra"
+      }
+    ]
+  },
+  {
+    slug: "agra-fort",
+    topic: "agra-monuments",
+    metaTitle: "Agra Fort: Timings, Tickets and the Tower Shah Jahan Died In",
+    metaDescription: "Agra Fort opening hours, ticket prices, how much of it you can actually enter, how long to allow — and the room where Shah Jahan spent his last years looking at the Taj Mahal.",
+    h1: "Agra Fort: Timings, Tickets and What to See",
+    cardTitle: "Agra Fort",
+    cardSummary: "Open daily including Friday, around ninety minutes, and only a quarter of it open — including the tower Shah Jahan died in.",
+    image: "/taj-mahal-couple.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Agra Fort is open every day from sunrise to sunset, including Friday when the Taj Mahal is closed. Allow an hour and a half to two hours. Foreign visitors pay around ₹600 and Indian citizens around ₹40.",
+      "About a quarter of it is open to the public; the rest is still an Indian Army cantonment. What you can walk through is the palace core — and the octagonal tower where Aurangzeb imprisoned his father Shah Jahan for the last eight years of his life, with a view downriver to the building he had made for his wife."
+    ],
+    sections: [
+      {
+        "heading": "Timings, tickets and how long",
+        "id": "timings",
+        "table": {
+          "caption": "Agra Fort at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "Sunrise to sunset, every day"
+            ],
+            [
+              "Closed",
+              "Never — open on Fridays when the Taj is not"
+            ],
+            [
+              "Entry, foreign visitor",
+              "around ₹600"
+            ],
+            [
+              "Entry, Indian citizen",
+              "around ₹40"
+            ],
+            [
+              "Open to visitors",
+              "Roughly a quarter — the rest is an army cantonment"
+            ],
+            [
+              "Time to allow",
+              "1.5 – 2 hours"
+            ],
+            [
+              "Entrance",
+              "Amar Singh Gate"
+            ],
+            [
+              "Distance from the Taj Mahal",
+              "About 2.5 km"
+            ]
+          ]
+        },
+        "body": [
+          "That it stays open on Fridays makes it the anchor of any Agra day that falls on one. Fatehpur Sikri and Mehtab Bagh fill the rest.",
+          "Late afternoon light suits the red sandstone, and from the fort's eastern walls the Taj Mahal sits in the haze downriver — which is the photograph most people do not know is available here."
+        ],
+        "callout": {
+          "title": "Ticket prices move — check before you travel",
+          "text": "The Archaeological Survey of India revises entry fees without much notice, and the figures here were correct when this page was last updated. Treat them as indicative. Gates at the major Agra monuments are digital-payment only, so arriving with cash alone is a problem in itself."
+        }
+      },
+      {
+        "heading": "What it is",
+        "id": "what-it-is",
+        "body": [
+          "Akbar rebuilt it in red sandstone from 1565, on the site of an older fort, and it was the main residence of the Mughal emperors until the court moved to Delhi in 1638. It is a walled city rather than a castle — two and a half kilometres of wall, a double moat, and a palace complex inside.",
+          "Shah Jahan later replaced much of Akbar's sandstone with white marble, which is why the fort changes material as you move through it: Akbar's heavy red geometry at the entrance, his grandson's delicate marble further in. You are walking through three generations of taste.",
+          "It became a British garrison after 1803 and remains partly military today, which is why so much of it is closed."
+        ]
+      },
+      {
+        "heading": "What to see inside",
+        "id": "what-to-see",
+        "list": [
+          "Amar Singh Gate — the entrance, with its ramped approach designed to break a cavalry charge",
+          "Jahangiri Mahal — Akbar's palace, the largest residential building surviving in the fort",
+          "Khas Mahal and Anguri Bagh — Shah Jahan's white marble apartments around a formal garden",
+          "Diwan-i-Am — the hall of public audience, where a replica of the Peacock Throne once stood",
+          "Diwan-i-Khas — the hall of private audience, in marble with inlay work",
+          "Sheesh Mahal — the mirror palace, its walls set with thousands of small glass pieces",
+          "Musamman Burj — the octagonal tower, and the reason most people remember the fort"
+        ],
+        "callout": {
+          "title": "The tower is the story",
+          "text": "Aurangzeb deposed his father in 1658 and confined him in the Musamman Burj, the marble tower at the fort's eastern corner. Shah Jahan stayed there eight years until his death in 1666, and the tower looks downriver to the Taj Mahal. Whether he could see it clearly from his bed is argued over; that he spent his last years in a marble room facing his wife's tomb, imprisoned by his son, is not."
+        }
+      },
+      {
+        "heading": "Getting there and fitting it in",
+        "id": "planning",
+        "body": [
+          "It is about two and a half kilometres from the Taj Mahal, ten minutes by road, which is why almost every Agra itinerary pairs them. The standard order is the Taj at sunrise or mid-morning, breakfast or lunch, then the fort in the afternoon.",
+          "On a Friday, reverse the logic: the fort opens as normal, and with Fatehpur Sikri forty kilometres further on you still have a full day without the Taj.",
+          "A guide matters more here than at the Taj Mahal. The fort has very little signage, the sequence of buildings is not obvious, and the history — three emperors, a deposition and a garrison — is invisible without someone to point at it."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What are Agra Fort timings?",
+        "answer": "Sunrise to sunset, every day of the week. Unlike the Taj Mahal it does not close on Fridays, which makes it the anchor of any Agra day that falls on one. Allow an hour and a half to two hours inside."
+      },
+      {
+        "question": "How much is the Agra Fort entry ticket?",
+        "answer": "Around ₹600 for foreign visitors and ₹40 for Indian citizens, revised periodically by the Archaeological Survey, so treat those as indicative. Payment at the gate is digital rather than cash. It is a separate ticket from the Taj Mahal."
+      },
+      {
+        "question": "Is Agra Fort worth visiting?",
+        "answer": "Yes, and many visitors rate it above the Taj Mahal as a place to spend time. It is a walled city rather than a monument, you can see three generations of Mughal taste in the change from Akbar's red sandstone to Shah Jahan's marble, and it holds the tower where Shah Jahan died looking downriver at the Taj. It also has far fewer people in it."
+      },
+      {
+        "question": "How much of Agra Fort can you visit?",
+        "answer": "About a quarter. The rest is still an Indian Army cantonment and is closed to the public. What is open is the palace core — Jahangiri Mahal, the marble apartments, the two audience halls, the mirror palace and the Musamman Burj — which is the part worth seeing."
+      },
+      {
+        "question": "Can you see the Taj Mahal from Agra Fort?",
+        "answer": "Yes, from the eastern walls and from the Musamman Burj, about two and a half kilometres downriver. It sits in the haze rather than standing sharp, and it is the view Shah Jahan had during the eight years his son held him there. It is a photograph most visitors do not know is available from the fort."
+      }
+    ],
+    related: [
+      {
+        "label": "Same Day Taj Mahal Tour by Car",
+        "to": "/plans/same-day-taj-car",
+        "note": "The Taj in the morning and Agra Fort after lunch, which is the order the light and the crowds argue for."
+      },
+      {
+        "label": "Agra & Fatehpur Sikri Heritage Tour",
+        "to": "/plans/agra-fatehpur-sikri",
+        "note": "Two days at a pace that gives the fort the time it deserves rather than an hour at the end of a long day."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Is the Taj Mahal closed on Friday?",
+        "to": "/guides/taj-mahal-friday-closed"
+      },
+      {
+        "label": "Taj Mahal: timings and tickets",
+        "to": "/guides/taj-mahal-visiting-guide"
+      },
+      {
+        "label": "Fatehpur Sikri",
+        "to": "/guides/fatehpur-sikri"
+      }
+    ]
+  },
+  {
+    slug: "fatehpur-sikri",
+    topic: "agra-monuments",
+    metaTitle: "Fatehpur Sikri: Timings, Tickets and Why It Was Abandoned",
+    metaDescription: "Fatehpur Sikri opening hours, what the two separate sites cost, how long to allow, how to handle the touts, and the reason Akbar walked away from a brand-new capital.",
+    h1: "Fatehpur Sikri: Timings, Tickets and What to See",
+    cardTitle: "Fatehpur Sikri",
+    cardSummary: "A complete Mughal capital abandoned within fifteen years, two to three hours on foot, and the most persistent touts in Agra.",
+    image: "/rajasthan-palace-hotel.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Fatehpur Sikri is open every day from sunrise to sunset. Allow two to three hours, all of it on foot. The ticketed palace complex costs around ₹600 for foreign visitors and ₹50 for Indian citizens; the mosque and the shrine beside it are free.",
+      "Akbar built it between 1571 and 1585 as his imperial capital, moved the court in, and abandoned it within about fifteen years — most likely because the water supply failed. What is left is the most complete Mughal city anywhere, and it is usually quiet enough to hear your own footsteps."
+    ],
+    sections: [
+      {
+        "heading": "Timings, tickets and the two separate sites",
+        "id": "timings",
+        "table": {
+          "caption": "Fatehpur Sikri at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "Sunrise to sunset, every day"
+            ],
+            [
+              "Palace complex, foreign visitor",
+              "around ₹600"
+            ],
+            [
+              "Palace complex, Indian citizen",
+              "around ₹50"
+            ],
+            [
+              "Jama Masjid and Salim Chishti's tomb",
+              "Free — separate site, no ticket"
+            ],
+            [
+              "Time to allow",
+              "2 – 3 hours"
+            ],
+            [
+              "Distance from Agra",
+              "About 40 km, an hour by road"
+            ],
+            [
+              "Terrain",
+              "Uneven sandstone, almost no shade"
+            ]
+          ]
+        },
+        "body": [
+          "It catches people out that this is two sites rather than one. The palace complex is run by the Archaeological Survey and ticketed. The Jama Masjid and the dargah of Salim Chishti inside it are an active religious site, free to enter, with shoes off and heads covered.",
+          "Most visitors do both, and they are a few minutes' walk apart. Budget the time for both rather than discovering the second one with twenty minutes left."
+        ],
+        "callout": {
+          "title": "Ticket prices move — check before you travel",
+          "text": "The Archaeological Survey of India revises entry fees without much notice, and the figures here were correct when this page was last updated. Treat them as indicative rather than exact."
+        }
+      },
+      {
+        "heading": "Why it was abandoned",
+        "id": "why-abandoned",
+        "body": [
+          "Akbar chose the site to honour the Sufi saint Salim Chishti, who had predicted the birth of his son. He built a complete capital there in red sandstone — palaces, courtyards, a mosque, administrative buildings — and moved the Mughal court from Agra.",
+          "Within roughly fifteen years it was empty. The most widely accepted explanation is water: the site sits on a ridge with no reliable supply, and the artificial lake that served it is thought to have failed. Political reasons played a part too — Akbar needed to be closer to the northwest frontier and moved the court to Lahore.",
+          "Whatever the cause, the result is unusual. Cities that are abandoned slowly get dismantled for their materials. This one emptied quickly and was never reoccupied, so it survived nearly intact — which is why walking through it feels less like a ruin than a place everyone has just left."
+        ]
+      },
+      {
+        "heading": "What to see",
+        "id": "what-to-see",
+        "list": [
+          "Buland Darwaza — the main gateway into the mosque courtyard, about 54 metres and the tallest gateway in India, built to mark Akbar's victory in Gujarat. The climb up the steps to it is the photograph everyone takes.",
+          "Salim Chishti's tomb — white marble with extraordinary carved jali screens, in the middle of the mosque courtyard. Pilgrims tie threads to the screens for wishes.",
+          "Panch Mahal — a five-storey open pavilion, each level smaller than the one below, built for the women of the court to catch the breeze.",
+          "Diwan-i-Khas — the hall of private audience, with a single central pillar carrying a circular platform where Akbar is said to have sat while advisers stood at the corners.",
+          "Jodha Bai's Palace — the largest residential building in the complex, with a blend of Hindu and Islamic architectural detail that is the point rather than an accident.",
+          "Ankh Michauli and the Pachisi court — the treasury buildings, and a courtyard laid out as a giant board game."
+        ]
+      },
+      {
+        "heading": "The touts, and how to handle them",
+        "id": "touts",
+        "body": [
+          "Fatehpur Sikri has the most persistent unofficial guides and sellers of any site around Agra, concentrated at the mosque and the shrine. They will offer to be your guide, to sell you thread for the jali screens, or to collect a donation on behalf of the dargah.",
+          "None of it is dangerous and a firm no works, but it catches visitors off guard because it starts before you are through the gate. Real ASI-licensed guides carry an identity card and will show it without being asked.",
+          "The most common approach is someone attaching themselves to you at the shrine, explaining things you did not ask about, and then requesting payment. If you have a guide with you it stops almost entirely, which is the practical case for having one here."
+        ],
+        "callout": {
+          "title": "The shoe question",
+          "text": "Shoes come off at the mosque and the shrine, and the sandstone gets genuinely hot in the middle of the day. Socks help. There are minders at the shoe racks who will expect a small tip, which is normal and worth carrying change for — it is not a scam, unlike the donation requests inside."
+        }
+      },
+      {
+        "heading": "Fitting it into a trip",
+        "id": "planning",
+        "body": [
+          "It is about forty kilometres from Agra, an hour by road, and it sits directly on the Agra to Jaipur route — which is why almost every Golden Triangle itinerary stops here on the second or third day.",
+          "As a day trip from Delhi it does not work. Fatehpur Sikri needs two to three hours on top of Agra, and squeezing both into a single day from Delhi means rushing the Taj Mahal and arriving here with no time left. Our [Agra and Fatehpur Sikri tour](/plans/agra-fatehpur-sikri) gives it two days for that reason.",
+          "It is also the best answer to a Friday in Agra, when the Taj Mahal is closed and this is not."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What are Fatehpur Sikri timings?",
+        "answer": "Sunrise to sunset, every day. Allow two to three hours, almost all of it on foot over uneven sandstone with very little shade. In summer the site becomes hard work after about eleven in the morning, so an early start matters more here than at most monuments."
+      },
+      {
+        "question": "How much does Fatehpur Sikri cost?",
+        "answer": "The ASI-ticketed palace complex is around ₹600 for foreign visitors and ₹50 for Indian citizens. The Jama Masjid and the dargah of Salim Chishti are a separate, active religious site with free entry. Most visitors do both, and they are a few minutes apart — budget the time for both."
+      },
+      {
+        "question": "Why was Fatehpur Sikri abandoned?",
+        "answer": "Most likely water. Akbar built the capital on a ridge with no reliable supply, and the artificial lake serving it is thought to have failed within a few years. Politics contributed — he needed to be closer to the northwest frontier and moved the court to Lahore. The city emptied within about fifteen years and was never reoccupied, which is why it survived so intact."
+      },
+      {
+        "question": "Can you visit Fatehpur Sikri and the Taj Mahal in one day from Delhi?",
+        "answer": "Not well. Fatehpur Sikri is forty kilometres beyond Agra, needs two to three hours on foot, and closes at sunset. Adding it to a Delhi day trip means rushing the Taj Mahal and arriving with no time left. It works properly as part of a two-day Agra trip, or as a stop on the Agra to Jaipur leg of a Golden Triangle itinerary."
+      },
+      {
+        "question": "What is the Buland Darwaza?",
+        "answer": "The main gateway into the Fatehpur Sikri mosque courtyard, at roughly 54 metres the tallest gateway in India. Akbar built it to mark a military victory in Gujarat. The flight of steps up to it is the image most visitors come away with, and it is where the touts concentrate."
+      }
+    ],
+    related: [
+      {
+        "label": "Agra & Fatehpur Sikri Heritage Tour",
+        "to": "/plans/agra-fatehpur-sikri",
+        "note": "Two days, which is what the site actually needs — the Taj and the fort on day one, Fatehpur Sikri properly on day two."
+      },
+      {
+        "label": "3 Day Golden Triangle Express",
+        "to": "/plans/golden-triangle-3d",
+        "note": "Fatehpur Sikri sits on the Agra to Jaipur road, which is where it fits into a Golden Triangle without costing an extra day."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Is the Taj Mahal closed on Friday?",
+        "to": "/guides/taj-mahal-friday-closed"
+      },
+      {
+        "label": "Agra Fort",
+        "to": "/guides/agra-fort"
+      },
+      {
+        "label": "Taj Mahal: timings and tickets",
+        "to": "/guides/taj-mahal-visiting-guide"
+      }
+    ]
+  },
+  {
+    slug: "itimad-ud-daulah-baby-taj",
+    topic: "agra-monuments",
+    metaTitle: "Itimad-ud-Daulah (Baby Taj): Timings, Tickets and Why to Go",
+    metaDescription: "The Baby Taj — opening hours, ticket price, how long to allow, and why the building that invented the Taj Mahal's inlay work is almost always empty.",
+    h1: "Itimad-ud-Daulah: The Baby Taj",
+    cardTitle: "Itimad-ud-Daulah (Baby Taj)",
+    cardSummary: "Cheaper, quieter and finer than its name suggests — the building where the Taj Mahal's inlay work was worked out first.",
+    image: "/taj-mahal-reflection.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Itimad-ud-Daulah is open every day from sunrise to sunset, needs about forty-five minutes to an hour, and costs around ₹310 for foreign visitors and ₹30 for Indian citizens — a fraction of the Taj Mahal, for a building many visitors end up preferring.",
+      "It was built between 1622 and 1628 by Nur Jahan for her father, and it is the first Mughal structure built entirely in white marble and the first to use inlaid semi-precious stone at scale. Everything the Taj Mahal is famous for was worked out here first, by a daughter for her father, a decade before Shah Jahan started."
+    ],
+    sections: [
+      {
+        "heading": "Timings, tickets and how long",
+        "id": "timings",
+        "table": {
+          "caption": "Itimad-ud-Daulah at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "Sunrise to sunset, every day"
+            ],
+            [
+              "Closed",
+              "Never — open on Fridays"
+            ],
+            [
+              "Entry, foreign visitor",
+              "around ₹310"
+            ],
+            [
+              "Entry, Indian citizen",
+              "around ₹30"
+            ],
+            [
+              "Time to allow",
+              "45 minutes – 1 hour"
+            ],
+            [
+              "Where",
+              "Across the Yamuna, north bank"
+            ],
+            [
+              "Crowds",
+              "Usually almost none"
+            ]
+          ]
+        },
+        "body": [
+          "It is open on Fridays, which puts it on the short list for an Agra day when the Taj Mahal is closed, alongside Agra Fort and Mehtab Bagh.",
+          "The tomb sits on the opposite bank of the Yamuna from the Taj Mahal and most of the city, which is the main reason it is quiet — it is a fifteen-minute detour rather than something you pass."
+        ],
+        "callout": {
+          "title": "Ticket prices move — check before you travel",
+          "text": "The Archaeological Survey of India revises entry fees without much notice, and the figures here were correct when this page was last updated. Treat them as indicative rather than exact."
+        }
+      },
+      {
+        "heading": "Why the nickname undersells it",
+        "id": "why-go",
+        "body": [
+          "\"Baby Taj\" makes it sound like a lesser version of something else, built afterwards. It is the reverse. Itimad-ud-Daulah was finished in 1628; Shah Jahan did not begin the Taj Mahal until 1632.",
+          "It is the first Mughal building constructed entirely in white marble rather than red sandstone with marble detailing, and the first to use parchin kari — inlaid semi-precious stone — across whole surfaces rather than as trim. The technique that makes the Taj Mahal what it is was developed and proved here.",
+          "The inlay is also finer at close range than the Taj's, because the building is small enough to see it properly. At the Taj you look at the scale; here you look at the work.",
+          "The jali screens — marble cut into lattice — are among the best anywhere, and the light through them onto the floor is the thing most visitors photograph once they are inside."
+        ]
+      },
+      {
+        "heading": "Who built it, and for whom",
+        "id": "history",
+        "body": [
+          "Nur Jahan was the wife of the emperor Jahangir and, for much of his reign, the effective power behind it — she issued coins in her own name, which no other Mughal empress did. She built this tomb for her father, Mirza Ghiyas Beg, a Persian nobleman who rose to be the empire's treasurer and carried the title Itimad-ud-Daulah, pillar of the state.",
+          "He was also the grandfather of Mumtaz Mahal, for whom the Taj Mahal was built. The two buildings are one family, one generation apart.",
+          "So the sequence runs: a daughter builds a marble tomb for her father in 1628, inventing the style. Four years later her niece's husband builds the same idea, larger, for his wife. The famous one came second."
+        ],
+        "callout": {
+          "title": "Two women, two tombs, and the story nobody tells",
+          "text": "Humayun's Tomb in Delhi was commissioned by a widow for her husband. Itimad-ud-Daulah was commissioned by a daughter for her father. Both are direct ancestors of the Taj Mahal, and both were built by women. The building everyone knows is the one a man built for a woman — which is the version that became the love story."
+        }
+      },
+      {
+        "heading": "Fitting it in",
+        "id": "planning",
+        "body": [
+          "It is on the north bank of the Yamuna, about a twenty-minute drive from the Taj Mahal, and it pairs naturally with Mehtab Bagh — the garden directly across the river from the Taj — which is on the same side.",
+          "A good Agra afternoon is Itimad-ud-Daulah, then Mehtab Bagh for sunset and the view of the Taj from across the water. Together they take about two hours and almost nobody else is doing it.",
+          "On a Friday, when the Taj Mahal is closed, this and Mehtab Bagh are the two things that make the day worth having."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What is the Baby Taj?",
+        "answer": "Itimad-ud-Daulah, a marble tomb in Agra built between 1622 and 1628 by Nur Jahan for her father. The nickname comes from its resemblance to the Taj Mahal, but it was finished four years before the Taj was begun — it is the building the Taj Mahal was developed from rather than a copy of it."
+      },
+      {
+        "question": "How much does the Baby Taj cost to enter?",
+        "answer": "Around ₹310 for foreign visitors and ₹30 for Indian citizens, which is a fraction of a Taj Mahal ticket. It is open every day including Friday, from sunrise to sunset, and needs about forty-five minutes to an hour."
+      },
+      {
+        "question": "Is the Baby Taj worth visiting?",
+        "answer": "Yes, and a good number of visitors end up preferring it. The inlay work is finer at close range than the Taj Mahal's because the building is small enough to see properly, the jali screens are among the best anywhere, and it is usually close to empty. It is also very cheap and open on Fridays when the Taj is not."
+      },
+      {
+        "question": "Who built Itimad-ud-Daulah?",
+        "answer": "Nur Jahan, wife of the emperor Jahangir and the effective power behind much of his reign, built it for her father Mirza Ghiyas Beg — the empire's treasurer, who held the title Itimad-ud-Daulah, pillar of the state. He was also the grandfather of Mumtaz Mahal, for whom the Taj Mahal was built. The two tombs are one family, one generation apart."
+      },
+      {
+        "question": "How far is the Baby Taj from the Taj Mahal?",
+        "answer": "About twenty minutes by road, on the opposite bank of the Yamuna. It pairs naturally with Mehtab Bagh, the garden directly across the river from the Taj Mahal, which is on the same side. The two together make a good Agra afternoon and take around two hours."
+      }
+    ],
+    related: [
+      {
+        "label": "Same Day Taj Mahal Tour by Car",
+        "to": "/plans/same-day-taj-car",
+        "note": "The itinerary includes an optional stop here, and it is the stop most guests are glad they took."
+      },
+      {
+        "label": "Delhi Overnight Taj Mahal Tour",
+        "to": "/plans/overnight-taj-tour",
+        "note": "The second morning covers the Baby Taj, which a single day from Delhi never has room for."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Taj Mahal: timings and tickets",
+        "to": "/guides/taj-mahal-visiting-guide"
+      },
+      {
+        "label": "Is the Taj Mahal closed on Friday?",
+        "to": "/guides/taj-mahal-friday-closed"
+      },
+      {
+        "label": "Humayun's Tomb, Delhi",
+        "to": "/guides/humayuns-tomb-delhi"
+      }
+    ]
+  },
+  {
+    slug: "amber-fort-jaipur",
+    topic: "jaipur",
+    metaTitle: "Amber Fort Jaipur: Timings, Tickets and the Elephant Ride Question",
+    metaDescription: "Amber Fort opening hours, ticket prices, how long to allow, how to get up the hill — and an honest answer on the elephant rides.",
+    h1: "Amber Fort, Jaipur: Timings, Tickets and Getting Up the Hill",
+    cardTitle: "Amber Fort",
+    cardSummary: "Two to three hours, best before nine, and the elephant ride question answered honestly.",
+    image: "/rajasthan-palace-hotel.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Amber Fort is open daily from about 8 AM to 5:30 PM. Allow two to three hours. Foreign visitors pay around ₹500 and Indian citizens around ₹100. It sits eleven kilometres north of Jaipur, about half an hour by road.",
+      "Get there for opening if you possibly can. By ten the coaches have arrived, and the Sheesh Mahal — the mirrored hall that is the reason most people come — becomes a queue rather than a room."
+    ],
+    sections: [
+      {
+        "heading": "Timings, tickets and how long",
+        "id": "timings",
+        "table": {
+          "caption": "Amber Fort at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "About 8 AM – 5:30 PM, every day"
+            ],
+            [
+              "Entry, foreign visitor",
+              "around ₹500"
+            ],
+            [
+              "Entry, Indian citizen",
+              "around ₹100"
+            ],
+            [
+              "Getting up the hill",
+              "Jeep, on foot, or elephant"
+            ],
+            [
+              "Time to allow",
+              "2 – 3 hours"
+            ],
+            [
+              "Distance from Jaipur",
+              "11 km, about 30 minutes"
+            ],
+            [
+              "Evening",
+              "Sound and light show, separate ticket"
+            ],
+            [
+              "Best time",
+              "At opening, before the coaches"
+            ]
+          ]
+        },
+        "body": [
+          "Composite tickets covering Amber, Jantar Mantar, Hawa Mahal and Nahargarh exist and are usually better value if you are seeing three or more. Ask at the first gate you reach.",
+          "The fort is large and almost entirely on steps and ramps. Two hours is a brisk visit; three lets you take in Jaleb Chowk, the palaces and the walk up to the Sheesh Mahal without hurrying."
+        ],
+        "callout": {
+          "title": "Ticket prices move — check before you travel",
+          "text": "Jaipur's monuments are run by the state rather than by the Archaeological Survey, and fees are revised without much notice. Treat the figures here as indicative. Composite tickets covering several sites exist and change too, so it is worth asking at the first gate you reach."
+        }
+      },
+      {
+        "heading": "The elephant rides — the honest answer",
+        "id": "elephants",
+        "body": [
+          "We do not book them, and we will tell you why if you ask. The elephants that carry visitors up the ramp to Amber work long days in heat on hard surfaces, and the welfare concerns around them have been documented repeatedly by Indian and international organisations. Conditions have improved under regulation and they remain a long way from good.",
+          "The jeep covers the same climb in a few minutes and costs less. Walking up takes about fifteen minutes on a cobbled ramp and gives you the approach the fort was designed to be seen from — which is, genuinely, the best way to arrive.",
+          "This is your decision rather than ours and we will not lecture you at the gate. But you asked a tour operator, and the honest answer is that there is a better option in every respect including the view."
+        ],
+        "callout": {
+          "title": "If you want to be near elephants in Rajasthan",
+          "text": "There are sanctuaries near Jaipur where elephants are not ridden and the visit is a walk with the animals and their keepers. They cost more than a ride up the ramp and they are the version worth doing. We can arrange one on request — and we will say plainly if a particular place has stopped meeting the standard it claims."
+        }
+      },
+      {
+        "heading": "What to see inside",
+        "id": "what-to-see",
+        "body": [
+          "Raja Man Singh I began the fort in 1592 and it was extended over the next century and a half. It is built in pale yellow and pink sandstone with marble detailing, in four courtyards rising up the hillside, and it is one of the six Hill Forts of Rajasthan inscribed by UNESCO in 2013."
+        ],
+        "list": [
+          "Jaleb Chowk — the first courtyard, where the army assembled and returning cavalry paraded",
+          "Ganesh Pol — the painted gateway into the private palaces, and the most photographed thing in the fort",
+          "Sheesh Mahal — the mirror palace, its ceiling set with thousands of convex mirror pieces so that a single candle once lit the whole room",
+          "Sukh Niwas — the pleasure palace, cooled by water channels running through the floor, which is Mughal air conditioning",
+          "Diwan-i-Am — the hall of public audience, open on three sides",
+          "The stepwell at Panna Meena ka Kund, ten minutes away and free, which almost no tour stops at"
+        ]
+      },
+      {
+        "heading": "Getting there and fitting it in",
+        "id": "planning",
+        "body": [
+          "It is eleven kilometres north of Jaipur, half an hour by road, and every Jaipur itinerary starts here. Go first thing and do the city palaces afterwards — the reverse order puts you at Amber in the middle of the day with every coach in Rajasthan.",
+          "Maota Lake sits below the fort and the view of the walls reflected in it, from the road on the approach, is the photograph people remember. Ask the driver to stop; most will not think to.",
+          "Jaigarh Fort sits on the ridge above and is connected by a fortified passage. It holds Jaivana, once the largest wheeled cannon in the world, and takes another hour if you have it."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What are Amber Fort timings?",
+        "answer": "About 8 AM to 5:30 PM, every day. Allow two to three hours. Arriving at opening makes a real difference — by ten the tour coaches are in and the Sheesh Mahal becomes a queue rather than a room."
+      },
+      {
+        "question": "How much is the Amber Fort ticket?",
+        "answer": "Around ₹500 for foreign visitors and ₹100 for Indian citizens. Composite tickets covering Amber, Jantar Mantar, Hawa Mahal and Nahargarh are usually better value if you are seeing three or more sites, and are worth asking about at the first gate you reach."
+      },
+      {
+        "question": "Should I take the elephant ride at Amber Fort?",
+        "answer": "We would say no, and we do not book them. The elephants work long days in heat on hard surfaces and the welfare concerns have been documented repeatedly. A jeep covers the same climb in a few minutes for less money, and walking up takes about fifteen minutes and gives you the approach the fort was designed for. If you want to be near elephants, there are sanctuaries near Jaipur where they are not ridden."
+      },
+      {
+        "question": "How do you get up to Amber Fort?",
+        "answer": "Jeep, on foot, or elephant. The jeep is quick and cheap. Walking takes about fifteen minutes up a cobbled ramp and is the best arrival — the fort was built to be approached that way. We do not arrange elephant rides for welfare reasons."
+      },
+      {
+        "question": "How long do you need at Amber Fort?",
+        "answer": "Two hours is brisk and three is comfortable. The fort rises through four courtyards on steps and ramps, and covers Jaleb Chowk, Ganesh Pol, the Sheesh Mahal and Sukh Niwas. Add another hour if you want Jaigarh Fort on the ridge above, which is connected by a fortified passage."
+      }
+    ],
+    related: [
+      {
+        "label": "Same Day Jaipur Tour from Delhi",
+        "to": "/plans/same-day-jaipur",
+        "note": "Amber Fort, the City Palace and Jantar Mantar in one long day — fourteen hours door to door, and we say so before you book."
+      },
+      {
+        "label": "3 Day Golden Triangle Express",
+        "to": "/plans/golden-triangle-3d",
+        "note": "Jaipur on day three, with Amber first thing before the coaches arrive."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "City Palace, Jaipur",
+        "to": "/guides/city-palace-jaipur"
+      },
+      {
+        "label": "Nahargarh Fort, Jaipur",
+        "to": "/guides/nahargarh-fort-jaipur"
+      },
+      {
+        "label": "Best time to visit Delhi",
+        "to": "/guides/best-time-to-visit-delhi"
+      }
+    ]
+  },
+  {
+    slug: "city-palace-jaipur",
+    topic: "jaipur",
+    metaTitle: "City Palace Jaipur: Timings, Tickets and What the Royal Ticket Buys",
+    metaDescription: "City Palace Jaipur opening hours, the difference between the standard and Royal Grandeur tickets, how long to allow, and the two silver urns in the Guinness book.",
+    h1: "City Palace, Jaipur: Timings, Tickets and What to See",
+    cardTitle: "City Palace Jaipur",
+    cardSummary: "Ninety minutes, two ticket tiers that differ by a great deal of money, and the largest silver objects ever made.",
+    image: "/rajasthan-palace-hotel.webp",
+    updated: "2026-09-29",
+    intro: [
+      "The City Palace is open daily from about 9:30 AM to 5 PM, with an evening opening at some times of year. Allow an hour and a half to two hours. The standard composite ticket is around ₹700 for foreign visitors and ₹200 for Indian citizens.",
+      "Part of it is still the residence of the Jaipur royal family, which is unusual — you are walking through the courtyards of a working home. The Chandra Mahal, where they live, is the seven-storey building you can see but mostly cannot enter without the much more expensive ticket."
+    ],
+    sections: [
+      {
+        "heading": "Timings, tickets and the two tiers",
+        "id": "timings",
+        "table": {
+          "caption": "City Palace at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "About 9:30 AM – 5 PM, every day"
+            ],
+            [
+              "Standard ticket, foreign visitor",
+              "around ₹700"
+            ],
+            [
+              "Standard ticket, Indian citizen",
+              "around ₹200"
+            ],
+            [
+              "Royal Grandeur ticket",
+              "Several times the price — adds the private apartments"
+            ],
+            [
+              "Time to allow",
+              "1.5 – 2 hours"
+            ],
+            [
+              "Where",
+              "Old city, next to Jantar Mantar"
+            ],
+            [
+              "Evening opening",
+              "At some times of year, separately ticketed"
+            ]
+          ]
+        },
+        "body": [
+          "The two-tier ticket confuses people at the gate. The standard one covers the museums, the courtyards, the audience halls and the famous doorways, which is what most visitors come for and is enough for an hour and a half.",
+          "The Royal Grandeur ticket adds a guided visit to parts of the Chandra Mahal — the family's private apartments — and costs several times as much. It is worth it if palace interiors are the reason you came to Rajasthan, and not otherwise."
+        ],
+        "callout": {
+          "title": "Ticket prices move — check before you travel",
+          "text": "Jaipur's monuments are run by the state rather than by the Archaeological Survey, and fees are revised without much notice. Treat the figures here as indicative. Composite tickets covering several sites exist and change too, so it is worth asking at the first gate you reach."
+        }
+      },
+      {
+        "heading": "What to see",
+        "id": "what-to-see",
+        "list": [
+          "Mubarak Mahal — the reception palace, now a textile museum holding royal costume including a set made for a nineteenth-century maharaja who was reportedly around two metres tall and 250 kilograms",
+          "Diwan-i-Khas — the hall of private audience, holding two silver urns about 1.6 metres tall, made from 14,000 melted silver coins and listed by Guinness as the largest silver objects in the world",
+          "Pritam Niwas Chowk — the courtyard with four painted doorways for the seasons: peacock for autumn, lotus for summer, green for spring, rose for winter. This is the photograph everyone comes for and there will be a queue for each door",
+          "Chandra Mahal — the seven-storey royal residence, visible from the courtyard, enterable only on the Royal Grandeur ticket",
+          "Sarvato Bhadra — the open hall where the maharajas were once weighed against gold"
+        ],
+        "callout": {
+          "title": "The urns have a story worth knowing",
+          "text": "Maharaja Madho Singh II travelled to England in 1902 for Edward VII's coronation, and as a devout Hindu would not drink English water. The two silver urns were made to carry Ganges water on the voyage. They hold around 4,000 litres each and remain the largest silver vessels ever made."
+        }
+      },
+      {
+        "heading": "Getting there and what is next door",
+        "id": "planning",
+        "body": [
+          "It is in the heart of the old walled city, and Jantar Mantar is directly beside it — the two share a wall and most visitors do them together, which is the sensible order. Hawa Mahal is a five-minute walk.",
+          "That cluster is the entire reason Jaipur's old city works as a half-day on foot. Amber Fort is the morning; this is the afternoon.",
+          "Traffic in the old city is heavy and parking is difficult. A car that drops you and waits elsewhere is worth more here than a car you keep trying to park."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What are City Palace Jaipur timings?",
+        "answer": "About 9:30 AM to 5 PM, every day, with an evening opening at some times of year that is ticketed separately. Allow an hour and a half to two hours for the standard ticket."
+      },
+      {
+        "question": "How much is the City Palace Jaipur ticket?",
+        "answer": "The standard composite ticket is around ₹700 for foreign visitors and ₹200 for Indian citizens, covering the museums, courtyards, audience halls and the famous seasonal doorways. The Royal Grandeur ticket costs several times more and adds a guided visit to the royal family's private apartments in the Chandra Mahal."
+      },
+      {
+        "question": "Is the Royal Grandeur ticket worth it?",
+        "answer": "Only if palace interiors are specifically why you came. The standard ticket covers everything most visitors have seen photographs of, including Pritam Niwas Chowk and the silver urns, and fills an hour and a half comfortably. The Royal Grandeur adds the private apartments at several times the price."
+      },
+      {
+        "question": "Does the royal family still live in the City Palace?",
+        "answer": "Yes, in the Chandra Mahal, the seven-storey building at the centre of the complex. You can see it from the courtyards but can only enter parts of it on the Royal Grandeur ticket. It is one of the few palaces in India still occupied by the family that built it."
+      },
+      {
+        "question": "What are the four doors at the City Palace?",
+        "answer": "The four painted doorways of Pritam Niwas Chowk, each representing a season and a Hindu deity — the peacock door for autumn, the lotus door for summer, the green door for spring and the rose door for winter. They are the most photographed thing in Jaipur and there is usually a queue for each one."
+      }
+    ],
+    related: [
+      {
+        "label": "Same Day Jaipur Tour from Delhi",
+        "to": "/plans/same-day-jaipur",
+        "note": "Amber Fort in the morning, the City Palace and Jantar Mantar after lunch, and bazaar time before the drive back."
+      },
+      {
+        "label": "4 Day Golden Triangle Tour",
+        "to": "/plans/golden-triangle-4d",
+        "note": "Jaipur with enough time to do the old city properly rather than at a march."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Amber Fort, Jaipur",
+        "to": "/guides/amber-fort-jaipur"
+      },
+      {
+        "label": "Jantar Mantar, Jaipur",
+        "to": "/guides/jantar-mantar-jaipur"
+      },
+      {
+        "label": "Hawa Mahal, Jaipur",
+        "to": "/guides/hawa-mahal-jaipur"
+      }
+    ]
+  },
+  {
+    slug: "hawa-mahal-jaipur",
+    topic: "jaipur",
+    metaTitle: "Hawa Mahal: Why the Famous Photo Is Taken From the Street",
+    metaDescription: "Hawa Mahal timings, ticket price, where the famous photograph is actually taken from, why the entrance is round the back, and whether going inside is worth it.",
+    h1: "Hawa Mahal, Jaipur: The Photo, the Entrance and What Is Inside",
+    cardTitle: "Hawa Mahal",
+    cardSummary: "953 windows, one facade, and an entrance nowhere near the side you came to photograph.",
+    image: "/rajasthan-palace-hotel.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Hawa Mahal is open daily from about 9 AM to 4:30 PM and costs around ₹200 for foreign visitors and ₹50 for Indian citizens. Thirty to forty-five minutes covers the inside.",
+      "The thing to know before you arrive: the famous facade faces the main street, and the entrance is round the back. You cannot photograph the front from inside the building, and a great many visitors work this out only after paying."
+    ],
+    sections: [
+      {
+        "heading": "Where the photograph is taken from",
+        "id": "the-photo",
+        "body": [
+          "The image everyone has seen — five storeys of pink honeycomb, 953 small windows — is shot from across Hawa Mahal Road, from street level or from one of the rooftop cafés directly opposite. Those cafés charge for a drink rather than an entry fee and the view is the whole business model.",
+          "Morning light is what you want. The facade faces east, so it takes the sun until around ten and is in shadow for the rest of the day. A photograph at four in the afternoon is a flat grey building.",
+          "From inside, you are behind those windows looking out. That is a genuinely interesting thing to do and it is not the picture you came for."
+        ],
+        "table": {
+          "caption": "Hawa Mahal at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "About 9 AM – 4:30 PM, every day"
+            ],
+            [
+              "Entry, foreign visitor",
+              "around ₹200"
+            ],
+            [
+              "Entry, Indian citizen",
+              "around ₹50"
+            ],
+            [
+              "The famous view",
+              "From the street opposite, or a rooftop café"
+            ],
+            [
+              "Entrance",
+              "Round the back, not on the facade side"
+            ],
+            [
+              "Best light",
+              "Before about 10 AM — the facade faces east"
+            ],
+            [
+              "Time to allow",
+              "30 – 45 minutes inside"
+            ]
+          ]
+        },
+        "callout": {
+          "title": "Ticket prices move — check before you travel",
+          "text": "Jaipur's monuments are run by the state rather than by the Archaeological Survey, and fees are revised without much notice. Treat the figures here as indicative, and ask about composite tickets at the first gate you reach."
+        }
+      },
+      {
+        "heading": "What it was actually for",
+        "id": "purpose",
+        "body": [
+          "Sawai Pratap Singh built it in 1799 as an extension of the City Palace zenana — the women's quarters. The 953 jharokhas let the royal women watch street processions and daily life without being seen, in observance of purdah.",
+          "The windows also do what the name says. Hawa Mahal means palace of wind, and the lattice was designed so that air moving through the small openings cools the interior — the Venturi effect, several centuries before it had a name.",
+          "It is essentially a five-storey screen. The building is only about one room deep for most of its height, which is why it looks like a palace from the street and feels like a corridor from inside."
+        ]
+      },
+      {
+        "heading": "Is it worth going in?",
+        "id": "worth-it",
+        "body": [
+          "It depends what you want. Inside there are ramps rather than stairs for most of the climb — built so the women could be carried up in palanquins — and the upper floors give a good view over the old city and across to Jantar Mantar.",
+          "Sitting behind one of those windows looking down on the street does something the photograph cannot: you understand immediately that this was built so that people could watch without being watched, and what that meant for the women who lived here.",
+          "If your time in Jaipur is short, photograph it from the café opposite and spend the forty-five minutes at the City Palace instead. If you have a full day in the old city, go in."
+        ],
+        "callout": {
+          "title": "The entrance is a five-minute walk around",
+          "text": "There is no door on the facade. The entrance is on the far side, through Tripolia Bazaar, and it is signposted poorly. Drivers know it; visitors on foot routinely circle the block. Allow for the walk rather than assuming the door is where the photographs are."
+        }
+      },
+      {
+        "heading": "Getting there and what is nearby",
+        "id": "planning",
+        "body": [
+          "It is on Hawa Mahal Road in the old walled city, a five-minute walk from the City Palace and Jantar Mantar. The three together are a comfortable half-day on foot and are how a Jaipur afternoon is usually built.",
+          "Traffic on the road in front is heavy and there is nowhere to stop a car. Most drivers will slow rather than park; if you want the photograph properly, get out at the City Palace and walk the five minutes.",
+          "Johari Bazaar and the jewellery quarter are immediately behind it, which is where the afternoon usually ends up."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "Where do you take the famous Hawa Mahal photo?",
+        "answer": "From across Hawa Mahal Road — at street level or from one of the rooftop cafés directly opposite, which charge for a drink rather than an entrance fee. You cannot take that photograph from inside the building, because the entrance is on the other side and you end up behind the windows rather than in front of them."
+      },
+      {
+        "question": "What are Hawa Mahal timings and ticket prices?",
+        "answer": "About 9 AM to 4:30 PM daily, around ₹200 for foreign visitors and ₹50 for Indian citizens. Thirty to forty-five minutes covers the interior. Composite tickets covering Amber Fort, Jantar Mantar and Nahargarh usually work out better if you are seeing several sites."
+      },
+      {
+        "question": "Is it worth going inside Hawa Mahal?",
+        "answer": "If you have a full day in the old city, yes — the upper floors give a good view and sitting behind one of the windows explains what the building was for in a way the photograph cannot. If your time is short, photograph it from the café opposite and spend the time at the City Palace instead. It is essentially a five-storey screen, only one room deep."
+      },
+      {
+        "question": "Why was Hawa Mahal built?",
+        "answer": "Sawai Pratap Singh built it in 1799 as an extension of the palace women's quarters. Its 953 small windows let the royal women watch street processions without being seen, in observance of purdah. The lattice also cools the interior by accelerating air through the openings, which is where the name — palace of wind — comes from."
+      },
+      {
+        "question": "What time of day is best for photographing Hawa Mahal?",
+        "answer": "Before about ten in the morning. The facade faces east, so it takes direct sun early and sits in shadow for the rest of the day. An afternoon photograph is a flat grey building, which is why so many visitors are disappointed with the shot they got."
+      }
+    ],
+    related: [
+      {
+        "label": "Same Day Jaipur Tour from Delhi",
+        "to": "/plans/same-day-jaipur",
+        "note": "Amber Fort first, then the old city on foot — City Palace, Jantar Mantar and Hawa Mahal are five minutes apart."
+      },
+      {
+        "label": "5 Day Golden Triangle Tour",
+        "to": "/plans/golden-triangle-5d",
+        "note": "Jaipur with a full day and an evening, which is what the old city and the bazaars actually need."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "City Palace, Jaipur",
+        "to": "/guides/city-palace-jaipur"
+      },
+      {
+        "label": "Jantar Mantar, Jaipur",
+        "to": "/guides/jantar-mantar-jaipur"
+      },
+      {
+        "label": "Amber Fort, Jaipur",
+        "to": "/guides/amber-fort-jaipur"
+      }
+    ]
+  },
+  {
+    slug: "jantar-mantar-jaipur",
+    topic: "jaipur",
+    metaTitle: "Jantar Mantar Jaipur: Timings, Tickets and Why You Need a Guide",
+    metaDescription: "Jantar Mantar opening hours, ticket price, the world's largest stone sundial, and the honest reason this site is either fascinating or a yard of odd shapes.",
+    h1: "Jantar Mantar, Jaipur: Timings and What You Are Looking At",
+    cardTitle: "Jantar Mantar",
+    cardSummary: "Nineteen instruments, a sundial accurate to two seconds, and the one site in Jaipur that is wasted without a guide.",
+    image: "/india-gate-group.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Jantar Mantar is open daily from about 9 AM to 4:30 PM and costs around ₹200 for foreign visitors and ₹50 for Indian citizens. Forty-five minutes to an hour is right.",
+      "It is an observatory of nineteen masonry instruments built by Sawai Jai Singh II between 1728 and 1734, and it is the one place in Jaipur where going without a guide or an audio guide genuinely wastes the ticket. Unexplained, it is a yard of large abstract shapes. Explained, it is the most interesting hour in the city."
+    ],
+    sections: [
+      {
+        "heading": "Timings and tickets",
+        "id": "timings",
+        "table": {
+          "caption": "Jantar Mantar at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "About 9 AM – 4:30 PM, every day"
+            ],
+            [
+              "Entry, foreign visitor",
+              "around ₹200"
+            ],
+            [
+              "Entry, Indian citizen",
+              "around ₹50"
+            ],
+            [
+              "Audio guide",
+              "Available at the gate, and worth it"
+            ],
+            [
+              "Time to allow",
+              "45 minutes – 1 hour"
+            ],
+            [
+              "Where",
+              "Beside the City Palace, old city"
+            ],
+            [
+              "Shade",
+              "Almost none — it is an observatory"
+            ],
+            [
+              "UNESCO",
+              "Inscribed 2010"
+            ]
+          ]
+        },
+        "body": [
+          "Go in the morning or late afternoon. There is no shade anywhere on the site by design, and in Jaipur's summer the middle of the day here is punishing.",
+          "Take the audio guide if you do not have a guide with you. It is inexpensive and it is the difference between the site working and not working."
+        ],
+        "callout": {
+          "title": "Ticket prices move — check before you travel",
+          "text": "Jaipur's monuments are run by the state rather than by the Archaeological Survey, and fees are revised without much notice. Treat the figures here as indicative, and ask about composite tickets at the first gate you reach."
+        }
+      },
+      {
+        "heading": "What the instruments do",
+        "id": "instruments",
+        "body": [
+          "Jai Singh was an astronomer as well as a ruler, and he built five of these observatories across northern India; Jaipur's is the largest and best preserved. The instruments are masonry rather than metal because he found that brass instruments of the period were too small to be precise, and scale was the answer.",
+          "They measure time, track the sun's position, predict eclipses, and determine the positions of stars and planets. Several are still accurate."
+        ],
+        "list": [
+          "Vrihat Samrat Yantra — the world's largest stone sundial, about 27 metres high, accurate to roughly two seconds. Its shadow moves visibly, around a millimetre a second",
+          "Jai Prakash Yantra — two hemispherical bowls set into the ground, mapping the sky onto their inner surfaces",
+          "Rashivalaya Yantra — twelve instruments, one for each zodiac sign, each aligned to its constellation",
+          "Ram Yantra — two cylindrical structures for measuring altitude and azimuth",
+          "Chakra Yantra — metal rings for calculating global coordinates"
+        ],
+        "callout": {
+          "title": "The sundial still works, and you can watch it",
+          "text": "Stand at the Vrihat Samrat Yantra and watch the edge of the shadow on the marked scale. It moves about a millimetre a second, which is slow enough to require patience and fast enough to see. Three hundred years old, built of stone and plaster, accurate to two seconds. It is the single most convincing thing on the site."
+        }
+      },
+      {
+        "heading": "Why a guide matters here",
+        "id": "guide",
+        "body": [
+          "Every other monument in Jaipur reads on sight. A fort is obviously a fort; a palace is obviously a palace. Jantar Mantar is nineteen abstract geometric structures in an open yard, with minimal signage and no visual clue as to what any of them is for.",
+          "Visitors who arrive without explanation typically walk the site in fifteen minutes, take photographs of interesting shapes and leave slightly puzzled. Visitors with a guide or an audio guide spend an hour and rate it among the best things they saw in Rajasthan. It is the same site.",
+          "This is the one place where we would rather you took the audio guide than saved the money, even on a tour where a guide is included — some of it is easier to follow instrument by instrument at your own pace."
+        ]
+      },
+      {
+        "heading": "Fitting it in",
+        "id": "planning",
+        "body": [
+          "It shares a wall with the City Palace and is a five-minute walk from Hawa Mahal, so the three form the standard Jaipur old-city afternoon after Amber Fort in the morning.",
+          "Do it before the City Palace rather than after. It takes concentration, and after two hours of palace interiors most people have none left."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What are Jantar Mantar Jaipur timings?",
+        "answer": "About 9 AM to 4:30 PM, every day. Allow forty-five minutes to an hour. There is no shade anywhere on the site, so morning or late afternoon is far more comfortable than the middle of the day, particularly in summer."
+      },
+      {
+        "question": "How much is the Jantar Mantar ticket?",
+        "answer": "Around ₹200 for foreign visitors and ₹50 for Indian citizens. An audio guide is available at the gate for a small extra amount and is genuinely worth taking — it is the difference between understanding the site and walking past nineteen abstract shapes."
+      },
+      {
+        "question": "Do you need a guide for Jantar Mantar?",
+        "answer": "More than anywhere else in Jaipur, yes. The instruments carry minimal signage and give no visual clue to their purpose. Without explanation most visitors leave in fifteen minutes, mildly puzzled. With a guide or audio guide they spend an hour and rate it among the highlights of Rajasthan. It is the same site either way."
+      },
+      {
+        "question": "What is the world's largest sundial?",
+        "answer": "The Vrihat Samrat Yantra at Jantar Mantar in Jaipur, about 27 metres high and accurate to around two seconds. Its shadow moves roughly a millimetre a second, slow enough to require patience and fast enough to watch. It was built in stone and plaster in the 1730s and still works."
+      },
+      {
+        "question": "Who built Jantar Mantar and why?",
+        "answer": "Sawai Jai Singh II, the founder of Jaipur, between 1728 and 1734. He was a serious astronomer and built five such observatories across northern India; Jaipur's is the largest and best preserved. He used masonry rather than brass because the metal instruments of the period were too small for the precision he wanted — scale was his solution."
+      }
+    ],
+    related: [
+      {
+        "label": "Same Day Jaipur Tour from Delhi",
+        "to": "/plans/same-day-jaipur",
+        "note": "A licensed Jaipur guide, which at Jantar Mantar makes more difference than anywhere else in the city."
+      },
+      {
+        "label": "4 Day Golden Triangle Tour",
+        "to": "/plans/golden-triangle-4d",
+        "note": "Jaipur at a pace that leaves the concentration an observatory actually needs."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "City Palace, Jaipur",
+        "to": "/guides/city-palace-jaipur"
+      },
+      {
+        "label": "Hawa Mahal, Jaipur",
+        "to": "/guides/hawa-mahal-jaipur"
+      },
+      {
+        "label": "Amber Fort, Jaipur",
+        "to": "/guides/amber-fort-jaipur"
+      }
+    ]
+  },
+  {
+    slug: "nahargarh-fort-jaipur",
+    topic: "jaipur",
+    metaTitle: "Nahargarh Fort: Timings, the Sunset View and the Nine Queens' Suites",
+    metaDescription: "Nahargarh Fort opening hours, ticket price, why it is the best sunset in Jaipur, and the palace built as nine identical apartments so no queen could claim precedence.",
+    h1: "Nahargarh Fort, Jaipur: Timings and the Best Sunset in the City",
+    cardTitle: "Nahargarh Fort",
+    cardSummary: "An hour, the best view over Jaipur there is, and nine identical apartments built so that no queen outranked another.",
+    image: "/rajasthan-palace-hotel.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Nahargarh is open daily from about 10 AM to 5:30 PM, with a later evening opening for the restaurant and the view. Entry is around ₹200 for foreign visitors and ₹50 for Indian citizens. An hour to an hour and a half is enough.",
+      "It is the sunset. The fort sits on the Aravalli ridge above Jaipur and the whole pink city lies below it, and there is nowhere better in Rajasthan to watch the light go. Everything else here is a bonus, though the bonus is genuinely good."
+    ],
+    sections: [
+      {
+        "heading": "Timings, tickets and when to go",
+        "id": "timings",
+        "table": {
+          "caption": "Nahargarh Fort at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "About 10 AM – 5:30 PM, with later evening access"
+            ],
+            [
+              "Entry, foreign visitor",
+              "around ₹200"
+            ],
+            [
+              "Entry, Indian citizen",
+              "around ₹50"
+            ],
+            [
+              "Time to allow",
+              "1 – 1.5 hours"
+            ],
+            [
+              "Best time",
+              "The last hour before sunset"
+            ],
+            [
+              "Distance from Jaipur",
+              "About 15 km up the ridge, 30–40 minutes"
+            ],
+            [
+              "Road",
+              "Steep and winding — not for anyone prone to car sickness"
+            ]
+          ]
+        },
+        "body": [
+          "Arrive around an hour before sunset. That gives you time for Madhavendra Bhawan before the light goes, and a place on the ramparts when it does.",
+          "The road up is narrow, steep and full of hairpins. It is a fine drive in daylight and slower coming down in the dark, so build twenty extra minutes into the evening rather than assuming the map time."
+        ],
+        "callout": {
+          "title": "Ticket prices move — check before you travel",
+          "text": "Jaipur's monuments are run by the state rather than by the Archaeological Survey, and fees are revised without much notice. Treat the figures here as indicative, and ask about composite tickets at the first gate you reach."
+        }
+      },
+      {
+        "heading": "The nine queens' apartments",
+        "id": "madhavendra",
+        "body": [
+          "Madhavendra Bhawan, inside the fort, was built by Sawai Madho Singh II as a summer retreat for nine of his queens. It is laid out as nine identical suites arranged around a central courtyard, each connected to the king's apartment by a corridor, and each deliberately the same size and the same specification as the others.",
+          "The reason is straightforward: no queen could claim a better room than another, and no visitor could deduce a hierarchy from the architecture. The corridors also meant the king could visit one without the others seeing.",
+          "The frescoes and painted ceilings survive in reasonable condition and the building is more interesting than it first looks. It takes about half an hour."
+        ],
+        "callout": {
+          "title": "Nahargarh was never taken",
+          "text": "Jai Singh II built it in 1734 as part of a defensive ring with Amber and Jaigarh, connected along the ridge. No army ever attacked it successfully — in fact it saw almost no action at all. Its main historical use was as a refuge: Europeans sheltered here during the uprising of 1857, and the Jaipur royals used it as a retreat rather than a stronghold."
+        }
+      },
+      {
+        "heading": "The view, and the rest of the fort",
+        "id": "view",
+        "body": [
+          "From the ramparts the entire walled city is laid out below — the grid Jai Singh planned in 1727, one of the earliest planned cities in India, legible from up here in a way it never is from the street.",
+          "There is a restaurant and a café on the ramparts, both trading squarely on the view rather than the food, and both fine for a drink while you wait for the sun.",
+          "The step-well below the fort, and the wax museum inside it, are skippable. The sculpture park in Madhavendra Bhawan changes and is sometimes excellent."
+        ]
+      },
+      {
+        "heading": "Fitting it into a Jaipur day",
+        "id": "planning",
+        "body": [
+          "The standard Jaipur day is Amber Fort at opening, the old city — City Palace, Jantar Mantar, Hawa Mahal — in the afternoon, and Nahargarh for sunset. That sequence works and there is little reason to rearrange it.",
+          "Jaigarh Fort sits on the same ridge between Amber and Nahargarh, and the three are connected by fortified walls. If you are doing Jaigarh, do it after Amber in the morning rather than trying to add it to the evening.",
+          "If you only have one evening in Jaipur, this is where to spend it."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What are Nahargarh Fort timings?",
+        "answer": "About 10 AM to 5:30 PM, with later access in the evening for the restaurant and the view. Allow an hour to an hour and a half. Arriving about an hour before sunset is the right call — it gives you time inside and a place on the ramparts when the light goes."
+      },
+      {
+        "question": "Is Nahargarh Fort worth visiting?",
+        "answer": "For the sunset, without question — it is the best view over Jaipur there is, with the whole planned city laid out below. Madhavendra Bhawan inside is more interesting than it looks, with its nine identical queens' apartments. If you only have one evening in Jaipur, spend it here."
+      },
+      {
+        "question": "Why does Nahargarh have nine identical apartments?",
+        "answer": "Madhavendra Bhawan was built for nine of Sawai Madho Singh II's queens, with each suite deliberately identical in size and specification so that none could claim precedence over another. Each connects to the king's apartment by its own corridor, which also meant he could visit one without the others knowing."
+      },
+      {
+        "question": "How do you get to Nahargarh Fort?",
+        "answer": "About fifteen kilometres up the Aravalli ridge from Jaipur, thirty to forty minutes by road. The route is narrow, steep and full of hairpins — a good drive in daylight and slower coming down in the dark. Build in twenty minutes beyond whatever the map says, particularly for the descent."
+      },
+      {
+        "question": "Was Nahargarh Fort ever attacked?",
+        "answer": "Effectively never. Jai Singh II built it in 1734 as part of a defensive ring with Amber and Jaigarh, and it saw almost no military action. Its real use was as a refuge — Europeans sheltered here during the 1857 uprising — and later as a royal retreat rather than a stronghold."
+      }
+    ],
+    related: [
+      {
+        "label": "Same Day Jaipur Tour from Delhi",
+        "to": "/plans/same-day-jaipur",
+        "note": "A fourteen-hour day that we time so the drive back starts after the light has gone rather than before it."
+      },
+      {
+        "label": "5 Day Golden Triangle Tour",
+        "to": "/plans/golden-triangle-5d",
+        "note": "Jaipur with an evening in it, which is the only way a Nahargarh sunset fits without cutting something."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Amber Fort, Jaipur",
+        "to": "/guides/amber-fort-jaipur"
+      },
+      {
+        "label": "City Palace, Jaipur",
+        "to": "/guides/city-palace-jaipur"
+      },
+      {
+        "label": "Jal Mahal, Jaipur",
+        "to": "/guides/jal-mahal-jaipur"
+      }
+    ]
+  },
+  {
+    slug: "jal-mahal-jaipur",
+    topic: "jaipur",
+    metaTitle: "Jal Mahal: You Cannot Go Inside, and What to Do Instead",
+    metaDescription: "Jal Mahal is closed to the public — no boats, no tours, no exceptions. What it costs (nothing), where to photograph it from, and how long to actually stop.",
+    h1: "Jal Mahal, Jaipur: Why You Cannot Go Inside",
+    cardTitle: "Jal Mahal",
+    cardSummary: "Free, five minutes, and closed to the public — a photo stop that people plan an afternoon around by mistake.",
+    image: "/rajasthan-palace-hotel.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Jal Mahal is closed to the public. There is no ticket, no boat, no tour and no way in — not for a fee, not with a guide, not at any time of year. Anyone offering to take you across is selling something they cannot deliver.",
+      "What it is, is a free photo stop from the promenade on the lake shore, five minutes on the road between Jaipur and Amber Fort. Knowing that in advance saves people from planning an afternoon around a building they cannot enter."
+    ],
+    sections: [
+      {
+        "heading": "The practical facts",
+        "id": "facts",
+        "table": {
+          "caption": "Jal Mahal at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Entry",
+              "Not possible — closed to the public"
+            ],
+            [
+              "Cost",
+              "Free to view"
+            ],
+            [
+              "Boats",
+              "Not operating for visitors"
+            ],
+            [
+              "Time to allow",
+              "5 – 10 minutes"
+            ],
+            [
+              "Where",
+              "Man Sagar Lake, on the Jaipur–Amber road"
+            ],
+            [
+              "Best time",
+              "Sunrise, or the last hour of light"
+            ],
+            [
+              "What it is",
+              "A photo stop, not a visit"
+            ]
+          ]
+        },
+        "body": [
+          "It sits directly on the road most visitors take to Amber Fort, which is why it works — you stop for ten minutes on the way past rather than making a trip of it.",
+          "The promenade along the shore is public, free and pleasant, with sellers and camel handlers working it. A firm no is enough for both."
+        ],
+        "callout": {
+          "title": "Nobody can get you inside",
+          "text": "Access has been restricted for years while questions over restoration, lake ecology and management have gone unresolved. Boat operators occasionally appear on the shore offering a ride out. They are not authorised, they generally cannot land, and the transaction ends with you back where you started, poorer. There is no version of this that works."
+        }
+      },
+      {
+        "heading": "What it is, and why it looks half-sunk",
+        "id": "what-it-is",
+        "body": [
+          "The building has five storeys and four of them are underwater. It was built in the eighteenth century, before Man Sagar Lake was dammed and raised, and only the top floor and its rooftop garden sit above the surface. That is the reason for its shape — it is not a floating pavilion but a drowned palace.",
+          "It was used as a lodge for royal duck-shooting parties on the lake, which is a more prosaic purpose than the setting suggests.",
+          "The lake was heavily polluted for decades and has been cleaned up considerably; migratory birds have returned, and the shore in winter is genuinely good for birdwatching, which almost no visitor realises."
+        ]
+      },
+      {
+        "heading": "Where to photograph it from",
+        "id": "photography",
+        "body": [
+          "The promenade on the southern shore, directly off the Jaipur–Amber road, is where everyone stops and it is the right place. The building sits a few hundred metres out, so a longer lens earns its place here more than at most Jaipur sites.",
+          "Early morning is best — the water is stillest before the wind picks up, which is when you get the reflection, and the Aravalli hills behind catch the first light. Sunset works too and is busier.",
+          "In winter, the haze that ruins mid-morning photographs across north India affects this view badly, because you are shooting across water at distance. Another argument for going early."
+        ]
+      },
+      {
+        "heading": "Fitting it in",
+        "id": "planning",
+        "body": [
+          "Every route from Jaipur to Amber Fort passes it, so it costs you ten minutes rather than a slot in the day. The natural order is to stop on the way up in the morning, when the light is good and the lake is calm, and drive straight past on the way back.",
+          "Tell your driver you want to stop. Many will pass it without asking, assuming it is not worth the pause, and from a moving car you get nothing."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "Can you go inside Jal Mahal?",
+        "answer": "No. It is closed to the public — no tickets, no boats, no tours, and no exceptions for a fee or a guide. Access has been restricted for years while questions over restoration and lake management remain unresolved. Boat operators on the shore who offer to take you across are not authorised and generally cannot land."
+      },
+      {
+        "question": "Is there an entry fee for Jal Mahal?",
+        "answer": "No, because there is no entry. Viewing it from the promenade on the lake shore is free, and that promenade is the intended experience. Allow five to ten minutes as a stop on the road between Jaipur and Amber Fort."
+      },
+      {
+        "question": "Why is Jal Mahal half underwater?",
+        "answer": "Because the lake was raised after the palace was built. It has five storeys and four of them are submerged — only the top floor and its rooftop garden sit above the water. It was not designed to float; it is a drowned building, and it was used as a lodge for royal duck-shooting parties on the lake."
+      },
+      {
+        "question": "What is the best time to photograph Jal Mahal?",
+        "answer": "Early morning. The water is stillest before the wind picks up, which is when you get the reflection, and the hills behind catch the first light. Sunset works but is busier, and in winter the haze across north India is particularly bad for this view because you are shooting over water at distance."
+      },
+      {
+        "question": "Is Jal Mahal worth stopping for?",
+        "answer": "As a ten-minute stop on the way to Amber Fort, yes — it is genuinely striking and it costs you nothing but the pause. As a destination in its own right, no, because there is nothing to do but look at it. Tell your driver you want to stop; many pass it without asking."
+      }
+    ],
+    related: [
+      {
+        "label": "Same Day Jaipur Tour from Delhi",
+        "to": "/plans/same-day-jaipur",
+        "note": "The itinerary includes the Jal Mahal photo stop on the way to Amber, which is the only sensible way to fit it in."
+      },
+      {
+        "label": "6 Day Golden Triangle with Udaipur",
+        "to": "/plans/golden-triangle-udaipur",
+        "note": "Jaipur unhurried, on the way to a very different Rajasthan in the south."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Amber Fort, Jaipur",
+        "to": "/guides/amber-fort-jaipur"
+      },
+      {
+        "label": "Nahargarh Fort, Jaipur",
+        "to": "/guides/nahargarh-fort-jaipur"
+      },
+      {
+        "label": "City Palace, Jaipur",
+        "to": "/guides/city-palace-jaipur"
       }
     ]
   }
