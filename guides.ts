@@ -216,7 +216,7 @@ export const GUIDES: Guide[] = [
     cardSummary:
       'Train, private car, bus and self-drive — with real timings, honest costs, and the return-leg problem nobody mentions.',
     image: '/chai-stop-with-driver.webp',
-    updated: '2026-09-16',
+    updated: '2026-09-29',
     intro: [
       'Agra sits about 230 km south of Delhi. The Yamuna Expressway covers it in three to three and a half hours by road; the Gatimaan Express does it in one hour forty. Both are good options, and which one suits you depends almost entirely on what time you want to be standing in front of the Taj Mahal.',
       'The part that catches people out is not the outbound journey. It is the return.'
@@ -235,6 +235,30 @@ export const GUIDES: Guide[] = [
             ['Bus', '4–6 hrs', 'Frequent', 'No', 'Lowest cost, no fixed schedule needed'],
             ['Self-drive', '3–3.5 hrs', 'Any time', 'Yes', 'Confident drivers only — see below']
           ]
+        }
+      },
+      {
+        heading: 'How long does Delhi to Agra actually take?',
+        id: 'travel-time',
+        body: [
+          'The distance is about 230 km via the Yamuna Expressway. What that turns into depends entirely on how you travel and, by road, on when you leave.',
+          'The expressway itself is fast and in good condition — the variable is almost always getting out of Delhi at the start. Leaving at 6am is a different journey from leaving at 9am, and the difference is usually forty minutes to an hour.'
+        ],
+        table: {
+          caption: 'Delhi to Agra journey times, one way',
+          headers: ['Mode', 'Typical time', 'Worst case', 'What decides it'],
+          rows: [
+            ['Gatimaan Express', '1 hr 40 min', '2 hr 15 min', 'Winter fog is the only real delay'],
+            ['Vande Bharat / Shatabdi', '1 hr 45 min – 2 hr', '2 hr 30 min', 'Agra is an intermediate stop, so timing follows the wider route'],
+            ['Private car, early start', '3 hr', '3 hr 30 min', 'Leaving before 6am clears Delhi traffic'],
+            ['Private car, mid-morning', '3 hr 30 min', '4 hr 30 min', 'Delhi exit traffic between 8am and 10am'],
+            ['Slower express trains', '2 hr 30 min – 4 hr', '5 hr', 'Number of stops, and punctuality'],
+            ['Bus', '4 hr', '6 hr', 'Stops, traffic and the terminal you leave from']
+          ]
+        },
+        callout: {
+          title: 'The return leg is the one people underestimate',
+          text: 'Everyone plans the outbound carefully and treats the drive home as the same journey in reverse. It is not. Leaving Agra between 4pm and 6pm puts you into Delhi\'s evening traffic at the far end, which can add an hour to a three-hour drive. Either leave Agra by 3pm or accept a later arrival — and if you have an onward flight that night, build the buffer around the later number.'
         }
       },
       {
@@ -260,12 +284,19 @@ export const GUIDES: Guide[] = [
         ]
       },
       {
-        heading: 'Other trains, and the bus',
+        heading: 'Vande Bharat, Shatabdi and the bus',
         id: 'other-options',
         body: [
-          'Beyond the Gatimaan, several Shatabdi and Vande Bharat services run the route, along with slower expresses. Journey times range from about two hours to four. They are cheaper, more frequent and less predictable in terms of punctuality.',
+          'Vande Bharat is the train people ask about most after the Gatimaan, and the answer has a catch worth knowing. Several Vande Bharat services do stop at Agra Cantt, they are fully air-conditioned with chair car and executive chair car, and the run from Delhi takes roughly one hour forty-five to two hours — close to the Gatimaan.',
+          'The difference is that Agra is an intermediate stop on those services rather than the destination. They are running on to Khajuraho or Bhopal, which means fewer seats released for the Delhi-Agra leg and a return timing set by a route that has nothing to do with your day. The Gatimaan is the only train built for this corridor specifically, with an evening return that exists to get day visitors home.',
+          'So: if you want a train day trip with a return that works, the Gatimaan is still the answer. If the Gatimaan is sold out for your date, a Vande Bharat or Shatabdi outbound with a car back is a perfectly good fallback, and we will price it that way rather than telling you the day is impossible.',
+          'Shatabdi services also run the route, along with slower expresses. Journey times across all of them range from about two hours to four. They are cheaper and more frequent than the Gatimaan, and less predictable on punctuality.',
           'Buses run frequently from Delhi\'s ISBT terminals and from private operators, taking four to six hours depending on traffic and stops. It is the cheapest way to reach Agra, and a reasonable choice if the journey itself is not part of what you are paying for. It is not a sensible base for a same-day return trip.'
-        ]
+        ],
+        callout: {
+          title: 'Rail timetables move — check the date, not the article',
+          text: 'Indian Railways revises services, numbers and timings more often than travel articles get updated, and Vande Bharat routes in particular have expanded fast. Treat every train time you read anywhere, including here, as indicative. We check what actually runs on your date before quoting a train-based day.'
+        }
       },
       {
         heading: 'A word on self-driving',
@@ -289,6 +320,21 @@ export const GUIDES: Guide[] = [
       }
     ],
     faqs: [
+      {
+        question: 'How long does it take to get from Delhi to Agra by car?',
+        answer:
+          'About three hours on the Yamuna Expressway if you leave before 6am, and three and a half to four and a half if you leave mid-morning — the variable is getting out of Delhi rather than the expressway itself, which is fast and in good condition. The distance is roughly 230 km. Coming back, leaving Agra between 4pm and 6pm puts you into Delhi evening traffic and can add another hour.'
+      },
+      {
+        question: 'Is there a Vande Bharat train from Delhi to Agra?',
+        answer:
+          'Yes — several Vande Bharat services stop at Agra Cantt, taking roughly one hour forty-five to two hours from Delhi, fully air-conditioned with chair car and executive chair car. The catch is that Agra is an intermediate stop on those routes rather than the destination, so fewer seats are released for the Delhi-Agra leg and the return timing follows a route heading elsewhere. The Gatimaan Express is the only train built for this corridor, with an evening return designed for day visitors.'
+      },
+      {
+        question: 'What is the fastest way to get from Delhi to Agra?',
+        answer:
+          'The Gatimaan Express at one hour forty minutes, which makes it the fastest scheduled service on the route. Vande Bharat and Shatabdi are close behind at around two hours. A private car takes about three hours with an early start. Nothing beats the train on pure speed; the car wins on flexibility, because it can leave at 3am for a sunrise the train cannot reach.'
+      },
       {
         question: 'How far is Agra from Delhi?',
         answer:

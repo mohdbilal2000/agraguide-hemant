@@ -217,13 +217,13 @@ export const TOURS: Tour[] = [
   },
   {
     id: 'same-day-taj-train',
-    title: 'Same Day Taj Mahal Tour by Express Train',
+    title: 'Same Day Taj Mahal Tour by Gatimaan or Vande Bharat Express',
     description: 'Travel to Agra by Gatimaan Express from Delhi for a hassle-free day trip to the Taj Mahal. The fastest and most scenic route to experience Agra\'s heritage.',
     duration: '13 Hours',
     price: 65,
     image: '/taj-mahal-couple.webp',
     category: 'Same Day Tours',
-    highlights: ['Gatimaan Express train tickets', 'Taj Mahal guided tour', 'Agra Fort visit', 'Private AC vehicle in Agra'],
+    highlights: ['Gatimaan or Vande Bharat train tickets', 'Taj Mahal guided tour', 'Agra Fort visit', 'Private AC vehicle in Agra'],
     itinerary: [
       { time: '07:00 AM', activity: 'Pickup from Delhi hotel to Hazrat Nizamuddin Station' },
       { time: '08:10 AM', activity: 'Board Gatimaan Express (India\'s fastest train)' },
@@ -239,10 +239,11 @@ export const TOURS: Tour[] = [
     overview: [
       "The Gatimaan Express is the fastest train in India and it exists largely because of this journey. It leaves Hazrat Nizamuddin around 8:10 AM and reaches Agra Cantt around 9:50 AM — one hour forty, against three and a half by road. The return leaves Agra around 5:50 PM.",
       "What you are buying is a day without driving. You arrive rested rather than after three hours on the expressway, and the same is true of the journey home, which is the leg most people underestimate. A private vehicle and your guide meet the train at Agra Cantt and stay with you until you board again.",
-      "The trade is flexibility. The train times are fixed, which rules out sunrise at the Taj — by 9:50 AM the light has gone flat. If the early light matters more to you than the comfort, the same-day tour by car or the sunrise tour are the honest alternatives."
+      "The trade is flexibility. The train times are fixed, which rules out sunrise at the Taj — by 9:50 AM the light has gone flat. If the early light matters more to you than the comfort, the same-day tour by car or the sunrise tour are the honest alternatives.",
+      "If the Gatimaan is sold out for your date, several Vande Bharat and Shatabdi services also stop at Agra Cantt, at roughly one hour forty-five to two hours from Delhi, and we run the day on those the same way. The one thing to know is that Agra is an intermediate stop on those routes rather than the destination, so the return timing is set by a train heading somewhere else — occasionally the sensible answer is a train out and a private car back. We confirm what your date actually allows before you book."
     ],
     included: [
-      "Return Gatimaan Express tickets, Delhi to Agra Cantt and back, in air-conditioned chair car",
+      "Return rail tickets, Delhi to Agra Cantt and back, in air-conditioned chair car — the Gatimaan Express where seats allow, otherwise a Vande Bharat or Shatabdi service",
       "Hotel transfers to and from Hazrat Nizamuddin station in Delhi",
       "Private air-conditioned vehicle with a chauffeur in Agra for the whole day",
       "Government-licensed Agra guide holding a Ministry of Tourism regional licence, meeting you at the station",
@@ -258,7 +259,7 @@ export const TOURS: Tour[] = [
     goodToKnow: [
       {
         "title": "Train seats are the constraint, not the car",
-        "text": "The Gatimaan runs once a day in each direction and sells out in peak season, particularly October to March and around public holidays. The earlier you tell us your date, the more likely we can hold seats on the train you actually want. Bring the passport you booked with — Indian Railways requires photo ID matching the ticket."
+        "text": "The Gatimaan runs once a day in each direction and sells out in peak season, particularly October to March and around public holidays. Vande Bharat and Shatabdi give us a fallback, though Agra is an intermediate stop on those so fewer seats are released for this leg. The earlier you tell us your date, the more likely we can hold the train you actually want. Bring the passport you booked with — Indian Railways requires photo ID matching the ticket."
       },
       {
         "title": "This tour cannot do sunrise",
@@ -281,6 +282,10 @@ export const TOURS: Tour[] = [
       {
         "question": "Is the train or the car better for a Taj Mahal day trip?",
         "answer": "The train is faster and far more comfortable, and you arrive rested. The car is flexible — you choose your departure, stop where you like, and can leave at 3 AM for sunrise. For a relaxed late-morning start the train wins outright. For a day built around the early light, only the car can do it."
+      },
+      {
+        "question": "Can this tour run on the Vande Bharat Express instead of the Gatimaan?",
+        "answer": "Yes. Several Vande Bharat services stop at Agra Cantt, taking roughly one hour forty-five to two hours from Delhi in air-conditioned chair car, and we run the day on those when the Gatimaan is sold out for your date. The one thing to know is that Agra is an intermediate stop on those routes rather than the destination, so fewer seats are released for this leg and the return timing follows a train heading elsewhere — occasionally the sensible combination is a train out and a private car back. We confirm which one your date allows before you book."
       },
       {
         "question": "Are the train tickets included in the price?",
