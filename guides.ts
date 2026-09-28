@@ -11,6 +11,12 @@ import { Guide, GuideTopic } from './types';
  */
 export const GUIDE_TOPICS: { id: GuideTopic; label: string; blurb: string }[] = [
   {
+    id: 'first-time',
+    label: 'Arriving in India',
+    blurb:
+      'The things that decide how your first few days go — the visa, the airport, the water, the money and the questions nobody answers straight.'
+  },
+  {
     id: 'delhi',
     label: 'Delhi',
     blurb:
@@ -616,6 +622,8 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: 'Solo female travel in India', to: '/guides/solo-female-travel-india' },
+      { label: 'First time in India', to: '/guides/first-time-in-india' },
       { label: 'Best time to visit Delhi', to: '/guides/best-time-to-visit-delhi' },
       { label: 'Old Delhi vs New Delhi', to: '/guides/old-delhi-vs-new-delhi' },
       { label: 'Delhi airport layover: can you leave?', to: '/guides/delhi-airport-layover' },
@@ -959,6 +967,7 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: 'First time in India', to: '/guides/first-time-in-india' },
       { label: 'Best time to visit Delhi', to: '/guides/best-time-to-visit-delhi' },
       { label: 'Old Delhi vs New Delhi', to: '/guides/old-delhi-vs-new-delhi' },
       { label: 'Delhi airport layover: can you leave?', to: '/guides/delhi-airport-layover' },
@@ -1110,6 +1119,7 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: 'First time in India', to: '/guides/first-time-in-india' },
       { label: 'Old Delhi vs New Delhi', to: '/guides/old-delhi-vs-new-delhi' },
       { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
       { label: 'Getting around Delhi: Metro, taxi, auto or car', to: '/guides/getting-around-delhi' },
@@ -1240,6 +1250,7 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: 'Is Indian street food safe?', to: '/guides/is-indian-street-food-safe' },
       { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
       { label: 'Getting around Delhi: Metro, taxi, auto or car', to: '/guides/getting-around-delhi' },
       { label: 'Best time to visit Delhi', to: '/guides/best-time-to-visit-delhi' }
@@ -1416,6 +1427,524 @@ export const GUIDES: Guide[] = [
       { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
       { label: 'Old Delhi vs New Delhi', to: '/guides/old-delhi-vs-new-delhi' },
       { label: 'Is Delhi safe for tourists?', to: '/guides/is-delhi-safe-for-tourists' }
+    ]
+  },
+  {
+    slug: "first-time-in-india",
+    topic: "first-time",
+    metaTitle: "First Time in India: What Nobody Tells You Before You Land",
+    metaDescription: "The visa, the airport exit, the SIM card, the money, the tipping and the scams — the practical things that decide how your first two days in India go.",
+    h1: "First Time in India: What Nobody Tells You Before You Land",
+    cardTitle: "First Time in India",
+    cardSummary: "The visa, the airport, the SIM, the cash and the scams — the first forty-eight hours, handled before you land.",
+    image: "/india-gate-group.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Most of what goes wrong on a first trip to India happens in the first forty-eight hours, and almost all of it is avoidable. Not danger — logistics. The visa that needed four days rather than four hours, the airport exit at 2am with no working phone, the taxi that will not use the meter, the cash you did not get because the ATM in arrivals was out of order.",
+      "None of this is hard once you know it. What follows is the version we give guests before they fly, written by people who meet them at the other end and see which parts they got wrong."
+    ],
+    sections: [
+      {
+        "heading": "The visa: start earlier than you think",
+        "id": "visa",
+        "body": [
+          "India has no visa-free entry and no visa on arrival for most nationalities. You apply online for an e-Visa before you fly, and approval is not instant — allow at least four days, and more in peak season. People do get caught out by this, and there is no fixing it at the airport.",
+          "Apply through the official Indian government portal rather than a third-party site. There are many agencies that charge several times the real fee for filling in the same form, and some that are outright scams. The fee, the eligible nationalities and the validity options all change, so check the official source for your passport rather than an article.",
+          "Print your approval and carry it. Immigration will usually find you in the system, but a printed copy has resolved more queue arguments than any amount of explaining."
+        ],
+        "callout": {
+          "title": "A layover is not an exception",
+          "text": "If you are transiting through Delhi and want to leave the airport for a few hours, you still need a full entry visa. There is no transit arrangement that admits you briefly. This ends more layover plans at immigration than anything else."
+        }
+      },
+      {
+        "heading": "Landing: the first hour at the airport",
+        "id": "arrival",
+        "body": [
+          "Delhi's Terminal 3 is modern, well signposted and in English. Immigration can take thirty to sixty minutes at busy times, and the queues are worst in the small hours when most long-haul flights land.",
+          "Get cash before you leave the arrivals hall. ATMs are there and work with foreign cards, and you want a few thousand rupees for the first day even though cards and UPI are accepted almost everywhere now. Small vendors, auto-rickshaws and monument extras are still cash.",
+          "Arrange your transport before you walk out, not after. Prepaid taxi counters inside the terminal fix the price in advance. Uber and Ola work well and have designated pickup zones. What you do not want is to walk into the arrivals concourse at 3am and start negotiating with whoever approaches you."
+        ],
+        "list": [
+          "Take ₹3,000–5,000 from an airport ATM for the first day.",
+          "Use the prepaid taxi counter, an app cab, or a pickup you booked in advance.",
+          "Ignore anyone who approaches you inside the terminal offering a taxi or hotel.",
+          "If someone tells you your hotel is closed, overbooked or burned down, they are lying and want to take you to one that pays commission. Call your hotel yourself."
+        ]
+      },
+      {
+        "heading": "Getting a SIM card",
+        "id": "sim",
+        "body": [
+          "Buy it at the airport if you can. Airtel and Jio both have counters at Delhi T3, and having a working number from the first hour changes everything — app cabs, maps, WhatsApp to your guide or hotel.",
+          "You need your passport, your visa, a passport photo and an Indian address, which can be your hotel. Activation takes anything from twenty minutes to a few hours, so buy it before you need it rather than when you do. Tourist SIMs are cheap by any international standard.",
+          "An eSIM from your home provider or an international eSIM app is the simplest alternative and works immediately, usually at higher cost per gigabyte. For a trip under two weeks, many guests find that trade worth it."
+        ]
+      },
+      {
+        "heading": "Money, cards and what things cost",
+        "id": "money",
+        "body": [
+          "India is far more digital than most visitors expect. Cards work in restaurants, hotels and shops, and UPI — the local instant-payment system — is used everywhere from taxi drivers to vegetable sellers, though it generally needs an Indian bank account.",
+          "Cash still matters at the edges: auto-rickshaws, small stalls, tips, temple donations, and some monument extras. Keep small notes. Breaking a ₹2,000 note at a chai stall is a daily minor struggle.",
+          "Tell your bank you are travelling. Cards blocked for unusual activity on day one is the single most common money problem we see, and it is tedious to fix from another time zone."
+        ]
+      },
+      {
+        "heading": "Tipping: what is normal",
+        "id": "tipping",
+        "body": [
+          "Tipping is customary rather than obligatory, and the amounts are lower than in North America. Nobody will be rude if you do not tip, and everybody appreciates it when you do.",
+          "These are the ranges guests ask us about most. They are guidance rather than rules, and you should adjust for how the day actually went."
+        ],
+        "table": {
+          "caption": "Customary tipping in India",
+          "headers": [
+            "Who",
+            "Usual range",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Restaurant",
+              "10% if no service charge",
+              "Check the bill — many add it already"
+            ],
+            [
+              "Driver, full day",
+              "₹300–500",
+              "More on a long day or a multi-city trip"
+            ],
+            [
+              "Guide, full day",
+              "₹500–1,000",
+              "At the end of the day rather than per site"
+            ],
+            [
+              "Hotel porter",
+              "₹50–100 per bag",
+              "Cash, at the room"
+            ],
+            [
+              "Housekeeping",
+              "₹100 per night",
+              "Left at the end of the stay"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "The scams worth recognising",
+        "id": "scams",
+        "body": [
+          "Almost none of this is dangerous. It is commercial, it targets people who have just landed and do not yet know what things cost, and it stops working the moment you recognise the shape of it.",
+          "The common thread is someone creating urgency about a problem you did not have, then solving it for you."
+        ],
+        "list": [
+          "\"Your hotel is closed / overbooked / has moved.\" It has not. Call the hotel yourself.",
+          "A driver who will not use the meter and quotes a flat fare four times the real one. Use an app instead.",
+          "A \"government tourist office\" near New Delhi railway station that is nothing of the sort. The real one has an address you can check in advance.",
+          "The gem or carpet export scheme — buy stock here, sell at a profit at home. It is always a scam, and it has been running for decades.",
+          "A helpful stranger who takes you to a shop \"just to look\". He earns commission on whatever you buy."
+        ],
+        "callout": {
+          "title": "The one rule that covers most of it",
+          "text": "Do not accept transport, tours, shopping or accommodation from someone who approached you. Anything you decided to do before they spoke to you is almost certainly fine; anything they suggested afterwards is worth stepping away from. This single habit removes the great majority of what goes wrong."
+        }
+      },
+      {
+        "heading": "Water, food and staying well",
+        "id": "health",
+        "body": [
+          "Do not drink the tap water anywhere in India, including in good hotels. Bottled water is cheap and available everywhere — check the seal is intact. Many hotels now provide filtered water in the room, which is safe and better environmentally.",
+          "The same logic applies to ice in unknown places, pre-cut fruit left out, and raw salads washed in tap water. Cooked food served hot is generally the safest thing on any menu, including on the street.",
+          "No vaccinations are mandatory for most travellers unless you are arriving from a yellow fever country, but several are commonly recommended. That is a conversation with a travel clinic a few weeks before you fly, not something to read off a travel page."
+        ]
+      },
+      {
+        "heading": "What actually surprises people",
+        "id": "surprises",
+        "list": [
+          "The traffic is not aggressive so much as continuous, and it works. Crossing a road is a matter of walking at a steady pace rather than waiting for a gap that never comes.",
+          "You will be asked for photographs, particularly at monuments and particularly if you are travelling with children. It is genuine curiosity and a polite no is fine.",
+          "Distances are longer than they look. Two sights on the same page of a guidebook can be an hour apart in Delhi traffic.",
+          "Shoes come off at temples, mosques and some tombs. Slip-on shoes save you a great deal of bending down.",
+          "English is widely spoken in cities and in the tourism trade. You will manage without a word of Hindi, though a namaste is always well received."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "Do I need a visa to visit India?",
+        "answer": "Yes. India has no visa-free entry and no visa on arrival for most nationalities. You apply for an e-Visa online before you fly, and approval takes several days rather than hours — allow at least four, and longer in peak season. Apply through the official Indian government portal rather than a third-party agency, since many charge several times the real fee for the same form."
+      },
+      {
+        "question": "Should I get an Indian SIM card or use roaming?",
+        "answer": "Get a local SIM at the airport if you can — Airtel and Jio both have counters at Delhi T3, and it is inexpensive. You will need your passport, visa, a photo and an address, which can be your hotel, and activation takes from twenty minutes to a few hours. An eSIM from home works immediately and costs more; for a trip under two weeks many people find that worth it."
+      },
+      {
+        "question": "How much cash should I carry in India?",
+        "answer": "Take ₹3,000–5,000 from an airport ATM for your first day and top up as you go. India is far more card and UPI friendly than visitors expect, but cash still matters for auto-rickshaws, small stalls, tips and temple donations. Keep small notes — breaking a ₹2,000 note at a chai stall is a daily struggle. Tell your bank you are travelling before you fly."
+      },
+      {
+        "question": "How much should I tip in India?",
+        "answer": "Tipping is customary rather than obligatory, and lower than in North America. Roughly 10% in restaurants if no service charge is already added, ₹300–500 for a driver on a full day, ₹500–1,000 for a guide, ₹50–100 per bag for porters. Adjust for how the day actually went rather than treating it as a fixed rate."
+      },
+      {
+        "question": "Is the tap water safe to drink in India?",
+        "answer": "No, not anywhere, including in good hotels. Use sealed bottled water or the filtered water many hotels now provide in rooms. The same caution applies to ice in unfamiliar places, pre-cut fruit left standing and raw salads. Cooked food served hot is generally the safest thing on any menu."
+      },
+      {
+        "question": "What are the most common scams targeting tourists in India?",
+        "answer": "Being told your hotel is closed or overbooked so you are taken somewhere that pays commission; drivers refusing the meter and quoting a flat fare; fake government tourist offices near New Delhi station; and the gem or carpet export scheme. The single rule that covers most of it: do not accept transport, tours, shopping or accommodation from anyone who approached you first."
+      }
+    ],
+    related: [
+      {
+        "label": "Hire a Licensed Guide and Private Car",
+        "to": "/guide-booking",
+        "note": "Pickup at your hotel door by a driver we work with regularly, which removes most of the first-day problems on this page at once."
+      },
+      {
+        "label": "Delhi Unveiled: Private Full Day Heritage Tour",
+        "to": "/plans/delhi-full-day-heritage",
+        "note": "A first full day in India with someone who explains what you are looking at and handles the logistics while you adjust."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Is Delhi safe for tourists?",
+        "to": "/guides/is-delhi-safe-for-tourists"
+      },
+      {
+        "label": "Is Indian street food safe?",
+        "to": "/guides/is-indian-street-food-safe"
+      },
+      {
+        "label": "Best time to visit Delhi",
+        "to": "/guides/best-time-to-visit-delhi"
+      }
+    ]
+  },
+  {
+    slug: "is-indian-street-food-safe",
+    topic: "first-time",
+    metaTitle: "Is Indian Street Food Safe? An Honest Answer",
+    metaDescription: "What actually causes travellers' stomach trouble in India — it is rarely the street food itself — and how to eat well on the street without spending a day in your hotel room.",
+    h1: "Is Indian Street Food Safe?",
+    cardTitle: "Is Indian Street Food Safe?",
+    cardSummary: "What actually makes travellers ill in India, why it is rarely the cooked street food, and how to eat well without losing a day.",
+    image: "/chai-stop-with-driver.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Mostly yes, and the thing that makes people ill is usually not what they think. Food cooked to order in front of you, served straight out of hot oil at a stall with a queue, is among the safer things you will eat in India. What causes trouble is water, ice, and things that have been sitting — raw salads, pre-cut fruit, chutneys thinned with tap water, a buffet tray kept lukewarm.",
+      "That distinction matters, because the usual advice — avoid street food entirely — makes people miss the best food in the country while still getting ill from the ice in a hotel drink."
+    ],
+    sections: [
+      {
+        "heading": "What actually causes travellers' stomach trouble",
+        "id": "causes",
+        "body": [
+          "Almost all of it comes down to water, or to food that has been in contact with untreated water and then not cooked. Tap water is not safe to drink anywhere in India, including in good hotels, and that extends to anything it touched.",
+          "The second cause is time and temperature rather than hygiene. Food that was cooked properly and then sat at room temperature for three hours is a far bigger risk than food that hit a 200°C pan thirty seconds ago.",
+          "And there is a third, which nobody likes hearing: your stomach is simply not used to this food. A perfectly clean meal with unfamiliar spice levels and a great deal more chilli and oil than you usually eat can cause a day of discomfort that has nothing to do with contamination."
+        ],
+        "table": {
+          "caption": "Risk, honestly ranked",
+          "headers": [
+            "Item",
+            "Risk",
+            "Why"
+          ],
+          "rows": [
+            [
+              "Freshly fried snacks from a busy stall",
+              "Low",
+              "Cooked at high heat in front of you, sold too fast to sit"
+            ],
+            [
+              "Hot chai",
+              "Very low",
+              "Boiled, and boiled again"
+            ],
+            [
+              "Tandoori and grilled meat, served hot",
+              "Low",
+              "Cooked through at high heat to order"
+            ],
+            [
+              "Curries at a busy restaurant",
+              "Low",
+              "High turnover means nothing stands"
+            ],
+            [
+              "Ice in an unknown place",
+              "High",
+              "Usually made from tap water"
+            ],
+            [
+              "Pre-cut fruit from a cart",
+              "High",
+              "Cut hours earlier, rinsed in tap water, left in the sun"
+            ],
+            [
+              "Raw salad and garnishes",
+              "High",
+              "Washed in tap water and never cooked"
+            ],
+            [
+              "Thin chutneys and sauces at a stall",
+              "Moderate",
+              "Often thinned with tap water"
+            ],
+            [
+              "A lukewarm buffet",
+              "Moderate to high",
+              "Time and temperature, in the one place people assume is safest"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "How to choose a stall",
+        "id": "choosing",
+        "body": [
+          "The signal that matters most is turnover. A stall with a queue of local office workers is selling out its stock several times a day, which means nothing is old. An empty stall with a full tray is the opposite, however clean it looks.",
+          "Everything else follows from that. Watch for a minute before you commit — it costs nothing and tells you more than any amount of advice."
+        ],
+        "list": [
+          "Go where locals are queuing, especially around lunchtime near offices and markets.",
+          "Prefer food cooked to order in front of you over food already sitting in a tray.",
+          "Watch whether the person handling money is also handling food. Many good stalls split those jobs.",
+          "Take the chutney only if it looks thick rather than watery.",
+          "Eat with your hands after using sanitiser, or ask for a spoon — both are completely normal.",
+          "Go at peak times rather than off-hours. Busy is safer than quiet."
+        ],
+        "callout": {
+          "title": "The queue is the hygiene certificate",
+          "text": "You cannot inspect a kitchen and you cannot judge a stall from its paintwork. What you can read is whether fifty people who eat there every week are queuing at 1pm. That one signal does more work than every other rule on this page combined."
+        }
+      },
+      {
+        "heading": "What to eat first",
+        "id": "what-to-eat",
+        "body": [
+          "If you want to start somewhere low risk and genuinely good, these are the things we point first-time guests at in Delhi and Agra. All are cooked hot to order, all are widely sold, and all are worth the trip on their own."
+        ],
+        "list": [
+          "Chole bhature — fried bread with a chickpea curry, cooked in front of you, a Delhi institution.",
+          "Aloo tikki — potato patties fried on a hot griddle to order.",
+          "Kebabs from the lanes behind Jama Masjid — grilled over coals, served straight off the skewer.",
+          "Parathas at Paranthe Wali Gali in Chandni Chowk — fried to order, and the lane exists for nothing else.",
+          "Jalebi, fresh out of the syrup — sugar and hot oil, which is not a combination bacteria enjoy.",
+          "Masala chai, anywhere, constantly. It is boiled, it is cheap, and it is how the day is punctuated here.",
+          "Agra petha, if you are in Agra — a sweet made from ash gourd, sold in sealed boxes and easy to carry."
+        ]
+      },
+      {
+        "heading": "If you do get ill",
+        "id": "if-ill",
+        "body": [
+          "Most travellers' stomach upsets resolve in twenty-four to forty-eight hours without treatment. Rehydration matters more than medication — oral rehydration salts are sold in every pharmacy for a few rupees and work better than water alone.",
+          "Anti-motility medication like loperamide stops the symptom rather than the cause. It is useful if you have a long drive or a flight, and worth avoiding otherwise, because the process is doing something.",
+          "See a doctor if there is a fever, blood, or symptoms lasting beyond about two days. Private clinics in Delhi and Agra are good, quick, and inexpensive by Western standards, and most decent hotels will arrange a doctor to the room."
+        ],
+        "list": [
+          "Oral rehydration salts, from any pharmacy, are the first thing to reach for.",
+          "Plain food for a day — curd rice, khichdi, toast, bananas.",
+          "Keep drinking, in small amounts, continuously.",
+          "Loperamide only if you have to travel.",
+          "Fever, blood or more than two days — see a doctor rather than waiting it out."
+        ]
+      },
+      {
+        "heading": "What we do on our own tours",
+        "id": "our-approach",
+        "body": [
+          "We take guests to street food, because leaving it out means leaving out the thing Old Delhi is actually famous for. What we do is pick the stalls, which is the part that is hard to do on your first day in a city where you cannot read the signs.",
+          "Our guides eat at these places themselves, which is the only recommendation worth anything. If a stall has had a bad month, we know before you would. And if you would rather not eat street food at all, that is a completely reasonable position and the day works fine without it."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "Is Indian street food safe for tourists?",
+        "answer": "Freshly cooked street food from a busy stall is among the safer things you will eat in India — it is cooked at high heat in front of you and sells too fast to sit. What causes most travellers' stomach trouble is water and things that touched it without being cooked: ice, pre-cut fruit, raw salads and watery chutneys. Avoiding street food entirely while drinking a hotel cocktail with ice gets the risk exactly backwards."
+      },
+      {
+        "question": "What causes Delhi belly?",
+        "answer": "Usually water rather than food — tap water, ice made from it, or raw items washed in it and never cooked. The second cause is time and temperature: food cooked properly and then left standing for hours. The third is simply an unfamiliar diet, with far more chilli and oil than you are used to, which can cause a day of discomfort with no contamination involved at all."
+      },
+      {
+        "question": "How do I choose a safe street food stall in India?",
+        "answer": "Turnover. A stall with a queue of local workers sells out its stock several times a day, so nothing is old; an empty stall with a full tray is the opposite whatever it looks like. Prefer food cooked to order in front of you, go at peak times rather than quiet ones, and take the chutney only if it is thick rather than watery."
+      },
+      {
+        "question": "Can I eat salad and fruit in India?",
+        "answer": "Be careful with both. Raw salad is washed in tap water and never cooked, which makes it one of the higher-risk items on any menu. Pre-cut fruit from a cart has usually been sitting for hours. Whole fruit you peel yourself is fine, and good hotels that wash produce in filtered water are generally safe — ask if you are unsure."
+      },
+      {
+        "question": "What should I do if I get sick in India?",
+        "answer": "Rehydrate first — oral rehydration salts from any pharmacy cost a few rupees and work better than water alone. Eat plainly for a day. Use loperamide only if you have to travel, since it stops the symptom rather than the cause. If there is fever, blood, or symptoms lasting beyond about two days, see a doctor; private clinics in Delhi and Agra are quick and inexpensive, and most hotels will arrange one."
+      }
+    ],
+    related: [
+      {
+        "label": "Delhi Unveiled: Private Full Day Heritage Tour",
+        "to": "/plans/delhi-full-day-heritage",
+        "note": "The Chandni Chowk lanes and the spice market with someone who eats at these stalls himself and picks which ones you stop at."
+      },
+      {
+        "label": "Hire a Licensed Guide and Private Car",
+        "to": "/guide-booking",
+        "note": "A guide-led food walk on your own terms — or a day with no street food at all, which is a perfectly reasonable request."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "First time in India",
+        "to": "/guides/first-time-in-india"
+      },
+      {
+        "label": "Is Delhi safe for tourists?",
+        "to": "/guides/is-delhi-safe-for-tourists"
+      },
+      {
+        "label": "Old Delhi vs New Delhi",
+        "to": "/guides/old-delhi-vs-new-delhi"
+      }
+    ]
+  },
+  {
+    slug: "solo-female-travel-india",
+    topic: "first-time",
+    metaTitle: "Solo Female Travel in India: What Actually Changes",
+    metaDescription: "An honest account of solo female travel in India — what the real difficulties are, what is exaggerated, what to wear, and the practical decisions that make the difference.",
+    h1: "Solo Female Travel in India: What Actually Changes",
+    cardTitle: "Solo Female Travel in India",
+    cardSummary: "What is genuinely harder, what is overstated, and the practical decisions that make the biggest difference.",
+    image: "/humayuns-tomb-family.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Thousands of women travel India alone every year and have an excellent time. It is also true that it asks more of you than most destinations, and that the difficulties are real rather than imagined. Both things are true at once, and most of what is written about this picks one and ignores the other.",
+      "The honest summary: the main difficulty is staring and unwanted attention rather than violence, it is worse in crowded public places than in the situations people fear most, and the decisions that reduce it are mostly about transport and timing rather than clothing."
+    ],
+    sections: [
+      {
+        "heading": "What is actually harder",
+        "id": "what-is-harder",
+        "body": [
+          "Staring is constant and it is the thing most solo women say wore them down, not fear. It is usually curiosity rather than hostility, particularly outside the big cities, and it does not stop being tiring for that.",
+          "Crowded public spaces are where most unwanted contact happens — packed trains and buses, festival crowds, tight market lanes. It is opportunistic and it is why the Delhi Metro reserves a carriage for women, which is worth using.",
+          "Being alone invites questions. Where is your husband, why are you travelling alone, are you not afraid. Most of it is genuine curiosity. Many solo travellers find an invented husband arriving later ends the conversation faster than an explanation, and there is no obligation to be truthful with a stranger.",
+          "And practical things get harder alone: nobody watches your bag, nobody shares the taxi fare, and arriving somewhere new after dark is a bigger decision than it would be at home."
+        ]
+      },
+      {
+        "heading": "What is overstated",
+        "id": "overstated",
+        "body": [
+          "India's reputation among Western travellers is shaped by a small number of extremely widely reported cases, and that coverage does not reflect the everyday experience of the great majority of visitors.",
+          "Violent crime against foreign tourists is rare. The ordinary experience is staring, occasional unwanted comments, and being a curiosity — unpleasant at times, not dangerous. Most solo women who have a bad trip had a draining one rather than a frightening one.",
+          "You will also meet an enormous amount of kindness, particularly from other women, and being alone often means people take more care of you rather than less."
+        ]
+      },
+      {
+        "heading": "What to wear",
+        "id": "what-to-wear",
+        "body": [
+          "There is no dress code and nobody will stop you, but covering shoulders and knees attracts considerably less attention and is more comfortable in the heat anyway. Loose clothing beats tight, and a scarf is the single most useful item you can carry.",
+          "A dupatta or large scarf covers your head at religious sites, covers your shoulders when you need to, shades your neck, and gives you something to hold. Every Indian woman travelling has one for a reason.",
+          "Shoes come off at temples, mosques and many tombs — slip-ons save a great deal of bending. In Delhi in winter, mornings are genuinely cold and afternoons are not, so layers rather than one warm thing."
+        ],
+        "callout": {
+          "title": "Clothing is not the main lever, and the advice pretends otherwise",
+          "text": "Dressing modestly reduces attention and is worth doing. It does not remove it — Indian women in full traditional dress get stared at too. Most of the advice written for solo female travellers focuses on clothing because it is easy to write about. The decisions that actually change your trip are about transport and timing, below."
+        }
+      },
+      {
+        "heading": "The decisions that matter most",
+        "id": "what-helps",
+        "body": [
+          "Almost everything that reduces difficulty comes down to controlling how you move and when. Public transport at rush hour and arriving somewhere unfamiliar after dark are where problems concentrate.",
+          "These are the things solo travellers tell us made the biggest difference."
+        ],
+        "list": [
+          "Pre-book your airport pickup for the first arrival. Landing at 2am and negotiating with drivers is the worst version of your first hour in India.",
+          "Use app cabs rather than street taxis — the route is tracked, the fare is fixed, and there is a record of the driver.",
+          "Use the women's carriage on the Delhi Metro. It is the front one, it is well enforced, and it makes rush hour a non-event.",
+          "Arrive in a new city in daylight. This single rule removes most situations people worry about.",
+          "Share your itinerary and vehicle details with someone at home. Any decent operator will provide these without being asked twice.",
+          "Book accommodation with 24-hour reception rather than a keybox and an empty lobby.",
+          "Wear headphones with nothing playing in crowded places if you want to end conversations without being rude."
+        ]
+      },
+      {
+        "heading": "Delhi and Agra specifically",
+        "id": "delhi-agra",
+        "body": [
+          "Both are manageable and both have particular patterns. Old Delhi's lanes are crowded enough that contact is opportunistic — go in the morning when they are busy with trade rather than with crowds, and keep your bag in front of you as you would in any dense market anywhere.",
+          "Around the Taj Mahal, the pressure is commercial rather than anything else: guides, photographers and sellers, persistently. A firm no works, and having a licensed guide with you removes it almost entirely because they stop approaching.",
+          "New Delhi, Lodhi Garden and the southern monuments are calm and easy. The area around New Delhi railway station is the one part of the city we would tell any solo traveller to avoid wandering at night — not because of assault risk, but because it is where the touts and the fake tourist offices concentrate."
+        ]
+      },
+      {
+        "heading": "Travelling with a guide, and why women ask for one",
+        "id": "with-a-guide",
+        "body": [
+          "A licensed guide is not only about history. For a solo traveller the practical effect is that the staring drops, the touts stop approaching, and somebody who knows the city is making the small decisions about where to stop and which lane to take.",
+          "We work with a collective of professional female heritage guides who can be requested when you book, at no extra charge and subject to availability on your date. A substantial share of our guests ask for this, and many say it was the difference between doing Old Delhi and skipping it.",
+          "On any of our tours you are with a licensed guide and a driver we work with regularly for the whole day, pickup and drop are at your hotel door rather than a public meeting point, and you have a direct WhatsApp line to us throughout. If you would like your itinerary and vehicle details sent to someone at home before the tour, ask and we will send them."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "Is India safe for solo female travellers?",
+        "answer": "Thousands of women travel India alone every year without incident, and violent crime against foreign tourists is rare. What is genuinely harder is constant staring, occasional unwanted comments, and opportunistic contact in crowded places like packed transport and festival crowds. Most women who have a difficult trip found it draining rather than frightening. It asks more of you than most destinations, and it is very doable."
+      },
+      {
+        "question": "What should a woman wear in India?",
+        "answer": "There is no dress code, but covering shoulders and knees attracts noticeably less attention and is more comfortable in the heat. Loose beats tight. A large scarf or dupatta is the single most useful item to carry — it covers your head at religious sites, your shoulders when needed, and shades your neck. Be aware that clothing reduces attention rather than removing it; Indian women in traditional dress get stared at too."
+      },
+      {
+        "question": "Is the Delhi Metro safe for women travelling alone?",
+        "answer": "Yes, and it is one of the better options. The front carriage of every train is reserved for women, it is well enforced, and it makes rush hour straightforward. Stations have security screening on entry. The Metro is generally a better choice than a street taxi, and where it does not reach, an app cab with a tracked route is the next best thing."
+      },
+      {
+        "question": "How do I handle unwanted attention in India?",
+        "answer": "A firm, unsmiling no ends most of it, and there is no obligation to be polite past that point. Many solo travellers find that mentioning a husband arriving later ends conversations faster than an explanation. Headphones with nothing playing work well in crowded places. If someone persists, moving towards other women — a family, a group, a shop with a woman behind the counter — is more effective than confrontation."
+      },
+      {
+        "question": "Can I request a female guide in Delhi or Agra?",
+        "answer": "Yes. We work with a collective of professional female heritage guides who can be requested when you book, at no extra charge and subject to availability on your date. Many solo travellers and families ask for this. On any of our tours you have a licensed guide and a regular driver for the whole day, hotel-door pickup and drop, and a direct WhatsApp line throughout."
+      }
+    ],
+    related: [
+      {
+        "label": "Hire a Licensed Guide and Private Car",
+        "to": "/guide-booking",
+        "note": "Female guides available on request at no extra charge, hotel-door pickup and drop, and itinerary details sent to someone at home if you want them."
+      },
+      {
+        "label": "Delhi Unveiled: Private Full Day Heritage Tour",
+        "to": "/plans/delhi-full-day-heritage",
+        "note": "Old Delhi with someone beside you — which for most solo travellers is the difference between seeing the lanes and skipping them."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Is Delhi safe for tourists?",
+        "to": "/guides/is-delhi-safe-for-tourists"
+      },
+      {
+        "label": "First time in India",
+        "to": "/guides/first-time-in-india"
+      },
+      {
+        "label": "Getting around Delhi: Metro, taxi, auto or car",
+        "to": "/guides/getting-around-delhi"
+      }
     ]
   }
 ];
