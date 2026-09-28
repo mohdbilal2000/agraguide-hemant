@@ -973,6 +973,8 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: "Chandni Chowk, Delhi", to: "/guides/chandni-chowk-delhi" },
+      { label: "Akshardham Temple, Delhi", to: "/guides/akshardham-temple-delhi" },
       { label: "Red Fort, Delhi", to: '/guides/red-fort-delhi' },
       { label: "Qutub Minar, Delhi", to: '/guides/qutub-minar-delhi' },
       { label: 'First time in India', to: '/guides/first-time-in-india' },
@@ -1260,6 +1262,8 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: "Chandni Chowk, Delhi", to: "/guides/chandni-chowk-delhi" },
+      { label: "India Gate, Delhi", to: "/guides/india-gate-delhi" },
       { label: "Red Fort, Delhi", to: '/guides/red-fort-delhi' },
       { label: "Jama Masjid, Delhi", to: '/guides/jama-masjid-delhi' },
       { label: "Qutub Minar, Delhi", to: '/guides/qutub-minar-delhi' },
@@ -1437,6 +1441,7 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: "India Gate, Delhi", to: "/guides/india-gate-delhi" },
       { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
       { label: 'Old Delhi vs New Delhi', to: '/guides/old-delhi-vs-new-delhi' },
       { label: 'Is Delhi safe for tourists?', to: '/guides/is-delhi-safe-for-tourists' }
@@ -1625,6 +1630,7 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: "Chandni Chowk, Delhi", to: "/guides/chandni-chowk-delhi" },
       {
         "label": "Is Delhi safe for tourists?",
         "to": "/guides/is-delhi-safe-for-tourists"
@@ -1814,6 +1820,7 @@ export const GUIDES: Guide[] = [
       }
     ],
     seeAlso: [
+      { label: "Chandni Chowk, Delhi", to: "/guides/chandni-chowk-delhi" },
       {
         "label": "First time in India",
         "to": "/guides/first-time-in-india"
@@ -2552,6 +2559,605 @@ export const GUIDES: Guide[] = [
       {
         "label": "Is Indian street food safe?",
         "to": "/guides/is-indian-street-food-safe"
+      }
+    ]
+  },
+  {
+    slug: "akshardham-temple-delhi",
+    topic: "delhi-monuments",
+    metaTitle: "Akshardham Delhi: Timings, Closure Day and the Phone Rule",
+    metaDescription: "Akshardham opening hours, the Monday closure, what entry costs, and the no-phones-no-bags rule that decides how long you actually spend there.",
+    h1: "Akshardham, Delhi: Timings, Tickets and the Cloakroom Queue",
+    cardTitle: "Akshardham Temple",
+    cardSummary: "Free to enter, closed Mondays, no phones or bags inside — and the security queue, not the temple, decides your afternoon.",
+    image: "/rajasthan-palace-hotel.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Akshardham is free to enter, closed every Monday, and open roughly 9:30 AM to 6:30 PM with last entry around 6 PM. Allow two to three hours, and more if you are doing the exhibitions, which are ticketed separately at around ₹250.",
+      "The thing to plan around is not the temple. Phones, cameras, bags and all electronics are prohibited inside and go into a free cloakroom before airport-style security. On a busy afternoon that process alone can take forty-five minutes, and it is the single most common reason a Delhi day runs late."
+    ],
+    sections: [
+      {
+        "heading": "Timings, tickets and the rules",
+        "id": "timings",
+        "table": {
+          "caption": "Akshardham at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "About 9:30 AM – 6:30 PM, last entry around 6 PM"
+            ],
+            [
+              "Closed",
+              "Every Monday"
+            ],
+            [
+              "Temple entry",
+              "Free"
+            ],
+            [
+              "Exhibitions",
+              "Around ₹250, ticketed separately and optional"
+            ],
+            [
+              "Water show",
+              "Evening, separate ticket"
+            ],
+            [
+              "Phones and cameras",
+              "Not permitted inside — free cloakroom at the entrance"
+            ],
+            [
+              "Bags",
+              "Not permitted inside"
+            ],
+            [
+              "Time to allow",
+              "2 – 3 hours, plus the security queue"
+            ],
+            [
+              "Nearest Metro",
+              "Akshardham (Blue Line), a short walk"
+            ]
+          ]
+        },
+        "body": [
+          "Monday closes it, along with the Red Fort, the Lotus Temple and the National Museum. If your Delhi day is a Monday, this is one of four major sights off the table at once.",
+          "There is no photography anywhere inside the complex, and that is enforced rather than nominal. Shoulders and knees covered for everyone; wraps are available at the entrance if needed."
+        ],
+        "callout": {
+          "title": "Come with as little as you can carry",
+          "text": "Everything except what you are wearing goes into the cloakroom, and both the deposit and the collection queue at the end. Visitors who arrive with day bags, camera kit and a water bottle spend the better part of an hour in those two lines. Leave it all in the car and walk in with nothing — the visit becomes an hour shorter and considerably less irritating."
+        }
+      },
+      {
+        "heading": "What it actually is",
+        "id": "what-it-is",
+        "body": [
+          "Akshardham is not an ancient monument and does not pretend to be. It was completed in 2005 by the BAPS Swaminarayan organisation, hand-carved in pink sandstone and white marble by thousands of craftsmen using methods that are genuinely traditional, on a scale nothing else in modern India matches.",
+          "That divides visitors. People arriving expecting Mughal-era heritage sometimes find it strange — a new building in an old idiom, with an exhibition complex and a boat ride attached. People who take it on its own terms tend to rate it among the most impressive things they see in Delhi. The carving is not decorative veneer; it is structural stone worked the way it was worked five centuries ago.",
+          "It is also a working temple with daily worship, which is why the rules about phones, dress and photography are what they are."
+        ]
+      },
+      {
+        "heading": "The exhibitions and the water show",
+        "id": "exhibitions",
+        "body": [
+          "The temple and grounds are free. The ticketed exhibitions are a separate decision and add an hour or more: a film, an animatronic presentation on the life of Swaminarayan, and a boat ride through a depiction of Indian history.",
+          "They are aimed squarely at families and are well done of their type. If your time in Delhi is short, the building and the grounds are the reason to come and the exhibitions are optional.",
+          "The Sahaj Anand water show runs in the evening, is separately ticketed, and is worth staying for if you are there late and the weather is good."
+        ]
+      },
+      {
+        "heading": "Getting there, and when to go",
+        "id": "getting-there",
+        "body": [
+          "Akshardham sits east of the Yamuna, which puts it on the opposite side of the city from Old Delhi and the southern monuments. That matters more than the distance — it is not a stop you drop into between two other things.",
+          "Akshardham station on the Blue Line is a short walk away and is genuinely the easiest way to reach it. By road, allow longer than the map suggests at rush hour.",
+          "Afternoon into early evening is the best slot: the stone warms in low light, and staying for the water show turns the trip into an evening rather than a detour. Go early only if you want it quiet."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What are the Akshardham temple timings?",
+        "answer": "Roughly 9:30 AM to 6:30 PM with last entry around 6 PM, and closed every Monday. Allow two to three hours for the temple and grounds, more with the exhibitions. Budget extra for the security and cloakroom queues at either end, which on a busy afternoon can add the better part of an hour."
+      },
+      {
+        "question": "Is Akshardham free to enter?",
+        "answer": "Yes, the temple and grounds are free. The exhibitions — the film, the animatronic show and the boat ride — are ticketed separately at around ₹250 and are optional. The evening water show is a separate ticket again. If your time is short, the building itself is the reason to come."
+      },
+      {
+        "question": "Can you take your phone into Akshardham?",
+        "answer": "No. Phones, cameras, bags and all electronics are prohibited inside and must be left in the cloakroom at the entrance, which is free. Photography is not permitted anywhere in the complex and the rule is enforced. Arrive carrying as little as possible — the deposit and collection queues are the slowest part of the visit."
+      },
+      {
+        "question": "Is Akshardham closed on Mondays?",
+        "answer": "Yes, every Monday. So are the Red Fort, the Lotus Temple and the National Museum, which is why a Monday can take out most of a Delhi itinerary at once. Qutub Minar, Humayun's Tomb, Jama Masjid and India Gate all stay open and make a good Monday day."
+      },
+      {
+        "question": "Is Akshardham worth visiting?",
+        "answer": "For most visitors, yes, with the expectation set first: it was completed in 2005 and is not a historic monument. What it is, is the largest piece of traditional hand-carved stonework built in modern India, at a scale nothing else matches. Visitors who arrive expecting Mughal heritage sometimes find it strange; those who take it on its own terms usually rate it highly."
+      }
+    ],
+    related: [
+      {
+        "label": "Delhi Unveiled: Private Full Day Heritage Tour",
+        "to": "/plans/delhi-full-day-heritage",
+        "note": "Old Delhi and the Mughal south in one day — tell us if you want Akshardham added and we will restructure the afternoon around the queue."
+      },
+      {
+        "label": "Hire a Licensed Guide and Private Car",
+        "to": "/guide-booking",
+        "note": "The car waits while you are inside, which matters here more than anywhere — you walk in with nothing and everything stays in the vehicle."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Delhi itinerary: 1, 2 or 3 days",
+        "to": "/guides/delhi-itinerary-1-2-3-days"
+      },
+      {
+        "label": "Lotus Temple, Delhi",
+        "to": "/guides/lotus-temple-delhi"
+      },
+      {
+        "label": "Getting around Delhi: Metro, taxi, auto or car",
+        "to": "/guides/getting-around-delhi"
+      }
+    ]
+  },
+  {
+    slug: "lotus-temple-delhi",
+    topic: "delhi-monuments",
+    metaTitle: "Lotus Temple Delhi: Timings, Entry, Queues and What Is Inside",
+    metaDescription: "Lotus Temple opening hours, the Monday closure, why entry is free, how long the weekend queue runs, and the honest answer on what you will find inside.",
+    h1: "Lotus Temple, Delhi: Timings, Queues and What Is Inside",
+    cardTitle: "Lotus Temple",
+    cardSummary: "Free, closed Mondays, and an hour-long weekend queue for a silent hall with nothing in it — which is either the point or a reason to photograph it from the garden.",
+    image: "/india-gate-group.webp",
+    updated: "2026-09-29",
+    intro: [
+      "The Lotus Temple is free, closed every Monday, and open roughly 9 AM to 5:30 PM in winter and later in summer. Allow forty-five minutes to an hour, most of which may be the queue.",
+      "It is a Bahá'í House of Worship, and the honest thing to say before you plan around it is that the interior is a plain silent hall with no images, no altar and no ceremony. The building is extraordinary from outside. What is inside is quiet, and for some visitors that is the whole point and for others it is an hour they would rather have spent elsewhere."
+    ],
+    sections: [
+      {
+        "heading": "Timings, entry and the queue",
+        "id": "timings",
+        "table": {
+          "caption": "Lotus Temple at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "About 9 AM – 5:30 PM in winter, later in summer"
+            ],
+            [
+              "Closed",
+              "Every Monday"
+            ],
+            [
+              "Entry",
+              "Free"
+            ],
+            [
+              "Photography",
+              "Gardens yes, prayer hall no"
+            ],
+            [
+              "Inside the hall",
+              "Silence — no talking, no phones"
+            ],
+            [
+              "Footwear",
+              "Off before entering the hall"
+            ],
+            [
+              "Weekend queue",
+              "Often 45 minutes or more"
+            ],
+            [
+              "Time to allow",
+              "45 minutes – 1 hour"
+            ],
+            [
+              "Nearest Metro",
+              "Kalkaji Mandir (Violet and Magenta Lines)"
+            ]
+          ]
+        },
+        "body": [
+          "Weekends and public holidays are the problem. The temple is one of the most visited buildings in the world by footfall, overwhelmingly by domestic visitors, and on a Sunday afternoon the queue to enter the hall can run past an hour for a visit of a few minutes.",
+          "Weekday mornings are a different experience entirely — a short queue, a calm garden and a hall with a handful of people in it."
+        ],
+        "callout": {
+          "title": "On a one-day Delhi itinerary, photograph it and move on",
+          "text": "If Delhi is a single day, the queue is not a good use of an hour. The building's entire architectural argument is visible from the garden, which is free, open and rarely crowded. Going inside adds silence rather than sights. On a two or three-day trip, go in on a weekday morning and take the time properly."
+        }
+      },
+      {
+        "heading": "The building",
+        "id": "architecture",
+        "body": [
+          "It was completed in 1986 to a design by the Iranian-Canadian architect Fariborz Sahba, and it is made of twenty-seven free-standing marble petals arranged in clusters of three to form nine sides — nine being significant in Bahá'í thought, as the highest single digit and a symbol of unity.",
+          "Nine doors open onto a central hall around forty metres high, seating roughly a thousand three hundred people. There are no internal columns; the petals do the work. The marble came from Greece, the same quarries that supplied the Parthenon.",
+          "It is one of a handful of Bahá'í Houses of Worship in the world and easily the best known, and it has won a long list of architectural awards. Seen from the garden at the end of the day, when the white marble takes the low sun, it is among the most striking modern buildings in India."
+        ]
+      },
+      {
+        "heading": "What happens inside",
+        "id": "inside",
+        "body": [
+          "Nothing, in the sense most visitors expect. Bahá'í Houses of Worship hold no sermons, no rituals, no images and no clergy. The hall is open to people of every faith and of none, for silent prayer or meditation in whatever tradition they bring with them. Scriptures of any religion may be read aloud, without music or instruments.",
+          "In practice that means you file in, sit or stand in a very large quiet room, and file out. Staff enforce the silence, politely and firmly. Phones are not permitted and photography inside is not allowed.",
+          "Whether that is worth an hour of a Delhi day depends entirely on what you came for. It is genuinely one of the calmest public spaces in the city, and in a place as loud as Delhi that is not a small thing."
+        ]
+      },
+      {
+        "heading": "Getting there, and what to pair it with",
+        "id": "getting-there",
+        "body": [
+          "Kalkaji Mandir on the Violet and Magenta lines is a short walk away. By road it is in south Delhi, on the same side of the city as Qutub Minar and Humayun's Tomb, which is how it usually fits into a day.",
+          "It pairs naturally with Humayun's Tomb in an afternoon, or with Qutub Minar. Late afternoon suits it — the marble is at its best in low light and the day-trip crowds have thinned by then.",
+          "Like Akshardham, it closes on Mondays. On a Monday, Qutub Minar, Humayun's Tomb and Jama Masjid remain open and carry the day."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What are the Lotus Temple timings?",
+        "answer": "Roughly 9 AM to 5:30 PM in winter and later in summer, closed every Monday. Allow forty-five minutes to an hour, though on a weekend afternoon most of that can be the queue. Weekday mornings are far quieter and a completely different experience."
+      },
+      {
+        "question": "Is there an entry fee for the Lotus Temple?",
+        "answer": "No, entry is free, and there is no ticket to buy or queue for beyond the line to enter the hall itself. Photography is permitted in the gardens but not inside the prayer hall, and phones are not allowed in the hall."
+      },
+      {
+        "question": "What is inside the Lotus Temple?",
+        "answer": "A large silent hall with no images, no altar, no clergy and no ceremony. Bahá'í Houses of Worship hold no sermons or rituals; the hall is open to people of any faith or none, for silent prayer or meditation. In practice you file in, sit in a very quiet room and file out. It is one of the calmest public spaces in Delhi, which in a city this loud is worth something."
+      },
+      {
+        "question": "Is the Lotus Temple worth visiting?",
+        "answer": "The building is worth seeing; whether it is worth queueing for depends on your time. On a single day in Delhi, photograph it from the garden — the architecture reads entirely from outside, the garden is free and rarely crowded, and the queue can take an hour for a few minutes inside. On a longer trip, go in on a weekday morning."
+      },
+      {
+        "question": "How long is the queue at the Lotus Temple?",
+        "answer": "On a weekday morning, a few minutes. On a weekend or public holiday afternoon it regularly runs past forty-five minutes and sometimes well beyond, because it is one of the most visited buildings in the world by footfall. If your visit falls on a Sunday, plan to see it from the garden rather than from the back of a line."
+      }
+    ],
+    related: [
+      {
+        "label": "Delhi Unveiled: Private Full Day Heritage Tour",
+        "to": "/plans/delhi-full-day-heritage",
+        "note": "A full day in Delhi with the stops chosen for what the hours actually allow — we will tell you honestly when a queue is not worth it."
+      },
+      {
+        "label": "Delhi Half Day Private Tour",
+        "to": "/plans/delhi-half-day",
+        "note": "The southern afternoon: Humayun's Tomb, Qutub Minar and the Lotus Temple garden, in the light that suits them."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Akshardham Temple, Delhi",
+        "to": "/guides/akshardham-temple-delhi"
+      },
+      {
+        "label": "Humayun's Tomb, Delhi",
+        "to": "/guides/humayuns-tomb-delhi"
+      },
+      {
+        "label": "Delhi itinerary: 1, 2 or 3 days",
+        "to": "/guides/delhi-itinerary-1-2-3-days"
+      }
+    ]
+  },
+  {
+    slug: "india-gate-delhi",
+    topic: "delhi-monuments",
+    metaTitle: "India Gate: What It Is, When to Go and the Republic Day Closure",
+    metaDescription: "India Gate timings, why it is free and always open, what the memorial actually commemorates, the best time to visit, and the January closure that catches visitors out.",
+    h1: "India Gate, Delhi: What It Is and When to Go",
+    cardTitle: "India Gate",
+    cardSummary: "Free, always open, best after dark — and shut off for most of January while Republic Day is rehearsed.",
+    image: "/india-gate-group.webp",
+    updated: "2026-09-29",
+    intro: [
+      "India Gate is free, has no gate to queue at and is open at all hours. Allow twenty to thirty minutes. It is best after dark, when it is floodlit and half of Delhi comes out to sit on the lawns.",
+      "It is a war memorial rather than a monument in the Mughal sense — designed by Edwin Lutyens and completed in 1931, commemorating around seventy thousand Indian soldiers who died in the First World War and the Third Anglo-Afghan War. The names of more than thirteen thousand of them are cut into the stone."
+    ],
+    sections: [
+      {
+        "heading": "Practicalities",
+        "id": "practicalities",
+        "table": {
+          "caption": "India Gate at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "Always — it is an open public space"
+            ],
+            [
+              "Entry",
+              "Free"
+            ],
+            [
+              "Time to allow",
+              "20 – 30 minutes"
+            ],
+            [
+              "Best time",
+              "After dark, when it is lit and busy"
+            ],
+            [
+              "Closed",
+              "Not as such, but the area shuts for Republic Day rehearsals through much of January"
+            ],
+            [
+              "Nearest Metro",
+              "Central Secretariat (Yellow and Violet Lines), then a walk or short ride"
+            ],
+            [
+              "Worth a stop or a drive-past?",
+              "A stop in the evening; a drive-past in daylight"
+            ]
+          ]
+        },
+        "body": [
+          "There is nothing to book, nothing to pay and no opening hour to work around, which makes it the easiest thing in Delhi to fit in. It is also the least rewarding in the middle of the day, when the lawns are hot, exposed and empty.",
+          "In the evening it becomes something else. Families arrive, ice-cream sellers set up, children run on the grass, and the memorial is lit. On a warm night it is one of the best places in the city to watch Delhi being itself."
+        ],
+        "callout": {
+          "title": "Most of January, the area is closed",
+          "text": "Republic Day falls on 26 January, and rehearsals for the parade close Kartavya Path and the area around India Gate for roughly ten days beforehand. Visitors planning a New Delhi day in mid-January regularly find the whole government quarter off-limits. It appears on no weather chart and no monument timing list. If you are travelling in January, ask before you build a day around it."
+        }
+      },
+      {
+        "heading": "What it commemorates",
+        "id": "what-it-is",
+        "body": [
+          "The arch was built as the All India War Memorial, for Indian soldiers who died fighting for the British Empire between 1914 and 1921 — in France, Flanders, Mesopotamia, Persia, East Africa and Gallipoli, and in the Third Anglo-Afghan War. Around seventy thousand died; 13,300 names are inscribed, including some British soldiers.",
+          "That history sits awkwardly and the memorial has been repeatedly reinterpreted since independence, which is part of what makes it interesting rather than a difficulty to be smoothed over.",
+          "The Amar Jawan Jyoti — the eternal flame for the unknown soldier — was added beneath the arch in 1972, after the 1971 war. In January 2022 it was merged with the flame at the National War Memorial a short distance away, which now serves as India's principal memorial to soldiers killed since independence and is worth the five-minute walk."
+        ]
+      },
+      {
+        "heading": "The canopy behind it",
+        "id": "canopy",
+        "body": [
+          "A short distance behind the arch stands an empty-looking domed canopy, also by Lutyens. It held a statue of King George V until 1968, when the statue was removed to Coronation Park in north Delhi, where it still stands among other displaced colonial statuary.",
+          "The canopy stood empty for more than fifty years. In 2022 a statue of Subhas Chandra Bose was installed beneath it.",
+          "Between the arch, the flame that moved, the statue that left and the statue that arrived, the hundred metres around India Gate is the most legible place in Delhi to read how the country has thought about its own past. Almost every visitor photographs the arch and walks past all of it."
+        ]
+      },
+      {
+        "heading": "Getting there, and what is nearby",
+        "id": "getting-there",
+        "body": [
+          "Central Secretariat on the Yellow and Violet lines is the nearest useful station, then a walk or a short ride. By road it is central and easy, though the whole area is one-way systems and parking restrictions — this is a stop where having a driver who waits is worth more than usual.",
+          "Kartavya Path — the ceremonial avenue, renamed from Rajpath in 2022 — runs from the arch up to Rashtrapati Bhavan, the presidential residence, with the North and South Blocks on either side. The full walk is longer than it looks, close to two kilometres, and in summer that matters.",
+          "The National War Memorial is a few minutes away. Lodhi Garden and Humayun's Tomb are fifteen to twenty minutes by road, which is how India Gate usually fits a day — a stop between the south and the centre rather than a destination of its own."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What are India Gate timings?",
+        "answer": "There are none — it is an open public space with no gate, no ticket and no closing time. Allow twenty to thirty minutes. The one exception is January, when Republic Day rehearsals close Kartavya Path and the surrounding area for roughly ten days before 26 January."
+      },
+      {
+        "question": "Is there an entry fee for India Gate?",
+        "answer": "No. It is free and always accessible. There is nothing to book and no queue. The lawns around it are public and in the evening they fill with families, which is when the place is at its best."
+      },
+      {
+        "question": "What does India Gate commemorate?",
+        "answer": "Around seventy thousand Indian soldiers who died fighting for the British Empire between 1914 and 1921 — in the First World War and the Third Anglo-Afghan War. More than thirteen thousand names are inscribed on it. The Amar Jawan Jyoti beneath the arch was added in 1972 and in 2022 was merged with the flame at the National War Memorial nearby."
+      },
+      {
+        "question": "What is the best time to visit India Gate?",
+        "answer": "After dark. It is floodlit, the lawns fill with families and food sellers, and the temperature is bearable. In the middle of the day it is an exposed arch on a hot open space, and a drive-past is enough. Winter evenings are cold but the place is still busy."
+      },
+      {
+        "question": "Why is the canopy behind India Gate important?",
+        "answer": "It held a statue of King George V until 1968, when it was moved to Coronation Park in north Delhi. The canopy then stood empty for over fifty years, and in 2022 a statue of Subhas Chandra Bose was installed there. Between the memorial, the flame that moved and the statues that left and arrived, this hundred metres is the clearest place in Delhi to read how the country has reinterpreted its own history."
+      }
+    ],
+    related: [
+      {
+        "label": "Delhi Unveiled: Private Full Day Heritage Tour",
+        "to": "/plans/delhi-full-day-heritage",
+        "note": "India Gate on the way back at the end of the day, which is the hour it is worth seeing."
+      },
+      {
+        "label": "Delhi Half Day Private Tour",
+        "to": "/plans/delhi-half-day",
+        "note": "The afternoon version runs south Delhi and finishes here as the lights come on."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Old Delhi vs New Delhi",
+        "to": "/guides/old-delhi-vs-new-delhi"
+      },
+      {
+        "label": "Best time to visit Delhi",
+        "to": "/guides/best-time-to-visit-delhi"
+      },
+      {
+        "label": "Delhi itinerary: 1, 2 or 3 days",
+        "to": "/guides/delhi-itinerary-1-2-3-days"
+      }
+    ]
+  },
+  {
+    slug: "chandni-chowk-delhi",
+    topic: "delhi-monuments",
+    metaTitle: "Chandni Chowk: What to See, What to Eat and When to Go",
+    metaDescription: "Chandni Chowk explained — the sub-markets and what each one sells, the best time of day, which day the shops shut, how to get around the lanes, and what to eat.",
+    h1: "Chandni Chowk: What to See, Eat and When to Go",
+    cardTitle: "Chandni Chowk",
+    cardSummary: "Six markets in one, best between ten and one, largely shut on Sundays — and the lane-by-lane map most visitors never get.",
+    image: "/chai-stop-with-driver.webp",
+    updated: "2026-09-29",
+    intro: [
+      "Chandni Chowk is free, has no opening hours as such, and is best between about ten in the morning and one in the afternoon, when the trade is at full pitch and the crowds have not yet made it impossible to stand still. Many shops close on Sundays, so that is the day to avoid.",
+      "It is not one market. It is six or seven specialised ones packed into the lanes off a single avenue, each selling one thing — spices, silver, wedding trim, paper, books, electrical parts — in an arrangement that has barely changed since the seventeenth century. Knowing which lane is which is the difference between an hour of noise and one of the best mornings in India."
+    ],
+    sections: [
+      {
+        "heading": "When to go, and what is open",
+        "id": "when",
+        "table": {
+          "caption": "Chandni Chowk at a glance",
+          "headers": [
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Open",
+              "No fixed hours; most shops roughly 10 AM – 8 PM"
+            ],
+            [
+              "Quietest day",
+              "Sunday — many shops closed"
+            ],
+            [
+              "Best window",
+              "10 AM – 1 PM"
+            ],
+            [
+              "Entry",
+              "Free"
+            ],
+            [
+              "Getting around",
+              "On foot or cycle-rickshaw; cars cannot enter the lanes"
+            ],
+            [
+              "Main street",
+              "Pedestrianised during the day — no cars on the avenue itself"
+            ],
+            [
+              "Time to allow",
+              "2 – 3 hours to do it properly"
+            ],
+            [
+              "Nearest Metro",
+              "Chandni Chowk (Yellow Line) or Lal Qila (Violet Line)"
+            ]
+          ]
+        },
+        "body": [
+          "Sunday is the trap. Chandni Chowk is a wholesale and trade district before it is a tourist one, and a large share of shops simply do not open. The lanes are still walkable and the food is still there, but the thing you came to see — a working market — is not happening.",
+          "Early morning, before about nine, is a different pleasure: shutters going up, deliveries arriving, the lanes briefly navigable. After about four in the afternoon it becomes genuinely hard going."
+        ],
+        "callout": {
+          "title": "Take a cycle-rickshaw, at least once",
+          "text": "The lanes are too narrow for a car and too long to walk end to end comfortably. A cycle-rickshaw through Chandni Chowk is not a tourist gimmick — it is how people move here, it costs very little, and being at that height in that traffic is one of the things visitors remember from Delhi. Agree the fare before you sit down."
+        }
+      },
+      {
+        "heading": "The markets, lane by lane",
+        "id": "the-lanes",
+        "body": [
+          "Each lane off the main avenue sells one thing and has for generations. This is the map most visitors never get, and it turns an undifferentiated crowd into a place with a structure."
+        ],
+        "list": [
+          "Khari Baoli — the spice market at the western end, the largest in Asia, trading since the seventeenth century. Sacks of chilli, turmeric, dried fruit and nuts, and an atmosphere that will make you cough.",
+          "Dariba Kalan — silver. Jewellery, and the attar shops selling traditional perfume oils, some of them centuries old as businesses.",
+          "Kinari Bazaar — wedding trim. Braid, sequins, tassels, zari work. It is the most colourful lane in Delhi and almost nothing in it is aimed at tourists.",
+          "Nai Sarak — books and stationery, mostly textbooks, wholesale.",
+          "Chawri Bazaar — paper and wedding cards, and the brass and copper trade.",
+          "Bhagirath Palace — electrical goods and lighting, in what was once a Mughal-era mansion.",
+          "Paranthe Wali Gali — a lane of nothing but fried-bread shops, several over a century old."
+        ]
+      },
+      {
+        "heading": "What to eat",
+        "id": "food",
+        "body": [
+          "This is among the best eating in India and it is almost all cooked to order in front of you, which is also the safest kind of street food. The rule that matters is turnover: go where there is a queue.",
+          "These are the places and dishes we point guests at, and they are all within walking distance of each other."
+        ],
+        "list": [
+          "Parathas at Paranthe Wali Gali — fried to order, stuffed with anything from potato to paneer to banana.",
+          "Chole bhature — fried bread with a chickpea curry, the Delhi breakfast.",
+          "Kebabs in Matia Mahal, opposite the southern steps of Jama Masjid, grilled over coals.",
+          "Karim's, in a lane behind Jama Masjid, for Mughlai cooking by a family that traces the kitchen back to the court.",
+          "Jalebi at the Dariba Kalan end — straight out of the syrup, hot.",
+          "Daulat ki chaat in winter only — a whipped milk froth that exists in Old Delhi between about November and February and nowhere else.",
+          "Lassi and kulfi wherever you see a crowd, and chai continuously."
+        ]
+      },
+      {
+        "heading": "The history under the noise",
+        "id": "history",
+        "body": [
+          "Shah Jahan's daughter Jahanara Begum laid out the avenue in 1650 as the grand approach to the Red Fort. A canal ran down the middle of it, and the name — moonlit square — comes from the moon reflecting in that water.",
+          "The canal is long gone and the avenue now carries more people per square metre than almost anywhere in India. The main street was pedestrianised during daylight hours in a redevelopment completed a few years ago, which made walking it far more tolerable than it used to be.",
+          "Jama Masjid stands at one end of the district and the Red Fort at the other, and the lanes between them were the commercial heart of a Mughal capital. That they are still the commercial heart of anything, four centuries later, is the remarkable part."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "What is the best time to visit Chandni Chowk?",
+        "answer": "Between about ten in the morning and one in the afternoon, when the trade is at full pitch but the lanes are still navigable. Before nine is quieter and has its own appeal — shutters going up and deliveries arriving. After four it becomes hard going, and in summer the afternoon heat in the lanes is genuinely unpleasant."
+      },
+      {
+        "question": "Is Chandni Chowk closed on Sundays?",
+        "answer": "Many shops are, yes. It is a wholesale and trade district before it is a tourist one, and a large share of businesses do not open on Sunday. The lanes are still walkable and the food is still there, but the working market you came to see is not running. Any other day is better."
+      },
+      {
+        "question": "What is sold in Chandni Chowk?",
+        "answer": "It is six or seven specialised markets rather than one. Khari Baoli is spices, the largest such market in Asia. Dariba Kalan is silver and attar. Kinari Bazaar is wedding trim and zari. Nai Sarak is books, Chawri Bazaar is paper and brass, Bhagirath Palace is electrical goods. Each lane has sold the same thing for generations."
+      },
+      {
+        "question": "How do you get around Chandni Chowk?",
+        "answer": "On foot or by cycle-rickshaw. Cars cannot enter the lanes and the main avenue is pedestrianised during the day, so any vehicle waits at the edge. A cycle-rickshaw costs very little and is how people actually move here — agree the fare before you sit down."
+      },
+      {
+        "question": "Is the street food in Chandni Chowk safe?",
+        "answer": "Freshly cooked street food from a busy stall is among the safer things you will eat in India — high heat, cooked in front of you, and selling too fast to sit. The rule is turnover: go where locals are queuing. What causes trouble is water and things that touched it without being cooked — ice, pre-cut fruit, watery chutneys."
+      }
+    ],
+    related: [
+      {
+        "label": "Delhi Half Day Private Tour",
+        "to": "/plans/delhi-half-day",
+        "note": "The Old Delhi morning: Jama Masjid, the lanes and the spice market on foot, with someone who knows which gully leads where."
+      },
+      {
+        "label": "Delhi Unveiled: Private Full Day Heritage Tour",
+        "to": "/plans/delhi-full-day-heritage",
+        "note": "Chandni Chowk in the morning and the Mughal tombs in the afternoon — the order the traffic and the heat actually allow."
+      }
+    ],
+    seeAlso: [
+      {
+        "label": "Is Indian street food safe?",
+        "to": "/guides/is-indian-street-food-safe"
+      },
+      {
+        "label": "Jama Masjid, Delhi",
+        "to": "/guides/jama-masjid-delhi"
+      },
+      {
+        "label": "Old Delhi vs New Delhi",
+        "to": "/guides/old-delhi-vs-new-delhi"
       }
     ]
   }
