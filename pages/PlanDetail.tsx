@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, Navigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   CheckCircle2, Clock, MapPin,
@@ -9,11 +9,12 @@ import { TOURS, PRICE_DISCLAIMER } from '../constants';
 import { GUIDES } from '../guides';
 import OptimizedImage from '../components/OptimizedImage';
 import SEO, { SITE_URL } from '../components/SEO';
+import { matchBySlug } from '../routing';
 
 const PlanDetail: React.FC = () => {
   const { id } = useParams();
   const [showStickyBar, setShowStickyBar] = useState(false);
-  const tour = TOURS.find(t => t.id === id);
+  const { item: tour, isCanonical } = matchBySlug(TOURS, id, t => t.id);
 
   useEffect(() => {
     const handleScroll = () => setShowStickyBar(window.scrollY > 400);
@@ -29,6 +30,8 @@ const PlanDetail: React.FC = () => {
       </div>
     );
   }
+
+  if (!isCanonical) return <Navigate to={`/plans/${tour.id}`} replace />;
 
   const tourUrl = `${SITE_URL}/plans/${tour.id}`;
 

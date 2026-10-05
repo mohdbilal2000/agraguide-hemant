@@ -1,8 +1,9 @@
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, Navigate } from 'react-router-dom';
 import { BLOG_POSTS } from '../constants';
 import OptimizedImage from '../components/OptimizedImage';
 import SEO, { SITE_URL } from '../components/SEO';
+import { matchBySlug } from '../routing';
 import { ArrowLeft, Calendar, User } from 'lucide-react';
 
 /** Best-effort ISO date for schema. Returns undefined rather than an invalid
@@ -18,7 +19,7 @@ const BlogDetail: React.FC = () => {
   // is defined as /blog/:slug or /blog/:id.
   const params = useParams<{ slug?: string; id?: string }>();
   const key = params.slug ?? params.id;
-  const post = BLOG_POSTS.find((p) => p.slug === key);
+  const { item: post, isCanonical } = matchBySlug(BLOG_POSTS, key, (p) => p.slug);
 
   if (!post) {
     return (
@@ -44,6 +45,8 @@ const BlogDetail: React.FC = () => {
       </div>
     );
   }
+
+  if (!isCanonical) return <Navigate to={`/blog/${post.slug}`} replace />;
 
   const published = toISO(post.date);
 

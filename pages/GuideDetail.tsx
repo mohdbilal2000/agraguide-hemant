@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { CalendarDays, Info, ArrowRight, ArrowLeft } from 'lucide-react';
 import { GUIDES } from '../guides';
+import { matchBySlug } from '../routing';
 import OptimizedImage from '../components/OptimizedImage';
 import SEO, { SITE_URL } from '../components/SEO';
 
@@ -47,9 +48,10 @@ const RichText: React.FC<{ text: string }> = ({ text }) => {
 
 const GuideDetail: React.FC = () => {
   const { slug } = useParams();
-  const guide = GUIDES.find(g => g.slug === slug);
+  const { item: guide, isCanonical } = matchBySlug(GUIDES, slug, g => g.slug);
 
   if (!guide) return <Navigate to="/guides" replace />;
+  if (!isCanonical) return <Navigate to={`/guides/${guide.slug}`} replace />;
 
   const guideUrl = `${SITE_URL}/guides/${guide.slug}`;
 
