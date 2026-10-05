@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { CalendarDays, Info, ArrowRight, ArrowLeft } from 'lucide-react';
 import { GUIDES } from '../guides';
+import type { GuideLink } from '../types';
 import { matchBySlug } from '../routing';
 import OptimizedImage from '../components/OptimizedImage';
 import SEO, { SITE_URL } from '../components/SEO';
@@ -45,6 +46,54 @@ const RichText: React.FC<{ text: string }> = ({ text }) => {
 
   return <>{parts}</>;
 };
+
+/**
+ * The tour links live in the sidebar, which is a `lg:col-span-4` column — below
+ * that breakpoint it stops sitting beside the article and stacks underneath it.
+ * On a long guide that puts the only call to action thousands of words down the
+ * page, past the FAQs, where a reader who got their answer in the first screen
+ * will never reach it. Search traffic to this site is 69% mobile.
+ *
+ * So one CTA goes inline instead: early enough to be seen, late enough that the
+ * reader has had something useful first. It is hidden at `lg`, where the sticky
+ * sidebar is already visible and a second copy would just read as an advert.
+ */
+const InlineCTA: React.FC<{ link: GuideLink; guideTitle: string }> = ({ link, guideTitle }) => (
+  <aside className="lg:hidden my-12 rounded-[2rem] border border-brand-primary/20 bg-brand-bg p-7">
+    <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-3">
+      Planning this trip?
+    </p>
+    <Link
+      to={link.to}
+      className="block text-lg font-bold playfair text-brand-dark hover:text-brand-primary transition-colors"
+    >
+      {link.label}
+    </Link>
+    <p className="mt-2 text-sm text-gray-600 leading-relaxed">{link.note}</p>
+    <div className="mt-6 flex flex-wrap gap-3">
+      <Link
+        to={link.to}
+        className="inline-flex items-center gap-2 bg-brand-primary text-white px-5 py-3 rounded-2xl font-bold text-sm hover:bg-brand-dark transition-all"
+      >
+        See the tour <ArrowRight size={16} aria-hidden="true" />
+      </Link>
+      <a
+        href={`https://wa.me/919217519989?text=${encodeURIComponent(`Hi, I read your guide: ${guideTitle}. I have a question.`)}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 bg-brand-success/10 text-brand-success px-5 py-3 rounded-2xl font-bold text-sm hover:bg-brand-success hover:text-white transition-all"
+      >
+        Ask on WhatsApp
+      </a>
+    </div>
+  </aside>
+);
+
+/** Insert after this section, when there are enough sections left to still be
+ *  mid-article. 29 of the 30 guides clear it; the one that does not is short
+ *  enough that the stacked sidebar is already close by. */
+const CTA_AFTER_SECTION = 1;
+const CTA_MIN_SECTIONS = 4;
 
 const GuideDetail: React.FC = () => {
   const { slug } = useParams();
@@ -156,8 +205,9 @@ const GuideDetail: React.FC = () => {
                 </nav>
               )}
 
-              {guide.sections.map(section => (
-                <section key={section.id} id={section.id} className="scroll-mt-28 mt-12 first:mt-0">
+              {guide.sections.map((section, si) => (
+                <React.Fragment key={section.id}>
+                <section id={section.id} className="scroll-mt-28 mt-12 first:mt-0">
                   <h2 className="text-2xl md:text-3xl font-bold playfair text-brand-dark mb-5">{section.heading}</h2>
 
                   {section.body?.map((p, i) => (
@@ -217,6 +267,13 @@ const GuideDetail: React.FC = () => {
                     </aside>
                   )}
                 </section>
+
+                {si === CTA_AFTER_SECTION &&
+                  guide.sections.length >= CTA_MIN_SECTIONS &&
+                  guide.related[0] && (
+                    <InlineCTA link={guide.related[0]} guideTitle={guide.cardTitle} />
+                  )}
+                </React.Fragment>
               ))}
             </div>
 
