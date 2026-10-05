@@ -4824,5 +4824,812 @@ export const GUIDES: Guide[] = [
         "to": "/guides/city-palace-jaipur"
       }
     ]
+  },
+  {
+    slug: 'is-agra-safe-for-tourists',
+    topic: 'agra',
+    metaTitle: 'Is Agra Safe for Tourists? An Honest Answer',
+    metaDescription:
+      'Agra is safe for tourists in the way that matters — violent crime against visitors is rare. What you will actually meet is persistence: touts, commission shops and fake guides. Here is how each one works.',
+    h1: 'Is Agra Safe for Tourists?',
+    cardTitle: 'Is Agra Safe for Tourists?',
+    cardSummary:
+      'Yes, in the way that matters. The real risk is not danger but persistence — and knowing how it works removes most of it.',
+    image: '/taj-mahal-couple.webp',
+    updated: '2026-10-05',
+    intro: [
+      'Yes. Agra is safe for tourists in the sense people usually mean when they ask — violent crime against visitors is rare, the areas around the monuments are heavily policed, and millions of people visit every year without incident.',
+      'That is not the whole answer, though, because it is not quite what people are worried about. What you will actually encounter in Agra is persistence: people who want your attention, your business and a commission on your spending. None of it is dangerous. All of it is wearing if you do not know how it works. This page explains how it works.'
+    ],
+    sections: [
+      {
+        heading: 'The short answer, by concern',
+        id: 'at-a-glance',
+        table: {
+          caption: 'Agra safety, concern by concern',
+          headers: ['Concern', 'Real risk level', 'What actually happens'],
+          rows: [
+            ['Violent crime', 'Very low', 'Rare against tourists; the monument areas are policed'],
+            ['Theft and pickpocketing', 'Low to moderate', 'Ordinary crowd risk at the gates and in markets'],
+            ['Touts and persistent sellers', 'High — but harmless', 'Constant near the Taj gates; the main irritation of the day'],
+            ['Commission shops', 'High', 'Drivers and "guides" steering you to marble and gem shops'],
+            ['Overcharging', 'Moderate', 'Autos without a meter, inflated prices for water and souvenirs'],
+            ['Food and water', 'Manageable', 'Same precautions as anywhere in India'],
+            ['Air quality in winter', 'Real, not dangerous', 'December to January can be hazy — bad for photos more than health'],
+            ['Solo female travel', 'Moderate', 'Attention and staring are common; serious incidents are not']
+          ]
+        }
+      },
+      {
+        heading: 'What Agra is actually like',
+        id: 'what-its-like',
+        body: [
+          'Agra is a city of about two million people, and almost everything a visitor sees sits in a small part of it. The Taj Mahal, Agra Fort and the hotels are within a few kilometres of each other. You are not navigating a vast city; you are moving between three or four points in a well-trodden corridor.',
+          'That corridor is intensely commercial. The tourist economy is the economy, and the competition for a visitor’s money is open and loud in a way that people from quieter places find startling. A man following you for two hundred metres offering a marble elephant is not a threat. He is doing his job, in a market where that is how the job is done.',
+          'Understanding that changes the day. The thing that exhausts visitors in Agra is not fear; it is the mental load of treating every approach as something to assess. Once you accept that almost every approach is commercial and almost none of it is sinister, a firm "no thank you" without breaking stride handles ninety-five per cent of it.'
+        ]
+      },
+      {
+        heading: 'The commission problem — the one that actually costs you',
+        id: 'commission',
+        body: [
+          'This is the real issue in Agra, and it is not about safety at all. It is about money.',
+          'Agra has a large marble handicraft and gemstone trade, and much of it pays commission — often a very large percentage — to whoever brings a customer through the door. That whoever is usually a driver, sometimes a guide. The price you are quoted has that commission built into it, which is why the same piece can cost a fraction as much somewhere nobody is being paid to take you.',
+          'It is rarely presented as shopping. It is presented as a workshop visit, a demonstration of inlay technique, a government emporium, a chance to see craftsmen at work. Those things are genuinely interesting. The visit is also forty-five minutes of your day and a sales pitch at the end of it.',
+          'The defence is simple and you should apply it before you book anything, not on the day: ask the operator directly whether the itinerary includes any shop or workshop stops, and say you do not want them. A company that works on commission will be vague. One that does not will say no without hesitating. We do not take anyone to a shop unless they ask us to.'
+        ],
+        callout: {
+          title: 'The sentence that ends it',
+          text: '"I am not shopping today, please take me straight to the hotel." Say it once, calmly, and mean it. A driver on commission will try twice more. Repeat the same sentence rather than offering a new reason — a reason is something to argue with, and a repeated sentence is not.'
+        }
+      },
+      {
+        heading: 'Fake guides, and how to tell',
+        id: 'fake-guides',
+        body: [
+          'Outside the Taj Mahal gates you will be offered guiding services by people who are not licensed guides. Some know a great deal about the monument. Most will give you a confident fifteen-minute performance of invented history and then negotiate hard at the end.',
+          'A genuine guide is licensed by the Ministry of Tourism or by the state, and carries a photo identity card issued by that body. You are entitled to ask to see it, and a real guide will show it without taking offence — they are asked all the time.',
+          'The other tell is the approach. Licensed guides work through hotels, agencies and pre-arranged bookings. Someone who intercepts you in the car park has, by definition, no bookings.',
+          'If you want a guide, arrange one before you arrive — through your hotel or your tour operator — and you remove the entire question. If you would rather not, the ASI audio guide is available at the monument, and [our guide to the Taj Mahal](/guides/taj-mahal-visiting-guide) covers what you are looking at.'
+        ]
+      },
+      {
+        heading: 'Theft, crowds and the gates',
+        id: 'theft',
+        body: [
+          'Ordinary crowd precautions apply and that is about the size of it. Keep your phone and wallet in a front pocket or a zipped bag at the entry queues and in the markets around Taj Ganj, where people are packed together and distracted.',
+          'Security at the Taj Mahal is airport-style: metal detectors, bag search, separate queues for men and women. The list of prohibited items is longer than people expect and includes food, large bags, tripods and drones. There are cloakrooms, but the queue to use one can be longer than the queue to get in — the simplest answer is to carry almost nothing.',
+          'The security itself means that the area inside the monument is one of the most controlled spaces in the city. Whatever you are worried about, it is not happening inside the Taj Mahal.'
+        ]
+      },
+      {
+        heading: 'Solo and female travellers',
+        id: 'solo-female',
+        body: [
+          'The honest version: serious incidents involving foreign women in Agra are rare, and that is not the thing most women report. What they report is attention — staring, photographs taken without asking, and men who stand closer than feels comfortable.',
+          'None of that is dangerous and all of it is tiring. It is more pronounced in Agra than in Delhi’s newer districts, because the tourist areas are small, busy and male-dominated.',
+          'Practical things that help: covering shoulders and knees reduces attention noticeably; saying no to a photograph is completely acceptable and nobody will take it badly; and a pre-booked car with a driver removes the part of the day — negotiating transport in the street — where most of the discomfort happens. [Our guide to solo female travel in India](/guides/solo-female-travel-india) goes into this properly.'
+        ]
+      },
+      {
+        heading: 'Food, water and the winter haze',
+        id: 'health',
+        body: [
+          'The water rule is the same everywhere in India: bottled or filtered, check the seal, and no ice unless you are somewhere that clearly makes it from treated water. Hotels and restaurants used to international visitors generally do.',
+          'Street food in Agra is good and the usual rule applies — eat where there is a queue of locals, because turnover means freshness. [Our full answer on street food](/guides/is-indian-street-food-safe) has more.',
+          'December and January bring haze to the whole of north India, Agra included. It is a real thing and it does affect the Taj Mahal, which can sit in white mist until mid-morning. For most visitors it is a photography problem rather than a health one, though anyone with asthma should bring their inhaler and consider a mask on the worst days.'
+        ]
+      },
+      {
+        heading: 'How to have an easy day in Agra',
+        id: 'easy-day',
+        list: [
+          'Arrange your transport before you arrive, so you are never negotiating a price on the street',
+          'Say at the time of booking that you do not want shop or workshop stops',
+          'Carry as little as possible through security — no food, no tripod, no large bag',
+          'If you want a guide, book one; if you do not, decline without engaging',
+          'Agree any price before a service starts, including a photograph someone offers to take',
+          'Keep your phone in a front pocket in the entry queues and the markets',
+          'Go early. The first hour after opening has a fraction of the people and none of the heat'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'Is Agra safe for tourists?',
+        answer:
+          'Yes. Violent crime against visitors is rare, the monument areas are heavily policed, and millions of people visit each year without incident. What you will meet instead is persistence — touts, commission-paying shops and unlicensed guides. None of it is dangerous, and knowing how it works removes most of the friction.'
+      },
+      {
+        question: 'Is Agra safe at night?',
+        answer:
+          'The hotel districts and main roads are fine, and moving between a hotel and a restaurant by car is routine. Agra is not a late-night city for visitors, though — the monuments close before sunset and there is little reason to be walking in the back lanes of Taj Ganj after dark. Use a car rather than walking and there is nothing to think about.'
+      },
+      {
+        question: 'Is Agra safe for solo female travellers?',
+        answer:
+          'Serious incidents are rare. What women do consistently report is attention — staring, unasked-for photographs, men standing too close. It is tiring rather than dangerous. Covering shoulders and knees reduces it noticeably, refusing a photograph is entirely acceptable, and a pre-booked car removes the street-negotiation part of the day where most discomfort occurs.'
+      },
+      {
+        question: 'What is the biggest scam in Agra?',
+        answer:
+          'Commission shopping, by a distance. Marble and gemstone shops pay drivers and unlicensed guides a large cut for bringing customers, and that cut is inside the price you are quoted. It is usually dressed up as a workshop visit or a craft demonstration. Tell your operator before you book that you do not want shop stops — a company that does not work on commission will agree immediately.'
+      },
+      {
+        question: 'How do I know if a Taj Mahal guide is genuine?',
+        answer:
+          'A licensed guide is accredited by the Ministry of Tourism or the state and carries a photo identity card from that body. Ask to see it — real guides are asked constantly and will not mind. The other tell is how you met: licensed guides work through hotels, agencies and bookings made in advance, so anyone who intercepts you in the car park is not one.'
+      },
+      {
+        question: 'Do I need to worry about pickpockets in Agra?',
+        answer:
+          'Take ordinary crowd precautions at the entry queues and in the markets around Taj Ganj, where people are packed close together. Inside the monument itself, security is airport-style and the space is one of the most controlled in the city.'
+      },
+      {
+        question: 'Is the air quality in Agra dangerous?',
+        answer:
+          'In December and January the haze that settles over north India reaches Agra too, and the Taj Mahal can be in white mist until mid-morning. For most visitors it is a photography problem rather than a health one. Anyone with asthma should carry their inhaler and consider a mask on the worst days.'
+      }
+    ],
+    related: [
+      {
+        label: 'Same Day Taj Mahal Tour by Car',
+        to: '/plans/same-day-taj-car',
+        note: 'A pre-arranged car and a licensed guide remove the two parts of the day — street transport and the car-park guide — where almost all the friction is.'
+      },
+      {
+        label: 'Delhi Overnight Taj Mahal Tour',
+        to: '/plans/overnight-taj-tour',
+        note: 'Sunrise and sunset in Agra with a night between, so you see the monument at its two quietest hours.'
+      },
+      {
+        label: 'Same Day Taj Mahal Tour by Express Train',
+        to: '/plans/same-day-taj-train',
+        note: 'Gatimaan Express both ways, with a licensed guide and a private vehicle waiting at Agra Cantt.'
+      }
+    ],
+    seeAlso: [
+      { label: 'Is Delhi safe for tourists?', to: '/guides/is-delhi-safe-for-tourists' },
+      { label: 'Common tourist scams in Delhi', to: '/guides/delhi-tourist-scams' },
+      { label: 'Solo female travel in India', to: '/guides/solo-female-travel-india' },
+      { label: 'Taj Mahal: timings and tickets', to: '/guides/taj-mahal-visiting-guide' },
+      { label: 'Do you need a guide at the Taj Mahal?', to: '/guides/do-you-need-a-guide-taj-mahal' }
+    ]
+  },
+  {
+    slug: 'is-taj-mahal-worth-it',
+    topic: 'agra',
+    metaTitle: 'Is the Taj Mahal Worth It? An Honest Answer',
+    metaDescription:
+      'The crowds are real, the touts are real and it is a six-hour round trip from Delhi. Here is the honest case for going, who should not bother, and what separates a good visit from a disappointing one.',
+    h1: 'Is the Taj Mahal Worth It?',
+    cardTitle: 'Is the Taj Mahal Worth It?',
+    cardSummary:
+      'Yes — but not on every kind of visit. The honest version, including who should skip it and what ruins the day.',
+    image: '/taj-mahal-reflection.webp',
+    updated: '2026-10-05',
+    intro: [
+      'Yes. We would say that — we take people there for a living — so here is the case made honestly, including the parts that argue against it.',
+      'The Taj Mahal is one of the few famous things that is not diminished by being famous. People arrive braced for an anticlimax and do not get one. What can ruin the day is everything around the building: the six-hour round trip, the queues, the heat, the persistence. Almost every disappointed visitor was disappointed by the logistics, not the monument.'
+    ],
+    sections: [
+      {
+        heading: 'The case for going',
+        id: 'the-case-for',
+        body: [
+          'Photographs do a strange thing to the Taj Mahal. They make it look smaller and flatter than it is, and they remove the two qualities that actually land when you are standing there: the scale, and the surface.',
+          'It is much bigger than it photographs. The platform alone is substantial, and the building on top of it rises far higher than the pictures suggest. People walk through the gateway and stop, which is exactly what the gateway was designed to make them do.',
+          'And the marble is not flat white. It is semi-translucent, it carries inlaid stone in patterns too fine to register in a photograph, and it changes colour through the day — pink before sunrise, white in the middle of it, gold at the end. Standing close enough to see the inlay in the marble is a different experience from seeing the silhouette, and no image conveys it.',
+          'There is also the fact of what it is. A tomb built for one person, by someone who could command it, finished in the 1650s and still the most recognisable building in the world. Whatever you feel about that, you feel it in front of it rather than reading about it.'
+        ]
+      },
+      {
+        heading: 'The case against — honestly',
+        id: 'the-case-against',
+        body: [
+          'It is busy. On a peak-season weekend the walkways are shoulder to shoulder and the famous bench has a queue. If large crowds genuinely ruin places for you, that is a real consideration and not a small one.',
+          'It is far. From Delhi it is roughly three hours each way, which makes a day trip a twelve-hour day. You will spend more time travelling than looking.',
+          'The approach is commercial and persistent. Between the car park and the gate you will be offered guiding, photography, souvenirs and marble, repeatedly.',
+          'And the visit itself is shorter than the effort implies. Most people see what they came to see in ninety minutes to two hours. That is a long way to go for two hours, and it is a fair thing to weigh.'
+        ],
+        callout: {
+          title: 'Who should genuinely not bother',
+          text: 'If you have one day in India and you would rather spend it somewhere lived-in than somewhere visited, Old Delhi will give you more. If you have mobility difficulties, the distances inside the complex are long and there is little shade. And if you are travelling in May or June with no tolerance for heat, a 44°C day in an open marble courtyard is not an experience anyone enjoys. These are real reasons to skip it, and we would rather say so than sell you a bad day.'
+        }
+      },
+      {
+        heading: 'What separates a good visit from a bad one',
+        id: 'what-decides-it',
+        body: [
+          'Almost everything. The difference between people who describe it as the highlight of their trip and people who describe it as overrated comes down to four decisions, none of which are about the monument.'
+        ],
+        table: {
+          caption: 'What actually decides how the visit goes',
+          headers: ['Decision', 'The good version', 'The disappointing version'],
+          rows: [
+            ['When you arrive', 'At opening — thin crowds, soft light, cool air', 'Mid-morning, into the heat and the peak of the queue'],
+            ['Which day', 'Any day but Friday; a weekday if you can', 'A weekend or a public holiday in peak season'],
+            ['How long you allow', 'Two to three unhurried hours', 'Ninety minutes with a driver waiting and a clock running'],
+            ['How you got there', 'Pre-arranged car or train, no street negotiation', 'Arranged on the day, with a commission stop built in']
+          ]
+        },
+      },
+      {
+        heading: 'Go at opening, or do not bother going',
+        id: 'go-early',
+        body: [
+          'If you take one thing from this page, take this. The Taj Mahal opens about thirty minutes before sunrise, and the first hour is a different monument from the rest of the day.',
+          'The crowds are a fraction of what they become. The light is doing the thing the marble was built to do. The temperature is bearable even in summer. And the touts are mostly not awake yet.',
+          'By ten in the morning the walkways are full, the light is flat and white, and in summer the marble is too hot to walk on barefoot. The same building, a markedly worse experience, for the sake of three hours.',
+          '[Our sunrise guide](/guides/taj-mahal-sunrise) covers the gate times and what actually happens when you get there, and [the best time of day](/guides/taj-mahal-best-time-of-day) compares sunrise against sunset and midday properly.'
+        ]
+      },
+      {
+        heading: 'One day or two?',
+        id: 'one-day-or-two',
+        body: [
+          'A day trip from Delhi works and most people do it. It is a long day — roughly twelve hours door to door by car, eleven by train — and you will see the Taj Mahal and Agra Fort and little else.',
+          'An overnight changes the arithmetic considerably. You arrive in the afternoon, see Agra Fort when it is quiet, sleep in Agra and walk into the Taj Mahal at opening without having driven three hours first. You also get the option of sunset on one day and sunrise on the next, which is the only way to see both without a very strange schedule.',
+          'If the Taj Mahal is a major reason you came to India, the overnight is the better trip and it is not close. If it is one item on a crowded week, the day trip is the sensible compromise.'
+        ]
+      },
+      {
+        heading: 'Is it worth it with children?',
+        id: 'with-children',
+        body: [
+          'Younger children tend to find the Taj Mahal less interesting than the adults with them, which is not surprising — it is a building you look at rather than a place you do something in. Agra Fort usually goes better; it has ramparts, courtyards and the sense of a real castle.',
+          'What makes it workable is a short visit at the right time. Arrive at opening, allow ninety minutes rather than three hours, and go straight to the fort or to breakfast afterwards. Trying to extend it into a long morning in the heat is where family days go wrong.'
+        ]
+      },
+      {
+        heading: 'The verdict',
+        id: 'verdict',
+        list: [
+          'First trip to India, Delhi-based, two days or more — go, and go at opening',
+          'Taj Mahal is a main reason you came — go, and stay the night in Agra',
+          'One day in India and you want a city rather than a monument — Old Delhi gives you more',
+          'Travelling in May or June with no heat tolerance — reconsider, or go in winter instead',
+          'Mobility difficulties — possible but demanding; the distances inside are long and shaded seating is scarce',
+          'You have seen it before — Agra Fort and Fatehpur Sikri are the better second visit'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'Is the Taj Mahal worth visiting?',
+        answer:
+          'Yes for most people, and the reason is that it does not photograph the way it looks. The scale and the translucency of the marble are the two things that land in person and never survive an image. What ruins visits is the logistics rather than the monument — the heat, the crowds and a rushed schedule. Go at opening, allow two hours, and it is very hard to be disappointed.'
+      },
+      {
+        question: 'Is the Taj Mahal overrated?',
+        answer:
+          'Overcrowded, yes. Overrated, no — and that distinction is the whole answer. The people who come away unimpressed almost always arrived mid-morning in peak season, queued in the heat and had ninety minutes before a driver wanted to leave. The building is not the problem; the schedule usually is.'
+      },
+      {
+        question: 'How long do you need at the Taj Mahal?',
+        answer:
+          'Two to three hours is comfortable and unhurried. Ninety minutes is enough to see it properly if you are moving with purpose. Less than an hour is possible but you will spend it walking rather than looking, and you will have travelled three hours each way for it.'
+      },
+      {
+        question: 'Is the Taj Mahal worth a day trip from Delhi?',
+        answer:
+          'Yes, and thousands of people do it — roughly twelve hours door to door by car, eleven by the Gatimaan Express. It is a long day and you will see the Taj Mahal and Agra Fort and not much else. If the Taj Mahal is a main reason you came to India, an overnight in Agra is a better trip: you walk in at opening without having driven three hours first.'
+      },
+      {
+        question: 'Is the Taj Mahal worth it with kids?',
+        answer:
+          'With a short visit at the right time, yes. Younger children usually prefer Agra Fort, which has ramparts and courtyards and feels like a castle. Arrive at opening, allow about ninety minutes rather than three hours, and move on before the heat builds — family days go wrong when they are stretched, not when they are short.'
+      },
+      {
+        question: 'What is the worst time to visit the Taj Mahal?',
+        answer:
+          'A weekend or public holiday in peak season, arriving mid-morning, in May or June. That combination gives you the largest crowds, the flattest light and marble too hot to stand on barefoot. Friday is a separate matter — it is closed to tourists entirely.'
+      },
+      {
+        question: 'Should I see the Taj Mahal or spend the day in Delhi?',
+        answer:
+          'If you have two days or more, do both. If you genuinely have one day in India and you would rather be somewhere lived-in than somewhere visited, Old Delhi will give you a fuller day than a twelve-hour round trip for two hours at a monument. There is no wrong answer, only the one that matches what you came for.'
+      }
+    ],
+    related: [
+      {
+        label: 'Delhi Overnight Taj Mahal Tour',
+        to: '/plans/overnight-taj-tour',
+        note: 'The version of this trip we would book ourselves — sunset, a night in Agra, and the Taj Mahal at opening without a three-hour drive first.'
+      },
+      {
+        label: 'Sunrise Taj Mahal Tour',
+        to: '/plans/sunrise-taj-tour',
+        note: 'If you are doing it in a day, this is the version that gets you through the gate in the first hour.'
+      },
+      {
+        label: 'Same Day Taj Mahal Tour by Car',
+        to: '/plans/same-day-taj-car',
+        note: 'Private car door to door from your Delhi hotel, with tolls and parking included and no shop stops.'
+      }
+    ],
+    seeAlso: [
+      { label: 'Taj Mahal: sunrise, sunset or midday?', to: '/guides/taj-mahal-best-time-of-day' },
+      { label: 'Taj Mahal at sunrise: timing and gates', to: '/guides/taj-mahal-sunrise' },
+      { label: 'Taj Mahal: timings and tickets', to: '/guides/taj-mahal-visiting-guide' },
+      { label: 'Is the Taj Mahal closed on Friday?', to: '/guides/taj-mahal-friday-closed' },
+      { label: 'Delhi to Agra: every way to get there', to: '/guides/delhi-to-agra' }
+    ]
+  },
+  {
+    slug: 'taj-mahal-best-time-of-day',
+    topic: 'agra',
+    metaTitle: 'Taj Mahal: Sunrise, Sunset or Midday? Which Is Best',
+    metaDescription:
+      'Sunrise wins on crowds, light and temperature, and it is not close. Sunset has a case for one kind of visitor. Midday has almost none. A straight comparison of all three, plus the full-moon nights.',
+    h1: 'Taj Mahal: Sunrise, Sunset or Midday?',
+    cardTitle: 'Taj Mahal: Best Time of Day',
+    cardSummary:
+      'Sunrise against sunset against midday — crowds, light, heat and queues compared, plus the full-moon night viewing.',
+    image: '/taj-mahal-dawn.webp',
+    updated: '2026-10-05',
+    intro: [
+      'Sunrise, and it is not a close contest. The first hour after opening has a fraction of the crowds, the best light the marble ever gets, and air cool enough to stand in.',
+      'Sunset is the reasonable alternative and genuinely better for one kind of visitor. Midday is what you get if you did not plan, and it is the version of the Taj Mahal that people describe as overrated. Here is the comparison in full.'
+    ],
+    sections: [
+      {
+        heading: 'The three times compared',
+        id: 'compared',
+        table: {
+          caption: 'Taj Mahal by time of day',
+          headers: ['', 'Sunrise', 'Midday', 'Sunset'],
+          rows: [
+            ['Crowds', 'Lightest of the day', 'Heaviest', 'Heavy, thinning near closing'],
+            ['Light on the marble', 'Pink to gold, soft', 'Flat and white', 'Warm gold, then grey'],
+            ['Temperature', 'Coolest', 'Hottest — marble burns in summer', 'Falling but still warm'],
+            ['Queue at the gate', 'Short if you arrive before opening', 'Longest', 'Moderate'],
+            ['Photography', 'Best, by a distance', 'Harshest', 'Good, but with people in frame'],
+            ['Suits', 'Almost everyone', 'Nobody, really', 'Late risers, second visits, overnight stays']
+          ]
+        }
+      },
+      {
+        heading: 'Why sunrise wins',
+        id: 'sunrise',
+        body: [
+          'The Taj Mahal opens about thirty minutes before sunrise, which moves through the year — roughly 6:00 AM in midwinter and closer to 5:30 AM in high summer. Confirm the date you are going rather than working from a number in an article.',
+          'Three things happen in that first hour that do not happen again. The crowd is a small fraction of the day’s total, because most people are not willing to get up for it. The marble moves through pink and cream into white as the sun comes up, which is the effect the stone was chosen for. And it is cool, which in Agra between April and September is not a small matter.',
+          'The cost is the alarm clock. From Delhi, sunrise means leaving at around 3:00 AM, which only works by road — no train arrives early enough. From a hotel in Agra it means a 5:00 AM start and a short drive.',
+          '[Our sunrise guide](/guides/taj-mahal-sunrise) covers the gates, the queue and what actually happens when you get there.'
+        ],
+        callout: {
+          title: 'Arrive before the gate opens, not at it',
+          text: 'The queue forms before opening, and the people at the front of it get the twenty minutes that make the whole thing worth doing — the main walkway almost empty. Arriving at the advertised opening time puts you behind a few hundred people who understood this. Aim to be at the gate twenty to thirty minutes early.'
+        }
+      },
+      {
+        heading: 'When sunset is the better choice',
+        id: 'sunset',
+        body: [
+          'Sunset is not a consolation prize. For some visitors it is the right answer.',
+          'The monument closes about thirty minutes before sunset, so the last hour has warm, low light coming across the facade, and the crowd thins steadily as people leave. If you are staying in Agra overnight it costs you nothing — you can do sunset on the day you arrive and sunrise the next morning, which is the only sensible way to see both.',
+          'It also works if you simply will not enjoy a 3:00 AM start. A visit you resent is worse than a visit in imperfect light, and nobody should be talked into dawn by a website.',
+          'The downsides are real though. It is busier than sunrise, the light goes quickly at the end, and in winter the haze that sits over north India tends to flatten the sunset more than it flattens the sunrise.'
+        ]
+      },
+      {
+        heading: 'Why midday is the worst of it',
+        id: 'midday',
+        body: [
+          'Between about ten in the morning and three in the afternoon you get every disadvantage at once.',
+          'The crowd is at its peak, because the day trips from Delhi have arrived and the tour buses are in. The sun is directly overhead, which flattens the marble into a single hard white and removes every shadow that gives the inlay its depth. And in summer it is genuinely punishing — the courtyard has almost no shade, and shoes must be removed or covered on the platform, which on a 44°C day means marble you cannot stand on.',
+          'If midday is the only slot you have, go anyway — it is still the Taj Mahal. But understand that you are seeing it in the worst conditions it offers, and that most of the people who come away calling it overrated saw it exactly like this.'
+        ]
+      },
+      {
+        heading: 'Night viewing on full-moon nights',
+        id: 'night-viewing',
+        body: [
+          'There is a fourth option that few visitors know about. The Taj Mahal opens for night viewing on a small number of nights each month around the full moon — the full-moon night itself and the two nights either side of it.',
+          'It is tightly limited. Tickets are sold separately and in advance from the ASI office rather than at the gate, numbers per slot are capped, viewing time is short, and you see the monument from a distance rather than walking the grounds freely. It does not run on Fridays, and it is suspended during Ramadan.',
+          'Treat the details as something to confirm rather than rely on, because the rules and the ticketing arrangements change. If the dates of your trip happen to fall on a full moon and the idea appeals, ask us and we will find out what is actually running.'
+        ],
+        callout: {
+          title: 'Do not build a trip around it',
+          text: 'Night viewing is a lovely extra if the dates happen to work. It is a poor foundation for a plan: the slots are few, they sell out, they are cancelled for weather, and what you get is a distant view for a short time. Plan the trip around sunrise and treat a full moon as a bonus.'
+        }
+      },
+      {
+        heading: 'Which should you choose?',
+        id: 'recommendation',
+        list: [
+          'First visit, any season — sunrise. There is no serious argument against it',
+          'Staying overnight in Agra — sunset on arrival, sunrise the next morning',
+          'Travelling May to September — sunrise, firmly; midday heat on open marble is genuinely unpleasant',
+          'Not willing to start at 3:00 AM from Delhi — sunset, and enjoy it rather than regretting the dawn',
+          'Serious about photography — sunrise, and be at the gate before it opens',
+          'Day trip from Delhi arriving late morning — go anyway, but keep expectations level',
+          'Dates fall on a full moon — ask about night viewing as an extra, not as the main event'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'What is the best time of day to visit the Taj Mahal?',
+        answer:
+          'Sunrise, clearly. The first hour after opening has the lightest crowds of the day, the softest light on the marble, and the coolest air — which between April and September matters a great deal. The monument opens roughly thirty minutes before sunrise, so aim to be at the gate twenty minutes before that.'
+      },
+      {
+        question: 'Is the Taj Mahal better at sunrise or sunset?',
+        answer:
+          'Sunrise for crowds, light and temperature. Sunset for anyone staying overnight in Agra, or anyone who simply will not enjoy a 3:00 AM start from Delhi. If you are in Agra for a night you can have both — sunset on the day you arrive, sunrise the next morning.'
+      },
+      {
+        question: 'What time does the Taj Mahal open?',
+        answer:
+          'About thirty minutes before sunrise, which moves through the year — roughly 6:00 AM in midwinter and nearer 5:30 AM in high summer. It closes about thirty minutes before sunset. Confirm the times for your date rather than relying on a figure in an article, and remember it is closed to tourists on Fridays.'
+      },
+      {
+        question: 'Can you visit the Taj Mahal at night?',
+        answer:
+          'On a small number of nights each month — the full moon and the two nights either side of it. Tickets are sold separately and in advance through the ASI rather than at the gate, numbers are capped, viewing time is short and you see the monument from a distance. It does not run on Fridays or during Ramadan, and the arrangements change, so confirm rather than assume.'
+      },
+      {
+        question: 'How early should I arrive at the Taj Mahal for sunrise?',
+        answer:
+          'Be at the gate twenty to thirty minutes before opening. The queue forms before the gates do, and the people at the front of it get the twenty minutes that make a sunrise visit worth the alarm clock — the main walkway almost empty. Arriving exactly at opening puts you behind several hundred people.'
+      },
+      {
+        question: 'Is it worth visiting the Taj Mahal in the middle of the day?',
+        answer:
+          'It is still the Taj Mahal, so if midday is your only slot, go. But you get the heaviest crowds, overhead sun that flattens the marble and kills the inlay detail, and in summer a platform too hot to walk on. Most people who describe the monument as overrated saw it at exactly this hour.'
+      },
+      {
+        question: 'Does the winter haze ruin the sunrise?',
+        answer:
+          'In December and January the Taj Mahal can sit in white mist until mid-morning, and on the worst days the sunrise effect does not really happen. It is unpredictable rather than certain — many winter mornings are clear. If your dates are fixed in midwinter, consider a visit on two consecutive mornings if the trip allows it.'
+      }
+    ],
+    related: [
+      {
+        label: 'Sunrise Taj Mahal Tour',
+        to: '/plans/sunrise-taj-tour',
+        note: 'Built around a 3:00 AM departure so you are at the gate before it opens, which is the whole point.'
+      },
+      {
+        label: 'Delhi Overnight Taj Mahal Tour',
+        to: '/plans/overnight-taj-tour',
+        note: 'Sunset on the day you arrive, sunrise the next morning — the only sensible way to see both.'
+      },
+      {
+        label: 'Same Day Taj Mahal Tour by Car',
+        to: '/plans/same-day-taj-car',
+        note: 'Private car door to door, with the departure time set by you rather than a timetable.'
+      }
+    ],
+    seeAlso: [
+      { label: 'Taj Mahal at sunrise: timing and gates', to: '/guides/taj-mahal-sunrise' },
+      { label: 'Is the Taj Mahal worth it?', to: '/guides/is-taj-mahal-worth-it' },
+      { label: 'Taj Mahal: timings and tickets', to: '/guides/taj-mahal-visiting-guide' },
+      { label: 'Is the Taj Mahal closed on Friday?', to: '/guides/taj-mahal-friday-closed' },
+      { label: 'Delhi to Agra: every way to get there', to: '/guides/delhi-to-agra' }
+    ]
+  },
+  {
+    slug: 'delhi-tourist-scams',
+    topic: 'delhi',
+    metaTitle: 'Common Tourist Scams in Delhi and How to Avoid Them',
+    metaDescription:
+      'The fake tourist office, the hotel that has supposedly burned down, the closed road, the free bracelet. Every common Delhi scam explained — how it starts, how it ends, and the sentence that stops it.',
+    h1: 'Common Tourist Scams in Delhi',
+    cardTitle: 'Common Tourist Scams in Delhi',
+    cardSummary:
+      'The ones that actually happen, how each is set up, and the one habit that defeats nearly all of them.',
+    image: '/india-gate-group.webp',
+    updated: '2026-10-05',
+    intro: [
+      'Almost every scam in Delhi is a confidence trick rather than a crime, and almost all of them run on the same engine: separating you from the plan you arrived with, then selling you a replacement.',
+      'Learn that pattern and you do not need to memorise a list. But the list helps, because recognising the opening line of one of these in the moment is much easier than working it out from first principles while tired and jet-lagged.'
+    ],
+    sections: [
+      {
+        heading: 'The one habit that defeats most of them',
+        id: 'the-habit',
+        body: [
+          'If you remember nothing else: when a stranger tells you your plan cannot happen, verify it with someone who is not standing in front of you.',
+          'Your hotel has not burned down. The road is not closed. The monument is not shut for a government holiday. The train is not cancelled. Every one of those sentences is the opening move of a scam, and every one of them is checkable in thirty seconds by calling your hotel, opening a map, or simply continuing to your destination and looking.',
+          'Scams need urgency, because urgency stops you checking. Anything that insists you decide right now, with a stranger’s help, is the thing to be suspicious of — not the person, the pressure.'
+        ],
+        callout: {
+          title: 'The sentence to keep ready',
+          text: '"Thank you, I will check with my hotel." It is polite, it ends the conversation, and it is unarguable. Nobody running a scam wants you to make that call, and nobody who is genuinely helping will mind you making it.'
+        }
+      },
+      {
+        heading: 'The fake tourist office',
+        id: 'fake-tourist-office',
+        body: [
+          'The most persistent scam in Delhi and the one that costs people the most money.',
+          'It runs around New Delhi railway station and Connaught Place. You are heading for the official tourist information counter or the railway booking office, and someone helpful tells you it has moved, is closed today, or is upstairs in a different building. You are walked or driven a short distance to an office with a convincing sign — "Government of India Tourist Office", "Government Approved" — staffed by a polite man at a desk.',
+          'What happens next is that your plan is dismantled. Your train is unavailable, your hotel is in a bad area, the city you wanted is unsafe this week. In its place you are sold a package — a car, a driver, a tour of Rajasthan — at several times what it is worth, paid in advance, usually in cash.',
+          'The real tourist office is the India Tourism Delhi office at 88 Janpath. There is one. Any other office claiming to be the government one is not, however official the signage looks.'
+        ],
+        callout: {
+          title: 'The giveaway',
+          text: 'A genuine government office does not sell you a tour. It gives you information. The moment an "official" office starts quoting prices for a package, you are in a travel agency that has dressed itself up — and the price will reflect the costume.'
+        }
+      },
+      {
+        heading: 'The taxi and auto scams',
+        id: 'taxi-scams',
+        body: [
+          'These start at the airport or the station and they all end in the same place: you in a vehicle going somewhere you did not choose.',
+          'The most common is the hotel story. Your driver asks where you are staying, then tells you the hotel has closed, burned down, been demolished or is fully booked. He knows a better one. The better one pays him a commission, and your original booking is sitting there with your name on it.',
+          'The second is the closed road. There is a protest, a VIP movement, a festival, so your route is impossible and he will take you somewhere else instead. Sometimes a road really is closed in Delhi. The tell is whether the alternative happens to be a shop, a travel office or another hotel.',
+          'The third is simpler: no meter, or a broken meter, and a price negotiated after you arrive. Agree the fare before the vehicle moves, or use an app where the price is fixed in advance.',
+          'The defence for all three is to have the journey arranged before you land. [Our guide to getting around Delhi](/guides/getting-around-delhi) covers the prepaid booths, the apps and the metro.'
+        ]
+      },
+      {
+        heading: 'The shopping commission',
+        id: 'shopping',
+        body: [
+          'This one is not really a scam, which is why it catches people who are watching for scams. It is a commission arrangement, and it is everywhere.',
+          'Shops selling carpets, pashmina, gems, marble and handicrafts pay drivers and guides a substantial cut for bringing a customer through the door. Nothing you are told is a lie. The goods are often genuine. The price simply has someone else’s commission inside it, which is why the same item costs a fraction as much in a shop where nobody is being paid to deliver you.',
+          'It is presented as a workshop visit, a craft demonstration, a government emporium, somewhere to use the bathroom and have a cup of tea. All of it is true and all of it ends at a sales floor.',
+          'Say at the time of booking that you do not want shop stops. An operator who does not work on commission will agree without hesitating.'
+        ]
+      },
+      {
+        heading: 'The street-level ones',
+        id: 'street-level',
+        body: [
+          'Small, common, and more irritating than costly.'
+        ],
+        table: {
+          caption: 'Street scams in Delhi',
+          headers: ['The setup', 'How it ends', 'What to do'],
+          rows: [
+            ['A bracelet or flower is pressed into your hand as a "gift"', 'Payment is demanded once you are holding it', 'Do not take it. Hands in pockets, keep walking'],
+            ['Someone points out a stain on your shoe', 'They put it there; cleaning it costs a fee', 'Say no, keep walking, clean it later'],
+            ['An offer to clean your ears', 'A "worm" is produced from your ear and a fee demanded', 'Decline firmly; never let anyone near your ears'],
+            ['A friendly stranger takes your photo', 'A fee is requested for the service', 'Decline, or agree the price first'],
+            ['Someone offers to show you the "best spot"', 'A guiding fee at the end of it', 'Decline unless you wanted a guide and agreed a price'],
+            ['Milk or food for a baby, bought from "that shop"', 'The shop refunds the goods and splits the money', 'Give money directly if you want to give, or do not']
+          ]
+        }
+      },
+      {
+        heading: 'Tickets, monuments and fake guides',
+        id: 'monuments',
+        body: [
+          'Outside most major monuments you will meet people selling tickets, offering to skip the queue, or offering to guide you. Buy tickets only from the official counter or the official online system, and never from someone in the car park.',
+          'A licensed guide carries a photo identity card issued by the Ministry of Tourism or by the state, and will show it if you ask — they are asked constantly and do not mind. Anyone who approaches you outside the gate is, by definition, someone with no bookings.',
+          'You will also be told that a monument is closed, under renovation, or shut for a holiday, by someone who then offers an alternative. Walk up to the gate and check. Delhi monuments do close — Monday is a common closing day for some museums, and the Red Fort has its own schedule — but a stranger in the car park is not your source for that.'
+        ]
+      },
+      {
+        heading: 'A note on the people, not the scams',
+        id: 'perspective',
+        body: [
+          'It is worth saying plainly, because a page like this can leave a false impression. The overwhelming majority of people in Delhi who approach a visitor are not running anything. They are curious, or selling something openly, or being genuinely helpful.',
+          'The scams above are concentrated in a few specific places — around New Delhi railway station, parts of Connaught Place, the airport arrivals road and the monument car parks. Away from those, the city is simply a city.',
+          'The point of knowing the list is not to treat everyone as a threat. It is the opposite: knowing which five situations to be alert in means you can relax in all the others.'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'What is the most common scam in Delhi?',
+        answer:
+          'The fake tourist office, around New Delhi railway station and Connaught Place. You are told the real office has moved or closed, taken to an official-looking one, and sold an overpriced tour package in cash after being told your existing plans are impossible. The genuine India Tourism Delhi office is at 88 Janpath — there is one, and a real government office gives information rather than selling you a tour.'
+      },
+      {
+        question: 'My taxi driver says my hotel is closed. Is it true?',
+        answer:
+          'Almost certainly not. It is one of the most common scams in Delhi: the driver takes you to a hotel that pays him a commission while your actual booking sits waiting. Call your hotel from the car. If the driver objects to you calling, you have your answer.'
+      },
+      {
+        question: 'Is Delhi full of scams?',
+        answer:
+          'No — but a few specific places are. The scams concentrate around New Delhi railway station, parts of Connaught Place, the airport arrivals road and the monument car parks. Away from those, most approaches are people being curious or selling openly. Knowing which handful of situations to be alert in is what lets you relax everywhere else.'
+      },
+      {
+        question: 'How do I avoid being scammed in Delhi?',
+        answer:
+          'One habit covers most of it: when a stranger tells you your plan cannot happen, verify it with someone who is not standing in front of you. Scams need urgency, because urgency stops you checking. "Thank you, I will check with my hotel" ends almost all of them politely.'
+      },
+      {
+        question: 'Are the government emporium and workshop visits a scam?',
+        answer:
+          'Not a scam exactly — a commission arrangement, which is why it catches people who are watching for scams. The goods are often genuine and nothing you are told is a lie. The price simply contains the cut paid to whoever brought you. Tell your operator before booking that you do not want shop stops; one who does not work on commission will agree immediately.'
+      },
+      {
+        question: 'Should I buy monument tickets from someone outside the gate?',
+        answer:
+          'No. Buy only from the official counter or the official online system. Anyone selling tickets or offering to skip the queue in the car park is either overcharging or selling you nothing. The same applies to guides — a licensed guide carries a government photo identity card and works through bookings, not by approaching strangers.'
+      },
+      {
+        question: 'Is it rude to say no to people in Delhi?',
+        answer:
+          'Not at all, and it is expected. A clear "no thank you" without breaking stride is normal and nobody takes offence. What invites persistence is a hesitant no or a conversation — a reason is something to argue with, a repeated sentence is not.'
+      }
+    ],
+    related: [
+      {
+        label: 'Delhi Full Day Heritage Tour',
+        to: '/plans/delhi-full-day-heritage',
+        note: 'A licensed guide and a pre-arranged car remove the two situations — street transport and the car-park guide — where nearly all of this happens.'
+      },
+      {
+        label: 'Delhi Airport Layover Tour',
+        to: '/plans/delhi-layover-tour',
+        note: 'Collected from the terminal by name, so the arrivals road — where the taxi scams start — never comes into it.'
+      },
+      {
+        label: 'Delhi Half Day Tour',
+        to: '/plans/delhi-half-day',
+        note: 'A shorter first day with someone who knows the city, which is the easiest way to find your feet.'
+      }
+    ],
+    seeAlso: [
+      { label: 'Is Delhi safe for tourists?', to: '/guides/is-delhi-safe-for-tourists' },
+      { label: 'Getting around Delhi: metro, taxi, auto or car', to: '/guides/getting-around-delhi' },
+      { label: 'Is Agra safe for tourists?', to: '/guides/is-agra-safe-for-tourists' },
+      { label: 'Solo female travel in India', to: '/guides/solo-female-travel-india' },
+      { label: 'First time in India', to: '/guides/first-time-in-india' }
+    ]
+  },
+  {
+    slug: 'do-you-need-a-guide-taj-mahal',
+    topic: 'agra',
+    metaTitle: 'Do You Need a Guide at the Taj Mahal? An Honest Answer',
+    metaDescription:
+      'No, you do not need one — the monument works without commentary. Here is what a good guide actually adds, when you are better off without, and how to tell a licensed guide from the man in the car park.',
+    h1: 'Do You Need a Guide at the Taj Mahal?',
+    cardTitle: 'Do You Need a Guide at the Taj Mahal?',
+    cardSummary:
+      'No. Here is what a good one adds anyway, who genuinely does not need one, and how to spot the fake ones.',
+    image: '/humayuns-tomb-family.webp',
+    updated: '2026-10-05',
+    intro: [
+      'No. You do not need a guide at the Taj Mahal. The building does not require explanation to work on you, the layout is simple, and plenty of people have a wonderful morning there with nothing but a ticket.',
+      'We employ licensed guides, so you can weigh that answer accordingly. But saying you need one would be untrue, and it is more useful to set out what a good guide actually changes — and who is genuinely better off without one.'
+    ],
+    sections: [
+      {
+        heading: 'What a good guide actually adds',
+        id: 'what-it-adds',
+        body: [
+          'Not facts. Dates and names are in every book and on every page, including ours, and a guide who recites them is giving you something you could have read on the drive.',
+          'What a good guide changes is where you stand and when. They know which gate has the shorter queue that morning, which spot gets the light at the hour you arrived, where the crowd will be in twenty minutes, and the small things you walk past without seeing — that the minarets lean outward, that the calligraphy gets larger as it rises so it reads evenly from the ground, that the inlay in a single flower is a dozen separate stones.',
+          'They also absorb the friction. Nobody approaches you about marble, photography or guiding while you are visibly already with someone. For many visitors that alone is most of the value.',
+          'And they answer the thing you actually wonder about, which is never the thing in the book. A guide is a person you can ask, and that is a different experience from reading a sign.'
+        ]
+      },
+      {
+        heading: 'Who does not need one',
+        id: 'who-doesnt',
+        body: [
+          'Plenty of people, and we would rather say so.'
+        ],
+        list: [
+          'You have ninety minutes and you want to look rather than listen',
+          'You read about the Mughals before you came and the history is not what you are missing',
+          'You find commentary intrusive in places like this — some people do, and they are not wrong',
+          'You are on a tight budget and the money is better spent on the overnight stay',
+          'You are travelling with small children, where a schedule is harder to keep than a visit is to lengthen',
+          'You have been before'
+        ],
+        callout: {
+          title: 'The audio guide alternative',
+          text: 'The ASI offers an audio guide at the monument, available in several languages. It gives you the history at your own pace with nobody waiting on you, for a fraction of the cost of a person. If what you want is information rather than company, it is the sensible middle option — and no honest guide will pretend otherwise.'
+        }
+      },
+      {
+        heading: 'Who should have one',
+        id: 'who-should',
+        list: [
+          'First trip to India, and this is the monument you came for',
+          'You want photographs and do not know where to stand — this is where a guide earns the fee in ten minutes',
+          'You are visiting Agra Fort on the same day, where the layout genuinely is confusing and the story is not self-evident',
+          'You are the kind of traveller who asks questions and wants someone to ask',
+          'You are short on time and want someone deciding the order of things',
+          'You would rather not be approached by anyone for the whole visit'
+        ]
+      },
+      {
+        heading: 'Licensed guides and the ones in the car park',
+        id: 'licensed-vs-touts',
+        body: [
+          'This is the part that matters, and it is the reason people end up with a bad experience and conclude guides are not worth it.',
+          'A licensed guide is accredited by the Ministry of Tourism or by the state government, has passed examinations on the history and the monuments, and carries a photo identity card issued by that body. You are entitled to ask to see it. A real guide will show it without a flicker — they are asked several times a day.',
+          'The people who approach you between the car park and the gate are generally not licensed. Some are knowledgeable. Many deliver a confident quarter of an hour of invented history, then negotiate hard at the end of it, and some will steer you to a marble shop afterwards where they take a commission.',
+          'The structural difference is simple. A licensed guide works through hotels, agencies and bookings made in advance. Someone soliciting in a car park has no bookings, which is why they are in the car park.'
+        ],
+        callout: {
+          title: 'Two questions that settle it',
+          text: 'Ask to see the government guide licence, and agree the fee before anything starts. A licensed guide answers both without hesitation. Anyone who deflects either one has told you what you needed to know, and you have lost nothing by asking.'
+        }
+      },
+      {
+        heading: 'What it costs, and what should be included',
+        id: 'cost',
+        body: [
+          'Guide fees in Agra vary with language, duration and whether you are booking directly or through an operator. Rates for less commonly spoken languages are higher, because fewer guides hold that accreditation.',
+          'We are deliberately not printing a number here. Guide rates move, and a figure written months ago is worse than none — ask whoever you book with, and ask what it covers.',
+          'What matters more than the number is what sits inside it. Monument entrance tickets are separate from the guide fee almost everywhere, and a quote that is silent on the difference is a quote to query. So is one that does not say how many hours, or whether Agra Fort is included as well as the Taj Mahal.'
+        ],
+        callout: {
+          title: 'The question to ask before you book',
+          text: 'Does the price include entrance tickets, and how many hours does it cover? Those two answers tell you more about an operator than anything on their website. Ours include the guide for the full day and state the ticket position plainly — see [our Agra tours](/plans) for what each one covers.'
+        }
+      },
+      {
+        heading: 'The honest verdict',
+        id: 'verdict',
+        body: [
+          'If the Taj Mahal is a significant reason you travelled to India, a licensed guide makes the morning better and the cost is small next to what the trip has already taken. If it is one stop on a busy itinerary and you mostly want to see it, you will be fine without one.',
+          'What we would say firmly is this: book a guide in advance or go without one. The worst version of the day is the one where you arrive undecided, get talked into it at the gate by whoever reaches you first, and spend the visit wondering whether anything you are being told is true.'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'Do you need a guide at the Taj Mahal?',
+        answer:
+          'No. The monument works without commentary, the layout is simple, and many people have an excellent visit with just a ticket. A good licensed guide adds something different from facts — where to stand, when, which queue is shorter, and the details you walk past without noticing. Whether that is worth it depends on how much the Taj Mahal is the reason you came.'
+      },
+      {
+        question: 'How much does a Taj Mahal guide cost?',
+        answer:
+          'It varies with language, duration and whether you book directly or through an operator, and rates for less commonly spoken languages are higher. We have deliberately not printed a figure, because guide rates move and an old number is worse than none. What matters more is what the price includes — entrance tickets are almost always separate, and a quote that does not say so is one to question.'
+      },
+      {
+        question: 'Is there an audio guide at the Taj Mahal?',
+        answer:
+          'Yes — the ASI offers one at the monument in several languages. It gives you the history at your own pace for a fraction of the cost of a person, and it is the sensible middle option if what you want is information rather than someone to ask questions of.'
+      },
+      {
+        question: 'How do I know if a Taj Mahal guide is licensed?',
+        answer:
+          'A licensed guide is accredited by the Ministry of Tourism or the state and carries a photo identity card from that body. Ask to see it — they are asked several times a day and will not take offence. The other tell is how you met: licensed guides work through hotels, agencies and advance bookings, so anyone soliciting in the car park is not one.'
+      },
+      {
+        question: 'Should I hire a guide at the gate or book in advance?',
+        answer:
+          'In advance, or not at all. Arriving undecided and being talked into it at the gate by whoever reaches you first is how people end up paying over the odds for invented history and a detour to a marble shop. Book beforehand and the entire question disappears before you arrive.'
+      },
+      {
+        question: 'Do I need a guide at Agra Fort as well?',
+        answer:
+          'Agra Fort benefits from one more than the Taj Mahal does. It is large, the layout is genuinely confusing, and the story of what happened in each part of it is not self-evident from the buildings. If you are taking a guide for only one of the two, the fort is arguably the better use of them.'
+      },
+      {
+        question: 'Can a guide help me skip the queue at the Taj Mahal?',
+        answer:
+          'No, and anyone who says they can is telling you something that should make you cautious about everything else they say. Security and ticket checks apply to everyone. What a good guide does is know which gate is moving faster that morning, which is a real advantage and a different claim.'
+      }
+    ],
+    related: [
+      {
+        label: 'Same Day Taj Mahal Tour by Car',
+        to: '/plans/same-day-taj-car',
+        note: 'A government-licensed guide for the full day, with the car, tolls and parking included and no shop stops.'
+      },
+      {
+        label: 'Sunrise Taj Mahal Tour',
+        to: '/plans/sunrise-taj-tour',
+        note: 'Through the gate in the first hour, with someone who knows where the light falls at that time of year.'
+      },
+      {
+        label: 'Delhi Overnight Taj Mahal Tour',
+        to: '/plans/overnight-taj-tour',
+        note: 'Two days in Agra with a licensed guide across both the Taj Mahal and Agra Fort.'
+      }
+    ],
+    seeAlso: [
+      { label: 'Taj Mahal: timings and tickets', to: '/guides/taj-mahal-visiting-guide' },
+      { label: 'Is the Taj Mahal worth it?', to: '/guides/is-taj-mahal-worth-it' },
+      { label: 'Taj Mahal: sunrise, sunset or midday?', to: '/guides/taj-mahal-best-time-of-day' },
+      { label: 'Agra Fort: timings, tickets and what to see', to: '/guides/agra-fort' },
+      { label: 'Is Agra safe for tourists?', to: '/guides/is-agra-safe-for-tourists' }
+    ]
   }
 ];
