@@ -660,7 +660,7 @@ export const GUIDES: Guide[] = [
     cardTitle: 'Is Delhi Safe for Tourists?',
     cardSummary:
       'The honest version — what actually goes wrong in Delhi, what is exaggerated, and what solo female travellers should plan for.',
-    image: '/india-gate-group.webp',
+    image: '/delhi-group-rajpath.webp',
     updated: '2026-09-17',
     intro: [
       'Mostly, yes. Millions of foreign visitors come through Delhi every year and the overwhelming majority have an ordinary, uneventful trip. The real risks are not the ones most people worry about — violent crime against tourists is rare. What is common is being overcharged, misdirected, or steered towards a shop that pays commission.',
@@ -921,7 +921,7 @@ export const GUIDES: Guide[] = [
     cardTitle: 'Delhi Itinerary: 1, 2 or 3 Days',
     cardSummary:
       'Hour-by-hour plans for one, two and three days, built around Delhi\'s real travel times — and the closure days that catch most visitors out.',
-    image: '/humayuns-tomb-family.webp',
+    image: '/bangla-sahib-gurudwara.webp',
     updated: '2026-09-23',
     intro: [
       'One day in Delhi works if you give the morning to Old Delhi and the afternoon to New Delhi, and accept that you are seeing two neighbourhoods rather than a city. Two days lets each half breathe. Three days adds the things people wish they had time for — Mehrauli, a morning without a schedule, or a day trip to Agra.',
@@ -1147,7 +1147,7 @@ export const GUIDES: Guide[] = [
     cardTitle: 'Delhi Airport Layover Guide',
     cardSummary:
       'Whether you can leave the airport, how much time you really need, and what fits in six, eight or twelve hours between flights.',
-    image: '/india-gate-group.webp',
+    image: '/india-gate-lawns.webp',
     updated: '2026-09-23',
     intro: [
       'You can leave Delhi airport on a layover, but only if you hold a visa that lets you enter India — and that is the part most people get wrong. A confirmed onward ticket is not enough on its own, and the free transit facility inside the terminal does not let you through immigration.',
@@ -1299,7 +1299,7 @@ export const GUIDES: Guide[] = [
     cardTitle: 'Old Delhi vs New Delhi',
     cardSummary:
       'Two cities three hundred years apart, what each is actually like to walk, and the part of Delhi that is older than both.',
-    image: '/red-fort-delhi.webp',
+    image: '/chandni-chowk-market.webp',
     updated: '2026-09-24',
     intro: [
       'Old Delhi is Shahjahanabad, the walled Mughal capital Shah Jahan built in 1639 — dense lanes, Red Fort, Jama Masjid and the Chandni Chowk bazaars. New Delhi is the capital the British laid out between 1911 and 1931, all wide avenues, roundabouts and colonial bungalows, with India Gate at its centre.',
@@ -1434,7 +1434,7 @@ export const GUIDES: Guide[] = [
     cardTitle: 'Best Time to Visit Delhi',
     cardSummary:
       'Month by month on heat, fog and the winter pollution season — and the two windows that get you clean air and comfortable days together.',
-    image: '/india-gate-group.webp',
+    image: '/india-gate-lawns.webp',
     updated: '2026-09-28',
     intro: [
       'The usual answer is October to March, and it is half right. Those months have the comfortable weather, but they also contain Delhi\'s worst air of the year — November and December routinely sit in the hazardous range, and January fog can close the airport and hide the Taj Mahal until mid-morning.',
@@ -1606,7 +1606,7 @@ export const GUIDES: Guide[] = [
     h1: "First Time in India: What Nobody Tells You Before You Land",
     cardTitle: "First Time in India",
     cardSummary: "The visa, the airport, the SIM, the cash and the scams — the first forty-eight hours, handled before you land.",
-    image: "/india-gate-group.webp",
+    image: "/chai-shop-group.webp",
     updated: "2026-09-29",
     intro: [
       "Most of what goes wrong on a first trip to India happens in the first forty-eight hours, and almost all of it is avoidable. Not danger — logistics. The visa that needed four days rather than four hours, the airport exit at 2am with no working phone, the taxi that will not use the meter, the cash you did not get because the ATM in arrivals was out of order.",
@@ -1804,7 +1804,7 @@ export const GUIDES: Guide[] = [
     h1: "Is Indian Street Food Safe?",
     cardTitle: "Is Indian Street Food Safe?",
     cardSummary: "What actually makes travellers ill in India, why it is rarely the cooked street food, and how to eat well without losing a day.",
-    image: "/chai-stop-with-driver.webp",
+    image: "/chai-shop-group.webp",
     updated: "2026-09-29",
     intro: [
       "Mostly yes, and the thing that makes people ill is usually not what they think. Food cooked to order in front of you, served straight out of hot oil at a stall with a queue, is among the safer things you will eat in India. What causes trouble is water, ice, and things that have been sitting — raw salads, pre-cut fruit, chutneys thinned with tap water, a buffet tray kept lukewarm.",
@@ -2279,7 +2279,7 @@ export const GUIDES: Guide[] = [
     h1: "Qutub Minar: Timings, Tickets and What to See",
     cardTitle: "Qutub Minar",
     cardSummary: "Open daily, about an hour inside, no climbing — and the oldest thing in Delhi standing in the courtyard beside it.",
-    image: "/humayuns-tomb-family.webp",
+    image: "/qutub-minar-delhi.webp",
     updated: "2026-09-29",
     intro: [
       "Qutub Minar is open every day from sunrise to sunset, needs about an hour, and costs around ₹600 for foreign visitors and ₹35 for Indian citizens. You cannot climb it — the interior has been closed to the public since 1981.",
@@ -2870,7 +2870,7 @@ export const GUIDES: Guide[] = [
     h1: "Lotus Temple, Delhi: Timings, Queues and What Is Inside",
     cardTitle: "Lotus Temple",
     cardSummary: "Free, closed Mondays, and an hour-long weekend queue for a silent hall with nothing in it — which is either the point or a reason to photograph it from the garden.",
-    image: "/india-gate-group.webp",
+    image: "/lotus-temple-delhi.webp",
     updated: "2026-09-29",
     intro: [
       "The Lotus Temple is free, closed every Monday, and open roughly 9 AM to 5:30 PM in winter and later in summer. Allow forty-five minutes to an hour, most of which may be the queue.",
@@ -3019,7 +3019,7 @@ export const GUIDES: Guide[] = [
     h1: "India Gate, Delhi: What It Is and When to Go",
     cardTitle: "India Gate",
     cardSummary: "Free, always open, best after dark — and shut off for most of January while Republic Day is rehearsed.",
-    image: "/india-gate-group.webp",
+    image: "/india-gate-delhi.webp",
     updated: "2026-09-29",
     intro: [
       "India Gate is free, has no gate to queue at and is open at all hours. Allow twenty to thirty minutes. It is best after dark, when it is floodlit and half of Delhi comes out to sit on the lawns.",
@@ -3160,7 +3160,7 @@ export const GUIDES: Guide[] = [
     h1: "Chandni Chowk: What to See, Eat and When to Go",
     cardTitle: "Chandni Chowk",
     cardSummary: "Six markets in one, best between ten and one, largely shut on Sundays — and the lane-by-lane map most visitors never get.",
-    image: "/chai-stop-with-driver.webp",
+    image: "/chandni-chowk-delhi.webp",
     updated: "2026-09-29",
     intro: [
       "Chandni Chowk is free, has no opening hours as such, and is best between about ten in the morning and one in the afternoon, when the trade is at full pitch and the crowds have not yet made it impossible to stand still. Many shops close on Sundays, so that is the day to avoid.",
@@ -3955,7 +3955,7 @@ export const GUIDES: Guide[] = [
     h1: "Amber Fort, Jaipur: Timings, Tickets and Getting Up the Hill",
     cardTitle: "Amber Fort",
     cardSummary: "Two to three hours, best before nine, and the elephant ride question answered honestly.",
-    image: "/rajasthan-palace-hotel.webp",
+    image: "/amber-fort-jaipur.webp",
     updated: "2026-09-29",
     intro: [
       "Amber Fort is open daily from about 8 AM to 5:30 PM. Allow two to three hours. Foreign visitors pay around ₹500 and Indian citizens around ₹100. It sits eleven kilometres north of Jaipur, about half an hour by road.",
@@ -4110,7 +4110,7 @@ export const GUIDES: Guide[] = [
     h1: "City Palace, Jaipur: Timings, Tickets and What to See",
     cardTitle: "City Palace Jaipur",
     cardSummary: "Ninety minutes, two ticket tiers that differ by a great deal of money, and the largest silver objects ever made.",
-    image: "/rajasthan-palace-hotel.webp",
+    image: "/city-palace-jaipur.webp",
     updated: "2026-09-29",
     intro: [
       "The City Palace is open daily from about 9:30 AM to 5 PM, with an evening opening at some times of year. Allow an hour and a half to two hours. The standard composite ticket is around ₹700 for foreign visitors and ₹200 for Indian citizens.",
@@ -4394,7 +4394,7 @@ export const GUIDES: Guide[] = [
     h1: "Jantar Mantar, Jaipur: Timings and What You Are Looking At",
     cardTitle: "Jantar Mantar",
     cardSummary: "Nineteen instruments, a sundial accurate to two seconds, and the one site in Jaipur that is wasted without a guide.",
-    image: "/india-gate-group.webp",
+    image: "/jaipur-miniature-art.webp",
     updated: "2026-09-29",
     intro: [
       "Jantar Mantar is open daily from about 9 AM to 4:30 PM and costs around ₹200 for foreign visitors and ₹50 for Indian citizens. Forty-five minutes to an hour is right.",
@@ -5321,7 +5321,7 @@ export const GUIDES: Guide[] = [
     cardTitle: 'Common Tourist Scams in Delhi',
     cardSummary:
       'The ones that actually happen, how each is set up, and the one habit that defeats nearly all of them.',
-    image: '/india-gate-group.webp',
+    image: '/chandni-chowk-market.webp',
     updated: '2026-10-05',
     intro: [
       'Almost every scam in Delhi is a confidence trick rather than a crime, and almost all of them run on the same engine: separating you from the plan you arrived with, then selling you a replacement.',
