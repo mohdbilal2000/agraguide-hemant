@@ -1939,10 +1939,10 @@ export const GOOGLE_LISTING_URL = 'https://g.page/r/CS9HSF8iHKJeEBM';
 
 /**
  * Tripadvisor listing — same rule as above: only figures the public page shows.
- * Verified September 2026.
+ * Verified against the public listing November 2026: 5.0, "All reviews (10)".
  */
 export const TRIPADVISOR_RATING = '5.0';
-export const TRIPADVISOR_REVIEW_COUNT = 5;
+export const TRIPADVISOR_REVIEW_COUNT = 10;
 export const TRIPADVISOR_LISTING_URL =
   'https://www.tripadvisor.com/Attraction_Review-g304551-d34462482-Reviews-Indiventure_Travellers-New_Delhi_National_Capital_Territory_of_Delhi.html';
 
