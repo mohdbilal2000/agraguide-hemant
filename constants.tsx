@@ -1930,10 +1930,11 @@ export const BLOG_POSTS: BlogPost[] = [
  * Live figures from the Google Business Profile — the single source of truth for
  * every rating claim on the site. Re-check these whenever REVIEWS is synced, and
  * never state a number here that the public listing does not show.
+ * Verified against the public listing November 2026: 4.9 from 19 reviews.
  * Listing: https://g.page/r/CS9HSF8iHKJeEBM
  */
 export const GOOGLE_RATING = '4.9';
-export const GOOGLE_REVIEW_COUNT = 8;
+export const GOOGLE_REVIEW_COUNT = 19;
 export const GOOGLE_LISTING_URL = 'https://g.page/r/CS9HSF8iHKJeEBM';
 
 /**
