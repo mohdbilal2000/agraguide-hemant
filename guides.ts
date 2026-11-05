@@ -234,18 +234,18 @@ export const GUIDES: Guide[] = [
   {
     slug: 'delhi-to-agra',
     topic: 'agra',
-    metaTitle: 'Delhi to Agra: Distance, Train, Car or Bus Compared',
+    metaTitle: 'Delhi to Agra: Train or Car? Times and Costs Compared',
     metaDescription:
-      'Delhi to Agra is 230 km and about three hours via the Yamuna Expressway, or 100 minutes on the Gatimaan Express. Every route and every option compared — distance, timings, real costs, and the return leg most guides forget.',
-    h1: 'Delhi to Agra: Distance, Routes and Every Way to Get There',
+      'Train or car to Agra? It turns on what time you want to be at the Taj Mahal — only a car reaches sunrise. Every option compared: timings, real costs, the return leg, and the distance by each route.',
+    h1: 'Delhi to Agra: Train, Car or Bus — Which to Choose',
     cardTitle: 'Delhi to Agra Travel Guide',
     cardSummary:
-      'Distance by route, train vs car vs bus, real timings and honest costs — plus the return-leg problem nobody mentions.',
+      'Train vs car vs bus — which one suits your day, with real timings, honest costs and the return-leg problem nobody mentions.',
     image: '/chai-stop-with-driver.webp',
-    updated: '2026-10-05',
+    updated: '2026-11-05',
     intro: [
-      'Agra is about 230 km south of Delhi via the Yamuna Expressway, which is three to three and a half hours by road. The Gatimaan Express does the same journey in one hour forty. Both are good options, and which one suits you depends almost entirely on what time you want to be standing in front of the Taj Mahal.',
-      'This page covers the distance by each route, how long every option really takes, what each costs, and how to choose. The part that catches people out is not the outbound journey — it is the return.'
+      'Train or car? It turns on one thing: what time you want to be standing in front of the Taj Mahal. The Gatimaan Express covers the 230 km in one hour forty and is the more comfortable journey — but it arrives at 9:50 AM and leaves at 5:50 PM whether that suits you or not. Only a car can reach Agra for sunrise.',
+      'This page compares every option — train, car, bus and self-drive — with real timings, what each costs, and the distance by each route. The part that catches people out is not the outbound journey. It is the return.'
     ],
     sections: [
       {
@@ -265,27 +265,23 @@ export const GUIDES: Guide[] = [
         }
       },
       {
-        heading: 'How far is Delhi to Agra? Distance by route',
-        id: 'distance',
+        heading: 'Delhi to Agra: train or car?',
+        id: 'train-or-car',
         body: [
-          'There are two road routes, and they are closer in distance than they are in journey time.',
-          'The Yamuna Expressway is the one almost everyone uses. The expressway itself runs 165 km from Greater Noida to Agra; add the stretch from central Delhi out to the expressway entrance and the door-to-door distance comes to roughly 230 km, depending on which part of Delhi you start from. It is a six-lane, access-controlled toll road with no traffic lights, no towns and no cross traffic.',
-          'NH-19 — the old Agra road, which older guidebooks still call NH-2 — is shorter on paper at around 210 to 230 km. It is also an hour or more slower, because it runs through Faridabad, Palwal, Mathura and a string of smaller towns, each with its own traffic lights, markets and speed breakers.',
-          'Shorter on the map does not mean faster on the day. Unless you specifically want to stop at Mathura or Vrindavan on the way, the expressway is the route.'
+          'This is the question we are asked more than any other, and the honest answer is that it turns on one thing: what time you want to arrive.',
+          'The train wins on comfort and on the journey itself. Ninety minutes in an air-conditioned chair with a meal served is pleasanter than three hours on a road, whoever is driving. If your idea of the day is a civilised 10 AM arrival, the Taj Mahal and Agra Fort at a reasonable pace, lunch, and an evening train home, take the Gatimaan.',
+          'The car wins on everything to do with timing. Sunrise at the Taj Mahal is only reachable by road — no train arrives early enough. Fatehpur Sikri only fits into a day trip by car. If you are travelling with young children or elderly parents, door-to-door from your hotel with your luggage in the boot is a different kind of day from two station transfers.',
+          'There is also a cost shape worth understanding, because it is the opposite of what people assume. Train fares are per person; a car is priced per vehicle. One or two travellers will usually find the train cheaper. At four or more, the car is often cheaper per head — and it is more flexible at the same time. If you are a family or a small group, do not assume the train is the economical choice without comparing the two.'
         ],
-        table: {
-          caption: 'Delhi to Agra — distance and time by route',
-          headers: ['Route', 'Distance', 'Typical driving time', 'Character'],
-          rows: [
-            ['Yamuna Expressway', '~230 km', '3–3.5 hrs', 'Six-lane, tolled, no towns or signals'],
-            ['NH-19 (old Agra road)', '~210–230 km', '4–5 hrs', 'Through Faridabad, Palwal, Mathura — mixed traffic'],
-            ['By rail (track distance)', '~190–200 km', '1 hr 40 min – 4 hrs', 'Depends entirely on the service']
-          ]
-        },
-        callout: {
-          title: 'What the Yamuna Expressway toll costs',
-          text: 'The expressway is a closed toll system — you pay on exit based on where you joined. For a car, expect somewhere in the region of ₹450 to ₹750 each way from a Delhi-side entry. Published figures differ between sources and the rate is revised periodically, so treat that as indicative and check before you set off if you are self-driving. On a car booked through us, tolls and parking are inside the quoted price, so there is nothing to pay at the barrier.'
-        }
+        list: [
+          'Want sunrise at the Taj Mahal — car. The train cannot do it',
+          'Want Fatehpur Sikri on the same day — car',
+          'Travelling as a group of four or more — compare, the car is often cheaper per head',
+          'Travelling alone or as a couple on a budget — train',
+          'Want the most comfortable journey — Gatimaan Express',
+          'Have an onward flight that evening — car, for the control over departure',
+          'Prone to motion sickness on roads — train'
+        ]
       },
       {
         heading: 'How long does Delhi to Agra actually take?',
@@ -388,23 +384,27 @@ export const GUIDES: Guide[] = [
         }
       },
       {
-        heading: 'Delhi to Agra: train or car?',
-        id: 'train-or-car',
+        heading: 'How far is Delhi to Agra? Distance by route',
+        id: 'distance',
         body: [
-          'This is the question we are asked more than any other, and the honest answer is that it turns on one thing: what time you want to arrive.',
-          'The train wins on comfort and on the journey itself. Ninety minutes in an air-conditioned chair with a meal served is pleasanter than three hours on a road, whoever is driving. If your idea of the day is a civilised 10 AM arrival, the Taj Mahal and Agra Fort at a reasonable pace, lunch, and an evening train home, take the Gatimaan.',
-          'The car wins on everything to do with timing. Sunrise at the Taj Mahal is only reachable by road — no train arrives early enough. Fatehpur Sikri only fits into a day trip by car. If you are travelling with young children or elderly parents, door-to-door from your hotel with your luggage in the boot is a different kind of day from two station transfers.',
-          'There is also a cost shape worth understanding, because it is the opposite of what people assume. Train fares are per person; a car is priced per vehicle. One or two travellers will usually find the train cheaper. At four or more, the car is often cheaper per head — and it is more flexible at the same time. If you are a family or a small group, do not assume the train is the economical choice without comparing the two.'
+          'There are two road routes, and they are closer in distance than they are in journey time.',
+          'The Yamuna Expressway is the one almost everyone uses. The expressway itself runs 165 km from Greater Noida to Agra; add the stretch from central Delhi out to the expressway entrance and the door-to-door distance comes to roughly 230 km, depending on which part of Delhi you start from. It is a six-lane, access-controlled toll road with no traffic lights, no towns and no cross traffic.',
+          'NH-19 — the old Agra road, which older guidebooks still call NH-2 — is shorter on paper at around 210 to 230 km. It is also an hour or more slower, because it runs through Faridabad, Palwal, Mathura and a string of smaller towns, each with its own traffic lights, markets and speed breakers.',
+          'Shorter on the map does not mean faster on the day. Unless you specifically want to stop at Mathura or Vrindavan on the way, the expressway is the route.'
         ],
-        list: [
-          'Want sunrise at the Taj Mahal — car. The train cannot do it',
-          'Want Fatehpur Sikri on the same day — car',
-          'Travelling as a group of four or more — compare, the car is often cheaper per head',
-          'Travelling alone or as a couple on a budget — train',
-          'Want the most comfortable journey — Gatimaan Express',
-          'Have an onward flight that evening — car, for the control over departure',
-          'Prone to motion sickness on roads — train'
-        ]
+        table: {
+          caption: 'Delhi to Agra — distance and time by route',
+          headers: ['Route', 'Distance', 'Typical driving time', 'Character'],
+          rows: [
+            ['Yamuna Expressway', '~230 km', '3–3.5 hrs', 'Six-lane, tolled, no towns or signals'],
+            ['NH-19 (old Agra road)', '~210–230 km', '4–5 hrs', 'Through Faridabad, Palwal, Mathura — mixed traffic'],
+            ['By rail (track distance)', '~190–200 km', '1 hr 40 min – 4 hrs', 'Depends entirely on the service']
+          ]
+        },
+        callout: {
+          title: 'What the Yamuna Expressway toll costs',
+          text: 'The expressway is a closed toll system — you pay on exit based on where you joined. For a car, expect somewhere in the region of ₹450 to ₹750 each way from a Delhi-side entry. Published figures differ between sources and the rate is revised periodically, so treat that as indicative and check before you set off if you are self-driving. On a car booked through us, tolls and parking are inside the quoted price, so there is nothing to pay at the barrier.'
+        }
       },
       {
         heading: 'What each option costs',
