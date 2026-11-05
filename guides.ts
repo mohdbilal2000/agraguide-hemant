@@ -655,35 +655,47 @@ export const GUIDES: Guide[] = [
     topic: 'delhi',
     metaTitle: 'Is Delhi Safe for Tourists? An Honest Answer from Local Guides',
     metaDescription:
-      'Delhi is safe for most visitors who take ordinary precautions — but the honest answer has detail in it. What actually goes wrong, what does not, and what solo women should know.',
+      'Violent crime against visitors in Delhi is rare — that is the short answer. The long one covers the city after dark, solo women, what you eat and drink, and the air quality nobody warns you about.',
     h1: 'Is Delhi Safe for Tourists?',
     cardTitle: 'Is Delhi Safe for Tourists?',
     cardSummary:
-      'The honest version — what actually goes wrong in Delhi, what is exaggerated, and what solo female travellers should plan for.',
+      'The honest version — how safe Delhi really is, the city after dark, what solo female travellers should plan for, and the seasonal risk nobody mentions.',
     image: '/delhi-group-rajpath.webp',
-    updated: '2026-09-17',
+    updated: '2026-11-05',
     intro: [
-      'Mostly, yes. Millions of foreign visitors come through Delhi every year and the overwhelming majority have an ordinary, uneventful trip. The real risks are not the ones most people worry about — violent crime against tourists is rare. What is common is being overcharged, misdirected, or steered towards a shop that pays commission.',
-      'That said, "it is safe" is a lazy answer, and so is "it is dangerous". Below is what actually tends to go wrong, what solo women should plan for, and what we do differently on our own tours. We run these streets every week, and we would rather you arrive prepared than reassured.'
+      'Mostly, yes. Millions of foreign visitors come through Delhi every year and the overwhelming majority have an ordinary, uneventful trip. Violent crime against tourists is rare, and it is worth saying that first, because it is the thing people are actually asking about.',
+      '"It is safe" is still a lazy answer, and so is "it is dangerous". Below: how safe Delhi really is, the city after dark, what solo women should plan for, what to do about food and water, and the seasonal health risk most visitors do not see coming. We run these streets every week, and we would rather you arrived prepared than reassured.'
     ],
     sections: [
       {
-        heading: 'What actually goes wrong',
-        id: 'what-goes-wrong',
+        heading: 'How safe is Delhi, really?',
+        id: 'how-safe',
         body: [
-          'Almost every bad story that comes out of Delhi is a commercial one, not a violent one. It follows a pattern, and the pattern is worth knowing because it is easy to spot once you have seen it written down.'
-        ],
-        list: [
-          'The taxi that says your hotel is "closed", "burnt down" or "full", and offers to take you to a better one — where he earns a commission',
-          'The helpful stranger outside a monument who says the entrance is elsewhere, and walks you towards a travel agency',
-          'The auto-rickshaw that will not use the meter, then quotes four times the fare at the end of the ride',
-          'The "government tourist office" near Connaught Place that is nothing of the sort',
-          'The shopping stop your driver insists on, where prices are doubled and he takes a cut'
+          'Violent crime against foreign visitors in Delhi is rare. That is the part of the answer most people are asking for, and it deserves to come before anything else: the thing visitors are frightened of is not the thing that actually happens.',
+          'What does happen is ordinary big-city risk — pockets picked in a crowd, a bag left unattended at a station — plus a layer of commercial pressure that Delhi has more of than most places. Being overcharged, misdirected, or steered towards a shop that pays somebody a commission is the common experience. It is wearing. It is not dangerous.',
+          'Those commercial tricks have a page of their own, because there are enough of them to set out properly — [the common tourist scams in Delhi](/guides/delhi-tourist-scams) explains how each one is built and the sentence that ends it. The rest of this page covers what that page does not: the city after dark, travelling as a woman, what you eat and drink, and the air.'
         ],
         callout: {
-          title: 'The one rule that prevents most of it',
-          text: 'Never let a stranger redirect a plan you already made. If someone tells you your hotel is closed, your monument is shut, or your route has changed, assume it is untrue until you have checked it yourself. Every version of this scam depends on you changing your plan on someone else\'s word.'
+          title: 'The honest summary',
+          text: 'If you are asking whether you might be hurt in Delhi, the answer is almost certainly not. If you are asking whether you might be hassled, overcharged or worn out by the attention, the answer is probably yes at some point — and knowing it is coming takes most of the sting out of it.'
         }
+      },
+      {
+        heading: 'Is Delhi safe at night?',
+        id: 'at-night',
+        body: [
+          'Yes, with the judgement you would use in any large city, and with one Delhi-specific habit: book your transport rather than finding it in the street.',
+          'Connaught Place, Khan Market, Hauz Khas Village and the hotel districts stay busy well into the evening. People eat late here, and a restaurant at ten at night is unremarkable. Walking between lit, busy places in those areas is fine.',
+          'What changes after dark is the quiet edges — unlit lanes, the areas around the railway stations, and the long stretches of road between neighbourhoods. Delhi is enormous, and the gaps between busy districts are bigger than a map makes them look. Those are not places to be working out where you are.',
+          'Almost every night-time problem a visitor has here starts with transport arranged on the pavement. Have the cab booked before you leave the restaurant, know the address you are going to, and do not get out of a vehicle somewhere you did not choose.'
+        ],
+        list: [
+          'After dark, book cabs through an app or your hotel — not from the street',
+          'Connaught Place, Khan Market, Hauz Khas and the hotel areas are busy and fine on foot',
+          'Do not walk around New Delhi or Old Delhi railway stations at night',
+          'Keep your phone charged; you need it for both the cab and the address',
+          'If a driver takes a turn you did not expect, say so at once and firmly. Usually it is traffic — and saying it costs nothing'
+        ]
       },
       {
         heading: 'Solo female travellers',
@@ -701,12 +713,12 @@ export const GUIDES: Guide[] = [
         ]
       },
       {
-        heading: 'Areas, and times of day',
+        heading: 'Which areas are safe?',
         id: 'areas',
         body: [
           'Delhi is not one place. Central Delhi around India Gate, Lodhi Road and Khan Market is calm and green. Old Delhi around Chandni Chowk is dense, loud and completely absorbing — and entirely fine in daylight, though it is easy to get lost and hard to move quickly.',
           'Paharganj, the backpacker area near New Delhi railway station, is where most touts operate. It is not dangerous so much as relentless. If your hotel is there, that is fine, but expect to be approached constantly.',
-          'After dark, the calculation changes in the way it does in any large city: stay in well-lit, busy areas, and take a booked cab rather than walking unfamiliar routes. Delhi at night is not a no-go zone — Connaught Place, Khan Market and Hauz Khas are busy and normal well into the evening.'
+          'None of these areas is one to avoid. What differs is how much attention you attract and how easily you can move, which is worth knowing when you decide where to stay.'
         ]
       },
       {
@@ -745,14 +757,24 @@ export const GUIDES: Guide[] = [
           'For most visitors, yes, with ordinary precautions — booked transport rather than street-hailed, the women-only Metro carriage at busy hours, and avoiding unfamiliar areas alone after dark. Staring is common and can be wearing; serious incidents involving foreign visitors are rare. Travelling with a guide removes most of the situations where problems start.'
       },
       {
+        question: 'Is Delhi safe at night?',
+        answer:
+          'Yes, in the busy parts, with transport you booked rather than found in the street. Connaught Place, Khan Market, Hauz Khas and the hotel districts are lively well into the evening and fine to walk between. What to avoid after dark is the quiet ground — unlit lanes, the areas around the railway stations, and the long gaps between neighbourhoods.'
+      },
+      {
+        question: 'Is Delhi dangerous?',
+        answer:
+          'Not in the way the question usually means. Violent crime against foreign visitors is rare. The realistic risks are a pocket picked in a crowd, being overcharged, and being steered somewhere that pays a commission — irritating rather than dangerous. The two things that genuinely catch visitors out are their stomachs and, in winter, the air.'
+      },
+      {
+        question: 'Is Delhi safe for families with children?',
+        answer:
+          'Yes, and families are generally treated with a good deal of warmth here. The two things to plan around are practical rather than criminal: the traffic, which means holding hands and crossing with locals rather than alone, and the air quality between late October and January, which matters more for small lungs than adult ones. A car with a driver removes most of the friction of a family day.'
+      },
+      {
         question: 'Is it safe to eat street food in Delhi?',
         answer:
           'Generally yes, if you choose well. Busy stalls with fast turnover, cooked fresh in front of you, are the safest bet. Avoid anything sitting out, raw salads washed in tap water, and ice in smaller places. Drink only sealed bottled water.'
-      },
-      {
-        question: 'What is the most common scam in Delhi?',
-        answer:
-          'Being told your hotel is closed, full or burnt down, and being taken to a different one that pays commission. The variants all work the same way — a stranger changes a plan you already had. Verify anything like this yourself before acting on it.'
       },
       {
         question: 'When is Delhi air pollution at its worst?',
@@ -2831,8 +2853,8 @@ export const GUIDES: Guide[] = [
         "answer": "Yes, every Monday. So are the Red Fort, the Lotus Temple and the National Museum, which is why a Monday can take out most of a Delhi itinerary at once. Qutub Minar, Humayun's Tomb, Jama Masjid and India Gate all stay open and make a good Monday day."
       },
       {
-        "question": "Is Akshardham worth visiting?",
-        "answer": "For most visitors, yes, with the expectation set first: it was completed in 2005 and is not a historic monument. What it is, is the largest piece of traditional hand-carved stonework built in modern India, at a scale nothing else matches. Visitors who arrive expecting Mughal heritage sometimes find it strange; those who take it on its own terms usually rate it highly."
+        "question": "How long does a visit to Akshardham take?",
+        "answer": "Two and a half to three and a half hours is realistic, plus travel — it sits well east of central Delhi. Security and the cloakroom take thirty to sixty minutes, the monument forty-five to sixty, the grounds another half hour, and retrieving your belongings fifteen to thirty. The optional exhibitions add an hour or more on top."
       }
     ],
     related: [
@@ -2859,6 +2881,10 @@ export const GUIDES: Guide[] = [
       {
         "label": "Getting around Delhi: Metro, taxi, auto or car",
         "to": "/guides/getting-around-delhi"
+      },
+      {
+        "label": "Is Akshardham worth visiting?",
+        "to": "/guides/is-akshardham-worth-visiting"
       }
     ]
   },
@@ -5106,7 +5132,7 @@ export const GUIDES: Guide[] = [
           'Overcrowded, yes. Overrated, no — and that distinction is the whole answer. The people who come away unimpressed almost always arrived mid-morning in peak season, queued in the heat and had ninety minutes before a driver wanted to leave. The building is not the problem; the schedule usually is.'
       },
       {
-        question: 'How long do you need at the Taj Mahal?',
+        question: 'Is two hours enough at the Taj Mahal?',
         answer:
           'Two to three hours is comfortable and unhurried. Ninety minutes is enough to see it properly if you are moving with purpose. Less than an hour is possible but you will spend it walking rather than looking, and you will have travelled three hours each way for it.'
       },
@@ -5266,7 +5292,7 @@ export const GUIDES: Guide[] = [
           'About thirty minutes before sunrise, which moves through the year — roughly 6:00 AM in midwinter and nearer 5:30 AM in high summer. It closes about thirty minutes before sunset. Confirm the times for your date rather than relying on a figure in an article, and remember it is closed to tourists on Fridays.'
       },
       {
-        question: 'Can you visit the Taj Mahal at night?',
+        question: 'Is the full-moon night viewing worth planning a trip around?',
         answer:
           'On a small number of nights each month — the full moon and the two nights either side of it. Tickets are sold separately and in advance through the ASI rather than at the gate, numbers are capped, viewing time is short and you see the monument from a distance. It does not run on Fridays or during Ramadan, and the arrangements change, so confirm rather than assume.'
       },
@@ -5630,6 +5656,633 @@ export const GUIDES: Guide[] = [
       { label: 'Taj Mahal: sunrise, sunset or midday?', to: '/guides/taj-mahal-best-time-of-day' },
       { label: 'Agra Fort: timings, tickets and what to see', to: '/guides/agra-fort' },
       { label: 'Is Agra safe for tourists?', to: '/guides/is-agra-safe-for-tourists' }
+    ]
+  },
+  {
+    slug: 'is-jaipur-safe-for-tourists',
+    topic: 'jaipur',
+    metaTitle: 'Is Jaipur Safe for Tourists? An Honest Answer',
+    metaDescription:
+      'Jaipur is the easiest of the three Golden Triangle cities to be a visitor in. The real risk is not crime — it is the gemstone trade, which has a scam built specifically for tourists.',
+    h1: 'Is Jaipur Safe for Tourists?',
+    cardTitle: 'Is Jaipur Safe for Tourists?',
+    cardSummary:
+      'Yes, and more comfortably than Delhi. But Jaipur has one scam built specifically for visitors, and it costs people more than anything else in India.',
+    image: '/city-palace-jaipur.webp',
+    updated: '2026-11-05',
+    intro: [
+      'Yes, and of the three Golden Triangle cities Jaipur is usually the easiest to be a visitor in. It is smaller than Delhi, calmer than Agra around the monuments, and the old walled city is genuinely pleasant to walk in.',
+      'There is one exception, and it is a large one. Jaipur is India’s gemstone capital, and that trade has produced a confidence trick aimed squarely at foreign visitors which has cost people thousands of pounds. It is not violence. It is the thing to actually know about before you arrive.'
+    ],
+    sections: [
+      {
+        heading: 'The short answer, by concern',
+        id: 'at-a-glance',
+        table: {
+          caption: 'Jaipur safety, concern by concern',
+          headers: ['Concern', 'Real risk level', 'What actually happens'],
+          rows: [
+            ['Violent crime', 'Very low', 'Rare against visitors; the tourist areas are policed'],
+            ['The gemstone scam', 'High — and expensive', 'A long con aimed at foreigners; see below'],
+            ['Commission shopping', 'High', 'Drivers steering you to textile, carpet and jewellery shops'],
+            ['Overcharging', 'Moderate', 'Autos without a meter, inflated prices at the monuments'],
+            ['Pickpocketing', 'Low to moderate', 'Ordinary crowd risk at Amber Fort and in the bazaars'],
+            ['Monkeys', 'Real, and underestimated', 'At Galta Ji and around the hill forts — they take food and bags'],
+            ['Traffic', 'The genuine daily risk', 'Crossing roads is the most dangerous thing you will do'],
+            ['Solo female travel', 'Moderate', 'Attention and staring; serious incidents are not common']
+          ]
+        }
+      },
+      {
+        heading: 'The gemstone scam — the one that actually matters',
+        id: 'gem-scam',
+        body: [
+          'This is the reason this page exists, and it is worth reading even if you have no interest in jewellery, because the version that works does not start with jewellery.',
+          'It begins as friendship. Someone — often well dressed, often speaking excellent English, frequently met somewhere innocuous like a cafe or a monument queue — strikes up a conversation. There is no sales pitch. Over an hour or a day they are simply good company. Then a problem is mentioned: a family business, an export licence, a tax rule that means gems sold abroad are worth several times what they cost here.',
+          'The offer that follows is that you buy stones at the local price, carry them home, and a contact there buys them from you at the foreign price. You are shown paperwork. Sometimes you are shown a deposit, or a signed undertaking. Occasionally a small first transaction is made to work, which is what makes the second one, for much more money, feel safe.',
+          'The stones are worth a fraction of what you paid. The contact at the other end does not exist or does not answer. The paperwork means nothing. People have lost very large sums this way, and because it is a sale you agreed to, there is usually nothing to be done afterwards.'
+        ],
+        callout: {
+          title: 'The rule that makes you immune',
+          text: 'Never buy anything in India to sell somewhere else. Not gems, not carpets, not textiles. If a stranger explains a way for you to make money by carrying goods home, the conversation is a scam, however long it took to get there and however much you like the person. Buy things because you want them, at a price you are happy to have simply spent.'
+        }
+      },
+      {
+        heading: 'Commission shopping, which is everywhere',
+        id: 'commission',
+        body: [
+          'Separate from the gem con, and far more common, is the ordinary commission arrangement. Jaipur’s textile, carpet, blue pottery and jewellery shops pay drivers and guides a substantial cut for bringing a customer through the door, and that cut is inside the price you are quoted.',
+          'It arrives as a block-printing demonstration, a visit to see carpets being knotted, a government emporium, somewhere to use the bathroom. All of it is real and some of it is genuinely interesting. It is also forty-five minutes of your day and a sales floor at the end.',
+          'Settle it before you book, not on the day. Ask your operator directly whether the itinerary includes shop or workshop stops and say you do not want them. One that works on commission will be vague; one that does not will say no immediately. We do not take anyone to a shop unless they ask.'
+        ]
+      },
+      {
+        heading: 'Traffic, and the thing that is actually dangerous',
+        id: 'traffic',
+        body: [
+          'The honest ranking of risk in Jaipur puts road traffic at the top, well above crime. The old city’s streets carry cars, autos, motorbikes, cycle-rickshaws, camels and cows in the same space, and the rules are negotiated rather than signposted.',
+          'Crossing a road here is not done by waiting for a gap. It is done by walking at a steady, predictable pace and letting traffic flow around you — which feels wrong and works. The dangerous thing is hesitating in the middle, because nobody can plan around someone who stops.',
+          'Where you can, cross alongside locals. If you are renting a scooter, reconsider: Jaipur is not where to learn Indian traffic, and foreign licences and travel insurance often do not cover it.'
+        ]
+      },
+      {
+        heading: 'Monkeys — not a joke',
+        id: 'monkeys',
+        body: [
+          'Visitors laugh at this warning until it happens to them. Jaipur has a large urban monkey population, concentrated around Galta Ji — the temple complex everyone calls the Monkey Temple — and the approaches to the hill forts.',
+          'They are habituated, confident and quick. They take food out of hands, go into open bags, and occasionally into shoulder bags that are merely unzipped. A bite is a genuine medical problem in India because of rabies risk, and means a course of injections rather than a plaster.',
+          'The practical version: do not carry visible food, do not feed them, do not make eye contact or smile with teeth showing, and keep bags closed and in front of you. If one approaches, stand still and let it pass. Nothing you own is worth a tug-of-war.'
+        ]
+      },
+      {
+        heading: 'Solo and female travellers',
+        id: 'solo-female',
+        body: [
+          'Jaipur is generally reported as more comfortable than Delhi and considerably more comfortable than Agra. The tourist areas are spread out rather than concentrated into one pressured corridor, and the city is used to foreign visitors in a way that makes them less of a novelty.',
+          'What women do report is the same as elsewhere in north India: staring, photographs taken without asking, and men standing closer than feels right. None of it dangerous. All of it tiring.',
+          'The things that reduce it are the same things: covering shoulders and knees, saying no to a photograph without apology, booked transport rather than negotiated-in-the-street transport, and not being on quiet ground alone after dark. [Our guide to solo female travel in India](/guides/solo-female-travel-india) goes into this properly.'
+        ]
+      },
+      {
+        heading: 'Areas, and after dark',
+        id: 'areas',
+        body: [
+          'The walled Pink City — Hawa Mahal, City Palace, Jantar Mantar and the bazaars around them — is busy, policed and fine in daylight. It is also where almost all the touting happens, because that is where the visitors are.',
+          'The newer areas south and west of the walls, where most hotels sit, are quiet, residential and unremarkable. Amber Fort and the hill forts are outside the city and shut well before dark.',
+          'Jaipur at night is a smaller, quieter city than Delhi. The hotel and restaurant districts are fine; the bazaars empty out and the roads up to the forts are unlit and not somewhere to be walking. As everywhere, book the cab rather than finding one in the street.'
+        ]
+      },
+      {
+        heading: 'How to have an easy few days in Jaipur',
+        id: 'easy-days',
+        list: [
+          'Buy nothing to resell. This one rule removes the only genuinely expensive risk in the city',
+          'Say at the time of booking that you do not want shop or workshop stops',
+          'Arrange transport in advance, so no price is ever negotiated on the pavement',
+          'At Galta Ji and the forts: bags closed, no visible food, no eye contact with monkeys',
+          'Cross roads at a steady pace alongside locals, and never stop halfway',
+          'Agree any price before a service starts — a photograph, a guide, a camel',
+          'Amber Fort early. It is both cooler and far quieter in the first hour'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'Is Jaipur safe for tourists?',
+        answer:
+          'Yes, and generally more comfortably than Delhi or Agra. Violent crime against visitors is rare and the tourist areas are policed. The real risk is financial rather than physical: Jaipur is India’s gemstone capital and has a long-running confidence trick that persuades foreigners to buy stones to resell at home. Never buy anything in India to sell elsewhere and you have removed it.'
+      },
+      {
+        question: 'What is the gem scam in Jaipur?',
+        answer:
+          'A stranger befriends you — often over hours or days, with no sales pitch at all — then explains a way to make money by buying gemstones here and selling them through a contact at home. You may be shown paperwork, or a small first deal that works. The stones are worth a fraction of what you pay and the contact does not materialise. It is a sale you agreed to, so there is rarely any recourse.'
+      },
+      {
+        question: 'Is Jaipur safe at night?',
+        answer:
+          'In the hotel and restaurant areas, yes — Jaipur is smaller and quieter after dark than Delhi. The bazaars inside the walled city empty out, and the roads up to Amber and Nahargarh are unlit and not places to be walking. Book a cab through your hotel or an app rather than finding one in the street.'
+      },
+      {
+        question: 'Is Jaipur safe for solo female travellers?',
+        answer:
+          'More comfortable than Delhi and noticeably more so than Agra, because the sights are spread out rather than crowded into one pressured corridor. Staring and unasked-for photographs are still common and wearing. Covering shoulders and knees reduces attention, refusing a photograph is entirely acceptable, and booked transport removes the street-negotiation part of the day.'
+      },
+      {
+        question: 'Are the monkeys in Jaipur dangerous?',
+        answer:
+          'Underestimated rather than dangerous. Around Galta Ji and the hill forts they are habituated and fast, and will take food from hands or go into an open bag. A bite means a course of rabies injections, not a plaster, so it is worth taking seriously: bags closed and in front of you, no visible food, no feeding, and stand still if one approaches.'
+      },
+      {
+        question: 'What is the most dangerous thing in Jaipur?',
+        answer:
+          'The traffic, by a clear margin, and not crime. The old city mixes cars, autos, motorbikes, rickshaws and animals in the same space with rules that are negotiated rather than signposted. Cross at a steady, predictable pace alongside locals and never stop halfway — hesitating in the middle is what causes accidents.'
+      },
+      {
+        question: 'Is Jaipur safer than Delhi and Agra?',
+        answer:
+          'For most visitors, yes on both counts. It is smaller and easier to navigate than Delhi, and the pressure around the monuments is much lower than in Agra, where the whole tourist economy is concentrated into a few streets. The one thing Jaipur has more of is the gemstone con, which is the single most expensive scam in the three cities.'
+      }
+    ],
+    related: [
+      {
+        label: 'Same Day Jaipur Tour',
+        to: '/plans/same-day-jaipur',
+        note: 'A licensed guide and a known driver remove the two situations — street transport and the shop stop — where nearly all of this happens.'
+      },
+      {
+        label: 'Golden Triangle 4-Day Tour',
+        to: '/plans/golden-triangle-4d',
+        note: 'Delhi, Agra and Jaipur with the same team throughout, and no commission stops anywhere in the itinerary.'
+      },
+      {
+        label: 'Golden Triangle 3-Day Tour',
+        to: '/plans/golden-triangle-3d',
+        note: 'The shorter version, if Jaipur is one stop on a crowded week rather than the destination.'
+      }
+    ],
+    seeAlso: [
+      { label: 'Is Delhi safe for tourists?', to: '/guides/is-delhi-safe-for-tourists' },
+      { label: 'Is Agra safe for tourists?', to: '/guides/is-agra-safe-for-tourists' },
+      { label: 'Common tourist scams in Delhi', to: '/guides/delhi-tourist-scams' },
+      { label: 'Amber Fort: timings and getting up the hill', to: '/guides/amber-fort-jaipur' },
+      { label: 'Is the Golden Triangle worth it?', to: '/guides/is-golden-triangle-worth-it' }
+    ]
+  },
+  {
+    slug: 'taj-mahal-on-a-layover',
+    topic: 'agra',
+    metaTitle: 'Can You See the Taj Mahal on a Delhi Layover?',
+    metaDescription:
+      'Yes, with at least 14 hours between flights and a visa that lets you leave the airport. Below that it does not work. The real arithmetic, the visa rule, and what goes wrong.',
+    h1: 'Can You See the Taj Mahal on a Delhi Layover?',
+    cardTitle: 'Taj Mahal on a Delhi Layover',
+    cardSummary:
+      'Possible from about 14 hours, comfortable from 18, and a bad idea below 12. The honest arithmetic, including the visa rule people miss.',
+    image: '/taj-mahal-couple.webp',
+    updated: '2026-11-05',
+    intro: [
+      'Yes, if you have at least fourteen hours between flights and a visa that lets you leave the airport. With eighteen it is comfortable. Below twelve it does not work, and anyone telling you otherwise has not counted the drive back.',
+      'The arithmetic is unforgiving because the distance is fixed: Agra is about 230 km from Delhi airport, which is three to three and a half hours each way by road. That is seven hours of a layover gone before you have looked at anything.'
+    ],
+    sections: [
+      {
+        heading: 'The arithmetic, by layover length',
+        id: 'arithmetic',
+        table: {
+          caption: 'What fits in a Delhi layover',
+          headers: ['Layover', 'Taj Mahal?', 'What is realistic'],
+          rows: [
+            ['Under 8 hours', 'No', 'Stay airside, or Aerocity for a meal and a shower'],
+            ['8–11 hours', 'No', 'Delhi only — Qutub Minar, Humayun’s Tomb, India Gate, lunch'],
+            ['12–13 hours', 'Only just, and tightly', 'Possible but with no margin; most operators will decline'],
+            ['14–16 hours', 'Yes', 'Taj Mahal, a meal, and back. Nothing else'],
+            ['18+ hours', 'Comfortably', 'Taj Mahal and Agra Fort, unhurried'],
+            ['24 hours', 'Easily', 'Agra properly, or Agra plus an evening in Delhi']
+          ]
+        },
+        callout: {
+          title: 'Count backwards from your boarding time, not forwards from landing',
+          text: 'Work out when you must be back at Terminal 3, add three and a half hours for the drive, add an hour of margin for Delhi traffic, and whatever is left is what you actually have in Agra. Most people who try this plan it the other way round and discover the problem in the car on the way back.'
+        }
+      },
+      {
+        heading: 'The visa rule people miss',
+        id: 'visa',
+        body: [
+          'This is the part that catches travellers out, and it has nothing to do with time. To leave Delhi airport you must clear immigration, and that requires a visa valid for entry to India — an e-Visa or a regular tourist visa. Being in transit does not exempt you.',
+          'If you are staying airside and changing planes, you need nothing. The moment you want to go through immigration and out of the terminal, you are entering India, and the rules are the same as for any other visitor.',
+          'India’s e-Visa is applied for online in advance and is the route most visitors use; there is also a separate transit visa category. Requirements, fees and processing times change, so check the official Indian government e-Visa site for your nationality well before you travel — not the week before.',
+          'Do not plan this trip on the assumption that you can sort the visa at the airport. You cannot.'
+        ],
+        callout: {
+          title: 'One more thing to check before you book anything',
+          text: 'If your two flights are on separate tickets, you will almost certainly have to collect your bags and check in again, which adds time at both ends. On a single through-ticket your luggage is usually tagged to the final destination. This changes the usable length of a layover by an hour or more, so confirm it before you count.'
+        }
+      },
+      {
+        heading: 'How the day actually runs',
+        id: 'how-it-runs',
+        body: [
+          'A fourteen-hour layover landing at, say, six in the morning works roughly like this. Immigration and baggage take an hour to ninety minutes, which is realistic for Delhi at a busy hour rather than pessimistic. You are in a car by about half past seven and at the Taj Mahal by eleven.',
+          'Two hours there is enough to see it properly without running. Lunch somewhere near the monument takes another hour. You leave Agra at about two, which keeps you ahead of the worst of the return traffic, and you are back at Terminal 3 by half past five — three hours before a nine o’clock flight, which is the margin you want for an international departure.',
+          'That is fourteen hours spent: seven driving, two at the monument, one eating, and four on airport process and margin. There is no slack in it anywhere, which is why twelve hours does not work.'
+        ]
+      },
+      {
+        heading: 'What goes wrong',
+        id: 'what-goes-wrong',
+        list: [
+          'Immigration at Delhi takes longer than expected at peak arrival hours — build ninety minutes, not thirty',
+          'Leaving Agra after three puts you into Delhi’s evening traffic, which can add an hour at the far end',
+          'Friday. The Taj Mahal is closed to tourists all day, and a layover on a Friday is a wasted drive',
+          'Separate tickets meaning a second check-in and a second security queue',
+          'Trying to add Agra Fort on a fourteen-hour layover, and arriving back with no margin',
+          'Booking a driver on arrival rather than in advance, and losing forty minutes negotiating at the terminal'
+        ],
+        callout: {
+          title: 'Friday is the one that ruins trips',
+          text: 'The Taj Mahal does not admit tourists on Fridays. It is the single most common wasted journey we hear about, and it is entirely avoidable — check which day your layover falls on before anything else. If it is a Friday, Agra Fort and Mehtab Bagh are still open, or spend the day in Delhi instead.'
+        }
+      },
+      {
+        heading: 'If you have less time: Delhi instead',
+        id: 'delhi-instead',
+        body: [
+          'With eight to eleven hours, Delhi is the better day and not a consolation prize. Qutub Minar, Humayun’s Tomb, India Gate and a proper lunch fit comfortably, and you are never more than an hour from the airport, which removes the entire anxiety of the thing.',
+          'With under eight hours, stay close. Aerocity is ten minutes from the terminal and has hotels that rent rooms by the hour for showers and sleep. It is not an experience of India, but neither is sitting in the terminal.',
+          '[Our guide to the Delhi airport layover](/guides/delhi-airport-layover) works through what fits at each length, including whether you can leave at all.'
+        ]
+      },
+      {
+        heading: 'Is it worth doing?',
+        id: 'worth-it',
+        body: [
+          'If this is your only chance to see the Taj Mahal, yes, and we would do it. Seven hours in a car for two hours at a monument sounds absurd written down, and nobody who has done it says it was not worth it.',
+          'If you are coming back to India later in the same trip, no. Do it properly from Delhi with a night in Agra and see it at sunrise, which a layover cannot give you — [our comparison of sunrise, sunset and midday](/guides/taj-mahal-best-time-of-day) explains why that matters more than people expect.',
+          'And if the layover is under twelve hours, do not let anyone sell you this. A tour that gets you back to the airport an hour before an international flight is not a tour, it is a risk you are paying for.'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'Can you visit the Taj Mahal on a Delhi layover?',
+        answer:
+          'Yes, with at least fourteen hours between flights and a visa that lets you leave the airport. Agra is about 230 km from Delhi airport, three to three and a half hours each way, so seven hours of the layover goes on driving before you have seen anything. Eighteen hours makes it comfortable; under twelve it does not work.'
+      },
+      {
+        question: 'Do I need a visa to leave Delhi airport on a layover?',
+        answer:
+          'Yes. Leaving the terminal means clearing immigration, which means entering India, and that requires a valid e-Visa or tourist visa regardless of being in transit. Staying airside needs nothing. Apply online in advance — requirements and processing times change, so check the official Indian government e-Visa site for your nationality early, and never assume it can be arranged on arrival.'
+      },
+      {
+        question: 'How many hours do I need for a Taj Mahal layover trip?',
+        answer:
+          'Fourteen hours is the practical minimum and leaves no slack. Eighteen is comfortable and lets you add Agra Fort. Twenty-four lets you see Agra properly. Twelve to thirteen is technically possible and most operators will decline it, because an international departure needs three hours of margin and the return drive has none.'
+      },
+      {
+        question: 'What if my layover falls on a Friday?',
+        answer:
+          'The Taj Mahal is closed to tourists on Fridays, so the drive is wasted. Agra Fort and Mehtab Bagh stay open if you still want to go, but for most people a Friday layover is better spent in Delhi — Qutub Minar, Humayun’s Tomb and Old Delhi are all open and much closer.'
+      },
+      {
+        question: 'Is a Taj Mahal layover trip worth it?',
+        answer:
+          'If it is your only chance to see it, yes — seven hours of driving for two at the monument sounds ridiculous and almost nobody regrets it. If you are returning to India later in the same trip, do it properly instead: a night in Agra gets you sunrise, which no layover can.'
+      },
+      {
+        question: 'Can I store my luggage during a layover?',
+        answer:
+          'Delhi airport has paid left-luggage facilities, and on a single through-ticket your bags are usually checked to your final destination so the question does not arise. On separate tickets you will collect them and must either store them or carry them, which also means a second check-in and security queue on return — confirm which case you are in before planning the day.'
+      }
+    ],
+    related: [
+      {
+        label: 'Same Day Taj Mahal Tour by Car',
+        to: '/plans/same-day-taj-car',
+        note: 'Collected from Terminal 3 by name, with the return timed against your boarding rather than against the clock.'
+      },
+      {
+        label: 'Delhi Airport Layover Tour',
+        to: '/plans/delhi-layover-tour',
+        note: 'For a shorter layover — Delhi only, never more than an hour from the terminal.'
+      },
+      {
+        label: 'Delhi Overnight Taj Mahal Tour',
+        to: '/plans/overnight-taj-tour',
+        note: 'If you are coming back to India later in the trip, this is the version that gets you sunrise.'
+      }
+    ],
+    seeAlso: [
+      { label: 'Delhi airport layover: can you leave, and what fits?', to: '/guides/delhi-airport-layover' },
+      { label: 'Delhi to Agra: train, car or bus', to: '/guides/delhi-to-agra' },
+      { label: 'Is the Taj Mahal closed on Friday?', to: '/guides/taj-mahal-friday-closed' },
+      { label: 'Taj Mahal: sunrise, sunset or midday?', to: '/guides/taj-mahal-best-time-of-day' },
+      { label: 'Is the Taj Mahal worth it?', to: '/guides/is-taj-mahal-worth-it' }
+    ]
+  },
+  {
+    slug: 'is-akshardham-worth-visiting',
+    topic: 'delhi-monuments',
+    metaTitle: 'Is Akshardham Worth Visiting? An Honest Answer',
+    metaDescription:
+      'Akshardham is enormous, free to enter and genuinely impressive — and it takes three hours, bans phones completely, and closes on Mondays. Who should go, and who should spend the time elsewhere.',
+    h1: 'Is Akshardham Worth Visiting?',
+    cardTitle: 'Is Akshardham Worth Visiting?',
+    cardSummary:
+      'Free, enormous and more impressive than people expect — but it costs three hours, bans phones entirely, and is shut on Mondays.',
+    image: '/india-gate-lawns.webp',
+    updated: '2026-11-05',
+    intro: [
+      'It depends almost entirely on how many days you have in Delhi. Akshardham is genuinely impressive — a vast, intricately carved stone temple complex finished in 2005, built without structural steel, and larger than photographs suggest. Entry to the temple itself is free.',
+      'What it costs is time, and more than people plan for. Between the security queue, the compulsory cloakroom for every electronic item you are carrying, the complex itself and getting back out, three hours is realistic. On a two-day Delhi trip, that is a serious share of it.'
+    ],
+    sections: [
+      {
+        heading: 'The case for going',
+        id: 'the-case-for',
+        body: [
+          'The craftsmanship is the argument, and it does not photograph — which is convenient, because you cannot photograph it anyway.',
+          'The main monument is carved sandstone and marble, worked by thousands of craftsmen, with detail that rewards standing close: elephants along the plinth, each one different; pillars where no two carvings repeat. It was completed in 2005, which surprises people who assume they are looking at something centuries old, and the fact that it is modern is part of what makes it remarkable rather than less so.',
+          'It is also enormous and calm. After Old Delhi, the scale and quiet of the grounds are a genuine change of pace, and the gardens are a pleasant place to walk rather than a corridor between things.',
+          'And it is free. Entry to the temple costs nothing. The paid parts — the exhibitions and the evening water show — are optional.'
+        ]
+      },
+      {
+        heading: 'The case against — honestly',
+        id: 'the-case-against',
+        body: [
+          'The time. Three hours is the realistic figure once you account for the queue, the cloakroom and the walking, and it is a long way east of central Delhi, so add the journey at both ends. On a tight itinerary that is most of a morning.',
+          'The phone ban, which is absolute and catches almost everyone out. No phones, no cameras, no electronic items of any kind inside — everything goes into a cloakroom, and the queue for it can be longer than the security queue. You will have no photographs and, for several hours, no phone.',
+          'And it is modern. If what you came to India for is Mughal architecture and the weight of actual history, Humayun’s Tomb and Qutub Minar are older, more atmospheric and quicker to visit. Akshardham is magnificent, but it is not the thing most people have travelled to see.'
+        ],
+        callout: {
+          title: 'Closed on Mondays',
+          text: 'Akshardham does not open on Mondays. It is the most common wasted journey here, and the complex is far enough from central Delhi that discovering it at the gate costs a real part of the day. Check the day before you plan anything around it.'
+        }
+      },
+      {
+        heading: 'The phone rule, properly explained',
+        id: 'phones',
+        body: [
+          'This deserves its own section because it changes the visit rather than merely inconveniencing it.',
+          'No phones, cameras, tablets, smart watches, power banks, laptops or USB devices may be taken inside. Security is airport-style and thorough. Everything goes into a free cloakroom, along with large bags, and you collect it on the way out.',
+          'Two practical consequences. First, build cloakroom time into your estimate, because at busy hours the queue to deposit and the queue to retrieve are each substantial. Second, if you are travelling as a group, agree where and when you are meeting before you go in, because once inside you cannot call each other.',
+          'The rules are enforced consistently and arguing about them does not work. They also change from time to time, so check the current position before you go.'
+        ]
+      },
+      {
+        heading: 'How long it really takes',
+        id: 'how-long',
+        table: {
+          caption: 'Akshardham, realistic timings',
+          headers: ['Stage', 'Typical time', 'Note'],
+          rows: [
+            ['Security and cloakroom', '30–60 min', 'Longer at weekends and on holidays'],
+            ['The main monument', '45–60 min', 'The part worth the visit'],
+            ['Gardens and grounds', '30–45 min', 'Pleasant, and optional'],
+            ['Exhibitions (paid, optional)', '60–90 min', 'Skippable; the monument is the draw'],
+            ['Retrieving belongings', '15–30 min', 'The queue people forget to count'],
+            ['Realistic total', '2.5–3.5 hrs', 'Plus travel from central Delhi']
+          ]
+        }
+      },
+      {
+        heading: 'Who should go, and who should not',
+        id: 'who-should',
+        list: [
+          'Three or more days in Delhi — go. There is time, and it is worth it',
+          'Interested in craftsmanship and stonework — go. This is as good as it gets anywhere',
+          'Travelling with teenagers or older children — go; the scale tends to land with them',
+          'Two days in Delhi — probably skip. Humayun’s Tomb and Qutub Minar give you more of what you came for in half the time',
+          'One day in Delhi — skip, firmly',
+          'You want photographs of your day — skip, or accept there will be none',
+          'Arriving on a Monday — it is closed'
+        ]
+      },
+      {
+        heading: 'If you go, go in the evening',
+        id: 'when-to-go',
+        body: [
+          'Late afternoon into evening is the better visit. The light on the carved sandstone is warmer, the heat has gone out of the day, and the complex is lit after dark in a way that photographs would not capture even if you were allowed to take them.',
+          'The water show runs in the evening and is ticketed separately. Opinions divide sharply on it — some find it a memorable piece of staging, others find it overblown. It is optional, and skipping it does not diminish the visit.',
+          'Avoid weekends and public holidays if you can. Akshardham is extremely popular with Indian visitors, and the queues on a Sunday are a different proposition entirely.'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'Is Akshardham worth visiting?',
+        answer:
+          'If you have three or more days in Delhi, yes — the stone carving is extraordinary and the scale genuinely surprises people. If you have one or two days, probably not: it takes about three hours including queues and cloakroom, sits well east of central Delhi, and Humayun’s Tomb and Qutub Minar give you more of what most visitors came for in half the time.'
+      },
+      {
+        question: 'How long do you need at Akshardham?',
+        answer:
+          'Two and a half to three and a half hours is realistic, plus travel from central Delhi. Security and the cloakroom take thirty to sixty minutes, the main monument forty-five to sixty, the gardens another thirty to forty-five, and retrieving your belongings fifteen to thirty. The optional paid exhibitions add another hour or more.'
+      },
+      {
+        question: 'Is Akshardham free?',
+        answer:
+          'Entry to the temple complex itself is free. The exhibitions and the evening water show are ticketed separately and are optional — the monument is the reason to go, and skipping the paid parts does not diminish the visit.'
+      },
+      {
+        question: 'Which day is Akshardham closed?',
+        answer:
+          'Monday. It is the most common wasted journey here, and because the complex is a long way east of central Delhi, discovering it at the gate costs a real part of the day. Check before you build a morning around it.'
+      },
+      {
+        question: 'What is the best time of day to visit Akshardham?',
+        answer:
+          'Late afternoon into the evening. The light on the carved sandstone is warmer, the heat has gone, and the complex is lit after dark. Avoid weekends and public holidays if you can — it is extremely popular with Indian visitors and the queues on a Sunday are a different proposition.'
+      },
+      {
+        question: 'Akshardham or Lotus Temple — which is better?',
+        answer:
+          'Different visits. The Lotus Temple is quick — twenty minutes once you are through the queue — architecturally striking from outside and almost empty inside by design. Akshardham is a half-day commitment with far more to look at. On a tight schedule the Lotus Temple costs you almost nothing; Akshardham costs you a morning.'
+      }
+    ],
+    related: [
+      {
+        label: 'Delhi Unveiled: Private Full Day Heritage Tour',
+        to: '/plans/delhi-full-day-heritage',
+        note: 'A full day with a licensed guide, built around what you actually want to see rather than a fixed list.'
+      },
+      {
+        label: 'Delhi Half Day Tour',
+        to: '/plans/delhi-half-day',
+        note: 'If Akshardham is taking your morning, this covers the rest of New Delhi in the afternoon.'
+      },
+      {
+        label: 'Hire a Licensed Delhi Guide',
+        to: '/guide-booking',
+        note: 'Guide-only or guide with a car, for a day built the way you want it.'
+      }
+    ],
+    seeAlso: [
+      { label: 'Akshardham: timings, tickets and the cloakroom queue', to: '/guides/akshardham-temple-delhi' },
+      { label: 'Lotus Temple: timings, queues and what is inside', to: '/guides/lotus-temple-delhi' },
+      { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
+      { label: 'Humayun\u2019s Tomb: timings and what to see', to: '/guides/humayuns-tomb-delhi' },
+      { label: 'Qutub Minar: timings and what to see', to: '/guides/qutub-minar-delhi' }
+    ]
+  },
+  {
+    slug: 'is-golden-triangle-worth-it',
+    topic: 'first-time',
+    metaTitle: 'Is the Golden Triangle Worth It? How Many Days You Need',
+    metaDescription:
+      'Delhi, Agra and Jaipur in three days is possible and most people regret it. Four is the honest minimum, five or six is the right trip. The arithmetic, the driving, and who should skip it.',
+    h1: 'Is the Golden Triangle Worth It?',
+    cardTitle: 'Is the Golden Triangle Worth It?',
+    cardSummary:
+      'Yes, for a first trip — but not in three days. The honest arithmetic on driving, days and what each city actually needs.',
+    image: '/amber-fort-jaipur.webp',
+    updated: '2026-11-05',
+    intro: [
+      'For a first trip to north India, yes. The three cities are genuinely different from one another, the distances between them are manageable, and between them they cover Mughal, colonial and Rajput India in a way no single city does.',
+      'The question that matters more is how many days. Three is sold constantly and is the reason people come home saying it was rushed. Four works. Five or six is the trip people describe well afterwards.'
+    ],
+    sections: [
+      {
+        heading: 'What the Golden Triangle actually is',
+        id: 'what-it-is',
+        body: [
+          'Delhi, Agra and Jaipur, joined by roads that make a rough triangle on the map. It is a route rather than a place, and it exists because the three corners are close enough to drive between and different enough to be worth the driving.',
+          'Delhi is two cities at once — the dense Mughal old city and the wide colonial capital built beside it. Agra is the Taj Mahal and Agra Fort, and not a great deal else that a visitor needs. Jaipur is Rajput: forts on hills, a painted walled city, and a different architectural language entirely.'
+        ],
+        table: {
+          caption: 'The three legs',
+          headers: ['Leg', 'Distance', 'Driving time', 'Note'],
+          rows: [
+            ['Delhi → Agra', '~230 km', '3–3.5 hrs', 'Yamuna Expressway, the fastest of the three'],
+            ['Agra → Jaipur', '~240 km', '4–5 hrs', 'Fatehpur Sikri sits on this road'],
+            ['Jaipur → Delhi', '~270 km', '5–6 hrs', 'The longest leg, and the dullest']
+          ]
+        }
+      },
+      {
+        heading: 'How many days do you actually need?',
+        id: 'how-many-days',
+        body: [
+          'This is the whole question, so here is the honest version rather than the one that sells a shorter tour.'
+        ],
+        table: {
+          caption: 'Golden Triangle by trip length',
+          headers: ['Days', 'Verdict', 'What it means in practice'],
+          rows: [
+            ['3 days', 'Possible, usually regretted', 'Roughly 13 hours of driving; one monument per city; no slack'],
+            ['4 days', 'The honest minimum', 'A night in each city, Taj at sunrise, Amber Fort unhurried'],
+            ['5 days', 'Right for most people', 'Two nights somewhere, Fatehpur Sikri, time that is not scheduled'],
+            ['6 days', 'Comfortable', 'Delhi properly, Agra without rushing, Jaipur with an afternoon spare'],
+            ['7+ days', 'Add a fourth place', 'Ranthambore, Udaipur or Varanasi start to make sense']
+          ]
+        },
+        callout: {
+          title: 'Why three days is the problem',
+          text: 'Three days means roughly thirteen hours in a car across the trip, and those hours come out of the middle of the days rather than the edges. You arrive in Jaipur at six in the evening having seen the Taj Mahal that morning, and the thing you remember most clearly about India is the inside of a vehicle. It is not that you see nothing. It is that you see it through a windscreen.'
+        }
+      },
+      {
+        heading: 'What each city actually needs',
+        id: 'per-city',
+        body: [
+          'Delhi needs two days to be anything more than a list. One day gets you either Old Delhi or New Delhi, not both, and they are the two halves of the point. Two days is comfortable; three is generous but not wasted.',
+          'Agra needs less than people think, and more than a day trip gives. The Taj Mahal is two to three hours, Agra Fort another two. What a night in Agra buys is not more monuments — it is seeing the Taj Mahal at opening without having driven three hours first, which is a materially different experience.',
+          'Jaipur needs two days to do properly. Amber Fort is a half day on its own, and the walled city — City Palace, Jantar Mantar, Hawa Mahal and the bazaars around them — is another. One day means choosing.',
+          'That is six days for the three cities at a comfortable pace, which is why five is the sensible compromise and four is the floor.'
+        ]
+      },
+      {
+        heading: 'The case against',
+        id: 'case-against',
+        body: [
+          'It is the most travelled route in India, and it feels like it. The monuments are busy, the hotels are used to foreign visitors, and the whole corridor has a well-developed commercial apparatus pointed at you — commission shops, touts, fixed-price "government emporiums". None of that is dangerous, but it is a long way from the India people imagine when they picture travelling here.',
+          'It is also three cities, and cities are not everyone’s India. If what you want is landscape, villages, mountains or coast, this route gives you none of them, and Rajasthan beyond Jaipur or Kerala in the south would serve you better.',
+          'And there is a great deal of driving. Even at a comfortable pace it is twelve to fourteen hours in a vehicle over the trip. Some people find Indian road travel interesting in itself. Others find it exhausting, and it is worth knowing which you are before committing.'
+        ]
+      },
+      {
+        heading: 'Which order, and which direction',
+        id: 'order',
+        body: [
+          'Delhi, then Agra, then Jaipur, then back to Delhi, is the standard and it is standard for good reasons. Most international flights arrive into Delhi, the Delhi-Agra leg is the shortest, and ending in Delhi means your last day is near the airport rather than five hours from it.',
+          'Doing it in reverse — Jaipur first — works too and is slightly quieter at the monuments, because the tour buses move in the standard direction. The cost is that your longest drive comes first, on the day you are most jet-lagged.',
+          'Fatehpur Sikri sits on the Agra-Jaipur road and adds about two hours including the visit. On a four-day trip it is a stretch. On five or six it is the obvious addition and one of the best things on the route.'
+        ]
+      },
+      {
+        heading: 'Is it worth it, in one answer each way',
+        id: 'verdict',
+        list: [
+          'First trip to north India, five or six days — yes, clearly. This is the trip it was designed for',
+          'First trip, four days — yes, and it will be busy but not rushed',
+          'Three days and no flexibility — do Delhi and Agra properly instead, and leave Jaipur for next time',
+          'Returning to India, been before — skip it; Rajasthan beyond Jaipur, or the south, gives you more',
+          'You want villages, landscape or mountains — this is the wrong route entirely',
+          'Travelling with young children — four days minimum, and consider dropping Jaipur rather than compressing'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'Is the Golden Triangle worth it?',
+        answer:
+          'For a first trip to north India, yes. Delhi, Agra and Jaipur are genuinely different from one another and between them cover Mughal, colonial and Rajput India. The caveat is time: in three days it becomes a driving holiday with monuments attached. Four days is the honest minimum and five or six is the trip people describe well afterwards.'
+      },
+      {
+        question: 'How many days do you need for the Golden Triangle?',
+        answer:
+          'Four at minimum, five or six to do it comfortably. Three is sold constantly and means roughly thirteen hours in a car, taken out of the middle of the days rather than the edges. Six days gives Delhi two days, Agra a night so you can see the Taj Mahal at opening, and Jaipur two days for Amber Fort and the walled city.'
+      },
+      {
+        question: 'Can you do the Golden Triangle in 3 days?',
+        answer:
+          'Physically yes, and plenty of operators sell it. You will see the Taj Mahal, Agra Fort, Amber Fort and some of Delhi, and you will spend about thirteen hours driving to do it. Most people who take the three-day version say afterwards that it was rushed. If three days is genuinely fixed, Delhi and Agra properly is a better trip than all three badly.'
+      },
+      {
+        question: 'What order should I do the Golden Triangle in?',
+        answer:
+          'Delhi, Agra, Jaipur, back to Delhi. International flights arrive into Delhi, the Delhi-Agra leg is the shortest, and finishing in Delhi puts your last day near the airport rather than five hours away. The reverse direction is marginally quieter at the monuments but puts the longest drive on your most jet-lagged day.'
+      },
+      {
+        question: 'How far apart are Delhi, Agra and Jaipur?',
+        answer:
+          'Delhi to Agra is about 230 km and three to three and a half hours on the Yamuna Expressway. Agra to Jaipur is about 240 km and four to five hours, with Fatehpur Sikri on the way. Jaipur back to Delhi is about 270 km and five to six hours, which is the longest and least interesting leg.'
+      },
+      {
+        question: 'Should I add Fatehpur Sikri to the Golden Triangle?',
+        answer:
+          'On five or six days, yes — it sits directly on the Agra-Jaipur road, adds about two hours including the visit, and is one of the best things on the route. On four days it is a stretch, and on three it is not realistic.'
+      },
+      {
+        question: 'Is the Golden Triangle too touristy?',
+        answer:
+          'It is the most travelled route in India and it feels like it — busy monuments, hotels geared to foreign visitors, and a well-developed commercial apparatus of commission shops and touts. For a first trip that trade-off is usually worth it, because the monuments really are extraordinary. If you have been to India before, Rajasthan beyond Jaipur or the south will give you more.'
+      }
+    ],
+    related: [
+      {
+        label: 'Golden Triangle 4-Day Tour',
+        to: '/plans/golden-triangle-4d',
+        note: 'The honest minimum — a night in each city, the Taj Mahal at opening, and Amber Fort without a clock running.'
+      },
+      {
+        label: 'Golden Triangle 3-Day Tour',
+        to: '/plans/golden-triangle-3d',
+        note: 'If three days is genuinely all you have. We will tell you what it costs you before you book it.'
+      },
+      {
+        label: 'Golden Triangle with Udaipur',
+        to: '/plans/golden-triangle-udaipur',
+        note: 'For a week or more, when a fourth place starts to make sense.'
+      }
+    ],
+    seeAlso: [
+      { label: 'Delhi itinerary: 1, 2 or 3 days', to: '/guides/delhi-itinerary-1-2-3-days' },
+      { label: 'Delhi to Agra: train, car or bus', to: '/guides/delhi-to-agra' },
+      { label: 'Is the Taj Mahal worth it?', to: '/guides/is-taj-mahal-worth-it' },
+      { label: 'Is Jaipur safe for tourists?', to: '/guides/is-jaipur-safe-for-tourists' },
+      { label: 'First time in India', to: '/guides/first-time-in-india' }
     ]
   }
 ];
