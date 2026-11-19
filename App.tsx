@@ -8,6 +8,7 @@ import {
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ContactButton from './components/ContactButton';
+import { Analytics } from '@vercel/analytics/react';
 import Home from './pages/Home';
 
 const Plans = lazy(() => import('./pages/Plans'));
@@ -60,6 +61,12 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       </main>
       {!isDigitalCard && <Footer />}
       {!isDigitalCard && <ContactButton />}
+      {/* The site ran for months with no measurement of any kind, so nobody
+          could tell whether a visitor read a guide and left, or reached a tour
+          page and stopped there. Vercel's own analytics is cookieless and needs
+          no consent banner; it has to be switched on for the project in the
+          Vercel dashboard before it records anything. */}
+      <Analytics />
     </div>
   );
 };

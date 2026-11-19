@@ -78,7 +78,7 @@ const InlineCTA: React.FC<{ link: GuideLink; guideTitle: string }> = ({ link, gu
         See the tour <ArrowRight size={16} aria-hidden="true" />
       </Link>
       <a
-        href={`https://wa.me/919217519989?text=${encodeURIComponent(`Hi, I read your guide: ${guideTitle}. I have a question.`)}`}
+        href={`https://wa.me/919217519989?text=${encodeURIComponent(`Hi — I read your guide "${guideTitle}" on your website. I'm planning a trip to India and would like some advice.`)}`}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2 bg-brand-success/10 text-brand-success px-5 py-3 rounded-2xl font-bold text-sm hover:bg-brand-success hover:text-white transition-all"
@@ -324,7 +324,7 @@ const GuideDetail: React.FC = () => {
                   ))}
                 </ul>
                 <a
-                  href={`https://wa.me/919217519989?text=${encodeURIComponent(`Hi, I read your guide: ${guide.cardTitle}. I have a question.`)}`}
+                  href={`https://wa.me/919217519989?text=${encodeURIComponent(`Hi — I read your guide "${guide.cardTitle}" on your website. I'm planning a trip to India and would like some advice.`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-8 block w-full text-center bg-brand-success/10 text-brand-success py-4 rounded-2xl font-bold hover:bg-brand-success hover:text-white transition-all"

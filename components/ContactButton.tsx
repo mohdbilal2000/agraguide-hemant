@@ -3,6 +3,24 @@ import React, { useState, useEffect } from 'react';
 import { MessageCircle, X, Phone, Mail } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
+/* The one address the rest of the site uses — the footer, the contact page,
+   the digital card, llms.txt and the Organization schema all carry this one.
+   This component used to point at contact@indiventuretravellers.com, which
+   appeared nowhere else and is not a mailbox anyone reads. Anything sent to it
+   went nowhere, from the button that sits on every page of the site. */
+const EMAIL = 'indiventuretravellers@gmail.com';
+const WHATSAPP = '919217519989';
+
+/* Every enquiry should arrive knowing which page produced it. Without it, a
+   message reads "Hi, I have a question" and there is no way to tell whether
+   the guides are earning contact or the tour pages are. */
+const whatsappLink = () => {
+  const path = typeof window === 'undefined' ? '' : window.location.pathname;
+  const where = path && path !== '/' ? `I was reading ${path} on your website. ` : '';
+  const text = `Hi — ${where}I'm planning a trip to India and would like some advice.`;
+  return `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(text)}`;
+};
+
 const ContactButton: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [showPrompt, setShowPrompt] = useState(false);
@@ -46,16 +64,23 @@ const ContactButton: React.FC = () => {
                 <MessageCircle size={20} />
               </div>
               <div>
-                <p className="text-sm font-bold text-brand-dark">Need help planning?</p>
-                <p className="text-xs text-gray-500">I'm Naveen, your local expert.</p>
+                {/* This read "I'm Naveen, your local expert." Naveen appeared
+                    nowhere else on the site, in any review, or in the company's
+                    own contact card — it was placeholder copy introducing a
+                    person who does not exist, on every page. */}
+                <p className="text-sm font-bold text-brand-dark">Planning a trip?</p>
+                <p className="text-xs text-gray-500">Ask us anything — no booking needed.</p>
               </div>
             </div>
-            <button 
-              onClick={() => { setIsOpen(true); setShowPrompt(false); }}
-              className="w-full bg-brand-success text-white py-2 rounded-lg text-sm font-bold hover:bg-brand-success/90 transition-colors"
+            <a
+              href={whatsappLink()}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={dismissPrompt}
+              className="block w-full text-center bg-brand-success text-white py-2 rounded-lg text-sm font-bold hover:bg-brand-success/90 transition-colors"
             >
               Chat on WhatsApp
-            </button>
+            </a>
           </motion.div>
         )}
       </AnimatePresence>
@@ -74,8 +99,8 @@ const ContactButton: React.FC = () => {
               <p className="text-sm text-white/80">Available 24/7 for our guests.</p>
             </div>
             <div className="p-4 flex flex-col gap-2">
-              <a 
-                href="https://wa.me/919217519989" 
+              <a
+                href={whatsappLink()}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-xl bg-brand-success/5 hover:bg-brand-success/10 text-brand-success transition-all border border-brand-success/10"
@@ -96,14 +121,16 @@ const ContactButton: React.FC = () => {
                   <p className="text-xs opacity-70">+91 9217519989</p>
                 </div>
               </a>
-              <a 
-                href="mailto:contact@indiventuretravellers.com" 
+              <a
+                href={`mailto:${EMAIL}`}
                 className="flex items-center gap-4 p-4 rounded-xl bg-brand-dark/5 hover:bg-brand-dark/10 text-brand-dark transition-all border border-brand-dark/10"
               >
                 <Mail fill="currentColor" className="text-brand-dark" />
                 <div className="text-left">
                   <p className="font-bold">Email Us</p>
-                  <p className="text-xs opacity-70">Query in 2 hours</p>
+                  {/* Was "Query in 2 hours" — a response time nobody measures.
+                      The address itself is the more useful thing to show. */}
+                  <p className="text-xs opacity-70 break-all">{EMAIL}</p>
                 </div>
               </a>
             </div>
