@@ -10,7 +10,9 @@ const EMAIL = 'indiventuretravellers@gmail.com';
  * Optional: paste a Web3Forms access key (free, no backend — web3forms.com)
  * to also receive every enquiry by email. Leave empty to use WhatsApp only.
  */
-const WEB3FORMS_KEY = '';
+/** Free key from web3forms.com, set as VITE_WEB3FORMS_KEY in the Vercel
+ *  project. Empty here meant no enquiry was ever emailed — see Booking.tsx. */
+const WEB3FORMS_KEY = import.meta.env.VITE_WEB3FORMS_KEY ?? '';
 
 type Status = 'idle' | 'sending' | 'sent' | 'error';
 

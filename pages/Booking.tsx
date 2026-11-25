@@ -9,8 +9,16 @@ import { TOURS } from '../constants';
 const WHATSAPP_NUMBER = '919217519989';
 const steps = ['Details', 'Dates', 'Review'];
 
-/** Optional: free key from web3forms.com to also receive each request by email. */
-const WEB3FORMS_KEY = '';
+/**
+ * Free key from web3forms.com, set as VITE_WEB3FORMS_KEY in the Vercel project.
+ *
+ * This used to be a hardcoded empty string, which meant the `if (WEB3FORMS_KEY)`
+ * below never ran and no booking was ever emailed. The only delivery was a
+ * WhatsApp draft the visitor still had to send themselves — and the page told
+ * them "Request Sent" either way. Anyone who completed the form and did not
+ * press send in WhatsApp believed they had booked, and nothing reached anyone.
+ */
+const WEB3FORMS_KEY = import.meta.env.VITE_WEB3FORMS_KEY ?? '';
 
 const priceOf = (id: string) => {
   const t = TOURS.find((x) => x.id === id);
@@ -20,6 +28,9 @@ const priceOf = (id: string) => {
 const Booking: React.FC = () => {
   const [step, setStep] = useState(0);
   const [isSuccess, setIsSuccess] = useState(false);
+  /** Whether the email copy actually reached us, which decides what we can
+   *  honestly tell the visitor on the next screen. */
+  const [emailed, setEmailed] = useState(false);
   const [error, setError] = useState('');
 
   const [form, setForm] = useState({
@@ -76,9 +87,10 @@ const Booking: React.FC = () => {
     if (step < steps.length - 1) { setStep(step + 1); return; }
 
     // Final step — actually deliver the request.
+    let delivered = false;
     if (WEB3FORMS_KEY) {
       try {
-        await fetch('https://api.web3forms.com/submit', {
+        const res = await fetch('https://api.web3forms.com/submit', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
           body: JSON.stringify({
@@ -91,11 +103,13 @@ const Booking: React.FC = () => {
               `Estimate: ${estimate != null ? `$${estimate}` : 'on request'}\nNotes: ${form.notes}`,
           }),
         });
+        delivered = res.ok;
       } catch {
         // WhatsApp remains the primary channel; never block on the email copy.
       }
     }
 
+    setEmailed(delivered);
     window.open(whatsappUrl(), '_blank', 'noopener');
     setIsSuccess(true);
   };
@@ -117,10 +131,29 @@ const Booking: React.FC = () => {
           <div className="w-20 h-20 bg-brand-success rounded-full flex items-center justify-center text-white mx-auto mb-6">
             <Check size={40} />
           </div>
-          <h1 className="text-3xl font-bold playfair text-brand-dark mb-4">Request Sent</h1>
+          {/* This said "Request Sent" whatever happened. All that happens here
+              is that WhatsApp opens with a draft — the visitor still has to
+              press send. Saying it was sent when it may not have been is how a
+              booking disappears with both sides thinking it went through. */}
+          <h1 className="text-3xl font-bold playfair text-brand-dark mb-4">
+            {emailed ? 'We have your request' : 'One more tap'}
+          </h1>
           <p className="text-gray-500 mb-8">
-            We've opened WhatsApp with your booking details. Send the message and our team will
-            confirm availability, usually within 30 minutes.
+            {emailed ? (
+              <>
+                Your details are with us by email, so nothing is lost. We have also opened WhatsApp
+                with the same message — send it there and we can reply straight away.
+              </>
+            ) : (
+              <>
+                We've opened WhatsApp with your booking details. <strong className="text-brand-dark">
+                Press send in WhatsApp</strong> — until you do, the message has not reached us.
+                If WhatsApp did not open, email us at{' '}
+                <a href="mailto:indiventuretravellers@gmail.com" className="text-brand-primary underline">
+                  indiventuretravellers@gmail.com
+                </a>{' '}or call +91 92175 19989.
+              </>
+            )}
           </p>
           <a
             href={whatsappUrl()}
