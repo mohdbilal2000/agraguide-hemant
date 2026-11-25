@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useCopyEmail } from '../components/EmailLink';
 import {
   Phone, Mail, Globe, MapPin,
   Share2, Check, ShieldCheck, Instagram
@@ -11,6 +12,7 @@ const CARD_URL = 'https://indiventuretravellers.com/digital-card';
 const INSTAGRAM = 'https://www.instagram.com/indiventuretravellers/';
 
 const DigitalCard: React.FC = () => {
+  const { copied: emailCopied, copy: copyEmail } = useCopyEmail('indiventuretravellers@gmail.com');
   const [copied, setCopied] = useState(false);
 
   // Web Share where the device supports it; clipboard everywhere else.
@@ -83,9 +85,9 @@ const DigitalCard: React.FC = () => {
               <Globe className="text-brand-success group-hover:text-white shrink-0" size={20} aria-hidden="true" />
               <span className="font-bold inter">Chat on WhatsApp</span>
             </a>
-            <a href="mailto:indiventuretravellers@gmail.com" className="flex items-center gap-4 p-4 bg-white rounded-2xl shadow-sm border border-brand-dark/5 hover:bg-brand-primary hover:text-white transition-all group">
+            <a href="mailto:indiventuretravellers@gmail.com" onClick={copyEmail} className="flex items-center gap-4 p-4 bg-white rounded-2xl shadow-sm border border-brand-dark/5 hover:bg-brand-primary hover:text-white transition-all group">
               <Mail className="text-brand-primary group-hover:text-white shrink-0" size={20} aria-hidden="true" />
-              <span className="font-bold inter break-all">indiventuretravellers@gmail.com</span>
+              <span className="font-bold inter break-all">{emailCopied ? 'Address copied' : 'indiventuretravellers@gmail.com'}</span>
             </a>
             <div className="flex items-center gap-4 p-4 bg-white rounded-2xl shadow-sm border border-brand-dark/5">
               <MapPin className="text-brand-gold shrink-0" size={20} aria-hidden="true" />

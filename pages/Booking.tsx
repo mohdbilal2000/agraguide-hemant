@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from 'react';
+import EmailLink from '../components/EmailLink';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Check, Calendar, Users, ArrowRight, ArrowLeft, MessageSquare } from 'lucide-react';
@@ -154,9 +155,9 @@ const Booking: React.FC = () => {
                 We've opened WhatsApp with your booking details. <strong className="text-brand-dark">
                 Press send in WhatsApp</strong> — until you do, the message has not reached us.
                 If WhatsApp did not open, email us at{' '}
-                <a href="mailto:indiventuretravellers@gmail.com" className="text-brand-primary underline">
+                <EmailLink email="indiventuretravellers@gmail.com" className="text-brand-primary underline">
                   indiventuretravellers@gmail.com
-                </a>{' '}or call +91 92175 19989.
+                </EmailLink>{' '}or call +91 92175 19989.
               </>
             )}
           </p>

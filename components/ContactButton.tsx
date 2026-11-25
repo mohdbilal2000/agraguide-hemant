@@ -24,6 +24,23 @@ const whatsappLink = () => {
 const ContactButton: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [showPrompt, setShowPrompt] = useState(false);
+  /* A mailto opens nothing on a device with no mail client registered for the
+     protocol, which is most desktops where mail is read in a browser tab. The
+     click looked broken. Copying the address as well means it always lands. */
+  const [copied, setCopied] = useState(false);
+  const copyEmail = () => {
+    try {
+      navigator.clipboard?.writeText(EMAIL).then(
+        () => {
+          setCopied(true);
+          window.setTimeout(() => setCopied(false), 2500);
+        },
+        () => undefined,
+      );
+    } catch {
+      /* clipboard unavailable — the mailto still behaves exactly as before */
+    }
+  };
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -123,11 +140,12 @@ const ContactButton: React.FC = () => {
               </a>
               <a
                 href={`mailto:${EMAIL}`}
+                onClick={copyEmail}
                 className="flex items-center gap-4 p-4 rounded-xl bg-brand-dark/5 hover:bg-brand-dark/10 text-brand-dark transition-all border border-brand-dark/10"
               >
                 <Mail fill="currentColor" className="text-brand-dark" />
                 <div className="text-left">
-                  <p className="font-bold">Email Us</p>
+                  <p className="font-bold">{copied ? 'Address copied' : 'Email Us'}</p>
                   {/* Was "Query in 2 hours" — a response time nobody measures.
                       The address itself is the more useful thing to show. */}
                   <p className="text-xs opacity-70 break-all">{EMAIL}</p>

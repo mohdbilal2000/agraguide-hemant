@@ -1,4 +1,5 @@
 import React from 'react';
+import EmailLink from './EmailLink';
 /* Fix: Import Link from react-router-dom */
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Instagram } from 'lucide-react';
@@ -66,7 +67,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex gap-4 items-center">
                 <Mail className="text-brand-gold shrink-0" size={18} />
-                <a href="mailto:indiventuretravellers@gmail.com" className="hover:text-brand-gold transition-colors">indiventuretravellers@gmail.com</a>
+                <EmailLink email="indiventuretravellers@gmail.com" className="hover:text-brand-gold transition-colors" noticeClassName="text-brand-gold" />
               </li>
             </ul>
           </div>

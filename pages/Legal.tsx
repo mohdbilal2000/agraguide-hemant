@@ -1,4 +1,5 @@
 import React from 'react';
+import EmailLink from '../components/EmailLink';
 import { Shield } from 'lucide-react';
 import SEO from '../components/SEO';
 
@@ -88,9 +89,9 @@ const Legal: React.FC<LegalProps> = ({ title, canonical, variant }) => {
 
           <div className="mt-16 pt-10 border-t border-brand-dark/5 text-sm text-gray-400">
             Questions about this page? Write to{' '}
-            <a href="mailto:indiventuretravellers@gmail.com" className="underline hover:text-brand-primary">
+            <EmailLink email="indiventuretravellers@gmail.com" className="underline hover:text-brand-primary">
               indiventuretravellers@gmail.com
-            </a>{' '}
+            </EmailLink>{' '}
             or message us on WhatsApp at +91 92175 19989.
           </div>
         </div>

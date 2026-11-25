@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import EmailLink, { useCopyEmail } from '../components/EmailLink';
 import { Mail, Phone, MessageCircle, Instagram, Send, Loader2, Check } from 'lucide-react';
 import OptimizedImage from '../components/OptimizedImage';
 import SEO from '../components/SEO';
@@ -24,6 +25,7 @@ const SUBJECTS = [
 ];
 
 const Contact: React.FC = () => {
+  const { copied: emailCopied, copy: copyEmail } = useCopyEmail(EMAIL);
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -124,12 +126,14 @@ const Contact: React.FC = () => {
                     <p className="text-gray-500 font-medium">Available 24/7 for urgent queries</p>
                   </div>
                 </a>
-                <a href={`mailto:${EMAIL}`} className="flex gap-6 group">
+                <a href={`mailto:${EMAIL}`} onClick={copyEmail} className="flex gap-6 group">
                   <div className="w-12 h-12 rounded-full bg-brand-info/10 flex items-center justify-center text-brand-info shrink-0 group-hover:bg-brand-info group-hover:text-white transition-all">
                     <Mail size={24} />
                   </div>
                   <div>
-                    <h4 className="font-bold text-brand-dark mb-1">Email Support</h4>
+                    <h4 className="font-bold text-brand-dark mb-1">
+                      {emailCopied ? 'Address copied' : 'Email Support'}
+                    </h4>
                     <p className="text-gray-500 font-medium">{EMAIL}</p>
                   </div>
                 </a>
@@ -255,7 +259,7 @@ const Contact: React.FC = () => {
 
                     <p className="text-center text-xs text-gray-400">
                       Prefer email? Write to{' '}
-                      <a href={`mailto:${EMAIL}`} className="underline hover:text-brand-primary">{EMAIL}</a>
+                      <EmailLink email={EMAIL} className="underline hover:text-brand-primary" />
                     </p>
                   </form>
                 )}
