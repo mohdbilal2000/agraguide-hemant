@@ -18,7 +18,12 @@ const steps = ['Details', 'Dates', 'Review'];
  * them "Request Sent" either way. Anyone who completed the form and did not
  * press send in WhatsApp believed they had booked, and nothing reached anyone.
  */
-const WEB3FORMS_KEY = import.meta.env.VITE_WEB3FORMS_KEY ?? '';
+/* The Web3Forms access key is public by design — it ships inside the client
+   bundle whichever way it is supplied, and the protection is the domain
+   restriction set on the Web3Forms side, not secrecy. It is committed so the
+   form works on the next deploy with nothing to configure; the environment
+   variable still wins, so the key can be rotated without a commit. */
+const WEB3FORMS_KEY = import.meta.env.VITE_WEB3FORMS_KEY ?? '64696bfa-936f-4f2c-9aa9-cace9e4abe81';
 
 const priceOf = (id: string) => {
   const t = TOURS.find((x) => x.id === id);

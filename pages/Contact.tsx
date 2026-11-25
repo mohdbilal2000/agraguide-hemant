@@ -12,7 +12,7 @@ const EMAIL = 'indiventuretravellers@gmail.com';
  */
 /** Free key from web3forms.com, set as VITE_WEB3FORMS_KEY in the Vercel
  *  project. Empty here meant no enquiry was ever emailed — see Booking.tsx. */
-const WEB3FORMS_KEY = import.meta.env.VITE_WEB3FORMS_KEY ?? '';
+const WEB3FORMS_KEY = import.meta.env.VITE_WEB3FORMS_KEY ?? '64696bfa-936f-4f2c-9aa9-cace9e4abe81';
 
 type Status = 'idle' | 'sending' | 'sent' | 'error';
 
